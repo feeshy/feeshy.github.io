@@ -1,0 +1,256 @@
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, viewport-fit=cover" />
+    <title>Free Virtual Instruments</title>
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="虚拟乐器一般是以插件的形式存在的，它们接收MIDI信号，通过一系列的播放或者合成，给我们提供声音信号。本文收集了我用过并认为值得保留的24个免费虚拟乐器" />
+    <link rel="stylesheet" href="/style/tech.css" />
+    <link rel="stylesheet" href="/style/fonts.css" />
+    <style>
+        .text img {width:360;}
+    </style>
+</head>
+
+<body>
+    <p class="date"><a href="https://meta.appinn.net/t/17301">→前往讨论</a></p>
+    <div class="text">
+    <section id="top"><h2>目录</h2>
+	   <ul>
+           <li><a href="#sample_ins">采样乐器</a></li>
+           <ul>
+               <li><a href="#orchestra">管弦乐</a></li>
+               <li><a href="#keys">键盘&合成器</a></li>
+               <li><a href="#guitar&bass">吉他&贝斯</a></li>
+               <li><a href="#drum&percs">鼓&打击乐</a></li>
+               <li><a href="#other">其他采样乐器</a></li>
+           </ul>
+           <li><a href="#synth">合成器</a></li>
+	   </ul>
+    </section>
+
+
+        <h1 id="sample_ins">一、采样乐器</h1>
+        <p>采样乐器是把录制的音频以一定的方式回放来发声的虚拟乐器。质量主要受两个因素影响：上限自然由录制时演奏者的演奏水平决定，下限则是由录制设备、场所的声学环境、以及它占用的存储空间所综合决定的，体积越大往往意味着越高的采样密度和音质、越多的力度和演奏技法。</p>
+        <h2 id="orchestra">（一）管弦乐</h2>
+        <h3><a href="https://vis.versilstudios.com/vsco-community.html">VS Chamber Orchestra: Community Edition</a></h3>
+        <p>Versil Studios Chamber Orchestra 的简化版，是公有领域中质量很高的音源。活跃的社区为它开发了非常丰富的格式，几乎可以支持市面上的任何宿主。</p>
+        <ul>
+            <li>采样精度：16/24bit混合 44.1kHz</li>
+            <li>解压后体积：3GB</li>
+            <li>格式：SFZ, VST（带独立宿主）, NKI（需完整版Kontakt）, SAMPLETANK 3/Custom Shop FREE</li>
+        </ul>
+        <h3><a href="https://github.com/peastman/sso">Sonatina Symphonic Orchestra</a></h3>
+        <p>整合了多个开源/公版的管弦音源，2018年后该项目不再活跃。</p>
+        <blockquote>
+            <p>SSO was created from the following free/CC-licensed/public domain instrument samples: <a href="http://theremin.music.uiowa.edu/MIS.html">The University of Iowa MIS</a>, <a href="http://www.mediafire.com/?zqff4hkyeec22">MSLP</a>, <a href="http://www.philharmonia.co.uk/thesoundexchange/make_music/samples/library/">Philharmonia samples</a>, <a href="http://wiki.laptop.org/go/Free_sound_samples">OLPC project</a>, <a href="http://www.sweetwater.com/k2000/sounds.html">The Complete K2000</a>, <a href="http://www.freesound.org/usersViewSingle.php?id=692375">ldk1609 violin</a>, <a href="http://www.freesound.org/packsViewSingle.php?id=6168">stamperadam Kelon Xylophone</a>, <a href="http://www.freesound.org/packsViewSingle.php?id=2680">Corsica_S Cello Pizzicato</a>, <a href="http://www.freesound.org/packsViewSingle.php?id=5577">davidjwoll cymbal rolls</a>, <a href="http://www.freesound.org/samplesViewSingle.php?id=57299">Satoration Castanets</a>, Thores Triangle, Mystified timpani, Eddie’s English Horn and a variety of classic soundfonts by Campbell Barton, <a href="http://oui.com.br/n/download.php?list.2">Nando Florestan</a>, and <a href="http://www.ethanwiner.com/ewsf2.html">Ethan Winer</a>.</p>
+        </blockquote>
+        <ul>
+            <li>采样精度：16bit 44.1kHz</li>
+            <li>解压后体积：768MB</li>
+            <li>格式：SFZ</li>
+        </ul>
+        <h3><a href="http://virtualplaying.com/virtual-playing-orchestra/">Virtual Playing Orchestra</a>
+        </h3>
+        <p>另一套整合音源，有一点上面SSO继任者的意味。作者目前仍然比较活跃，SFZ脚本编写的非常规范用心，可以说榨干了这套采样的潜能</p>
+        <blockquote>
+            <p>attempts to emulate multiple articulations of the solo and section instruments from a full orchestra using the best free samples from <a href="http://sso.mattiaswestlund.net/">Sonatina Symphonic Orchestra</a>, <a href="https://github.com/ssj71/No-Budget-Orchestra">No Budget Orchestra</a>, <a href="http://vis.versilstudios.net/vsco-2.html">VSCO2 Community Edition</a>, <a href="http://theremin.music.uiowa.edu/">University of Iowa</a>, <a href="http://www.philharmonia.co.uk/explore/make_music">Philharmonia Orchestra</a> and extra free samples from <a href="http://mattiaswestlund.net/samples/">Mattias Westlund</a>, author of Sonatina Symphonic Orchestra</p>
+        </blockquote>
+        <p>由于采样的来源很杂，作者建议使用者自己加混响以让各个乐器听起来更加“融合”。</p>
+        <ul>
+            <li>采样精度：16bit 44.1kHz</li>
+            <li>解压后体积：688MB</li>
+            <li>格式：SFZ</li>
+        </ul>
+        <h3><a href="http://www.cakewalk.com/Products/Studio-Instruments/Strings">Cakewalk Studio Instruments - String Section</a>
+        </h3>
+        <p>塑料感强烈的弦乐组音源，没有任何演奏技巧和表情控制，胜在体积较小。需要通过 <a href="https://www.bandlab.com/products/cakewalk/">Bandlab Assistant</a> 安装 Cakewalk 后免费获取，下载过程比较考验网络条件。</p>
+        <ul>
+            <li>采样精度：16bit 48kHz</li>
+            <li>解压后体积：167MB</li>
+            <li>格式：VST（仅支持Windows）</li>
+        </ul>
+        <h2 id="keys">（二）键盘&amp;合成器</h2>
+        <h3><a href="http://www.cakewalk.com/Products/Studio-Instruments/Electric-Piano">Cakewalk Studio Instruments - Electric Piano</a>
+        </h3>
+        <p>挺好听的电钢琴音源，不过乐器内置的过载效果不太好听，建议额外搭配Saturator使用。需要通过 <a href="https://www.bandlab.com/products/cakewalk/">Bandlab Assistant</a> 安装 Cakewalk 后免费获取，过程比较考验网络条件。</p>
+        <ul>
+            <li>采样精度：16bit 48kHz</li>
+            <li>解压后体积：457MB</li>
+            <li>格式：VST（仅支持Windows）</li>
+        </ul>
+        <h3>Kontakt Play 系列精选集</h3>
+        <blockquote>
+            <p>3款强大的流线型直观设计混合乐器音源，包含<a href="https://www.native-instruments.com/zh/products/komplete/play-series/analog-dreams/">ANALOG DREAMS</a>（偏Lead音色），<a href="https://www.native-instruments.com/zh/products/komplete/play-series/ethereal-earth/">ETHEREAL EARTH</a>（偏氛围音色），以及<a href="https://www.native-instruments.com/zh/products/komplete/play-series/hybrid-keys/">HYBRID KEYS</a>（键盘音色）</p>
+        </blockquote>
+        <p>注：以上为三款乐器完整版的介绍页面，它们的简化版均包含在免费的 <a href="https://www.native-instruments.com/zh/products/komplete/bundles/komplete-start/get-komplete-start/">Komplete Start</a> 套装中</p>
+        <ul>
+            <li>解压后体积：1.6GB</li>
+            <li>格式：NKI（Kontakt Player以上）</li>
+        </ul>
+        <h2 id="guitar&bass">（三）吉他&amp;贝斯</h2>
+        <h3><a href="http://www.amplesound.net/cn/pro-pd.asp?id=7">Ample Guitar Martin Lite</a>
+        </h3>
+        <blockquote>
+            <p>Ample Guitar M Lite II由一款Martin D-41 美式民谣吉他录制</p>
+        </blockquote>
+        <p>支持基本的演奏技巧和表情控制，体积证明质量</p>
+        <ul>
+            <li>采样精度：16bit 44.1kHz</li>
+            <li>解压后体积：774MB</li>
+            <li>格式：VST（带独立宿主）, VST3, AU, AAX</li>
+        </ul>
+        <h3><a href="http://www.amplesound.net/cn/pro-pd.asp?id=19">Ample Bass Precision Lite</a>
+        </h3>
+        <blockquote>
+            <p>Ample Bass P Lite II 由一款Fender Precison Bass录制</p>
+        </blockquote>
+        <p>支持基本的演奏技巧和表情控制，体积证明质量</p>
+        <ul>
+            <li>采样精度：16bit 44.1kHz</li>
+            <li>解压后体积：446MB</li>
+            <li>格式：VST（带独立宿主）, VST3, AU, AAX</li>
+        </ul>
+        <h3><a href="http://www.cakewalk.com/products/studio-instruments/Bass">Cakewalk Studio Instruments - Bass</a>
+        </h3>
+        <p>一款聊胜于无的Bass音源，缺乏演奏技巧和表情控制。需要通过 <a href="https://www.bandlab.com/products/cakewalk/">Bandlab Assistant</a> 安装 Cakewalk 后免费获取，下载过程比较考验网络条件。</p>
+        <ul>
+            <li>采样精度：16bit 44.1/48kHz混合</li>
+            <li>解压后体积：124MB</li>
+            <li>格式：VST（仅支持Windows）</li>
+        </ul>
+        <h2 id="drum&percs">（四）鼓&amp;打击乐器</h2>
+        <h3><a href="http://www.cakewalk.com/Products/Studio-Instruments/Drums">Cakewalk Studio Instruments - Drum Kits</a>
+        </h3>
+        <p>体积精简的系列原声鼓音源，采样深度和采样率有点参差不齐。</p>
+        <p>需要通过 <a href="https://www.bandlab.com/products/cakewalk/">Bandlab Assistant</a> 安装 Cakewalk 后免费获取，下载过程比较考验网络条件。</p>
+        <ul>
+            <li>采样精度：16/24/32bit混合 44.1/48kHz混合</li>
+            <li>解压后体积：435MB</li>
+            <li>格式：VST（仅支持Windows）</li>
+        </ul>
+        <h3><a href="https://www.ableton.com/en/packs/recording-hybrid-kit/">Recording Hybrid Kit</a>
+        </h3>
+        <p>一套流行、摇滚风格的原声鼓，仅可用于Ableton Live。注意本插件的400MB采样都是围绕同一套鼓展开的，而前面介绍的Cakewalk 400MB，则是采样了许多套鼓，从采样质量上来说本插件要更高一些。</p>
+        <ul>
+            <li>采样精度：24bit 44.1kHz</li>
+            <li>解压后体积：445MB</li>
+            <li>格式：Ableton Live Rack</li>
+        </ul>
+        <h3><a href="https://en-de.sennheiser.com/drummica">DrumMic’a</a>
+        </h3>
+        <p>由森海塞尔免费提供的一套高品质、出版级的免费原声鼓音源。使用Sennheiser和Neumann多个型号的麦克风在不同收音位置录制。有25个力度层，13000多个采样。详见<a href="https://assets.sennheiser.com/global-downloads/file/11814/DrumMicA_manual_en.pdf">使用说明书</a></p>
+        <ul>
+            <li>解压后体积：8GB</li>
+            <li>格式：NKI（2020年5月之前注册可用于任何版本的Kontakt，2020年5月之后注册需要完整版Kontakt运行）</li>
+        </ul>
+        <h3><a href="http://www.amplesound.net/cn/pro-pd.asp?id=27">Ample Percussion Cloudrum</a>
+        </h3>
+        <blockquote>
+            <p>Cloudrum得名于独特的云纹形音舌, 是钢舌鼓的一种. 声音通透空灵, 细腻悠扬, 既融入了钟, 磬等古代打击乐的婉转灵秀, 也加入了时下流行的手碟的创新设计, 现多用于宗教, 儒家, 禅修, 瑜伽冥想等领域</p>
+        </blockquote>
+        <p>体积说明质量</p>
+        <ul>
+            <li>采样精度：24bit 44.1kHz</li>
+            <li>解压后体积：756MB</li>
+            <li>格式：VST（带独立宿主）, VST3, AU, AAX</li>
+        </ul>
+        <h2 id="other">（五）其他乐器</h2>
+        <h3>Kinetic Treats</h3>
+        <blockquote>
+            <p><a href="https://www.native-instruments.com/zh/products/komplete/cinematic/kinetic-toys/">从精心录制的儿童玩具采样库中，创造多种变化声音与质感。
+    </a></p>
+        </blockquote>
+        <p>注：该链接为完整版的介绍页面，简化版 Kinetic Treats 包含在免费的 <a href="https://www.native-instruments.com/zh/products/komplete/bundles/komplete-start/get-komplete-start/">Komplete Start 套装</a>中</p>
+        <ul>
+            <li>解压后体积：404MB</li>
+            <li>格式：NKI（Kontakt Player以上）</li>
+        </ul>
+        <h3><a href="http://www.kongaudio.com/free.htm">空音免费乐器</a>
+        </h3>
+        <p>免费的民乐采样乐器，包括古筝免费版，迷你笛子、迷你二胡</p>
+        <ul>
+            <li>解压后体积：古筝&gt;90MB、笛子9MB、二胡20MB</li>
+            <li>格式：VST（古筝依赖“琴引擎”，笛子和二胡VST仅支持32位宿主）</li>
+        </ul>
+        <h3>GarageBand世界乐器包</h3>
+        <p>中国传统乐器：古筝、琵琶、二胡；日本传统乐器：日本筝、太鼓</p>
+        <p>GarageBand内置了很多的采样乐器。之所以单独提到民乐，是因为桌面平台的免费民乐插件普遍是老旧的32位插件，在目前的64位宿主中已经无法运行了。在iOS演奏似乎是目前零成本民乐音源的唯一解决方案。好在GarageBand内置的乐器深度支持滑动、3D Touch等iOS特性，即使屏幕很小，演奏起来仍然十分的方便。</p>
+        <ul>
+            <li>解压后体积：琵琶二胡体积未知，古筝31MB，日本筝和太鼓52MB</li>
+            <li>格式：GarageBand内置乐器</li>
+        </ul>
+    <hr>
+    <h1 id="synth">二、合成器</h1>
+    <p>合成器不像采样乐器那样回放声音，而是通过电路或者算法创造、修饰声音。合成器可以直接凭空合成自然界不存在的声音波形，也有一些合成方法，例如波表合成和粒子合成，会分析一小段声音的采样作为出发点来合成声音波形。总得来说，合成器占用的存储空间要比同样质量的采样乐器小很多。</p>
+    <p>本文会以发声原理而不是音色来界定采样乐器与合成器的界限。例如，用录制模拟合成器采样的方法复刻的虚拟乐器，会归到采样乐器分类，而用算法模拟(simulate)其模拟(analog)电路的方法复刻的虚拟乐器，则会归到合成器分类。</p>
+    <h3><a href="https://support.apple.com/kb/PH27371?locale=zh_CN&amp;viewlocale=zh_CN">Alchemy</a>
+    </h3>
+    <p>Alchemy原本是Logic Pro X内置的口碑非常好的合成器。</p>
+    <blockquote>
+        <p>Alchemy 具有加法、频谱、粒子合成和再合成，采样及虚拟模拟引擎。您可以分析导入的样本，并使用其中一种或多种合成方法处理它们。Alchemy 汇集了大量样本映射、循环及编组工具，可让您轻松创建包含几百个样本和层的乐器。如果想创建纯合成音，加法、频谱和虚拟模拟合成引擎即提供所需的全部功能，其能力和便利程度可比拟甚至超过许多独立乐器。</p>
+    </blockquote>
+    <p>它的简化版本随GaragBand向iOS用户免费提供。使用与Logic版本同样的合成引擎，更加简化的操控，简约而不简单，作为苹果第一方出品的虚拟乐器，Alchemy吃透了iOS的滑动、3D Touch、重力感应等等与硬件结合的交互方式，只用非常精简的旋钮就可以表现出丰富的演奏表情。</p>
+    <ul>
+        <li>格式：GarageBand内置乐器</li>
+    </ul>
+    <h3><a href="https://www.reasonstudios.com/en/reason/instruments/europa">Europa</a>
+    </h3>
+    <p>Reason内置的广受好评的波表合成器</p>
+    <p>在iOS上的<a href="https://apps.apple.com/us/app/reason-compact-make-music/id1253419004">Reason Compact</a>注册Reason账号，即可同时免费获得桌面平台Reason Lite的授权。</p>
+    <p>移动平台的Europa遵循简化版免费+内购解锁操控的付费模式，桌面则是直接就拿到全功能的版本。另外还有一个全功能的<a href="https://www.reasonstudios.com/europa-player">在线网页版的Europa</a>，可以直接在Chrome内核的浏览器中玩。</p>
+    <ul>
+        <li>格式：Rack Extension（支持桌面和iOS）、在线网页</li>
+    </ul>
+    <p>
+    <h3><a href="https://www.reasonstudios.com/en/reason/instruments/thor">Thor</a>
+    </h3>
+    <p>Reason的另一个内置合成器，以非常强大的效果调整空间为特色。甚至可以不用他的合成引擎，单独当作效果器来使用。</p>
+    <p>通过在移动版新建账号的方式免费获取桌面平台Reason Lite，就可以获得内置的Thor。</p>
+    <p>不过Thor没有出现在移动平台的<a href="https://apps.apple.com/us/app/reason-compact-make-music/id1253419004">Reason Compact</a>中，ReasonStudios单独提供了买断制的iPad版独立Thor。</p>
+    <ul>
+        <li>格式：Rack Extension（桌面可免费获取）、iOS App（付费）</li>
+    </ul>
+    <h3><a href="https://apps.apple.com/cn/app/minimoog-model-d-synthesizer/id1339418001">Minimoog Model D</a>
+    </h3>
+    <p>1970年诞生的世界上第一款便携式合成器。Moog将其经典的模拟电路数字化制作了iOS版本。免费+内购模式</p>
+    <ul>
+        <li>格式：iOS App</li>
+    </ul>
+    <h3><a>AudioKit Synth One</a>
+    </h3>
+    <blockquote>
+        <p><a href="https://apps.apple.com/cn/story/id1439010275">https://apps.apple.com/cn/story/id1439010275</a></p>
+        <p>在众多合成器 App 中，性能出众的《AudioKit Synth One Synthesizer》格外引人注目。这不仅是因为它具备超过 300 套预设、多种滤波器和混响效果，也是因为这款 App 开源且完全免费。</p>
+        <p>作为世界级的开发项目，《AudioKit Synth One Synthesizer》是全球各地程序员和音乐制作人的智慧结晶，Kanye West、Rihanna 等知名音乐人也位列其中。</p>
+    </blockquote>
+    <ul>
+        <li>格式：iOS App</li>
+    </ul>
+    <h3><a href="https://www.native-instruments.com/zh/products/komplete/synths/mikro-prism/">Mikro Prism</a>
+    </h3>
+    <p>NI相当有特色的"Modal Bank"合成器——Reaktor Prism 的阉割版。免费版与收费版使用相同的声音合成引擎，简化了操控。</p>
+    <ul>
+        <li>格式：Reaktor</li>
+    </ul>
+    <h3><a href="https://www.tracktion.com/products/8bit-treats">Socalabs 8-BIT Treats</a></h3>
+    掌机风格的8BIT合成器
+    <blockquote>
+        <p>emulations of some of the most iconic chips including the Ricoh A203 (Nintendo), PAPU (Gameboy), MOS Technology SID (Commodore 64, 128 & MAX) and TI SN76489 (Sega, BBC etc)</p>
+    </blockquote>
+    <ul>
+        <li>格式：VST、AU</li>
+    </ul>
+    <h3><a href="https://static.kvraudio.com/i/b/noisetar_au_vst_colours1.png">Noisetar</a></h3>
+    <p>一个非常适合制造氛围的噪音合成器</p>
+    <ul>
+        <li>格式：VST、AU</li>
+    </ul>
+    </div>
+
+    <nav>
+        <a class="ui" href="#top">^</a><br><a class="ui" href="javascript:history.go(-1);">&lt;</a>
+    </nav>
+</body>
+</html>

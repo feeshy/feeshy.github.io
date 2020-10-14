@@ -9,3 +9,4 @@ Thumbs.db
 # frontpage local directories
 _vti_cnf/
 _vti_pvt/
+*.log
