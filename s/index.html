@@ -16,40 +16,51 @@
 <meta name="theme-color" content="#ffffff">
 <title>搜索 - 浮鲜</title>
 
+<link rel="stylesheet" href="/style/fonts.css" />
 <style>
 body {
 	margin: 5vh auto;
 	width: 768px;
-	max-width: 80%;
+	max-width: 85vw;
+    line-height: 1.25em;
 	background-color: #fbf2e3;
-	color: #222222;
+    color: #222222;
 }
 @media (min-height: 480px){
 	body>:not(nav) {
 		transform: translateY(calc(100vh / 3 - 160px));
 	}
 }
-
+h1 {
+    text-align: center;
+}
 nav {
 	position: fixed;
 	right: 5%;
-	bottom: 7.5%;
+	bottom: 5vh;
 	z-index: 999;
+    width: calc(1.5em + 1.25vh);
+	height: calc(1.5em + 1.25vh);
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
 }
 a {
 	color: #222222;
 	text-decoration: none;
 }
+table {
+    border-style: none;
+}
 </style>
-
-<link rel="stylesheet" href="/style/fonts.css" />
 
 </head>
 
 <body>
 
-<h1 class="title">搜索</h1><br />
-
+<h1>搜索</h1><br>
+<gcse:search></gcse:search>
+<nav class="ui"><a href="/">&#x1f4d5</a></nav>
 <script>
   (function() {
     var cx = '002093486978024606124:caqnm_ayaoq';
@@ -61,10 +72,6 @@ a {
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
-
-<nav class="ui"><a href="/">&#x1f4d5</a>&nbsp;|&nbsp;<a href="/feed/">&#x1f552</a></nav>
-
 </body>
 
 </html>

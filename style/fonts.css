@@ -38,7 +38,7 @@
 /******************************/
 
 /* serif */
-.title, h1, h2 {
+.title, .gs-title, h1, h2 {
 	font-family: var(--old-serif), var(--song), biaosong, serif;
 	font-weight: 600;
 	font-style: normal;
@@ -46,7 +46,7 @@
 h1, h2, h3 {
 	font-feature-settings: 'swsh';
 }
-.text, .text-center {
+.text, .text-center, .gsc-control-cse, .gsc-table-result, .gs-snippet {
 	font-family: var(--old-serif), var(--song), '方正宋三简体', '华文宋体', STSong, serif;
 	font-weight: 400;
 	font-style: normal;
@@ -85,7 +85,7 @@ footer {
 }
 
 /* monospace */
-pre code {
+code {
 	font-family: 'Ubuntu Mono', Monaco, 'Lucida Console', monospace;
     font-size: smaller;
 	font-weight: 400;
