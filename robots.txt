@@ -1,10 +1,9 @@
 ﻿User-agent: *
 Disallow: archive/
 Disallow: /style/
-Disallow: /s
+Disallow: /s/
 Disallow: 404.html
 Disallow: *.md
-Disallow: *.txt
 Disallow: *.js
 Disallow: *.css
-Sitemap: sitemap.txt
+Sitemap: https://feeshy.github.io/sitemap.txt
