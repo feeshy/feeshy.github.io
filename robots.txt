@@ -1,4 +1,10 @@
 ﻿User-agent: *
 Disallow: archive/
 Disallow: /style/
-Disallow: /search
+Disallow: /s
+Disallow: 404.html
+Disallow: *.md
+Disallow: *.txt
+Disallow: *.js
+Disallow: *.css
+Sitemap: sitemap.txt

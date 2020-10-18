@@ -1,12 +1,14 @@
+*.log
+
 # original texts
 *.md
 *.rtf
 
-# windows system file
+# windows
 desktop.ini
 Thumbs.db
+*.bat
 
 # frontpage local directories
 _vti_cnf/
 _vti_pvt/
-*.log
