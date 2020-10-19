@@ -6,4 +6,4 @@ Disallow: 404.html
 Disallow: *.md
 Disallow: *.js
 Disallow: *.css
-Sitemap: https://feeshy.github.io/sitemap.txt
+Sitemap: https://a234934.sitemaphosting5.com/4200585/sitemap.xml
