@@ -30,8 +30,9 @@
 <nav class="ui"><a href="/s/">&#x1F50D</a>&nbsp;|&nbsp;<a href="/">&#x1f4d5</a></nav>
 </body>
 <script>
-    window.onload=redirect(){
+    window.onload=function() {
         var url = document.referrer
+        console.log(url)
         if (url.includes('/search')) {
             document.location = url.replace('/search', '/s')
         }
