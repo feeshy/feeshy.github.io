@@ -2,42 +2,21 @@
 <html lang="zh" dir="ltr">
 
 <head>
-
-<meta charset=utf-8/>
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="apple-touch-icon" sizes="180x180" href="/resources/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/resources/safari-pinned-tab.svg" color="#403f5f">
-<link rel="shortcut icon" href="/favicon.ico">
-<meta name="msapplication-TileColor" content="#403f5f">
-<meta name="msapplication-config" content="/resources/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
-<title>404 NOT FOUND</title>
-<link rel="stylesheet" href="/style/layout.css">
-<link rel="stylesheet" href="/style/home.css">
-<link rel="stylesheet" href="/style/fonts.css">
+    <meta charset=utf-8/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>404 NOT FOUND</title>
+    <script src="redirect.js"></script>
+    <link rel="stylesheet" href="/style/layout.css">
+    <link rel="stylesheet" href="/style/home.css">
+    <link rel="stylesheet" href="/style/fonts.css">
 </head>
 
 <body>
-
-<div>
-	<h1 class="title">404 NOT FOUND<br/><br/></h1>
-	<p class="text-center">在失落与更失落间<br>踟蹰良久，迷失的旅人取下背包，<br>砍柴 生火 取水 煮饭<br>砍柴 砍柴 生火 生火 生火 生火<br>迷失的旅人烧掉了森林。</p>
-</div>
-
-<nav class="ui"><a href="/s/">&#x1F50D</a>&nbsp;|&nbsp;<a href="/">&#x1f4d5</a></nav>
+    <div>
+        <h1 class="title">404 NOT FOUND<br/><br/></h1>
+        <p class="text-center">在失落与更失落间<br>踟蹰良久，迷失的旅人取下背包，<br>砍柴 取水 生火 煮饭<br>砍柴 砍柴 结婚 生活 生火 生火<br>迷失的旅人烧掉了森林。</p>
+    </div>
+    <nav class="ui"><a href="/s/">&#x1F50D</a>&nbsp;|&nbsp;<a href="/">&#x1f4d5</a></nav>
 </body>
-<script>
-    window.onload=function() {
-        var url = window.location.href
-        if (url.includes('/search')) {
-            document.location = url.replace('/search', '/s')
-        }
-        if (url.includes('/ambient')) {
-            document.location = url.replace('/ambient', '/audio')
-        }
-    }
-</script>
+
 </html>
