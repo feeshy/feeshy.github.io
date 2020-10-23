@@ -31,8 +31,7 @@
 </body>
 <script>
     window.onload=function() {
-        var url = document.referrer
-        console.log(url)
+        var url = window.location.href
         if (url.includes('/search')) {
             document.location = url.replace('/search', '/s')
         }
