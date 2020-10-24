@@ -1,14 +1,10 @@
-*.log
-
-# original texts
+.head.html
 *.md
 *.rtf
-
-# windows
+*.log
 desktop.ini
 Thumbs.db
 *.bat
-
-# frontpage local directories
+*.zip
 _vti_cnf/
 _vti_pvt/
