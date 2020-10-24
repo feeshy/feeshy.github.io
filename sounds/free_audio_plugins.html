@@ -1,21 +1,25 @@
-﻿<html lang="zh-cn">
+﻿<!DOCTYPE html>
+<html lang="zh" dir="ltr">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, viewport-fit=cover" />
-    <title>Free Audio Plugins</title>
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="音频效果插件是一种为宿主软件处理音频流的外挂工具，音乐制作、Podcast处理、视频剪辑、甚至一些以效果为卖点的音乐播放器都要用到音频插件。本文收集了我用过并认为值得保留的54款免费效果插件" />
-    <link rel="stylesheet" href="/style/tech.css" />
-    <link rel="stylesheet" href="/style/fonts.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>feeshy的免费音频效果插件推荐</title>
+    <meta name="keywords" content="">
+    <meta name="description" property="og:description" content="音频效果插件是一种为宿主软件处理音频流的外挂工具，音乐制作、Podcast处理、视频剪辑、甚至一些以效果为卖点的音乐播放器都要用到音频插件。本文收集了我用过并认为值得保留的免费效果插件">
+    <meta property="og:image" content="https://static.kvraudio.com/i/b/rare_se_product.jpg">
+    <meta property="og:type" content="article">
+    <link rel="stylesheet" href="/style/layout.css">
+    <link rel="stylesheet" href="/style/sounds.css">
+    <link rel="stylesheet" href="/style/fonts.css">
     <style>
-        .text img {width:360;}
+        img {max-width:288px; max-height:360px;}
     </style>
 </head>
 
 <body>
 <p class="date"><a href="https://meta.appinn.net/t/13311">→前往讨论</a></p>
-<div class="text">
+<div class="justify">
     
     <section id="top"><h2>目录</h2>
 	   <ul>
@@ -28,6 +32,11 @@
            </ul>
            <li><a href="#eq">均衡</a></li>
            <li><a href="#gain">增益、失真</a></li>
+           <ul>
+               <li><a href="#gain_universal">通用</a></li>
+               <li><a href="#guitarstomp">吉他单块</a></li>
+               <li><a href="#guitaramp">吉他音箱</a></li>
+           </ul>
            <li><a href="#shifter">移调 / 移频</a></li>
            <li><a href="#reverb">混响</a></li>
           <!--ul>
@@ -64,14 +73,19 @@
 			<p>Reaplugs套装中有两个压缩器，其中ReaComp是一个支持Sidechain输入的压缩器，而ReaXComp是一个多段压缩</p>
 			<p>格式：JSFX、VST</p>
             
-            <h3><a href="http://www.vst4free.com/free_vst.php?plugin=SLAX&id=2593" target="_blank">SLAX</a></h3>
-			<img src="http://www.VST4free.com/img/SLAX_2.jpg" loading="lazy">
-			<p>带老式机架效果器音染的复古风格压缩</p>
-			<p>格式：JSFX、VST</p>
-            
             <h3><a href="https://www.tokyodawn.net/tdr-kotelnikov/" target="_blank">TDR Kotelnikov</a></h3>
 			<img src="https://www.tokyodawn.net/cache/5c3faff56a5d38db011922dc62f83fe7_w480_h230_grav_center_sc.png" loading="lazy">
 			<p>功能完善、音色中性的数字压缩，内置了可以同时工作的峰值压缩和RMS压缩。支持MS处理</p>
+            
+            <h3><a href="http://www.vst4free.com/free_vst.php?plugin=SLAX&id=2593" target="_blank">SLAX</a></h3>
+			<img src="http://www.VST4free.com/img/SLAX_2.jpg" loading="lazy">
+			<p>经典LA-2A光学压缩的昏暗音染，Attack很慢不可调，比较适合人声和原声吉他。VST版本的GUI有些卡顿</p>
+			<p>格式：JSFX、VST</p>
+            
+            <h3><a href="https://www.native-instruments.com/zh/products/komplete/effects/supercharger/" target="_blank">Supercharger</a></h3>
+			<img src="https://www.native-instruments.com/typo3temp/pics/img-ce-intro_paragraph_facelift_supercharger-8664cfcf741b0ae02965d2d75499cfa3-d.jpg" loading="lazy">
+			<p>带有强烈电子管风格音染的压缩，还有独特的Punch按钮</p>
+            <blockquote>一篇比较好的关于<a href="https://zhuanlan.zhihu.com/p/104533883">硬件压缩器的科普</a></blockquote>
             
         </section>
         
@@ -105,10 +119,23 @@
             <h3><a href="http://www.vst4free.com/free_vst.php?plugin=Transpire&id=2777" target="_blank">Transpire</a></h3>
 			<img src="http://www.vst4free.com/img/Transpire_2.jpg" loading="lazy">
 			<p>瞬态修饰器，可用于强调或减弱鼓、打击乐、钢琴、吉他等乐器的瞬态。四个旋钮分别是Attack、Sustain、Sensitivity、Level</p>
-                        
+            
+            <h3><a href="https://www.patreon.com/posts/fetsnap-38096454" target="_blank">FetSnap</a></h3>
+            <img src="https://freevstplugins.net/wp-content/uploads/2020/06/FetSnap.jpg" loading="lazy">
+            <p>比较特别的基于FET Expander的瞬态增强器。旋转Snap旋钮提升Attack的饱和度，可以在不大幅改变音轨动态范围的情况下增强乐器的打击感</p>
+            
             <h3><a href="https://www.wavesfactory.com/free-audio-plugins/sk10/" target="_blank">SK10</a></h3>
 			<img src="https://www.wavesfactory.com/img/freebies/free-audio-plugins/sk10.png" loading="lazy">
 			<p>Sub Kick麦克风模拟，常用来增加底鼓、Bass的低频下潜</p>
+            
+            <h3><a href="https://www.patreon.com/posts/lovend-34669483" target="_blank">LOVEND</a></h3>
+            <img src="https://media.vst4free.com/img/AO-Lovend_2.jpg" loading="lazy">
+            <p>一款专注于提升低频感知度的插件</p>
+            <p>格式：VST、AU</p>
+            
+            <h3><a href="http://www.vst4free.com/plugin/2590" target="_blank">Bassprofessor MarkII</a></h3>
+            <img src="http://www.vst4free.com/img/BassProfessorMarkII_2.jpg" loading="lazy">
+            <p>另一款专注于Kick和Bass音色处理的动态、均衡、过载插件，可以为DI盒录制的Bass音轨增添些许音箱质感</p>
 
             <h3><a href="https://www.wavesfactory.com/product/snarebuzz/" target="_blank">SnareBuzz</a></h3>
 			<img src="https://www.wavesfactory.com/img/freebies/free-audio-plugins/snarebuzz.png" loading="lazy">
@@ -120,9 +147,14 @@
 			<p>格式：VST、AU</p>
             
         </section>
+        
     </section>
     
     <section id="eq"><h2>EQ</h2>
+        
+        <h3><a href="https://www.meldaproduction.com/MBandPass" target="_blank">MBandPass</a></h3>
+        <img src="https://www.meldaproduction.com/webtemp/imagecache/screenshots/MBandPass00.v1.jpg" loading="lazy">
+        <p>简单易用的高通、低通滤波器。有直接把音高换算成频率的实用小功能</p>
         
 		<h3><a href="https://www.tokyodawn.net/tdr-nova/" target="_blank">TDR Nova</a></h3>
         <img src="https://www.tokyodawn.net/cache/9cc981aeceeabff0f68d62bf1a487804_w480_h230_grav_center_sc.png" loading="lazy">
@@ -130,51 +162,84 @@
 		    
         <h3><a href="https://www.tokyodawn.net/tdr-vos-slickeq/" target="_blank">TDR VOS SlickEQ</a></h3>
         <img src="https://www.tokyodawn.net/cache/4a5942f6d2121ae0af31e8de88fd7173_w480_h230_grav_north_sc.png" loading="lazy">
-        <p>易用的高通滤波和三段EQ，并有多个可选的Proportional Q模型和音染模式。支持MS处理。免费版阉割了频谱图，升级到<a href="https://www.tokyodawn.net/tdr-vos-slickeq-ge/" target="_blank">付费版本</a>才能拥有</p>
+        <p>易用的高通滤波和三段EQ，并有多个可选的Proportional Q模型和音染模式。支持MS处理。免费版阉割了频谱图，需升级到<a href="https://www.tokyodawn.net/tdr-vos-slickeq-ge/" target="_blank">付费版本</a>才能拥有</p>
         
-        <h3><a href="https://www.meldaproduction.com/MBandPass" target="_blank">MBandPass</a></h3>
-        <img src="https://www.meldaproduction.com/webtemp/imagecache/screenshots/MBandPass00.v1.jpg" loading="lazy">
-        <p>简单易用的高通、低通滤波器。有音高换算频率的实用小功能</p>
+        <h3><a href="https://www.patreon.com/posts/britchannel-34306171" target="_blank">BritChannel</a></h3>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQERAQEBAQEBAQEA8PDw8QEBAPDQ8NFREWFhURFRUYHSggGBolGxUVITIhJSkrLzAuFx8zODMyNyotLisBCgoKDg0NGRAQFy0lHyYrLS0rLSstLS03LS0tLTUtLS0tMi0rLTUtLS0tLS0tLS0rLS0tLS0tKystLS0tLS0rLf/AABEIAK8BIAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQIDBgEAB//EAEIQAAEDAwMCAgcGBAQDCQAAAAEAAhEDBCEFEjFBURMiBhQyUmFxgRUWI0KRsTOSocFTYmOCVJPSJGSUsrPT4fDx/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAfEQEBAQEAAgIDAQAAAAAAAAAAARECAyESMQRhcUH/2gAMAwEAAhEDEQA/AGA0eiDwuHSaIzCz9O+uCN0qH2lcZQH3+ksc/wAuMSllraRUc2SIVN1eXEh0wivRyg+rUdJygLFsZjcUQNOPvFNm6Q4FEfZ70CH7OPvFe+zj75T71B68dPegzT7Uj8xUqNmXfmKev0hxUqWluagS/Zx94r32cfeKffZ7171B6DPVLAge0UuvHvpAlj3Ay3IMEeYdVsKunPIWd9I9PNOmXHoWf1eAgUHWLn/Hq/zuXPti5/x6v87kEuErUDTrNz/xFX+dygdZuf8AiKv85QTiqXPQMTrd1/xFX+coilf3rmPd41zIFMsAFQh4fU2Ag/PA7nCB0ykXOBB2uMuY5zXeQMc38VhmC4HEERlOjbsAd+GHExDnOcXthxJLT+XJPHUymxWUt+371sj1muCCQRvcCD1BHRSp69eOc0OuazgXNkF5IIngq6vbeIA0SeKdIQ+pVZVl7hTaARIe5wyZImUptWzUYO72j67gq9Yn3K0bKROS4oqlYlwncUyt9IcQEZS01wEKFkn2cfeK99nH3in3qD171B6DPVLEj8xVRtz7xWjqaY4qtujulAnbp594rv2cfeKfeoOXvUHIEP2cffKofakH2itG+ycBKDfZkoFFO0JMbir/ALOPvlMqVqWqzwigU/Zx98rjtPI/OU38IqNSgSEGaot8ntfRUlpzlLa94W4GQqfXigZ3TTAym3ocCKjllX3hKL0jVjRcT3QfVnY6ro+awv3qPxXvvUfig3TeeVItxysIPSo/Fe+9R+KDct+a84fFYYelR+K8fSk/FBu4+KieeVhz6VH4rn3pPxQbmPisx6ZH8B2fzU//AFGpa70qPxSvVdaNZpZ3Lf6OB/shS2UY7UG8ihRHsn2e0d8ZjMdygZUXFagS69YCCLenju6oc9+UrcVc9Uuapqjf0eqAO4aA5jmF20jzhxIbuOHEh09OAnrisZREHMRiZ5gEGGmDtdjlHt1etkEtM+yXNBc0fTB+oWyVuw4c2ZkAhz2uILDVikzzPqFgILgADORhJbN01qZwJqsMDAHnGAOylcXe9snbvO1ry4BzztLyHMO3yNhwBAOYlD0H7XNd7rgf0Mq5Mibdr69ZDyjPRXjmJWCoek5AjKt+9J+KhTdbfiog/FYf70u+K8PSk/FBuHfNSaJ6rCv9KT8VwelR+KDcuweVID4rCH0qPxVf3vd2KDc1uDlBLJP9Lj2Kh97D7qDYLyx/3s/yr33sPuoNgvLH/ez/ACr33sPuoMxTYS2ZyqqckwqRVK4KmUB11TiCFyzG6ZQjqpPKi2oRwgJcTuIBVvgujlAip1U/Hd3QM7GydUzOApX1kaeZwllK8e3AJC9Vu3u5JKA4NEKNUhsIDxiuGqSgYUnBzwCYCNbbMz5uuEh39VLxz3KDTVbCmGTuzHdLalJoBIMkEfuEsNy7uVylVMoGVGuWGRtJiPOynUbHyeCPqixdvLS6bbDd0G2tA729u0DZz1+SCHiUwKgA4MHJLZBEkfCOuMhNLWzADnQ9rarQDR3EbWSHBrnYLsgdOi3YmSh213lu6bYYeYNva7vKRiNnWcfIoe31B7HbwKUzu/g0hmI8paAWf7SO/KYVLVrtjPOBTktpl5LXgkFzWn8pMcgfQpd4rntLBTYwE02Nlr/EMOfBnqfakx0W+iyxx1+/c50U5cZO+myueI9qsHO/qiaNaq5j3bKflDC0CxtyHhz9gM+HjOPicIbTKLnOEQH5cwuDoaGOb+K08PM+XacZTw0mAO8hcTt2vNR4cyHF3k93JJxGcrdh8bSb7QqAwW0ARgg2lpIPY/hoWf7pzXthUAAknDKeHvrNqy93hhrfb3ucBJkieyS9/kf2W/4zMqFI7icwrKNSCRMoAOUmvhc1mnihe8UJYaxXfGKA5rdxOYQ9SQ6JQ/iFc3ICari2Myrabd3UBAly7vhAe+3ge0ENTMmJVPiFclAbVpwJ3IUVSoF64gPZSn8yFqVCDChvUZQeURypKI5QSXCurhQeaurjV1BE8qSieVJBwrjVIqLUElFykouQdUqQlwExJAk8CTyorgGUBuwMIIrAHkgTMAg7cSCf6Y5Wve5h8zHbmEAtdEbhHMLDFhR9jqdWkNuHsAgNd+X5HlZDWhrZc34HcT2aOVk7+vvqPO4ubvfsJ42lxOB05lG3eq1XjaIYCCHbfzT8TwlhZC3C3Tz0beN3A8zHM3Q4Q8OJ2ycEkOmB0aE9JhYu3bBzEYJnkQQfIYO12IlM2axWyDtM+yS3zN/TBKQ2G+3kwCHVGOyx7w2mw7n1C1nmIABJiMDlIHGSTAE7jAmAM4E9ETXu97ZxvIa15IBfgvzTIA2MIcARJkoQf2P7K5MibdoBqkotUlCkXKSi5SQeUQpKIQSXHLq45B4Lq4F1BHqpKPVSQcK4ulcQNq1iwRlco2LC6JS41XHquNqmeSgdO02n3QjrNuc8ILx3dyouqHugb0NOpkcrlfT2AYKVNrO7ldNZx6lAcyyZIyizplOOUj8Qzyp+O7uUBzrNsxKtttPYQZKVmoe64ys4dSgb1tPYBgoYWbcZ6oM1ndyoGoe6B2NNp90Jd2jWZBlBeO7uVxtUk5KAmjV2GQGHEQ9jXt/RwITAVjtc4eq+VocW+rUJ/J/l7uj5j9BqFWpSbvYGO3AE+Vz3NbnPwGM/RM7Sxa0F21zfEbBo73BrWkg7HHl0EDnqFWxOUPQcXNDibVk7oDre3HH0/t/aaLPVHUy4hlPzQTtb4ThxgOpwQ3Hs8I24smvDWDcwsDvDbuL6ZnJAB4Jjp/VIXOiQRBGCDgg9k9UssHevulzvDoeYyR6vRLR8gRhE0bh7mPd4dDyhhA9UoncHP287cZQul0i9wLY3+0zcHBrQ1zT4okFr8y3ae+U+8NrQ4bXuJ27H+K9pp7XF3kAwMkkARByFuyE5tJxqLv8ADt8f91of9KFbk/qnFxbCoMST7NMw51YVZe409rBNQvc4Dc6SJ7JMP7H9lv3GZlEWlgxwklXP02mOqSsquHUqRru7lc1jfUmYz1Rg0ynHKRmoe6mK7u5QM69gwRBXLewYSZKWGq49SuNquHUoHbtMp90I+yZnKB8d3cqLqh7oHNLTaZAyo1tPYBgpU2u7uV41nHqUB9OxYXASizplPukQqmeSrPHd3KA+tYtmAV1ujk9Ut8Z3Mohmo1B1QCKITmjajhzYQz7XzHGEAK4UdRtjPsyETVtW7cDKBQF1GttvLxlXULYYlqBUVJMLq1G4QMKAts4CAIqLU5bbNIPlyhWW3Mj5IAlxyY0Lbu1TvLUQNoQK12mJIkwCQCewJ5RjrbAgZUbijDeIOP3QQNNjSHCtnkgNM4IO2RIn+mFsnOY6HUyXMcAWuI2kiOYkwsKWI6x1GrSEAhzYgNdJDfkshrSVRLm/5TuJ7NCyF7WD6lRwJIc9xBPJBOEbd6pVqDbhgghwYI3T3S3YtLdPfRp43AQM03N3efyvDiYk4khwMDo1PisVbiDk+XB67mkEGWdnYiSmjNaq5BDD7pIyB8YwUhsNwIzGHVaZkioQ1jTudUhnmgAEyMwEgcZ3EAAeYgCYA7Ccomteb27pG9wax8+22N/8OBhhaQCCSSfghB/Y/srkyJt2gApImjb8yERQtu7VCi1y6mV5ajG0Kt1txA+aAFRCc0rZvVsIX1bzHGEAS45MKVtk+XCuuLVu3AygUhdR3qw28ZV9C2GJagUHlSTCvajdgYURbebDcIASopybZu04goN1idu5A/p1Nz8D6KFSjJPSEMXluWrtWq7bPUoJh8SiWiWcfVAUnSPip06z/Z6ILXUoErrHyQELWqndB4VhdGRygLuKUniFRhpUPGcQSVTSfPKBhbGQcSqjS5JVAquaYbwVy5qOEBBcKnREVmSBiEC04U6dZ554HCCb2hpQV++Qfp+6sFQl2UPenH6IB6NTYZ2sdiIe3c39O6Y7/IXxZ4AOzY3fw08f7o+YQ9GrUosL2spuDwD5ml5aBOYHA/8AhVeJG/ZuY2oINPeT5JB2uON2QP0XTjn5X0jq5PY6gd7Q6LNkz5XsaDhD2+obQ8eFTO8ztI/CGAPY4nE/NUGoXBrCXAN3bGkktG4yY7SVWFvXGMnWiKd1BcfDoncZg0wQMRA7BWi//wBG3/5IQa6sNGjUP9G3/wCSEKzn6qKkzkLGmVOlAlTFTgIWpVIgdFcCIxyoWMrskDEIdzQ0qLKzzz04VLKknKA62dJ4lQfSkk8KnxC3LVytVcB80Ew+ESWyzj6oGmQQpsrP46IJup7VOk+XAQhXVSXQeFYXRkcoCa9KXcQqQQCVB1Z0EnlV0XzygPoDc04lUVLdu05+irZVcDA4Ki+qJiUEtOYHmDiFzWm7W4VuhnJkLnpF7JQKLGtjIlP7e2Gzd1WasnFa+1I8MY6IMtqLyKiOsSHkCIS/Vv4iP0dx3iQgO1GiGMMdkhtK3mM5Wl1gjYcdFlLZxDjCDSWFBrxu4SvWjtIhO9GPkyEl9IfaCDllUBgRz1TmrbhrJHZItOcZbjErT3RGzjogyHikPPXKIrkOb7uWiTwJcBKDefxD80TUk03f7f8AzBAO+k1uRWEwZABkjHlxIJP6Y5RtyGbppuL2GNry3YTjPlkx+qVlhVtF7m45HY9F08Hfxvtz8nPynoQ4SW/Az9F5xkk/FRNQn4d4XpXTvuX6TzziSPZe0w0DwG7gAN0jJ2wXQW8zJ5/VAAry5KWVXgucQA0FziGjIaCZDfovM5HzCgp0uR8x+6DmpuIIRFlUB2iOeqG1jkK3THHc3GFDodV7cNZjss4yqQ8znK1t6Rs46LGz5zHdBoNOpip8IQ+tjaMI3QXcyEL6R8IF9lWxkT8U+p2wDN3UrOWLjj5rWsI8MY6IMnd1CKn1TOwh5AiEp1A/in5pvojvPkILtVphrDCS2VbJnK0GunyHCzNo4yYQaWxtw5u5Jb+42vIhaPSz+Hx0SfU9Hqmagb5UBGl1CSScKWr0nPbDRJVWllxJxlaTQjTFT8WPqgw1BjmGCIWltneQfJUelL2eOfDiPgrLUHYD0QI9Ttnl5cGmO6I0tx3CVtYt/VXTG+PrKxdm4mpHxwgZ6gC5pAyVnG0H03ZaRK2NhtFRvicT1UfTR9KW+FHHRABpjjsSzXKZccAlMNMBLVpdFs6L6by+JAPKDB2DjLRHVaNwLhHdJ7kBtYtbxuwm7XlkOIwMoFmpaBUogVTwcpe4ksdPcfuFqPSD0kZWpNptGQss5/lM/D90EKNQsMgNJiPPTZUb+jwR9URTvnkgRbiSBJtbWBJ5P4aEYZMSG4JLnbtrQByYBP8A+o6ndbSIa5lOYcxrgKr6XiB+19QAFxBaIPSAtvU5b4/F15LnLlW9e1zmxbna4tkWtpBgx/hqNHUqjN5YRTe8t3VKbRTeGj8jdsBrSYJgZ2hTN7ucQ4Oc0ucQ2oQ5wa+oHvLXmdrzHtfErv2k+iNjfDcwtJbhxgODpG7ykuG4tJGJbhbz1Ovo8ni68d9qm6hUlziWPc4y51WlRruJiPaqNJV9O9eWvd/2YbNuDaWku3GMfh9FR64ahFR4a54wwGYJD9/iPBBD25c3aCP0CubqDg1wJqEgUxS2vLGU9tXxI2jBAJJA6FbsR8aiNSqe7b/+EtP/AG0PTPmHzH7oljhWEGPEglr/AGS50ve5rw1pNR7iQAcdAhaXI+YRj2r8hW6c8y1O6Ho664YanYJRSYWP2HoYULOrl3kPyWTB85jutYaJcA33sIbWPR11u0VO6CGkPMFUekBwrdJkymNLRXXRLeyDLWLjj5rT03eQfJJbyzdQqGn2Kb0mnaEGZv8A+KfmmmkvO7KY3voy7w/H+qW6YTuhAZrB8hWdtHEEwtaNPdXcKfEpXq+kOtX7e6Bhpr/KE8u9ZoC2NPG6Fn9PBLJWf1N58Qj4oHOiFznngFQ12s5hMHPwVelVYcS7Cq1p27jKAGhXc7Jz8VqLUO8GZEQsrbNc0cLQUK7RSicwgS3t48OLQ4x2RWluJe1LrumS+QjtPeQ8TiEDfXHOaOcx0Wbp3L3HJJTnV6ocMGcJHbsc0nCDUaIHFjiCAleo6hUpkhriJ5Rel1gGGTCUao0udhBO1qucRPU8rRagHCmJIiFmrUkbQQnd7WaWAA5hBmg87z81fVcdp+n7qkU3B0wraklpnnH7oKaDvb+LDjc5pIkEtEe1IBwcfomLmjB6ED9eoSsbgZBLSOCDBH1R1ux7sUmg5lzAZY2T5WsMnEDrwuXUten8fzTjZUnNyI7z9EJe1Z2DsH/me6AXkgQcN7453Sja1J7f4jQ0OjaNzdpcHCW1DIhsA/HhK6kuMn6SSYaOAJ6AYW8yw/I83PfqC7Mg7BP5HD2nHa7cehw2ZGB2lXEIGhPsn2cO9qC3iXtBIBdGPqmdvaV6jQ5rWua6dhkB2CRkE84Vx59c06RUaQdo8Rh3bnsDQCCXbmeZoAByMiJVQPmkYG6QJJgTxJ5VxqbGnbip/DqHdtewy8OawNdljmkAyOcIdnIVz1EW7WksPSb1em6nHISZlyalTd3dKX3jCThEWhILZUqai6quphjiQYgoTW/Sfx2NpgcKq/rAsgHMLOspuDphBotA3EmICYW+um1e4nMpPpFWJ3YQmsnccZQXahqRr1C+OSnTNwogyIWUtg4CIWg8dvhATmEBN36VTR8GM8JVpDnOqDolFem4vkDqmWmPh43YQP6mom2qB5gwlWua6bp+4DhV6zUDhjKT27XN6INVpAd4RIIWX1E/in5p/p1YCmQTCzt8ZqH5oHPqr5JiFT6s6YQp1Gp3UPXakzKBmbd0cKDrZ8fJA+v1O686/qHqgNpW7p4lWOtHzMJbTvXjqjG3NQj2kHq1Bw56qylRdHAVNRzjyV1lR44KCdSg5oVdKiSV2pUe7kqDC4cFAU61cQMKqrRcDlcFd/vKL3uPJQXUrVw6Ia7t3AEnjH7q0Vnj8yor1XEZMhBZptvVJc6kWgtgEuLBg9g7nj6KFxqlwx7mbm+WJmmxvfoWT06qu38Mn8Tftj8gaXT/ALuitrU7eW7RW9oB+4U58Prtg8/NbjFQ1auTBc3P+Sn/ANKlb3jmPNTbSe8mZqU2vAPcN4/orxRtP9ccdKfbPXqf7/NeLLeRHixDt3s84iPh7X9J6phULjV6xdUqlzQ58OdDGQS1oaIBBjAC+iUvQC8c1rvX6Q3AGPVG9RPdYNzLP/XiTM7OJOP0j/7hFVdYeG+S71HcAds3NQN9kxIDsZjjon8J+xWr2l3bV69Dx6dQ0Gtc5/h0qe4OZu8rSDJgFZoJhVq0ah31X3dR5A3Peab3Ege850lLpWso22t3HPKvfav7IWjUcOCrfWKnvKVPPounKtp2ro4Qtaq/mVQNQqDqgYOtniccqtts4/RCHUandRbfVO6Bm61cRwqqlu/9EJ9o1O6g++qHqgYUrZ3aZUnWr5mEubfVB1UvtGp3QE+rOJV4tnRwlgvakzKkNRqd0Bxt3gJZXpDciG3rzyV41GoP/9k=" loading="lazy">
+        <p>方便而有模拟味儿的通道插件，内置了一个可以调整高通、低频、高频的EQ模块和一个PreAmp模块</p>
+        <p>格式：VST、AU</p>
         
+        <h3><a href="https://www.patreon.com/posts/rare-34323244" target="_blank">Rare</a> & <a href="https://www.patreon.com/posts/rarese-work-in-34359782" target="_blank">RareSE</a></h3>
+        <img src="https://static.kvraudio.com/i/b/rare_se_product.jpg" loading="lazy">
+        <p>超级经典的Pultec EQP‑1A均衡器的数字化复刻版。Rare只提供立体声工作模式，RareSE在Rare的基础上增加了Dual Mono和MS工作模式。</p>
+        <p>格式：VST、AU</p>
+        
+        <h3><a href="https://www.kvraudio.com/product/pteq-x-by-ignite-amps" target="_blank">PTEq-X</a></h3>
+        <img src="https://static.kvraudio.com/i/b/pteq-x.1512992240.jpg" loading="lazy">
+        <p>在一个插件里复刻了三个经典的硬件均衡器：HL3C、EQP-1A、MEQ-5。</p>
+        <p>格式：VST、AU</p>
+        <blockquote>原版EQP-1A和MEQ-5硬件采用了非常不通用的参数名称，导致基于它们复刻的插件也都非常的不直观，可以参考以下中文资料学习使用方法：<a href="https://support.apple.com/zh-cn/guide/logicpro/lgcp137f13da/mac" target="_blank">Logic Pro的中文说明</a>、<a href="https://www.bilibili.com/video/BV1pK4y1r7QW" target="_blank">王润天的视频解说</a></blockquote>
+                
     </section>
 	
 	<section id="gain"><h2>Saturation / Amp / Distortion</h2>
+        
+        <section id="gain_universal">
         
 		<h3><a href="https://www.softube.com/saturationknob/" target="_blank">Saturation Knob</a></h3>
         <img src="https://i.pinimg.com/originals/6f/bd/02/6fbd029ccce0cb02bbf1dc10d71d1e51.png" loading="lazy">
         <p>一款全平台、简单实用的万金油Saturator</p>
         <p>格式：VST、AU、AAX、Rack Extension、ProChannel</p>
-		
+        
+        <h3><a href="https://www.patreon.com/posts/fetdrive-38432698" target="_blank">FetDrive</a></h3>
+        <img src="https://freevstplugins.net/wp-content/uploads/2020/07/FetDrive.jpg" loading="lazy">
+        <p>在FetSnap的基础上做减法得到的Saturator，效果等同于去掉瞬态增强的FetSnap</p>
+        <p>格式：VST、AU</p>
+        
+        <h3><a href="https://www.patreon.com/posts/prebox-36362672" target="_blank">PreBOX</a> & <a href="https://www.patreon.com/posts/distox-34292849" target="_blank">Distox</a></h3>
+        <img src="https://freevstplugins.net/wp-content/uploads/2020/06/1588442369_prebox.jpg" loading="lazy">
+        <img src="https://i.hizliresim.com/5DO3Qz.png" loading="lazy">
+        <p>PreBOX是一个11合1的前级模拟，Distox是一个7合1的运放过载和电子管过载模拟</p>
+        <p>格式：VST、AU</p>
+        
         <h3><a href="https://www.kvraudio.com/product/sga1566-by-shattered-glass-audio" target="_blank">SGA1566</a></h3>
         <img src="https://static.kvraudio.com/i/b/sga1566.png" loading="lazy">
-        <p>一款高品质的前级模拟，音染较小，可用作Saturator。低精度模式已经可以感知到它对CPU的占用，高精度模式堪称CPU终结者。</p>
+        <p>一款高品质的前级模拟，音染较小，非常吃CPU。低精度模式已经可以感知到它对CPU的占用，高精度模式堪称CPU终结者。</p>
         <p>格式：VST、AAX</p>
         
         <h3><a href="https://www.voxengo.com/product/tubeamp/" target="_blank">Tube Amp</a></h3>
         <img src="https://www.voxengo.com/cdn/img/01/014jtj7vj-2.webp" loading="lazy">
-        <p>一款简单好用的电子管过载</p>
+        <p>一款简单好用的电子管风格过载</p>
         
-        <h3><a href="http://www.vst4free.com/plugin/2590" target="_blank">Bassprofessor MarkII</a></h3>
-        <img src="http://www.vst4free.com/img/BassProfessorMarkII_2.jpg" loading="lazy">
-        <p>一款专注于Bass音色处理的动态、均衡、过载插件，可以为DI盒录制的Bass音轨增添些许音箱质感</p>
+        </section>
         
-        <h3><a href="https://www.nembriniaudio.com/products/crunck-v2-guitar-amplifier" target="_blank">Crunck V2</a></h3>
-        <img src="https://cdn.shopify.com/s/files/1/0014/0800/8291/products/Images_360x.png" loading="lazy">
-        <p>一款简单易用的英式失真吉他音箱模拟。</p>
+        <section id="guitarstomp">
+		
+        <h3><a href="http://distorqueaudio.com/plugins/face-bender.html" target="_blank">Face Bender</a></h3>
+        <p>对Fuzz Face和Tone Bender两款法兹单块的模拟</p>
+        
+        <h3><a href="https://www.patreon.com/posts/pigpie-34323217" target="_blank">PigPie</a> & <a href="https://www.patreon.com/posts/zupaa-34323401" target="_blank">Zupaa</a></h3>
+        <p>对Russian Big Muff Pi和Tone Bender两款法兹单块的模拟</p>
+        
+        </section>
+
+        <section id="guitaramp">
         
         <h3><a href="https://www.voxengo.com/product/boogex/" target="_blank">Boogex</a></h3>
         <img src="https://www.voxengo.com/cdn/img/69/69ttmxfsn-2.webp" loading="lazy">
         <p>一款多合一的吉他效果器和音箱模拟。内置了EQ、前级、箱体、混响等模块</p>
+        
+        <h3><a href="https://www.nembriniaudio.com/products/crunck-v2-guitar-amplifier" target="_blank">Crunck V2</a></h3>
+        <img src="https://cdn.shopify.com/s/files/1/0014/0800/8291/products/Images_360x.png" loading="lazy">
+        <p>一款简单易用的英式失真吉他音箱模拟</p>
         
         <h3><a href="http://www.igniteamps.com/#emissary" target="_blank">Emissary</a></h3>
         <img src="http://www.igniteamps.com/images/software/ignite-amps-emissary2-software.jpg" loading="lazy">
         <p>一款很吃CPU的高品质吉他箱头模拟。提供双通道和三种电子管模拟，一般与配套的箱体模拟插件NadIR共同使用。</p>
         <p>格式：VST、AU、AAX</p>
         <p>Ignite Amps开发的免费单块、前级、后级模拟品质均不错。这里只选其中UI最漂亮的一个作为代表，其余请<a href="http://www.igniteamps.com/#software" target="_blank">自行浏览</a>。</p>
-		
-        <h3><a href="http://distorqueaudio.com/plugins/face-bender.html" target="_blank">Face Bender</a></h3>
-        <img src="http://sites.google.com/site/distorque/_/rsrc/1336332437282/home/vsts/facebender/facebender.png?height=225&width=300" loading="lazy">
-        <p>对Fuzz Face和Tone Bender MKII两款复古吉他单块的模拟。</p>
+        
+        </section>
         
     </section>
     
@@ -264,7 +329,12 @@
         <img src="https://www.izotope.com/en/products/vinyl/_jcr_content/root/flexcontainer_339762556/sectioncontainer/flexcontainer/image.coreimg.82.1280.png/1566998560317/vinyl.png" loading="lazy">
         <p>老式黑胶唱机效果</p>
         
-		<h3><a href="http://caelumaudio.com/CaelumAudio/?Page=TapeCassette" target="_blank">Tape Cassette</a></h3>
+        <h3><a href="https://senderspike.wordpress.com/2019/12/06/sn03g-tape-recorder/" target="_blank">SN03-G</a></h3>
+        <img src="https://senderspike.files.wordpress.com/2020/01/sn03_gui-1.png" loading="lazy">
+        <p>较细微不易察觉的磁带录音效果，可以给数字母带增添一点点的模拟味儿</p>
+        <p>格式：VST3、AU</p>
+        
+        <h3><a href="http://caelumaudio.com/CaelumAudio/?Page=TapeCassette" target="_blank">Tape Cassette</a></h3>
         <img src="https://i.imgur.com/LJVc9RK.png" loading="lazy">
         <p>老式磁带效果</p>
         <p>格式：VST3、AU</p>
@@ -284,6 +354,10 @@
         <h3><a href="https://hy-plugins.com/product/hy-filter3/" target="_blank">HY-Filter3 Free</a></h3>
         <img src="https://hy-plugins.com/wp-content/uploads/hyfilter3_free_cover-768x286.jpg" loading="lazy">
         <p>双模式(SVF、Reso)滤波器</p>
+        
+        <h3><a href="https://bedroomproducersblog.com/free-vst-plugins/bpb-dirty-filter/" target="_blank">BPB Dirty Filter</a></h3>
+        <img src="https://bedroomproducersblog.com/wp-content/uploads/2020/10/dirty-filter-screenshot.jpg" loading="lazy">
+        <p>一个可以Drive出很脏音色的滤波器</p>
         
         <h3><a href="https://tal-software.com/products/tal-chorus-lx" target="_blank">TAL Chorus LX</a></h3>
         <img src="https://tal-software.com/images/products/tal-chorus-lx.png" loading="lazy">
@@ -336,15 +410,13 @@
     </section>
 </div>
 
-<nav>
-	<a class="ui" href="#top">^</a><br>
-	<a class="ui" href="javascript:history.go(-1);">&lt;</a>
-</nav>
+    <nav><a class="ui" href="blog.html">&lt;</a></nav>
+    <nav><a class="ui" href="#top">&equiv;</a></nav>
 
 <footer>
 	<a href='https://creativecommons.org/licenses/by-nc/4.0/deed.zh' target='_blank' title="本文章采用 署名-非商业使用 4.0 协议共享">
 	<img src="/resources/cc.svg" alt="CC"><img src="/resources/by.svg" alt="BY"><img src="/resources/nc.svg" alt="NC"></a>
-</footer><script src="/style/oncopy.js"></script>
+</footer>
     
 </body>
 

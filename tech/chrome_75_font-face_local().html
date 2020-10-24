@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
-<meta charset=utf-8 />
-<meta name="viewport" content="width=device-width, viewport-fit=cover" />
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <!--link rel="stylesheet" href="/style/layout.css" /-->
-<link rel="stylesheet" href="/style/tech.css" />
+<link rel="stylesheet" href="/style/tech.css">
 <style>
 @font-face {
 	font-family: r;
@@ -44,40 +45,40 @@ code {
 	font-weight: 400;
 	src: local("Times New Roman");
 }
-</code></pre><br />
+</code></pre><br>
 
 <pre><code>p style="font-family:r; font-weight:400;"</code></pre>
 <p style="font-family:r; font-weight:400;">
 // It works fine for regular font.</p>
 
-<br /><hr/><br />
+<br><hr/><br>
 
 <pre><code>style="font-family:'Times New Roman'; font-weight:700;"</code></pre>
 
 <p style="font-family:'Times New Roman'; font-weight:700;">
 // This is the bold weight I want.</p>
 
-<br />
+<br>
 
 <pre><code>
 @font-face {
 	font-family: b;
 	font-weight: 700;
 	src: local("Times New Roman Bold");
-}</code></pre><br />
+}</code></pre><br>
 
 <pre><code>style="font-family:b;font-weight:700;"</code></pre>
 <p style="font-family:b; font-weight:700;">
 // On this condition, chrome will not detect the local bold variant. Meanwhile, MS browsers work properly:</p>
 
-Chrome 75:<br />
-<img src="/resources/img/render_chrome.png" title="Chrome 75"><br />
-MS Edge:<br />
-<img src="/resources/img/render_edge.png" title="MS Edge"><br />
-IE11:<br />
-<img src="/resources/img/render_ie.png" title="IE11"><br />
+Chrome 75:<br>
+<img src="/resources/img/render_chrome.png" title="Chrome 75"><br>
+MS Edge:<br>
+<img src="/resources/img/render_edge.png" title="MS Edge"><br>
+IE11:<br>
+<img src="/resources/img/render_ie.png" title="IE11"><br>
 
-<br /><hr /><br />
+<br><hr><br>
 
 <pre><code>style="font-family:'Times New Roman'; font-weight:700;"</code></pre>
 
@@ -93,17 +94,17 @@ IE11:<br />
 	src: local('Times New Roman');
 }
 </code></pre>
-<br />
+<br>
 <pre><code>style="font-family:b-alt; font-weight:700;"</code></pre>
 <p style="font-family:b-alt; font-weight:700;">
-// The 'wrong' code does not work either.<br /></p>
+// The 'wrong' code does not work either.<br></p>
 
 <pre><code>
 @font-face {
 	font-family: r;
 	font-weight: 400;
 	src: local("Times New Roman");
-}</code></pre><br />
+}</code></pre><br>
 
 <pre><code>style="font-family:r; font-weight:700;"</code></pre>
 <p style="font-family:r; font-weight:700;">

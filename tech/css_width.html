@@ -1,21 +1,23 @@
-<html lang="zh-cn">
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
 
 <head>
-<meta charset=utf-8 />
-<meta name="viewport" content="width=device-width, viewport-fit=cover" />
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
 <title>2019年常见屏幕的CSS宽度</title>
-<meta property="og:type" content="article" />
-<meta property="og:description" content="密度无关像素（Apple称pt、谷歌称dp）是一种为了应对不同屏幕像素密度差异而提出的长度单位。我在为此博客适配布局的过程中，整理了常见屏幕的密度无关像素宽度表格。" />
-<link rel="stylesheet" href="/style/tech.css" />
-<link rel="stylesheet" href="/style/fonts.css" />
+<meta property="og:type" content="article">
+<meta name="keywords" content="">
+<meta name="description" property="og:description" content="密度无关像素（Apple称pt、谷歌称dp）是一种为了应对不同屏幕像素密度差异而提出的长度单位。我在为此博客适配布局的过程中，整理了常见屏幕的密度无关像素宽度表格。">
+<link rel="stylesheet" href="/style/tech.css">
+<link rel="stylesheet" href="/style/fonts.css">
 
 <style>
 </style>
 </head>
 
 <body>
-<div class="text">
+<div class="justify">
 	<p>密度无关像素是一种为了应对不同屏幕像素密度差异而提出的长度单位。Apple 为这个单位命名 pt ，Google 称 dp 。</p>
 	<p>这是一个介于物理长度与像素之间的概念，智能手表上 1 dp 的实际长度大约是现实中的 0.15 mm，智能手机的 1 dp 的一般在 0.15 ~ 
 	0.2 mm 之间，PC 显示器上的 1 dp 大约是 0.2 ~ 0.3 mm —— 刚好反映了逐渐增加阅读距离，界面的物理尺寸也随之增加的规律。</p>
@@ -88,11 +90,13 @@
 	</table>
 	<p class="date"><br>19/6/8</p>
 	<p>参见：</p>
+    <blockquote>
 	<p><a href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/?hl=zh-cn" target="_blank">响应用户界面 | Web | Google Developers</a></p>
 	<p><a href="https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Displays/Displays.html#//apple_ref/doc/uid/TP40013599-CH108-SW2" target="_blank">iOS Device Display Summary</a></p>
 	<p><a href="https://tongji.baidu.com/research/site#screen" target="_blank">百度统计流量研究院</a></p>
     <p><a href="ppi_calc.html" target="_blank">PPI计算器</a></p>
 	<p><a href="https://tysonmatanich.github.io/viewportSize/" target="_blank">viewportSize.js</a></p>
+    </blockquote>
 	<script src="https://tysonmatanich.github.io/viewportSize/viewportSize.js"></script>
 	<script>
 		function writeWidth() {
@@ -113,7 +117,7 @@
 	<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title="本分类下的内容采用 署名 4.0 协议共享">
 	<img src="/resources/cc.svg" alt="CC"><img src="/resources/by.svg" alt="BY"></a><br><br>
 </footer>
-<script src="/style/oncopy.js"></script>
+
 </body>
 
 </html>

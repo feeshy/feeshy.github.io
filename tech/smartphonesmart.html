@@ -1,28 +1,31 @@
-<html lang="zh-cn">
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
 
 <head>
-<meta charset=utf-8 />
-<meta name="viewport" content="width=device-width, viewport-fit=cover" />
-<title>自动化配置分享</title>
-<meta property="og:title" content="智能手机自动化配置分享" />
-<meta property="og:description" content="这些自动化的操作使你的Android或iOS手机更智能">
-<meta property="og:type" content="article" />
-<link rel="stylesheet" href="/style/tech.css" />
-<link rel="stylesheet" href="/style/fonts.css" />
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>feeshy的自动化编程分享</title>
+<meta property="og:title" content="feeshy的自动化配置分享">
+<meta name="keywords" content="tasker, shortcuts, 快捷指令, autohotkey, 自动化, 智能手机, 快捷键">
+<meta name="description" property="og:description" content="这些自动化的操作使你的手机或PC更智能">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="/style/tech.css">
+<link rel="stylesheet" href="/style/fonts.css">
 <style>
 footer{	opacity: 0;}
 h2 img{display:inline;height:1em;vertical-align:middle;}
+h3 a {text-decoration: underline;}
 </style>
 </head>
 
 <body>
 
-<div class="text">
+<div class="justify">
 	<section id="tasker"><h2><img src="https://tasker.joaoapps.com/icon_tasker.png"> Tasker</h2>
-		<h3><a href="https://github.com/feeshy/tasker_profiles_share/blob/master/Night_Mode/readme.md" target="_blank">定时日/夜模式</a></h3>
-			<p>定时切换夜间模式、免打扰、系统音量、同步、飞行模式（其中飞行模式切换需要root权限）</p>
-		<h3><a href="https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md" target="_blank">微信的高级响铃控制</a></h3>
+        <h3><a href="https://github.com/feeshy/tasker_profiles_share/blob/master/Wechat_Alerts/readme.md" target="_blank">微信的高级响铃控制</a></h3>
 			<p>尝试修复微信Android版在勿扰模式下仍然能响铃的bug，并赋予其更高级的响铃控制。</p>
+		<h3><a href="https://github.com/feeshy/tasker_profiles_share/blob/master/Night_Mode/readme.md" target="_blank">定时切换日/夜模式</a></h3>
+			<p>定时切换夜间模式、免打扰、系统音量、同步、飞行模式（其中飞行模式切换需要root权限）</p>
 		<h3><a href="https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&id=Profile%3A%E8%87%AA%E5%8A%A8%E5%85%B3%E6%95%B0%E6%8D%AE" target="_blank">日租卡自动关数据</a></h3>
             <p>在每月21日~月底的午夜自动关闭移动数据开关，防止不知不觉中开启下一天计费。可根据实际情况自行调整生效日期的范围</p>
         <h3><a href="https://github.com/feeshy/tasker_profiles_share/blob/master/Pushbullet_Intergrated/readme.md#%E6%9C%AA%E6%8E%A5%E6%9D%A5%E7%94%B5%E8%BD%AC%E5%8F%91" target="_blank">未接来电转发</a></h3>
@@ -78,6 +81,12 @@ h2 img{display:inline;height:1em;vertical-align:middle;}
 		  <p>定期将日历截图并设置为壁纸。笨方法，依赖以下工具：UWP日历、AutoHotkey、ImageMagick、任务计划</p>
 
 	</section>
+    <section id="js"><h2>JavaScript</h2>
+        <h3><a href="/tech/ppi_calc.html">PPI计算器</a></h3>
+        <p>计算PPI，读取CSS分辨率，并对高DPI设备给出缩放建议。可能不定期更新加入新的功能</p>
+        <h3><a href="/ingress/portal_calc.html">Ingress Link Distance计算器</a></h3>
+        <p>根据给定条件计算可在<a href="https://ingress.com" target="_blank">Ingress</a>中建立的Link的最大连接距离，提供多种快捷输入预设。项目已开源，<a href="https://github.com/feeshy/portal_calc_html" target="_blank">fork it on github</a></p>
+    </section>
     <!--	<section id="ifttt"><h2><img src="https://ifttt.com/favicon.ico"> IFTTT</h2>
 			<p>待更新</p>
  		<h3><a href="" target="_blank"></a><h3>
@@ -93,7 +102,7 @@ h2 img{display:inline;height:1em;vertical-align:middle;}
 	<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title="本分类下的内容采用 署名 4.0 协议共享">
 	<img src="/resources/cc.svg" alt="CC"><img src="/resources/by.svg" alt="BY"></a><br><br>
 </footer>
-<script src="/style/oncopy.js"></script>
+
 </body>
 
 </html>

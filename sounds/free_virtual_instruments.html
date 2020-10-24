@@ -1,21 +1,25 @@
-<html lang="zh-cn">
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, viewport-fit=cover" />
-    <title>Free Virtual Instruments</title>
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="虚拟乐器一般是以插件的形式存在的，它们接收MIDI信号，通过一系列的播放或者合成，给我们提供声音信号。本文收集了我用过并认为值得保留的24个免费虚拟乐器" />
-    <link rel="stylesheet" href="/style/tech.css" />
-    <link rel="stylesheet" href="/style/fonts.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>feeshy的免费虚拟乐器推荐</title>
+    <meta name="keywords" content="虚拟乐器, 乐器插件, 采样乐器, 合成器, 'virtual instruments', plugins">
+    <meta name="description" property="og:description" content="虚拟乐器一般是以插件的形式存在的，它们接收MIDI信号，通过一系列的播放或者合成，最终输出给我们音频信号。本文收集了我用过并认为值得保留的免费虚拟乐器">
+    <meta property="og:image" content="https://help.apple.com/assets/5C5305B90946229E49AD76CA/5CDC505D0946222E0E787609/zh_CN/b2cb390e59ef98a033cca2cbf638d565.png">
+    <meta property="og:type" content="article">
+    <link rel="stylesheet" href="/style/layout.css">
+    <link rel="stylesheet" href="/style/sounds.css">
+    <link rel="stylesheet" href="/style/fonts.css">
     <style>
-        .text img {width:360;}
+        img {max-width:360px; max-height:360px;}
     </style>
 </head>
 
 <body>
     <p class="date"><a href="https://meta.appinn.net/t/17301">→前往讨论</a></p>
-    <div class="text">
+    <div class="justify">
     <section id="top"><h2>目录</h2>
 	   <ul>
            <li><a href="#sample_ins">采样乐器</a></li>
@@ -32,7 +36,7 @@
 
 
         <h1 id="sample_ins">采样乐器</h1>
-        <p>采样乐器是把录制的音频以一定的方式回放来发声的虚拟乐器。质量主要受两个因素影响：上限自然由录制时演奏者的演奏水平决定，下限则是由录制设备、场所的声学环境、以及它占用的存储空间所综合决定的，体积越大往往意味着越高的采样密度和音质、越多的力度和演奏技法。</p>
+        <p>采样乐器是把录制的音频以一定的方式回放来发声的虚拟乐器。质量的上限自然由录制时演奏者的演奏水平决定，下限则是由录制设备、场所的声学环境、以及它占用的存储空间所综合决定的，体积越大往往意味着越高的采样密度和音质、越多的力度和演奏技法。</p>
         <h2 id="orchestra">管弦乐</h2>
         <h3><a href="https://vis.versilstudios.com/vsco-community.html">VS Chamber Orchestra: Community Edition</a></h3>
         <p>Versil Studios Chamber Orchestra 的简化版，是公有领域中质量很高的音源。活跃的社区为它开发了非常丰富的格式，几乎可以支持市面上的任何宿主。</p>
@@ -176,8 +180,8 @@
         </ul>
     <hr>
     <h1 id="synth">合成器</h1>
-    <p>合成器不像采样乐器那样回放声音，而是通过电路或者算法创造、修饰声音。合成器可以直接凭空合成自然界不存在的声音波形，也有一些合成方法，例如波表合成和粒子合成，会分析一小段声音的采样作为出发点来合成声音波形。总得来说，合成器占用的存储空间要比同样质量的采样乐器小很多。</p>
-    <p>本文会以发声原理而不是音色来界定采样乐器与合成器的界限。例如，用录制模拟合成器采样的方法复刻的虚拟乐器，会归到采样乐器分类，而用算法模拟(simulate)其模拟(analog)电路的方法复刻的虚拟乐器，则会归到合成器分类。</p>
+    <p>合成器不像采样乐器那样回放声音，而是通过电路或者算法创造、修饰声音。合成器一般直接凭空合成自然界不存在的声音波形，也有一些合成方法，例如波表合成和粒子合成，会分析一小段声音的采样作为出发点来合成声音波形。总得来说，合成器占用的存储空间要比同样质量的采样乐器小很多。</p>
+    <p>本文会以发声原理而不是音色来界定采样乐器与合成器的界限。例如，用录制模拟(analog)合成器采样的方法复刻的虚拟乐器，会归到采样乐器分类，而用算法模拟(simulate)其模拟(analog)电路的方法复刻的虚拟乐器，则会归到合成器分类。</p>
     <h3><a href="https://support.apple.com/kb/PH27371?locale=zh_CN&amp;viewlocale=zh_CN">Alchemy</a></h3>
     <img src="https://help.apple.com/assets/5C5305B90946229E49AD76CA/5CDC505D0946222E0E787609/zh_CN/b2cb390e59ef98a033cca2cbf638d565.png" loading="lazy">
     <p>Alchemy原本是Logic Pro X内置的口碑非常好的合成器。</p>
@@ -239,8 +243,11 @@
     </ul>
     </div>
     <br><br><br><br><br>
-    <nav>
-        <a class="ui" href="#top">^</a><br><a class="ui" href="javascript:history.go(-1);">&lt;</a>
-    </nav>
+    <nav><a class="ui" href="blog.html">&lt;</a></nav>
+    <nav><a class="ui" href="#top">&equiv;</a></nav>
+    <footer>
+        <a href='https://creativecommons.org/licenses/by-nc/4.0/deed.zh' target='_blank' title="本文章采用 署名-非商业使用 4.0 协议共享">
+        <img src="/resources/cc.svg" alt="CC"><img src="/resources/by.svg" alt="BY"><img src="/resources/nc.svg" alt="NC"></a>
+    </footer>
 </body>
 </html>

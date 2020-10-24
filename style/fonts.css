@@ -38,7 +38,7 @@
 /******************************/
 
 /* serif */
-.title, .gs-title, h1, h2 {
+.gs-title, h1, h2, h3, h4, h5, h6 {
 	font-family: var(--old-serif), var(--song), biaosong, serif;
 	font-weight: 600;
 	font-style: normal;
@@ -46,12 +46,12 @@
 h1, h2, h3 {
 	font-feature-settings: 'swsh';
 }
-.text, .text-center, .gsc-control-cse, .gsc-table-result, .gs-snippet {
+article, .justify, .center, .gsc-control-cse, .gsc-table-result, .gs-snippet {
 	font-family: var(--old-serif), var(--song), '方正宋三简体', '华文宋体', STSong, serif;
 	font-weight: 400;
 	font-style: normal;
 }
-.text>p:first-child:first-letter {
+.justify>p:first-child:first-letter {
 	font-size: calc(2em + 1.5vh);
 }
 .date, q, blockquote {
@@ -92,7 +92,7 @@ code {
 	font-variant-numeric: tabular-nums lining-nums slashed-zero;
 }
 
-/* hide link underline */
-.title a, .ui a, nav a, footer a {
+/* underline */
+.center a, .ui a, nav a, footer a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	text-decoration: none;
 }

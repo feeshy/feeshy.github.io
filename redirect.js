@@ -5,16 +5,14 @@ window.onload=function() {
             document.location = url.replace('/search', '/s')
             break
         case url.includes('/ambient'):
-            document.location = url.replace('/ambient', '/audio')
+            document.location = url.replace('/ambient', '/sounds')
             break
         case url.includes('/tech/free_audio_plugins.html'):
-            document.location = url.replace('/tech/free_audio_plugins.html', '/audio/free_audio_plugins.html')
-            break
         case url.includes('/tech/free_virtual_instruments.html'):
-            document.location = url.replace('/tech/free_virtual_instruments.html', '/audio/free_virtual_instruments.html')
+            document.location = url.replace('/tech/', '/sounds/')
             break
         case url.includes('px_pt_dp.html'):
-            document.location = url.replace('px_pt_dp.html', 'css_width.html')
+            document.location = url.replace('px_pt_dp', 'css_width')
             break
     }
 }
