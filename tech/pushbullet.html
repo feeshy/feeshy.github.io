@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    
+    <title>用iOS快捷指令复刻Pushbullet</title>
+    <meta name="keywords" content="pushbullet, shortcuts, ios, push, link, note">
+    <meta name="description" property="og:description" content="Pushbullet曾经是一个全平台的跨设备消息推送服务。开发者由于不满iOS的封闭性而长期停更，最终借着苹果强推Apple ID登录的契机彻底下架了iOS客户端。这次尝试用Pushbullet官方API 和快捷指令复刻一个低配版的Pushbullet">
+    <meta property="og:image" content="https://fesshy.github.io/resources/img/pushup.png">
+    <meta property="og:type" content="article">
+    
+    <link rel="stylesheet" href="/style/fonts.css">
+    <link rel="stylesheet" href="/style/tech.css">
+    <style>
+        img#api_access {
+            max-width:min(356.5px,100%);
+            max-height:min(704px,62.5vh);
+        }   @media (max-width: 450px) {
+            img#api_access { max-height: min(704px,87.5vh); !important
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <p class="date"><a href="https://meta.appinn.net/t/topic/18629" target="_blank">→参与讨论</a></p>
+    
+    <article>
+        <p>Pushbullet曾经是一个全平台的跨设备消息推送服务。开发者由于不满iOS的封闭性而长期停更，最终借着苹果强推Apple ID登录的契机彻底下架了iOS客户端。</p>
+        <p>这次尝试用<a href="https://docs.pushbullet.com" target="_blank">Pushbullet官方API </a>和<a href="https://support.apple.com/zh-cn/guide/shortcuts/apd58d46713f/ios" target="_blank">快捷指令</a>复刻一个低配版的Pushbullet</p>
+        <ul>
+            <li>功能</li>
+                <ul>
+                    <li>从iOS推送文本或链接到其他设备</li>
+                    <li>一键获取其他设备发给iOS的最新一条推送</li>
+                </ul>
+            <li>优势</li>
+                <ul>
+                    <li>不存在下架问题</li>
+                </ul>
+            <li>缺陷</li>
+                <ul>
+                    <li>不能以“真正的”通知形式接收推送，而是要主动执行快捷指令</li>
+                    <li>由于快捷指令没有提供适合展示历史记录的界面，暂未加入查看推送历史的功能</li>
+                </ul>
+        </ul>
+        
+        <h2>依赖的工具</h2>
+        <ul>
+            <li>iOS：<a href="https://apps.apple.com/cn/app/id915249334" target="_blank">快捷指令 </a>
+            </li>
+            <li>其他平台：官方客户端——<a href="https://chrome.google.com/webstore/detail/chlffgpmiacpedhhbkiomidkjlcfhogd" target="_blank">Chrome </a> | <a href="https://addons.mozilla.org/en-US/firefox/addon/pushbullet/versions/" target="_blank">Firefox</a> | <a href="https://play.google.com/store/apps/details?id=com.pushbullet.android" target="_blank">Android</a> | <a href="https://update.pushbullet.com/pushbullet_installer.exe" target="_blank">Windows</a>
+            </li>
+            <li>科学上网工具：<code>pushbullet.com</code>加入代理规则</li>
+        </ul>
+        
+        <hr>
+        
+        <h2>配置</h2>
+        <h3>1. 获取Access Token</h3>
+        <p>登录账号后访问 <a href="https://www.pushbullet.com/#settings/account" target="_blank">https://www.pushbullet.com/#settings/account </a> 生成API令牌</p>
+        <img src="/resources/img/push_gen_token.png" alt="screenshot" style="max-width:min(223px,100%); max-height:min(183px,62.5vh); border:solid #dddddd;">
+        <h3>2. 获取设备ID</h3>
+        <blockquote>如果你并不想对各台设备进行区分，则无需获取设备ID便可直接进入第3步。</blockquote>
+        <p>如果想要精准地推送或接收某台设备的消息，我们需要先知道它的<code>device_iden</code>。</p>
+        <p>访问Pushbullet API可以获取所有曾经登录过Pushbullet官方客户端的设备的ID。如果你已经错过了Pushbullet官方iOS App的上架时间，在获取到的列表中自然就找不到你的iOS设备，这种情况也可以向API请求生成新的设备ID。</p>
+        <p>推荐使用这个<a href="https://www.icloud.com/shortcuts/b763a6cc3b834caeabeb2cf0b9e7a1c8" target="_blank"><img src="/resources/img/pushid.png"style="width:1em;height:1em;border-radius:0.2em;">一次性快捷指令</a>完成这两个过程，用完即删。</p>
+        <blockquote><details><summary>你也可以使用任意其他的HTTP调试工具，例如Pushbullet API 官方文档示例的<em>curl</em></summary>
+        <h4>获取已有iden</h4>
+        <pre><code><span>curl</span> --header <span>'Access-Token: &lt;your_access_token_here&gt;'</span> \
+     https://api.pushbullet.com/v2/devices
+</code></pre>
+        <details style="padding-left: 2em;"><summary>甚至不一定要使用HTTP调试工具</summary>
+            <p>这一步也可以直接浏览器访问 <a href="https://api.pushbullet.com/v2/devices" target="_blank"><code>https://api.pushbullet.com/v2/devices</code></a> ，用户名填第一步获取的Access Token，密码留空，服务器会返回一段<b>没分行</b>的纯文本。</p>
+            <p>用你的火眼金睛在其中找到你的iOS、Android、Chrome等等设备的iden并记录。你可以用<a href="https://codebeautify.org/jsonviewer" target="_blank">JSON Beautify工具 </a>将JSON自动分行，提高搜寻的效率</p>
+        </details>
+        <h4>生成新的iden</h4>
+        <pre><code>curl --header '<span>Access</span>-<span>Token</span>: &lt;your_access_token_here&gt;' \
+     --header '<span>Content</span>-<span>Type</span>: application/json' \
+     --data-binary '{<span>"app_version"</span>:<span>8623</span>,<span>"manufacturer"</span>:<span>"Apple"</span>,<span>"model"</span>:<span>"iPhone 5s (GSM)"</span>,<span>"nickname"</span>:<span>"Elon Musk's iPhone"</span>,<span>"push_token"</span>:<span>"production:f73be0ee7877c8c7fa69b1468cde764f"</span>}' \
+     --request <span>POST</span> \
+     https:<span>//api.pushbullet.com/v2/devices</span>
+</code></pre>
+        </details>
+        </blockquote>
+        <h3>3. 配置快捷指令</h3>
+        <p></p>
+        <p>成品有两个版本：</p>
+        <ul>
+            <li>推送接收二合一版
+                <ul>
+                    <li>
+                        <a href="https://www.icloud.com/shortcuts/0dfcecfcbca046a98980ef826d4825e9" target="_blank"><img src="/resources/img/pushup.png" style="border-radius:0.2em;"> 推送&amp;接收Shortcut</a>：推送共享表单，或提取收到的内容，<b>无推送剪贴板功能</b>
+                    </li>
+                </ul>
+            </li>
+            <li>独立版
+                <ul>
+                    <li>
+                        <a href="https://www.icloud.com/shortcuts/a44bcaf20bc74139ade91abde00ebaa9" target="_blank"><img src="/resources/img/pushup.png" style="width:1em;height:1em;border-radius:0.2em;"> 推送Shortcut</a>：推送共享表单或<b>剪贴板</b>中的内容
+                    </li>
+                    <li>
+                        <a href="https://www.icloud.com/shortcuts/921b57d61ed34955a87c1bb30261fa99" target="_blank"><img src="/resources/img/pushdn.png" style="width:1em;height:1em;border-radius:0.2em;">接收Shortcut</a>：提取收到的内容
+                    </li>
+                </ul>
+            </li>
+        </ul>
+<!--        <aside style="width:25em; text-align:start; padding:1em 2em; background-color: rgba(238,238,238,0.6);">-->
+            <details class="fangsong" style="padding-left: 4em;"><summary>更新日志</summary>
+            <p>2020/8/26: 初始发布</p>
+            <p>2020/9/30: 现在可以获取其他设备发送给iOS的推送，可使用独立的接收Shortcut或者二合一的Shortcut</p>
+            <p>2020/11/2: 修复了无法正确判断url的问题</p>
+            </details>
+<!--        </aside>-->
+        <p>首次运行快捷指令前需要填入三个字段</p>
+        <li><code>access_token</code>: 第一步获取的令牌</li>
+        <li><code>this_device_iden</code>: 第二步获取或生成的iOS设备本机的<code>device_iden</code></li>
+        <li><code>remote_device_iden</code>: 第二步获取的其他设备的<code>device_iden</code>（例如Chrome、Android）</li>
+        <blockquote>如果你跳过了第二步，那么请把所有“获取URL内容”步骤中的 <code>device_iden</code> 和 <code>source_device_iden</code> 字段删除，自行添加 <code>email: 你的账号</code>字段</blockquote>
+        <p></p>
+        <img src="/resources/img/push_api_access.jpeg" alt="screenshot" id="api_access">
+        
+        <hr>
+        
+        <h2>使用</h2>
+        <p>快捷指令提供三种入口：小部件、主屏幕图标、共享表单</p>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>共享表单</th>
+                    <th>小部件和图标</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>二合一版</td>
+                    <td>推送传入的链接或文本</td>
+                    <td>一键提取发送给本机的最新一条推送</td>
+                </tr>
+                <tr>
+                    <td>独立版</td>
+                    <td>推送传入的链接或文本</td>
+                    <td>推送剪贴板中的链接或文本<br>一键提取发送给本机的最新一条推送</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>你甚至可以自定义图标制作一个以假乱真的“<img src="https://lh3.googleusercontent.com/I1rEarjkcHM2Yq13tYxJtg8idaYLK6kGXI0AMSm5VLMl5_nPwVuR4UFhAOSZo83CBe8" style="width:1em;height:1em;border-radius:0.2em;" alt="自定义图标">Pushbullet客户端”</p>
+        <p></p>
+        <img src="/resources/img/push_shortcuts.jpeg" alt="screenshot" style="max-width:min(1135px,100%); max-height:min(667px,62.5vh);">
+
+        <br><br><br><hr>
+        
+        <h2>延伸：一键转发验证码的实现思路</h2>
+        <p>iOS14更新中，快捷指令的<b>伪</b>自动化新增了“收到短信”的触发条件</p>
+        <p>我们可以以此建立一个<b>伪</b>自动化。当收到包含验证码的短信时，提取出验证码，调用上面的指令推送到Chrome、Android等其他设备</p>
+        <p></p>
+        <img src="/resources/img/push_sms.jpeg" alt="screenshot" style="max-width:min(755px,100%); max-height:min(667px,62.5vh);">
+        <p></p>
+        <p>不过在实际收到短信时，快捷指令只是弹出一条通知，要我们拿起手机点击通知才能执行</p>
+        <p>因此这只能算是分享一个思路，由于快捷指令自身能力的限制，并没有实用的价值。一旦iOS15、iOS16引入了<b>真</b>自动化，这个思路就可以实际应用了</p>
+    </article>
+    
+    <br><br><br>
+    <nav><a href="./">&lt;</a></nav>
+    <nav><a href="https://meta.appinn.net/t/topic/18629" target="_blank">💬</a></nav>
+    <footer>
+    </footer>
+
+</body>
+
+</html>
