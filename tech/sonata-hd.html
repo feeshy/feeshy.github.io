@@ -16,7 +16,7 @@
 
 <body>
     <div class="center" style="min-height: 100%;">
-        <img src="/resources/img/sonata-hd.jpg">
+        <img src="/resources/img/sonata-hd.jpg" width="400px">
         <q><a href="https://post.smzdm.com/p/742542/" target="_blank">2018年的测试</a>重新整理发布</q>
     </div>
     <article class="justify">
@@ -50,7 +50,7 @@
         <p  class="date" style="text-align: justify;">注1：A、C、D三个固件均支持16bit和24bit<br>
            注2：C固件的工作状态完全涵盖了A与D，是理论上的全能固件，但存在一定的兼容性问题，例如在海贝音乐App无法独占工作（2018年测试）。<br></p>
         <h2>ASIO驱动</h2>
-        <p>一般情况下，将声卡插入Android和Windows 10设备的USB-C接口即可直接使用。如果对于Windows下的监听延迟有更高的要求，TempoTec还提供了可选的<a href="http://www.tempotec.com.cn/chs/3-Support/driver.htm">ASIO驱动</a>。
+        <p>一般情况下，将声卡插入移动设备或者电脑的USB接口即可直接使用它的通用驱动。如果对于Windows下的监听延迟有更高的要求，TempoTec还提供了可选的<a href="http://www.tempotec.com.cn/chs/3-Support/driver.htm">ASIO驱动</a>。</p>
         <img src="/resources/img/sonata-hd_asio_panel.png">
         <p>将SONATA HD的原生ASIO驱动与桥接自WDM的ASIO4ALL虚拟驱动对比，二者产生爆音的临界CPU负载如下（2020年测试）：</p>
         <table>
@@ -72,16 +72,16 @@
         </table>
         <p class="date" style="text-align: justify;">测试状态：24bit 44.1kHz，2048Sample缓冲<br>
         测试方法：使用Ableton Live暴力挂效果直至开始产生爆音，读取临界状态的CPU表读数（Live内置CPU表读数100%时，Windows任务管理器显示的CPU占用约为40%）</p>
-        <p>可以看到原生的ASIO驱动相比ASIOALL桥接WDM有着非常大的效率优势，SONATA HD可以作为一款廉价、便携的纯监听ASIO声卡，为Kontakt、Pro Tools、FL Studio、Ableton Live、Audition、Premiere、Davinci Resolve等软件提供稳定的工作环境。</p>
+        <p>可以看到原生的ASIO驱动相比ASIOALL有着非常大的效率优势，SONATA HD可以作为一款廉价、便携的纯监听ASIO声卡，为Kontakt、Pro Tools、FL Studio、Ableton Live、Audition、Premiere、Davinci Resolve等软件提供稳定的工作环境。</p>
         <p>但该驱动的延迟显示存在一定的问题。例如面板上设置为20ms，在Ableton Live 10.1中，会显示为输入输出延迟均为23.2ms，总延迟46.4ms，即便D固件并没有输入通道。而在Reason 10.4中则显示为与面板一致的20ms延迟</p>
         
         <h2>音质</h2>
             <h3>回放</h3>
-                <p>奏鸣曲HD的底噪比板载声卡和XZ1C的自带耳机口低得多，这带来了相当不错的动态范围。它的解析力也要略优于二者，在播放一些高码率的音频时，确实能听出少量从前未曾注意的细节。</p>
-                <p>美中不足是它的推力过大（好在音量是数字调节，不存在小音量偏音的问题）。搭配高灵敏度入耳式耳机时，Android的最低一格、Windows10的6%~8%就达到了适中的音量，而提升到Android两三格、Windows10 12%~16%的位置，音量就已经比较大了。即便是阻抗和灵敏度适中的SHP9500，也只需要开到30%左右的音量就能得到足够的声压。</p>
-                <p>对于一款主定位是手机配件的便携声卡，这样的驱动力完全是没有必要甚至是负面的，每次使用前必须小心翼翼地检查音量，徒增不便。</p>
+                <p>这款声卡的底噪比笔记本板载声卡和XZ1C的自带耳机口低得多，这带来了相当不错的动态范围。它的解析力也要略优于二者，在播放一些高码率的音频时，确实能听出少量从前未曾注意的细节。</p>
+                <p>美中不足是它的推力过大（好在是数字调节音量，不存在模拟电位器小音量偏音的问题）。搭配高灵敏度入耳式耳机时，6%~8%就达到了适中的音量，而提升到12%~16%的位置，音量就已经比较大了。即便是阻抗和灵敏度适中的SHP9500，也只需要开到30%左右的音量就能得到足够的声压。</p>
+                <p>对于一款主定位是手机配件的便携声卡，这样的驱动力完全是没有必要甚至是负面的，每次使用前必须小心翼翼地检查音量，徒增不便。搭配头戴式耳机倒是正好。</p>
             <h3>录制</h3>
-                <p>奏鸣曲HD的录制通道似乎采用了与回放通道相互独立的设计。麦克风的工作频率锁定48kHz，相比板载声卡的输入口，频率响应还不错。但不管在手机还是PC，都会录到明显的电流声，PC下甚至频繁爆音（win10 1803测试，通用音频驱动）。</p>
+                <p>SONATA HD的录制通道似乎采用了与回放通道相互独立的设计。麦克风的工作频率锁定48kHz，相比板载声卡的输入口，频率响应还不错。但不管在手机还是PC，都会录到明显的电流声，PC下甚至频繁爆音（win10 1803测试，通用音频驱动）。</p>
                 <img src="/resources/img/sonata-hd_recording.jpg">
                 <p>这是一款9分做回放、1分做录制的产品。最终我选择了把它的输入接口完全屏蔽掉的D固件长期使用</p>
     </article>

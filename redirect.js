@@ -9,7 +9,7 @@ window.onload=function() {
             break
         case url.includes('/tech/free_audio_plugins.html'):
         case url.includes('/tech/free_virtual_instruments.html'):
-            document.location = url.replace('/tech/', '/sounds/')
+            document.location = url.replace('/tech', '/sounds')
             break
         case url.includes('px_pt_dp.html'):
             document.location = url.replace('px_pt_dp', 'css_width')
