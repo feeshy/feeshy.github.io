@@ -15,42 +15,21 @@
 <meta name="msapplication-config" content="/resources/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 <title>搜索 - 浮鲜</title>
-
+<link rel="stylesheet" href="/style/home.css">
 <link rel="stylesheet" href="/style/fonts.css">
 <style>
+:root {
+	background-image: none; !important
+}
 body {
-	margin: 5vh auto;
 	width: 768px;
-	max-width: 85vw;
     line-height: 1.25em;
-	background-color: #fbf2e3;
-    color: #222222;
-}
-@media (min-height: 480px){
-	body>:not(nav) {
-		transform: translateY(calc(100vh / 3 - 160px));
-	}
-}
-h1 {
-    text-align: center;
-}
-nav {
-	position: fixed;
-	right: 5%;
-	bottom: 5vh;
-	z-index: 999;
-    width: calc(1.5em + 1.25vh);
-	height: calc(1.5em + 1.25vh);
-	border-radius: 50%;
-	text-align: center;
-	vertical-align: middle;
 }
 a {
-	color: #222222;
 	text-decoration: none;
 }
-table {
-    border-style: none;
+table, tbody, tr, th, td {
+    border-style: none; !important
 }
 </style>
 

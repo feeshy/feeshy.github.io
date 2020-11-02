@@ -1,131 +1,40 @@
-
-/* body */
-
-:root {
-	line-height: calc(1.2em + 1.5vh);
-}
-body {
-	margin: 5vh auto;
-	width: 40rem;
-	max-width: 85vw;
-}
-blockquote {
-    border-left: 0.25em solid #eeeeee;
-    padding-left: 1em;
-}
-.text, pre {
-	text-align: justify;
-}
-pre{
-    line-height: 1em;
-    margin: 2em;
-    padding: 1em;
-    background-color: #eeeeee;
-}
-.title, h1, h2, .text-center, footer {
-	text-align: center;
-}
-.date {
-	text-align: right;
-}
-
-/* ui */
-
-nav {
-	position: fixed;
-	z-index: 999;
-	bottom: 5vh;
-	right: 5%;
-	width: calc(1.5em + 1.25vh);
-	height: calc(1.5em + 1.25vh);
-	border-radius: 50%;
-	text-align: center;
-	vertical-align: middle;
-}
-nav#top {
-	top: 5vh;
-    width: auto;
-}
-footer {
-	margin: auto;
-	min-width:18rem;
-	max-width:350px;
-}
-body>div.title,div.text,div.text-center {
-	min-height: calc(87.5vh - 1.2rem - 1.5vh);
-}
-@media (min-height: 420px) {
-	body>:not(nav) { transform: translateY(calc(100vh / 3.75 - 112px)); }
-	body>div.title, body>div.text, body>div.text-center { min-height: calc(87.5vh - 100vh / 3.75 + 112px - 1.2rem - 1.5vh); }
-}
-hr {
-	width: 33%;
-	border-top: thin dashed gray;
-}
-
-/* img */
-
-iframe, img {
-	display: block;
-	margin: auto;
-	max-width: 100%;
-}
-nav img, footer img {
-	display: inline;
-	height: 1em;
-}
-
-/* table */
-
-table {
-	margin: auto;
-	text-align: center;
-	vertical-align: middle;
-	overflow: auto;
-	border: #222222;
-	border-style: solid hidden;
-	border-spacing: 0;
-}	@media (max-width: 414px) { table {
-	width: 100vw;
-	margin-left: -7.5vw;
-}}
-table tr:first-child th, table tr:first-child td {
-	text-align: center;
-	border: thin #222222;
-	border-style: solid hidden;
-}
-th, td {
-	line-height: 1.25em;
-	padding: 0.25em 0.5em;
-	border: thin lightgray;
-	border-style: dotted hidden;
-}
-
-/* color */
+@import url("/style/layout.css");
 
 :root {
 	background-color: #fcfcfc;
 	background-image: url("/style/natural-paper.png");
 	color: #222222;
+    border-color: #222222;
+}
+body {
+	width: 40rem;
 }
 a {
-	color: #222222;
+    color: #444444;
 }
-a:hover {
+a:hover, body>footer {
 	color: #888888;
 }
 nav {
-	background-color: RGBA(225,225,225,0.5);
+	background-color: RGBA(224,224,224,0.5);
 }
-footer {
-	color: #888888;
-	opacity: 0.25;
+h1, h2, h3, h4, h5, h6 {
+    border-color: RGBA(34,34,34,0.);
 }
-footer:hover {
-	opacity: 1;
+hr, blockquote, aside {
+    border-color: RGBA(127,127,127,0.6);
 }
-@media print {
-	body { color: #000000; background: #ffffff; }
-	nav { display: none; }
-	footer { opacity: 1; }
+aside, pre {
+    background-color: rgba(238,238,238,0.6);
 }
+
+td {
+    border-color: #888888;
+}
+
+@media print and (min-aspect-ratio: 4/3) {
+	body {
+		width: 95%;
+		column-count: 2;
+		column-gap: 5%;
+}}

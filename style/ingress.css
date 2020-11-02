@@ -1,10 +1,13 @@
-﻿:root { background-color: #000000; background-image: url("/style/real-carbon-fibre.png"); color: #ffffff; }
+﻿@import url("/style/layout.css");
+
+:root { background-color: #000000; background-image: url("/style/real-carbon-fibre.png"); color: #ffffff; }
 a { color: #ffffff; }
 a:hover { color: #EBBC4A; }
 nav { background-color: RGBA(255,255,255,0.25); }
 hr { border: thin solid RGBA(255,255,255,0.25); }
-footer { color: #cccccc; opacity: 0.25; }
-footer:hover { opacity: 1; }
+h1, h2, h3, h4, h5, h6, hr, blockquote, aside { border-color: RGBA(255,255,255,0.5); }
+aside, pre { background-color: RGBA(255,255,255,0.25); }
+body>footer { color: #cccccc; }
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css?family=Exo:400,400i,700&display=fallback');

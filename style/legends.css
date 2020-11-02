@@ -1,25 +1,33 @@
-﻿:root {
+﻿@import url("/style/layout.css");
+
+:root {
 	background-color: #222222;
 	background-image: url("/style/black-paper.png");
 	color: #eeeeee;
 }
 a {
-	color: #eeeeee;
-	text-decoration: none;
+    color: #eeeeee;
 }
-a:hover {
+a:hover, body>footer {
 	color: #ffffff;
 }
 nav {
 	background-color: RGBA(127,127,127,0.33);
 }
-footer {
-	color: #888888;
-	opacity: 0.25;
+h1, h2, h3, h4, h5, h6, hr, blockquote, aside {
+    border-color: rgba(127,127,127,0.33);
 }
-footer:hover {
-	opacity: 1;
+aside, pre {
+    background-color: rgba(127,127,127,0.33);
+}
+
+td {
+    border-color: #888888;
 }
 
 @media print and (min-aspect-ratio: 4/3) {
-	body { width: 95%; column-count: 2; column-gap: 5%; } }
+	body {
+		width: 95%;
+		column-count: 2;
+		column-gap: 5%;
+}}

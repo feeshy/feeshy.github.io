@@ -1,0 +1,13 @@
+h1, h2 {
+    text-align: center;
+}
+h3, h4, h5, h6 {
+    width:fit-content;
+    text-align: left;
+    border-bottom-style: solid;
+}
+h1 { font-weight: 800;}
+h2 { font-weight: 700;}
+h3 { font-weight: 600;}
+h4 { font-weight: 500;}
+h5, h6 { font-weight: 400;}

@@ -1,7 +1,10 @@
-﻿:root {
+﻿@import url("/style/layout.css");
+
+:root {
 	background-color: #fbf2e3;
 	background-image: url("/style/cream-paper.png");
 	color: #222222;
+    border-color: #222222;
 }
 a {
 	color: #222222;
@@ -9,14 +12,10 @@ a {
 a:hover {
 	color: #888888;
 }
-nav {
-	width: auto;
-	background-color: none;
-}
-footer {
+body>footer {
 	color: #888888;
 	opacity: 0;
 }
-footer:hover {
-	opacity: 1;
+nav {
+	background-color: none;
 }

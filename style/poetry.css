@@ -1,22 +1,17 @@
-﻿:root {
+﻿@import url("/style/layout.css");
+
+:root {
 	background-color: #f9f4dc;
 	background-image: url("/style/natural-paper.png");
 	color: #222222;
+    border-color: #222222;
+}
+body {
+    text-align: center;
 }
 a {
-	color: #222222;
-	text-decoration: none;
+    color: #222222;
 }
 a:hover {
 	color: #444444;
-}
-nav {
-	background-color: RGBA(255,255,255,0.5);
-}
-footer {
-	color: #888888;
-	opacity: 0.25;
-}
-footer:hover {
-	opacity: 1;
 }

@@ -1,25 +1,28 @@
-﻿:root {
+﻿@import url("/style/layout.css");
+
+:root {
 	background-color: #e8edec;
 	background-image: url("/style/natural-paper.png");
 	color: #222222;
+    border-color: #222222;
 }
 a {
-	color: #222222;
-	text-decoration: none;
+    color: #222222;
 }
-a:hover {
-	color: #444444;
+a:hover, footer {
+	color: #888888;
 }
 nav {
 	background-color: RGBA(255,255,255,0.5);
 }
-footer {
-	color: #888888;
-	opacity: 0.25;
+h1, h2, h3, h4, h5, h6, hr, blockquote, aside {
+    border-color: rgba(238,238,238,0.6);
 }
-footer:hover {
-	opacity: 1;
+
+td {
+    border-color: #888888;
 }
+
 
 @media print and (min-aspect-ratio: 4/3) {
 	body {
