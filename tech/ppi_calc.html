@@ -5,9 +5,8 @@
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>PPI 计算器</title>
-    <meta property="og:type" content="article">
-    <meta name="keywords" content="">
-<meta name="description" property="og:description" content="">
+    <meta name="keywords" content="PPI, 缩放, HiDPI, 高分屏">
+    <meta name="description" property="og:description" content="一个更加智能的PPI计算器。输入屏幕尺寸即可计算当前屏幕的长度和宽度，并获得高分屏的缩放建议">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- the icon is made by Freepik -->
@@ -32,9 +31,8 @@
     <p>屏幕高度：<input id="pixelH" type="number" min="0" step="1" value=""> 像素<span id="cmH"></span></p>
     <p>对角长度：<input id="inchD" type="number" min="0" step="0.1" value=""> 英寸<span id="cmD"></span></p>
     <p><input type="checkbox" id="isPenTile">PenTile 排列</p>
-    <h1><a href="javascript:calc();">PPI<span id="collapse">◀</span></a></h1>
     <hr>
-    <p style="text-align:center; font-size:larger"><span id="result"></span><span id="tooLow"></span></p>
+    <p style="text-align:center; font-size:larger"><b id="result"></b><span id="tooLow"></span></p>
     <div id="recommend" style="visibility:hidden;">
         <p>建议缩放：</p>
         <table>

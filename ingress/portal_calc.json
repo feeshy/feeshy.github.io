@@ -1,0 +1,20 @@
+{
+    "name": "Portal Calc",
+    "short_name": "Portal Calc",
+    "icons": [
+        {
+            "src": "/resources/link-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/resources/link-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#783cbd",
+    "background_color": "#783cbd",
+    "start_url": "https://feeshy.github.io/ingress/portal_calc.html",
+    "display": "standalone"
+}

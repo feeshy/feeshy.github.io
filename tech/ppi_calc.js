@@ -5,9 +5,7 @@ function getResolution() {
 window.onload = getResolution()
 
 function calc() {
-    
-    document.getElementById("collapse").innerHTML = "<br>▼"
-    
+        
     var pixelW, pixelH, inchD    
     pixelW = document.getElementById("pixelW").value
     pixelH = document.getElementById("pixelH").value
@@ -27,7 +25,7 @@ function calc() {
         document.getElementById("cmW").innerHTML = "（" + Math.round(mmW) / 10 + " 厘米）"
         document.getElementById("cmH").innerHTML = "（" + Math.round(mmH) / 10  + " 厘米）"
         document.getElementById("cmD").innerHTML = "（" + Math.round(inchD * 25.4) / 10 + " 厘米）"
-        document.getElementById("result").innerHTML = ">  <b>" + Math.round(equivPPI) + "</b>  <"
+        document.getElementById("result").innerHTML = "PPI=" + Math.round(equivPPI)
         
         var mmShorter, scaleFacLgr, scaleFacMore, meterRetina, meterImmerse, meterMax
         if (parseFloat(mmW) <= parseFloat(mmH)) {
@@ -108,6 +106,8 @@ function calc() {
         document.getElementById("result").innerHTML = "请输入对角线长度！"
     }
 }
+
+document.addEventListener("change", calc)
 
 //  Thx to Gav & ncepuzs for the following function
 //  https://www.gavsblog.com/blog/find-closest-number-in-array-javascript
