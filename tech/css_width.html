@@ -5,19 +5,17 @@
 <meta charset=utf-8>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-<title>2019年常见屏幕的CSS宽度</title>
+<title>2020年常见屏幕的CSS宽度</title>
+<meta name="keywords" content="CSS宽度, 密度无关像素, 自适应, px, pt, dp">
+<meta name="description" property="og:description" content="密度无关像素（Apple称pt、谷歌称dp）是一种为了应对不同屏幕像素密度差异而提出的长度单位。这篇文章整理了如今常见屏幕的密度无关像素">
 <meta property="og:type" content="article">
-<meta name="keywords" content="">
-<meta name="description" property="og:description" content="密度无关像素（Apple称pt、谷歌称dp）是一种为了应对不同屏幕像素密度差异而提出的长度单位。我在为此博客适配布局的过程中，整理了常见屏幕的密度无关像素宽度表格。">
 <link rel="stylesheet" href="/style/tech.css">
 <link rel="stylesheet" href="/style/fonts.css">
 
-<style>
-</style>
 </head>
 
 <body>
-<div class="justify">
+<article>
 	<p>密度无关像素是一种为了应对不同屏幕像素密度差异而提出的长度单位。Apple 为这个单位命名 pt ，Google 称 dp 。</p>
 	<p>这是一个介于物理长度与像素之间的概念，智能手表上 1 dp 的实际长度大约是现实中的 0.15 mm，智能手机的 1 dp 的一般在 0.15 ~ 
 	0.2 mm 之间，PC 显示器上的 1 dp 大约是 0.2 ~ 0.3 mm —— 刚好反映了逐渐增加阅读距离，界面的物理尺寸也随之增加的规律。</p>
@@ -34,54 +32,61 @@
 		</tr>
 		<tr>
 			<td style="width: 30%">2560</td>
-			<td style="width: 70%">桌面显示器：2K、5K(200%)</td>
+			<td style="width: 70%">高分辨率桌面显示器：2K、4K(150%)、5K(200%)</td>
 		</tr>
 		<tr>
 			<td style="width: 30%">2048</td>
-			<td style="width: 70%">非默认缩放的高分显示器：<br>
+			<td style="width: 70%">非默认缩放的高分辨率显示器：<br>
 			2K(125%)、5K(250%)</td>
 		</tr>
 		<tr>
 			<td style="width: 30%">1920</td>
-			<td style="width: 70%">主流的桌面显示器和大屏笔记本：<br>
+			<td style="width: 70%">主流的桌面显示器和超大屏笔记本：<br>
 			1920x1080、2560x1440(125%)、4K(200%)</td>
 		</tr>
 		<tr>
-			<td style="width: 30%">1440~1600</td>
+			<td style="width: 30%">1360~1600</td>
 			<td style="width: 70%">13.3~15.6寸的笔记本：<br>
-			1920x1080(125%)、1440x900、2880x1800(200%)、<br>3000x2000(200%)、1600x900</td>
+				1366x768、1440x900、2880x1800(200%)、<br>3000x2000(200%)、1920x1080(125%)、1600x900</td>
 		</tr>
 		<tr>
-			<td style="width: 30%">1360~1368</td>
-			<td style="width: 70%">12~13寸的平板、二合一设备，<br>以及一些有年头的瞎眼屏笔记本：<br>
-			1366x768、2736x1824(200%)、2732x2048(200%)</td>
+			<td style="width: 30%">1366、1368</td>
+			<td style="width: 70%">12~13寸的平板(iPad Pro 12.9)<br>
+			二合一设备(Surface Pro)</td>
 		</tr>
 		<tr>
 			<td style="width: 30%">1024~1280</td>
-			<td style="width: 70%">10寸左右的平板，以及古董显示器：<br>
-			1280x720、1920x1080(150%)、2560x1440(200%)<br>
-			1024x768、2048x1536(200%)</td>
+			<td style="width: 70%">10寸左右的平板（横屏）：2048x1536(200%)、<br>
+			1800x1200(150%)、1920x1200(150%)、2560x1600(200%)<br>
+			以及1024x768、1280x720的古董显示器</td>
 		</tr>
 		<tr>
-			<td style="width: 30%">768~800</td>
-			<td style="width: 70%">8寸左右的平板电脑：<br>如iPad Mini</td>
+			<td style="width: 30%">480~640</td>
+			<td style="width: 70%">7~8寸的平板（竖屏）</td>
 		</tr>
 		<tr>
+			<td style="width: 30%">428</td>
+			<td style="width: 70%">iPhone 12 Pro Max</td>
+		</tr>		<tr>
 			<td style="width: 30%">411、414</td>
-			<td style="width: 70%">大部分6寸以上的手机（也有一部分不到6寸）<br>
-			如iPhone 11/XR、Pixel系列、Galaxy S系列</td>
+			<td style="width: 70%">正在变得主流的大屏手机“标准”显示模式的宽度<br>
+			如iPhone 11/XR、Pixel系列、Galaxy S系列等等</td>
 		</tr>
 		<tr>
-			<td style="width: 30%">393</td>
-			<td style="width: 70%">小米/红米的部分1080P手机<br>也可能是411px宽的手机调整过界面缩放</td>
+			<td style="width: 30%">390、393</td>
+			<td style="width: 70%">6.1寸的iPhone12<br>
+			小米/红米的部分1080P手机</td>
 		</tr>
 		<tr>
 			<td style="width: 30%">375</td>
-			<td style="width: 70%">4.7寸和5.8寸iPhone</td>
+			<td style="width: 70%">4.7寸和5.8寸iPhone<br>
+			2020年开始没有新手机采用375的宽度了</td>
 		</tr>
 		<tr>
 			<td style="width: 30%">360</td>
-			<td style="width: 70%">大部分6寸以下的720P、1080P分辨率安卓手机</td>
+			<td style="width: 70%">最主流的手机CSS宽度<br>
+			多见于前几年的4.5寸~5.2寸手机<br>
+			也是目前主流尺寸手机的“放大”显示模式的宽度</td>
 		</tr>
 		<tr>
 			<td style="width: 30%">320</td>
@@ -97,19 +102,20 @@
     <p><a href="ppi_calc.html" target="_blank">PPI计算器</a></p>
 	<p><a href="https://tysonmatanich.github.io/viewportSize/" target="_blank">viewportSize.js</a></p>
     </blockquote>
-	<script src="https://tysonmatanich.github.io/viewportSize/viewportSize.js"></script>
-	<script>
-		function writeWidth() {
-			if (viewportSize.getWidth() == screen.width) {
-			document.getElementById("width").innerHTML = screen.width;
-		}	else {
-			document.getElementById("width").innerHTML = screen.width + " (" + viewportSize.getWidth() + ")";
-		}}
-		window.addEventListener("load", writeWidth);
-		window.addEventListener("DOMContentLoaded", writeWidth);
-		window.addEventListener("resize", writeWidth);
-	</script>
-</div>
+</article>
+
+<script src="https://tysonmatanich.github.io/viewportSize/viewportSize.js"></script>
+<script>
+	function writeWidth() {
+		if (viewportSize.getWidth() == screen.width) {
+		document.getElementById("width").innerHTML = screen.width;
+	}	else {
+		document.getElementById("width").innerHTML = screen.width + " (" + viewportSize.getWidth() + ")";
+	}}
+	window.addEventListener("load", writeWidth);
+	window.addEventListener("DOMContentLoaded", writeWidth);
+	window.addEventListener("resize", writeWidth);
+</script>
 
 <nav><a class="ui" href="./">&lt;</a></nav>
 
