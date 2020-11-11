@@ -13,8 +13,9 @@ function calc() {
 
     if (inchD != 0) {
         
-        var ppi, mmW, mmH, equivPPI
+        var ppi, scaledPPI, mmW, mmH, equivPPI
         ppi = Math.sqrt(Math.pow(pixelW, 2) + Math.pow(pixelH, 2)) / inchD
+        scaledPPI = Math.sqrt(Math.pow(window.screen.width, 2) + Math.pow(window.screen.height, 2)) / inchD
         mmW = pixelW / ppi * 25.4
         mmH = pixelH / ppi * 25.4
         if (document.getElementById("isPenTile").checked == false) {
@@ -38,34 +39,41 @@ function calc() {
             var phoneFactors = [/*240p*/0.75, /*320p*/1.0, /*480p*/1.5, /*576p,640p,720p*/2.0, /*720p,SurfaceDuo*/2.5, /*1080p*/2.625, /*1080p*/2.75, /*1080p,palm*/3.0, /*1440p*/3.5, /*1440p*/3.66, /*1440p*/4.0, /*2160p*/5.25, /*2160p*/5.5, /*2160p*/6.0]
             scaleFacLgr = roundToArray(ppi / 144, phoneFactors) * 100
             scaleFacMore = roundToArray(ppi / 160, phoneFactors) * 100
+            document.getElementById("officeScale").style.cssText = "visibility:hidden;"
             break
         case mmShorter >= 90 && mmShorter < 135:        //7~9" Tab
             scaleFacLgr = Math.round(ppi / 132 * 4) * 25
             scaleFacMore = Math.round(ppi / 150 * 4) * 25
+            document.getElementById("officeScale").style.cssText = "visibility:hidden;"
             break
         case mmShorter >= 135 && mmShorter < 155:       //10" Tab
             scaleFacLgr = Math.round(ppi / 128 * 4) * 25
             scaleFacMore = Math.round(ppi / 144 * 4) * 25
+            document.getElementById("officeScale").style.cssText = "visibility:inherit;"
             break
         case mmShorter >= 155 && mmShorter < 245:       //Laptop
             scaleFacLgr = Math.round(ppi / 120 * 4) * 25
             scaleFacMore = Math.round(ppi / 135 * 4) * 25
+            document.getElementById("officeScale").style.cssText = "visibility:inherit;"
             break
         case mmShorter >= 245 && mmShorter < 450:       //Desktop Monitor
             scaleFacLgr = Math.round(ppi / 96 * 4) * 25
             scaleFacMore = Math.round(ppi / 120 * 4) * 25
+            document.getElementById("officeScale").style.cssText = "visibility:inherit;"
 /*          meterRetina = 
             meterImmerse = 
             meterMAX = 
 */          break
         case mmShorter >= 450:                          //TV, Projector, IMAX...
             scaleFacMore = scaleFacLgr = 100
+            document.getElementById("officeScale").style.cssText = "visibility:hidden;"
 /*          meterRetina = 
             meterImmerse = 
             meterMAX = 
 */          break
         default:
             scaleFacMore = scaleFacLgr = 100
+            document.getElementById("officeScale").style.cssText = "visibility:hidden;"
         }
 
         if (scaleFacLgr > 100) {        // hidpi device
@@ -82,6 +90,7 @@ function calc() {
             var isThisDevice = Math.abs(pixelW - Math.round(window.screen.width * window.devicePixelRatio)) + Math.abs(pixelH - Math.round(window.screen.height * window.devicePixelRatio))
             if (  isThisDevice <= 2 ) {
                 document.getElementById("cssRes").innerHTML = window.screen.width + "×" + window.screen.height
+                document.getElementById("officeScaleFactor").innerHTML = Math.round(scaledPPI / 96 * 100) + "%"
                 document.getElementById("thisDevice").style.cssText = "visibility:inherit;"
             }   else {
                 document.getElementById("thisDevice").style.cssText = "visibility:hidden;"
@@ -103,7 +112,7 @@ function calc() {
         }
     }   else {          //diagonal not set
         document.getElementById("recommend").style.cssText = "visibility:hidden;"
-        document.getElementById("result").innerHTML = "请输入对角线长度！"
+        document.getElementById("result").innerHTML = "请输入屏幕对角线长度"
     }
 }
 

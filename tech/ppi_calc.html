@@ -16,6 +16,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/resources/screen-16x16.png">
     <link rel="manifest" href="ppi_calc.json">
     <link rel="stylesheet" href="/style/tech.css">
+    <link rel="stylesheet" href="/style/outline.css">
     <style>
         body {width:18em; margin:auto;}
         input {width:4em; margin:auto; background-color:#ffffff; border:solid 1px #cccccc; margin:0 0.25em; text-align:right;}
@@ -34,7 +35,7 @@
     <hr>
     <p style="text-align:center; font-size:larger"><b id="result"></b><span id="tooLow"></span></p>
     <div id="recommend" style="visibility:hidden;">
-        <p>建议缩放：</p>
+        <h4>建议缩放</h4>
         <table>
             <tr>
                 <th></th>
@@ -52,7 +53,15 @@
                 <td id="resMore">____×____</td>
             </tr>
         </table>
-        <p id="thisDevice" style="visibility:inherit;">当前逻辑分辨率：<span id="cssRes">____</span></p>
+        <span id="thisDevice" style="visibility:inherit;">
+            <h4>当前屏幕</h4>
+            <p>逻辑分辨率：<span id="cssRes">____x____</span></p>
+            <p id="officeScale" style="visibility:inherit;"><a href="javascript:void(0);" onclick="document.getElementById('description').style.cssText = 'display:inherit;'">MS Office打印比</a>：<span id="officeScaleFactor">___%</span></p>
+            <section id="description" style="display:none; line-height: 1.25em;">
+                <img src="/resources/img/officeScale.png" width="299" height="66" alt="screenshot" loading="lazy">
+                <p style="font-family:'华文仿宋','STFangSong‘,’仿宋‘,’fangsong‘,’Kaiti SC‘,’华文楷体',serif;">将MS Office右下角的缩放比设置为该数值时，屏幕上的文稿将显示为与打印文稿相同的尺寸</p>
+            </section>
+        </span>
     </div>
     <nav class="ui"><a href="../">&lt;</a></nav>
 </body>
