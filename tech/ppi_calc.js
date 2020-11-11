@@ -82,7 +82,9 @@ function calc() {
             var ua = navigator.userAgent
             switch (true) {
                 case ua.includes('Windows NT 10'):
-                case ua.includes('Windows NT 6'):
+                case ua.includes('Windows NT 6.3'):
+                case ua.includes('Windows NT 6.2'):
+                case ua.includes('Windows NT 6.1'):
                     document.getElementById("officeScaleFac").innerHTML = Math.round(scaledPPI / 96 * 100) + "%"
                     document.getElementById("officeScale").style.cssText = "visibility:inherit;"
                     break
