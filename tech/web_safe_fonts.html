@@ -5,10 +5,10 @@
 <meta charset=utf-8>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-<title>常用 Web 字体显示测试</title>
+<title>常用Web安全字体显示测试</title>
 <meta property="og:type" content="article">
 <meta name="keywords" content="">
-<meta name="description" property="og:description" content="这个页面将会尝试调用常见的 Web 字体，测试你的操作系统和浏览器对其的支持情况">
+<meta name="description" property="og:description" content="这个页面将会尝试调用常见的Web安全字体，测试你的操作系统和浏览器对其的支持情况">
 <link rel="stylesheet" href="/style/tech.css">
 <link rel="stylesheet" href="/style/fonts.css">
 
@@ -93,8 +93,8 @@ p {
 			Matthew Carter 为微软设计的几套网页字体中，Georgia 是作为与 <span style="font-family:Verdana">Verdana</span> 相对的衬线体而存在的。<br>从20年前的低精度显示器直到目前的视网膜屏，Georgia 一直是一款适合屏幕阅读的字体。Georgia 
 		的一个很有辨识度的特色是默认的 old style 的数字：1234567890。也可以通过 CSS 指定为<span style="font-variant-numeric:lining-nums;">等高风格的数字 1234567890</span>
 </p>
-		<p style="font-family:'Palatino Linotype','Palatino'"><a href="javascript:void(0);" onclick="palatino()">
-			<span style="font-family:'Palatino Linotype';">[Win] Platino Linotype</span>&nbsp;|&nbsp;<span style="font-family:'Palatino';">[Apple] Platino</span></a><br>
+		<p style="font-family:'Palatino Linotype','Palatino', 'URW Palladio L';"><a href="javascript:void(0);" onclick="palatino()">
+			<span style="font-family:'Palatino Linotype';">[Win] Platino Linotype</span>&nbsp;|&nbsp;<span style="font-family:'Palatino';">[Apple] Platino</span><span style="font-family: 'URW Palladio L';">[Ubuntu] URW Palladio L</a><br>
 			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Palatino_font_sample.svg/198px-Palatino_font_sample.svg.png" id="palatino" style="display: none;"><br>
 			一种有着怀旧意大利风格的旧衬线体。Palatino 也是一个默认 <span style="font-variant-numeric:oldstyle-nums;">old style 数字的字体：1234567890</span> 。当然，也可以通过 CSS 指定为<span style="font-variant-numeric:lining-nums;">等高风格的数字 1234567890</span>
 		</p>
@@ -114,7 +114,15 @@ p {
 		<h3>III 西文等宽体</h3>
 		<p style="font-family:'Courier New'">
 			Courier New<br>
-			这是目前仅有的一个在 微软 和 Apple 平台均能很好显示的等宽字体。
+			这是目前仅有的一个在各个平台均能很好显示的等宽字体。
+		</p>
+		<p style="font-family: 'Ubuntu Mono';">
+			Ubuntu Mono<br>
+			Ubuntu预装的等宽字体。
+		</p>
+		<p style="font-family: 'Source Code Pro';">
+			Source Code Pro<br>
+			Adobe出品的开源等宽字体，在程序员的电脑上有一定的覆盖率。有web font
 		</p>
 	</section>
 	
@@ -245,6 +253,7 @@ p {
 		<a href="https://en.wikipedia.org/wiki/Core_fonts_for_the_Web">Core fonts for the Web - Wikipedia</a><br>
 		<a href="https://docs.microsoft.com/en-us/typography/font-list/index">Fonts and supported products - Typography | Microsoft Docs</a><br>
 		<a href="https://developer.apple.com/fonts/system-fonts/">System Fonts - Fonts - Apple Developer</a><br>
+		<a href="http://www.apaddedcell.com/sites/www.apaddedcell.com/files/fonts-article/final/index.html">Complete Guide to Pre-Installed Fonts in Linux, Mac, and Windows</a>
 	</p>
 	<br><br><br>
 </div>
