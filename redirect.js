@@ -1,5 +1,5 @@
 window.onload=function() {
-    var url = window.location.href
+    var url = window.location.pathname
     switch (true) {
         case url.includes('/search'):
             document.location = url.replace('/search', '/s')
