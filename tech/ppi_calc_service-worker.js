@@ -3,7 +3,7 @@
 
   // configuration
 const
-  version = '2021.7.9',
+  version = '2021.7.10',
   CACHE = version + '::PWAsite',
   offlineURL = 'ppi_calc.html',
   installFilesEssential = [
@@ -14,6 +14,7 @@ const
     '/resources/screen-16x16.png'
 ].concat(offlineURL),
   installFilesDesirable = [
+    '/resources/screen.png',
     '/resources/screen-512x512.png',
     '/resources/img/officeScale.png'
   ];
