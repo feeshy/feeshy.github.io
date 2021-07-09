@@ -3,11 +3,6 @@
     "short_name": "\u0050\u0050\u0049\u0020\u8ba1\u7b97\u5668",
     "icons": [
         {
-            "src": "/resources/screen.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        },
-        {
             "src": "/resources/screen-512x512.png",
             "sizes": "512x512",
             "type": "image/png"

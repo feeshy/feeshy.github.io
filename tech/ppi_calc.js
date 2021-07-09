@@ -150,3 +150,8 @@ function roundToArray(needle, haystack) {
         }
     });
 }
+
+if ('serviceWorker' in navigator) {
+    // register service worker
+    navigator.serviceWorker.register('ppi_calc_service-worker.js');
+}
