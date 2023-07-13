@@ -27,18 +27,19 @@
 	   <ul>
            <li><a href="#dynamics">动态</a></li>
            <ul>
-               <li><a href="#gate">门限</a></li>
+               <li><a href="#gate">Gate / Expander</a></li>
                <li><a href="#compressor">压缩</a></li>
                <li><a href="#limiter">限幅</a></li>
                <li><a href="#dynamics_other">其他</a></li>
            </ul>
-           <li><a href="#eq">均衡</a></li>
            <li><a href="#gain">增益、失真</a></li>
            <ul>
-               <li><a href="#gain_universal">通用</a></li>
-               <li><a href="#guitarstomp">吉他单块</a></li>
+               <li><a href="#saturator">Saturator</a></li>
                <li><a href="#guitaramp">吉他音箱</a></li>
+               <li><a href="#guitarstomp">吉他单块</a></li>
+               <li><a href="#cabinet">吉他箱体</a></li>
            </ul>
+           <li><a href="#eq">均衡器</a></li>
            <li><a href="#shifter">移调 / 移频</a></li>
            <li><a href="#reverb">混响</a></li>
           <!--ul>
@@ -51,213 +52,252 @@
            <li><a href="#imaging">声像</a></li>
 	   </ul>
     </section>
+    <p>关于兼容性：未提到兼容情况的插件通常支持Windows/macOS平台的VST2/VST3/AU/AAX格式，如果插件有额外的支持/不支持情况，则会特别注明Rack Extension、LV2、Linux、iOS等等关键词，请善用Ctrl+F查找</p>
 	
     <section id="dynamics"><h2>Dynamics</h2>
         
         <section id="gate">
             
-            <h3><a href="https://www.reaper.fm/reaplugs/" target="_blank">ReaGate</a></h3>
-			<img src="https://www.reaper.fm/reaplugs/reagate.png" loading="lazy">
-			<p>支持侧链输入的门限</p>
-			<p>格式：JSFX、VST</p>
-            
-            <h3><a href="http://www.vst4free.com/free_vst.php?plugin=SEGX2&id=2704" target="_blank">SEGX2</a></h3>
-			<img src="http://www.vst4free.com/img/SEGX-Gate_2.jpg" loading="lazy">
-			<p>可高低分频的多段门限</p>
-			<p>格式：JSFX、VST</p>
+            <h3><a href="https://kilohearts.com/products/gate" target="_blank">kHs Gate</a></h3>
+			<img src="https://kilohearts.com/img/products/gate_full.png" loading="lazy"><img src="https://kilohearts.com/img/products/trance_gate_full.png" loading="lazy">
+			<p>支持Sidechain输入的门限器。支持Reason Rack Extension</p>
             
         </section>
         
 		<section id="compressor">
             
-            <h3><a href="https://www.reaper.fm/reaplugs/" target="_blank">ReaComp / ReaXComp</a></h3>
-			<img src="https://www.reaper.fm/reaplugs/reaxcomp.png" loading="lazy">
-			<p>Reaplugs套装中有两个压缩器，其中ReaComp是一个支持Sidechain输入的压缩器，而ReaXComp是一个多段压缩</p>
-			<p>格式：JSFX、VST</p>
-            
             <h3><a href="https://www.tokyodawn.net/tdr-kotelnikov/" target="_blank">TDR Kotelnikov</a></h3>
-			<img src="https://www.tokyodawn.net/cache/5c3faff56a5d38db011922dc62f83fe7_w480_h230_grav_center_sc.png" loading="lazy">
-			<p>功能完善、音色中性的数字压缩，内置了可以同时工作的峰值压缩和RMS压缩。支持MS处理</p>
+			<img src="https://www.tokyodawn.net/wp-content/uploads/2018/06/Kotelnikov_1.png" loading="lazy">
+			<p>功能完善、音色中性的数字压缩，内置了能同时工作的峰值压缩和RMS压缩，可通过PEAK CREST旋钮控制两种模式的比例。另有Stereo Sensitivity参数允许压缩模式在Stereo与Dual Mono之间平滑过渡。</p>
+
+            <h3><a href="https://www.audiodamage.com/pages/free-and-legacy" target="_blank">Rough Rider 3</a></h3>
+            <img src="https://static.kvraudio.com/i/b/roughrider3_480x480.png" loading="lazy">
+            <p>容易上手的现代风格压缩器。旋钮不多，却有着非常大的可调空间。将压缩比设为1000:1，Attack设为0，便可以当成Limiter来使用。提供全平台全格式，包括Linux平台的LV2和iOS平台的AUv3。</p>
             
-            <h3><a href="http://www.vst4free.com/free_vst.php?plugin=SLAX&id=2593" target="_blank">SLAX</a></h3>
-			<img src="http://www.VST4free.com/img/SLAX_2.jpg" loading="lazy">
-			<p>经典LA-2A光学压缩的昏暗音染，Attack很慢不可调，比较适合人声和原声吉他。VST版本的GUI有些卡顿</p>
-			<p>格式：JSFX、VST</p>
-            
+            <h3>Klanghelm <a href="https://klanghelm.com/contents/products/DC1A.php" target="_blank">DC1A</a> & <a href="https://klanghelm.com/contents/products/MJUCjr.php" target="_blank">MJUC jr.</a></h3>
+            <img src="https://media.plugins4free.com/img/DC1A_1.jpg" loading="lazy"><img src="https://media.plugins4free.com/img/MJUCjr_1.jpg" loading="lazy">
+            <p>两款易上手的复古压缩，没有太多需要调整的参数。</p>
+
+            <h3><a href="https://audiotools.se/downloads/leveling-tool/" target="_blank">ADHD Leveling Tool</a></h3>
+			<img src="https://usercontent.one/wp/audiotools.se/wp-content/uploads/edd/2018/04/levelingTool131.png" loading="lazy">
+			<p>顺滑的光学风格压缩，相比原版LA-2A多了Attack、Release调节，还内置了染色功能</p>
+
             <h3><a href="https://www.native-instruments.com/zh/products/komplete/effects/supercharger/" target="_blank">Supercharger</a></h3>
 			<img src="https://www.native-instruments.com/typo3temp/pics/img-ce-intro_paragraph_facelift_supercharger-8664cfcf741b0ae02965d2d75499cfa3-d.jpg" loading="lazy">
-			<p>带有强烈电子管风格音染的压缩，还有独特的Punch按钮</p>
-            <blockquote>一篇比较好的关于<a href="https://zhuanlan.zhihu.com/p/104533883">硬件压缩器的科普</a></blockquote>
+			<p>强烈的电子管风格压缩，还有独特的Punch按钮保留瞬态。</p>
+
+            <h3><a href="https://www.patreon.com/posts/kolin-49184069" target="_blank">Kolin</a> & <a href="https://www.patreon.com/posts/kolinmb-85062886" target="_blank">KolinMB</a></h3>
+			<img src="https://media.plugins4free.com/img/MJUCjr_1.jpg" loading="lazy">
+			<p>功能现代、音染复古的电子管风格压缩，有全频和多段版本</p>
+
+            <h3><a href="https://www.patreon.com/posts/fetish-51962024" target="_blank">FETish</a></h3>
+			<img src="https://analogobsession.com/wp-content/uploads/2023/04/FETish.png" loading="lazy">
+			<p>激烈的FET风格压缩</p>
+
+            <h3><a href="https://analogobsession.com/dynamicprocessing/" target="_blank">Analog Obsession硬件模拟系列</a></h3>
+			<img src="https://analogobsession.com/wp-content/uploads/2023/04/LALA-1.png" loading="lazy">
+			<p>Analog Obsession的系列插件模拟了一批经典的硬件压缩器，并添加了控制信号滤波、Sidechain控制等实用功能，原型包括<a href="https://www.patreon.com/posts/lala-36128829" target="_blank">Teletronix LA-2A</a>、<a href="https://www.patreon.com/posts/varimoon-34323360" target="_blank">Fairchild 660/670</a>、<a href="https://www.patreon.com/posts/oss-34292591" target="_blank">Universal Audio 176</a>、<a href="https://www.patreon.com/posts/busterse-42658623" target="_blank">SSL BUS Compressor</a>、<a href="https://www.patreon.com/posts/britbundle-79798060" target="_blank">Neve 1073</a>等等</p>
+
+            <blockquote>推荐两篇比较好的关于硬件压缩器的科普：<a href="https://zhuanlan.zhihu.com/p/104533883">huang jiayi</a>、以及<a href="https://www.midifan.com/modulenews-detailview-31558.htm">midifan</a></blockquote>
             
         </section>
         
 		<section id="limiter">
             
             <h3><a href="https://loudmax.blogspot.com/" target="_blank">LoudMax</a></h3>
-			<img src="http://www.vst4free.com/img/LoudMax_2.jpg" loading="lazy">
-			<p>简单易用的真峰值限幅器，治疗选择困难症</p>
-			<p>格式：VST、AU、LADSPA、Winamp</p>
+			<img src="http://www.plugins4free.com/img/LoudMax_2.jpg" loading="lazy">
+			<p>简单易用的真峰值限幅器，治疗选择困难症。支持VST2、VST3、AU、LADSPA、Winamp格式</p>
             
-            <h3><a href="https://vladgsound.wordpress.com/plugins/limiter6/" target="_blank">Limiter №6</a></h3>
+            <h3><a href="https://www.tokyodawn.net/vladg-limiter-n6/" target="_blank">Limiter №6</a></h3>
 			<img src="https://vladgsound.files.wordpress.com/2014/08/limiter6-env1.jpg" loading="lazy">
 			<p>功能强大的总线限幅器，内置了可以按需开启的RMS压缩、峰值限幅、高频限幅、削波、真峰值限幅5个模块，每个模块还可选择多种工作模式</p>
-            
-            <h3><a href="http://www.vst4free.com/free_vst.php?plugin=Unlimited&id=2843" target="_blank">Unlimited</a></h3>
-			<img src="http://www.vst4free.com/img/Unlimited_2.jpg" loading="lazy">
-			<p>支持立体声或5.1声道、带LUFS表的真峰值限幅器</p>
-            
-            <h3><a href="http://www.vst4free.com/free_vst.php?plugin=TriLeveler_2&id=2753" target="_blank">TriLeveler</a></h3>
-			<img src="http://www.vst4free.com/img/TriLeveler_2.jpg" loading="lazy">
-			<p>自动音量平衡器。对于Podcast、广播电视节目制作非常实用</p>
+
+            <h3><a href="https://www.kvraudio.com/product/wave-breaker-by-press-play" target="_blank">Wave Breaker</a></h3>
+            <img src="https://static.kvraudio.com/i/b/screenshot-2023-06-25-at-09-23-31.png" loading="lazy">
+            <p>有非常完善的电平表的Limiter</p>
             
         </section>
         
 		<section id="dynamics_other">
             
-            <h3><a href="http://www.vst4free.com/free_vst.php?plugin=VOLA&id=2594" target="_blank">VOLA</a></h3>
-			<img src="http://www.vst4free.com/img/VOLA_2.jpg" loading="lazy">
-			<p>一站式的人声处理插件，集成高通、压缩、限幅、去齿音等功能</p>
-            
-            <h3><a href="http://www.vst4free.com/free_vst.php?plugin=Transpire&id=2777" target="_blank">Transpire</a></h3>
-			<img src="http://www.vst4free.com/img/Transpire_2.jpg" loading="lazy">
-			<p>瞬态修饰器，可用于强调或减弱鼓、打击乐、钢琴、吉他等乐器的瞬态。四个旋钮分别是Attack、Sustain、Sensitivity、Level</p>
-            
-            <h3><a href="https://www.patreon.com/posts/fetsnap-38096454" target="_blank">FetSnap</a></h3>
-            <img src="https://freevstplugins.net/wp-content/uploads/2020/06/FetSnap.jpg" loading="lazy">
-            <p>比较特别的基于FET Expander的瞬态增强器。旋转Snap旋钮提升Attack的饱和度，可以在不大幅改变音轨动态范围的情况下增强乐器的打击感</p>
-            
-            <h3><a href="https://www.wavesfactory.com/free-audio-plugins/sk10/" target="_blank">SK10</a></h3>
-			<img src="https://www.wavesfactory.com/img/freebies/free-audio-plugins/sk10.png" loading="lazy">
-			<p>Sub Kick麦克风模拟，常用来增加底鼓、Bass的低频下潜</p>
-            
-            <h3><a href="https://www.patreon.com/posts/lovend-34669483" target="_blank">LOVEND</a></h3>
-            <img src="https://media.vst4free.com/img/AO-Lovend_2.jpg" loading="lazy">
-            <p>一款专注于提升低频感知度的插件</p>
-            <p>格式：VST、AU</p>
-            
-            <h3><a href="http://www.vst4free.com/plugin/2590" target="_blank">Bassprofessor MarkII</a></h3>
-            <img src="http://www.vst4free.com/img/BassProfessorMarkII_2.jpg" loading="lazy">
-            <p>另一款专注于Kick和Bass音色处理的动态、均衡、过载插件，可以为DI盒录制的Bass音轨增添些许音箱质感</p>
+            <h3>Transpire & <a href="https://kilohearts.com/products/transient_shaper" target="_blank">kHs Transient Shaper</a> & <a href="https://www.wavesfactory.com/free-audio-plugins/flash/" target="_blank">Flash</a></h3>
+            <img src="https://raw.githubusercontent.com/Sonic-Anomaly/Sonic-Anomaly-JSFX/master/Plugins/transpire_gfx/bg.png" loading="lazy">
+			<img src="https://kilohearts.com/img/products/transient_shaper_full.png" loading="lazy">
+            <img src="https://www.wavesfactory.com/img/freebies/free-audio-plugins/flash.png" loading="lazy">
+			<p>瞬态修饰器，可用于强调或减弱鼓、打击乐、钢琴、吉他等乐器的瞬态。三个插件中，Transpire的效果最好，但仅提供<a href="https://github.com/Sonic-Anomaly/Sonic-Anomaly-JSFX/blob/master/Plugins/Transpire.jsfx" target="_blank">JSFX</a>以及<a href="https://plugins4free.com/plugin/2777/" target="_blank">VST2 for Windows</a>；kHs可通过独特的pump旋钮进一步强调瞬态；Flash则支持MS处理。</p>
 
             <h3><a href="https://www.wavesfactory.com/product/snarebuzz/" target="_blank">SnareBuzz</a></h3>
 			<img src="https://www.wavesfactory.com/img/freebies/free-audio-plugins/snarebuzz.png" loading="lazy">
 			<p>原本用途是给军鼓添加高频噪音来增加质感，实际应用并不限于军鼓</p>
             
-            <h3><a href="https://www.kvraudio.com/product/roth-air-by-rothmann" target="_blank">Roth-AIR</a></h3>
+            <h3><a href="https://www.wavesfactory.com/free-audio-plugins/sk10/" target="_blank">SK10</a></h3>
+			<img src="https://www.wavesfactory.com/img/freebies/free-audio-plugins/sk10.png" loading="lazy">
+			<p>Sub Kick麦克风模拟，常用来增加底鼓、Bass的低频下潜</p>
+                        
+            <h3><a href="https://www.kvraudio.com/product/roth-air-by-rothmann" target="_blank">Roth-AIR</a> & <a href="https://slatedigital.com/fresh-air/" target="_blank">FRESH AIR</a></h3>
 			<img src="https://static.kvraudio.com/i/s/hi-res-layout-kvr.png" loading="lazy">
-			<p>一个提升高频空气感的Compressor/Saturator复合式工具</p>
-			<p>格式：VST、AU</p>
+            <img src="https://slatedigital.com/wp-content/uploads/2021/10/Fresh-Air-GUI@2x.png" loading="lazy">
+			<p>两款提升高频空气感的Compressor/Saturator复合式工具。因可调参数少而简单易用</p>
             
         </section>
         
     </section>
-    
+	
+	<section id="gain"><h2>Saturation / Amp / Distortion</h2>
+        
+        <section id="saturator">
+        
+		<h3><a href="https://www.softube.com/saturationknob/" target="_blank">Saturation Knob</a></h3>
+        <img src="https://i.pinimg.com/originals/6f/bd/02/6fbd029ccce0cb02bbf1dc10d71d1e51.png" loading="lazy">
+        <p>一款简单实用的万金油Saturator</p>
+
+        <h3><a href="https://klanghelm.com/contents/products/IVGI.php" target="_blank">IVGI</a></h3>
+        <img src="https://media.plugins4free.com/img/IVGI_1.jpg" loading="lazy">
+        <p>另一款实用的Saturator。ASYM MIX参数可以控制过载的“透明度”</p>
+
+        <h3><a href="https://www.voxengo.com/product/tubeamp/" target="_blank">Tube Amp</a></h3>
+        <img src="https://media.plugins4free.com/img/Voxengo_TubeAmp_1.jpg" loading="lazy">
+        <p>一款简单好用的电子管风格过载</p>
+
+        <h3><a href="https://bedroomproducersblog.com/free-download/#dirty-filter" target="_blank">BPB Dirty Filter Plus</a> & <a href="https://bedroomproducersblog.com/free-download/#saturator" target="_blank">BPB Saturator</a></h3>
+        <img src="https://bedroomproducersblog.com/wp-content/uploads/2022/11/dirty-filter-plus.png" loading="lazy">
+        <img src="https://bedroomproducersblog.com/wp-content/uploads/2020/12/bpb-saturator.png" loading="lazy">
+        <p>带滤波器的电子管过载 & 可以同时使用的磁带/电子管过载</p>
+        
+        <h3><a href="https://www.patreon.com/posts/prebox-68682105" target="_blank">PreBOX</a> & <a href="https://www.patreon.com/posts/distox-34292849" target="_blank">Distox</a></h3>
+        <img src="https://media.plugins4free.com/img/PreBOX_1.jpg" loading="lazy">
+        <img src="https://media.plugins4free.com/img/Distox_1.jpg" loading="lazy">
+        <p>PreBOX是一个11合1的前级模拟，Distox是一个7合1的运放过载和电子管过载模拟。</p>
+
+        <h3><a href="https://www.shatteredglassaudio.com/product/104" target="_blank">SGA1566</a></h3>
+        <img src="https://media.plugins4free.com/img/SGA1566_1.jpg" loading="lazy">
+        <p>Altec 1566A电子管话放模拟，非常吃CPU</p>
+
+        <h3><a href="https://www.shatteredglassaudio.com/product/106" target="_blank">Code Red Free</a></h3>
+        <img src="https://media.plugins4free.com/img/CodeRedFree_1.jpg" loading="lazy">
+        <p>EMI REDD调音台模拟</p>
+
+        <h3><a href="https://varietyofsound.wordpress.com/vst-effects/" target="_blank">FerricTDS</a></h3>
+        <img src="https://varietyofsound.files.wordpress.com/2021/09/ferrictdsmkii.png" loading="lazy">
+        <p>磁带染色。仅支持VST2 for Windows</p>
+        
+        <h3><a href="https://www.airwindows.com/tape/" target="_blank">Airwindows Tape</a></h3>
+        <p>极简磁带染色</p>
+
+        <h3><a href="https://www.patreon.com/posts/fetdrive-38432698" target="_blank">FetDrive</a></h3>
+        <img src="https://media.plugins4free.com/img/FetDrive_1.jpg" loading="lazy">
+        <p>以一个Fet压缩为基础做减法得到的Saturator，有很好的动态响应和限幅效果</p>
+
+        <h3><a href="https://www.patreon.com/posts/lovend-34669483" target="_blank">LOVEND</a></h3>
+        <img src="https://media.plugins4free.com/img/AO-Lovend_2.jpg" loading="lazy">
+        <p>一款专注于提升低频泛音的插件</p>
+        
+        </section>
+
+        <section id="guitaramp">
+       
+        <h3><a href="https://www.voxengo.com/product/boogex/" target="_blank">Boogex</a></h3>
+        <img src="https://media.plugins4free.com/img/Voxengo_Boogex_1.jpg" loading="lazy">
+        <p>一款多合一的吉他效果器和音箱模拟，内置了EQ、前级、箱体、混响等模块。</p>
+
+        <h3><a href="https://www.shatteredglassaudio.com/product/103" target="_blank">Ace</a></h3>
+        <img src="https://media.plugins4free.com/img/ace_1.jpg" loading="lazy">
+        <p>一款美式Tweed风格吉他音箱模拟，带箱体模拟。模拟了一款1950年代的Fender Champ Combo 5W音箱，12AX6前级+6V6GT后级的配置。</p>
+        
+        <h3><a href="https://www.nembriniaudio.com/products/crunck-v2-guitar-amplifier" target="_blank">Crunck V2</a></h3>
+        <img src="https://cdn.shopify.com/s/files/1/0014/0800/8291/products/Images_360x.png" loading="lazy">
+        <p>一款英式Crunch失真吉他音箱模拟，带箱体模拟。<a href="https://apps.apple.com/it/app/crunck-v2/id1493297046">支持iOS</a></p>
+
+        <h3><a href="http://www.igniteamps.com/#emissary" target="_blank">Emissary</a> & <a href="http://www.igniteamps.com/#nadir" target="_blank">NadIR</a></h3>
+        <img src="http://www.igniteamps.com/images/software/ignite-amps-emissary2-software.jpg" loading="lazy">
+        <p>Emissary是一款很吃CPU的吉他箱头模拟，提供双通道和三种电子管模拟。NadIR是一个IR卷积插件，支持按比例混合两个IR。</p>
+
+        <h3><a href="https://www.patreon.com/posts/kabin-43454405" target="_blank">KABIN</a></h3>
+        <img src="https://media.plugins4free.com/img/Voxengo_Boogex_1.jpg" loading="lazy">
+        <p>通用的吉他箱体模拟插件，并非是基于某些经典型号箱体的IR。</p>
+        
+        </section>
+
+        <section id="guitarstomp">
+
+            <h3><a href="https://github.com/Chowdhury-DSP/BYOD" target="_blank">BYOD</a></h3>
+            <img src="https://github.com/Chowdhury-DSP/BYOD/raw/main/manual/screenshots/full_gui.png" loading="lazy">
+            <p>Build Your Own Distortion，自定义程度非常高，内置了20余种过载/失真/法兹等单块效果。PC/Linux/macOS/iOS全平台支持。</p>
+
+            <h3><a href="https://www.patreon.com/posts/pedalz-54136573" target="_blank">PEDALz</a></a></h3>
+            <img src="https://media.plugins4free.com/img/PEDALz_1.jpg" loading="lazy">
+            <p>对5款经典吉他过载、法兹单块的模拟：DOD 250、Marshall Guv'nor、BOSS SD1、EHX Big Muff Pie、Supa Fuzz</p>
+
+            <h3><a href="https://www.audiodamage.com/pages/free-and-legacy" target="_blank">FuzzPlus 3</a></h3>
+            <img src="https://static.kvraudio.com/i/b/fuzzplus3.png" loading="lazy">
+            <p>功能现代的Fuzz效果</p>
+
+            <h3><a href="http://www.igniteamps.com/#profet" target="_blank">Pro F.E.T</a></h3>
+            <img src="https://www.igniteamps.com/images/software/ignite-amps-pro-fet-software.jpg" loading="lazy">
+            <p>一款High Gain吉他失真</p>
+            
+            </section>
+        
+    </section>
+
     <section id="eq"><h2>EQ</h2>
         
         <h3><a href="https://www.meldaproduction.com/MBandPass" target="_blank">MBandPass</a></h3>
         <img src="https://www.meldaproduction.com/webtemp/imagecache/screenshots/MBandPass00.v1.jpg" loading="lazy">
         <p>简单易用的高通、低通滤波器。有直接把音高换算成频率的实用小功能</p>
-        
+       
 		<h3><a href="https://www.tokyodawn.net/tdr-nova/" target="_blank">TDR Nova</a></h3>
         <img src="https://www.tokyodawn.net/cache/9cc981aeceeabff0f68d62bf1a487804_w480_h230_grav_center_sc.png" loading="lazy">
         <p>既是EQ又是多段压缩的动态均衡插件</p>
-		    
+
+        <h3><a href="https://www.kvraudio.com/product/qrange-by-lkjb" target="_blank">Qrange</a></h3>
+        <img src="https://static.kvraudio.com/i/b/lkjb_qrange_102.png" loading="lazy">
+        <p>带频谱图的线性相位12段图形EQ。每一段都可以指定处理Stereo、M/S、L/R</p>
+
+        <h3><a href="https://www.voxengo.com/product/marvelgeq/" target="_blank">Marvel GEQ</a></h3>
+        <img src="https://media.plugins4free.com/img/Voxengo_Marvel-GEQ_1.jpg" loading="lazy">
+        <p>支持环绕声和MS工作模式的线性相位16段图形EQ</p>
+
         <h3><a href="https://www.tokyodawn.net/tdr-vos-slickeq/" target="_blank">TDR VOS SlickEQ</a></h3>
         <img src="https://www.tokyodawn.net/cache/4a5942f6d2121ae0af31e8de88fd7173_w480_h230_grav_north_sc.png" loading="lazy">
-        <p>易用的高通滤波和三段EQ，并有多个可选的Proportional Q模型和音染模式。支持MS处理。免费版阉割了频谱图，需升级到<a href="https://www.tokyodawn.net/tdr-vos-slickeq-ge/" target="_blank">付费版本</a>才能拥有</p>
-        
-        <h3><a href="https://www.patreon.com/posts/britchannel-34306171" target="_blank">BritChannel</a></h3>
-        <img src="data:image/jpeg;base64,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" loading="lazy">
-        <p>方便而有模拟味儿的通道插件，内置了一个可以调整高通、低频、高频的EQ模块和一个PreAmp模块</p>
-        <p>格式：VST、AU</p>
+        <p>易用的高通滤波和三段EQ，并有多个可选的Proportional Q模型和音染模式</p>
+
+        <h3><a href="https://www.kvraudio.com/product/luftikus-by-lkjb" target="_blank">Luftikus</a></h3>
+        <img src="https://static.kvraudio.com/i/b/luftikus_screenshot.png" loading="lazy">
+        <p>一款复刻Maag EQ4风格的EQ插件，五段固定频率+一段高频增亮。旋钮不多，节省操作。</p>
         
         <h3><a href="https://www.patreon.com/posts/rare-34323244" target="_blank">Rare</a> & <a href="https://www.patreon.com/posts/rarese-work-in-34359782" target="_blank">RareSE</a></h3>
         <img src="https://static.kvraudio.com/i/b/rare_se_product.jpg" loading="lazy">
-        <p>超级经典的Pultec EQP‑1A均衡器的数字化复刻版。Rare只提供立体声工作模式，RareSE在Rare的基础上增加了Dual Mono和MS工作模式。</p>
-        <p>格式：VST、AU</p>
+        <p>经典的Pultec EQP‑1A被动式均衡器的数字化复刻版。Rare只提供立体声工作模式，RareSE在Rare的基础上增加了Dual Mono和MS工作模式。</p>
         
         <h3><a href="https://www.kvraudio.com/product/pteq-x-by-ignite-amps" target="_blank">PTEq-X</a></h3>
         <img src="https://static.kvraudio.com/i/b/pteq-x.1512992240.jpg" loading="lazy">
         <p>在一个插件里复刻了三个经典的硬件均衡器：HL3C、EQP-1A、MEQ-5。</p>
-        <p>格式：VST、AU</p>
-        <blockquote>原版EQP-1A和MEQ-5硬件采用了非常不通用的参数名称，导致基于它们复刻的插件也都非常的不直观，可以参考以下中文资料学习使用方法：<a href="https://support.apple.com/zh-cn/guide/logicpro/lgcp137f13da/mac" target="_blank">Logic Pro的中文说明</a>、<a href="https://www.bilibili.com/video/BV1pK4y1r7QW" target="_blank">王润天的视频解说</a></blockquote>
+        <blockquote>可以参考以下中文资料学习被动式均衡器的使用方法：<a href="https://support.apple.com/zh-cn/guide/logicpro/lgcp137f13da/mac" target="_blank">Logic Pro的中文说明</a>、<a href="https://www.bilibili.com/video/BV1rX4y1f7Ej" target="_blank">CrossRoadsStudio的视频解说</a></blockquote>
                 
-    </section>
-	
-	<section id="gain"><h2>Saturation / Amp / Distortion</h2>
-        
-        <section id="gain_universal">
-        
-		<h3><a href="https://www.softube.com/saturationknob/" target="_blank">Saturation Knob</a></h3>
-        <img src="https://i.pinimg.com/originals/6f/bd/02/6fbd029ccce0cb02bbf1dc10d71d1e51.png" loading="lazy">
-        <p>一款全平台、简单实用的万金油Saturator</p>
-        <p>格式：VST、AU、AAX、Rack Extension、ProChannel</p>
-        
-        <h3><a href="https://www.patreon.com/posts/fetdrive-38432698" target="_blank">FetDrive</a></h3>
-        <img src="https://freevstplugins.net/wp-content/uploads/2020/07/FetDrive.jpg" loading="lazy">
-        <p>在FetSnap的基础上做减法得到的Saturator，效果等同于去掉瞬态增强的FetSnap</p>
-        <p>格式：VST、AU</p>
-        
-        <h3><a href="https://www.patreon.com/posts/prebox-36362672" target="_blank">PreBOX</a> & <a href="https://www.patreon.com/posts/distox-34292849" target="_blank">Distox</a></h3>
-        <img src="https://freevstplugins.net/wp-content/uploads/2020/06/1588442369_prebox.jpg" loading="lazy">
-        <img src="https://i.hizliresim.com/5DO3Qz.png" loading="lazy">
-        <p>PreBOX是一个11合1的前级模拟，Distox是一个7合1的运放过载和电子管过载模拟</p>
-        <p>格式：VST、AU</p>
-        
-        <h3><a href="https://www.kvraudio.com/product/sga1566-by-shattered-glass-audio" target="_blank">SGA1566</a></h3>
-        <img src="https://static.kvraudio.com/i/b/sga1566.png" loading="lazy">
-        <p>一款高品质的前级模拟，音染较小，非常吃CPU。低精度模式已经可以感知到它对CPU的占用，高精度模式堪称CPU终结者。</p>
-        <p>格式：VST、AAX</p>
-        
-        <h3><a href="https://www.voxengo.com/product/tubeamp/" target="_blank">Tube Amp</a></h3>
-        <img src="https://www.voxengo.com/cdn/img/01/014jtj7vj-2.webp" loading="lazy">
-        <p>一款简单好用的电子管风格过载</p>
-        
-        </section>
-        
-        <section id="guitarstomp">
-		
-        <h3><a href="http://distorqueaudio.com/plugins/face-bender.html" target="_blank">Face Bender</a></h3>
-        <p>对Fuzz Face和Tone Bender两款法兹单块的模拟</p>
-        
-        <h3><a href="https://www.patreon.com/posts/pigpie-34323217" target="_blank">PigPie</a> & <a href="https://www.patreon.com/posts/zupaa-34323401" target="_blank">Zupaa</a></h3>
-        <p>对Russian Big Muff Pi和Tone Bender两款法兹单块的模拟</p>
-        
-        </section>
-
-        <section id="guitaramp">
-        
-        <h3><a href="https://www.voxengo.com/product/boogex/" target="_blank">Boogex</a></h3>
-        <img src="https://www.voxengo.com/cdn/img/69/69ttmxfsn-2.webp" loading="lazy">
-        <p>一款多合一的吉他效果器和音箱模拟。内置了EQ、前级、箱体、混响等模块</p>
-        
-        <h3><a href="https://www.nembriniaudio.com/products/crunck-v2-guitar-amplifier" target="_blank">Crunck V2</a></h3>
-        <img src="https://cdn.shopify.com/s/files/1/0014/0800/8291/products/Images_360x.png" loading="lazy">
-        <p>一款简单易用的英式失真吉他音箱模拟</p>
-        
-        <h3><a href="http://www.igniteamps.com/#emissary" target="_blank">Emissary</a></h3>
-        <img src="http://www.igniteamps.com/images/software/ignite-amps-emissary2-software.jpg" loading="lazy">
-        <p>一款很吃CPU的高品质吉他箱头模拟。提供双通道和三种电子管模拟，一般与配套的箱体模拟插件NadIR共同使用。</p>
-        <p>格式：VST、AU、AAX</p>
-        <p>Ignite Amps开发的免费单块、前级、后级模拟品质均不错。这里只选其中UI最漂亮的一个作为代表，其余请<a href="http://www.igniteamps.com/#software" target="_blank">自行浏览</a>。</p>
-        
-        </section>
-        
     </section>
     
     <section id="shifter"><h2>Pitch Shifter / Frequency Shifter</h2>
         
-        <h3><a href="https://aegeanmusic.com/pitchproof-specs" target="_blank">Pitchproof</a></h3>
-        <img src="https://aegeanmusic.com/catalog/view/theme/digits/image/pitchproof-screen2.png" loading="lazy">
-        <p>免费的移调/和声插件</p>
+        <h3><a href="https://kilohearts.com/products/pitch_shifter" target="_blank">kHs Pitch Shifter</a> & <a href="https://kilohearts.com/products/frequency_shifter" target="_blank">Frenquency Shifter</a></h3>
+        <img src="https://kilohearts.com/img/products/pitch_shifter_full.jpg" loading="lazy"><img src="https://kilohearts.com/img/products/frequency_shifter_full.png" loading="lazy">
+        <p>免费的移调/移频插件。支持Reason Rack Extension</p>
         
         <h3><a href="https://www.meldaproduction.com/MAutoPitch" target="_blank">MAutoPitch</a></h3>
         <img src="https://www.meldaproduction.com/webtemp/imagecache/screenshots/MAutoPitch00.v1.jpg" loading="lazy">
         <p>免费的自动修音插件</p>
         
+        <h3><a href="https://www.kvraudio.com/product/kerovee-by-g200kg" target="_blank">KeroVee</a></h3>
+        <img src="https://static.kvraudio.com/i/b/kerovee160.png" loading="lazy">
+        <p>免费的自动修音插件</p>
+
         <h3><a href="https://www.meldaproduction.com/MFreqShifter" target="_blank">MFreqShifter</a></h3>
         <img src="https://www.meldaproduction.com/webtemp/imagecache/screenshots/MFreqShifter00.v1.jpg" loading="lazy">
         <p>内置了Delay模块的移频器。既可用作一般的Frequency Shifter，也可当作眩晕的跑调延迟来使用</p>
+
+        <h3><a href="https://valhalladsp.com/shop/delay/valhalla-freq-echo/" target="_blank">Valhalla Freq Echo</a></h3>
+        <img src="https://static.kvraudio.com/i/b/valhallafreqecho.png" loading="lazy">
+        <p>内置了Frequency Shifter模块的延迟插件。既可用作一般的延迟，也可当作眩晕的跑调延迟来使用</p>
         
     </section>
     
@@ -265,28 +305,44 @@
         
         <h3><a href="https://hy-plugins.com/product/hy-delay4" target="_blank">HY-Delay4 Free</a></h3>
         <img src="https://hy-plugins.com/wp-content/uploads/delay4_freecover.jpg" loading="lazy">
-        <p>涵盖了一个基本的数字延迟所应具备的全部功能：立体声偏移、高低通、EQ、Ping Pong模式、Ducking模式</p>
-        
-		<h3><a href="https://www.gvst.co.uk/grevdly.htm" target="_blank">GRevDly</a></h3>
-        <img src="https://www.gvst.co.uk/grevdly_ui.png" loading="lazy">
-        <p>免费的反向延迟</p>
+        <p>涵盖了一个基本的数字延迟所应具备的全部功能：立体声偏移、高低通、EQ、Ping Pong模式、Ducking模式。支持用sidechain信号来控制ducking</p>
         
         <h3><a href="https://www.musicalentropy.com/SpaceshipDelay.html" target="_blank">Spaceship Delay</a></h3>
         <img src="https://static.kvraudio.com/i/b/screenshot-6.png" loading="lazy">
-        <p>一款综合性的延迟效果。提供多种延迟和音染模式，有滤波、调制、柔化Attack、弹簧混响、额外的效果等等模块。可调范围很大，并不是总是能调出好听的声音</p>
+        <p>一款综合性的延迟效果。提供多种延迟和音染模式，有滤波、过载、调制、柔化Attack、弹簧混响、额外的效果等模块，可调范围非常大</p>
 		
-        <h3><a href="https://tal-software.com/products/tal-dub" target="_blank">TAL Dub II</a></h3>
+        <h3><a href="https://tal-software.com/products/tal-dub" target="_blank">TAL-Dub-II</a> & <a href="https://github.com/tesselode/cocoa-delay" target="_blank">Cocoa Delay</a></h3>
         <img src="https://tal-software.com/images/products/tal-Dub-2.jpg" loading="lazy">
-        <p>复古风格延迟，可以制造从温暖的过载回声到眩晕的跑调回声效果。内置的过载比较吃CPU</p>
+        <img src="https://github.com/tesselode/cocoa-delay/raw/master/images/screenshot.png" loading="lazy">
+        <p>两款内置过载和时间、滤波调制的延迟，可以制造从温暖的过载回声到眩晕的跑调回声效果。仅支持VST2 for Windows。</p>
+
+        <h3><a href="https://www.fullbucket.de/music/fbdelay.html" target="_blank">Full Bucket Brigade Delay</a></h3>
+        <img src="https://www.fullbucket.de/music/images/fbdelay.jpg" loading="lazy">
+        <p>一款BBD（Bucket Brigade Device）风格的延迟</p>
+
+        <h3>Airwindows<a href="https://www.airwindows.com/tapedelay/" target="_blank">TapeDelay</a> & <a href="https://www.airwindows.com/tapedelay2/" target="_blank">TapeDelay2</a></h3>
+        <p>一款磁带风格的延迟。界面比较简陋。开源的，自己动手</p>
         
-        <h3><a href="https://senderspike.wordpress.com/2020/03/22/echobox-d7/" target="_blank">Echobox D7</a></h3>
+        <h3><a href="https://senderspike.wordpress.com/2020/03/22/echobox-d7/" target="_blank">Echobox D7</a> & <a href="https://varietyofsound.wordpress.com/vst-effects/" target="_blank">NastyDLA</a></h3>
         <img src="https://senderspike.files.wordpress.com/2020/04/fx01_gui-1.png" loading="lazy">
-        <p>复刻了一款经典的模拟延迟单块，支持self-oscillate，算法高效不吃CPU。美中不足的是，它并没有内置TAL Dub2那样的LFO调制延迟时间的功能，但有什么是不能用automation解决的呢？</p>
+        <img src="https://varietyofsound.files.wordpress.com/2010/10/nastydla1.png" loading="lazy">
+        <p>两款磁带延迟，均仅支持VST2 for Windows</p>
+
+        <h3><a href="https://kilohearts.com/products/reverser" target="_blank">kHs Reverser</a></h3>
+        <img src="https://kilohearts.com/img/products/reverser_full.jpg" loading="lazy">
+        <p>免费的反向延迟</p>
+
+		<h3><a href="https://www.kvraudio.com/product/lagrange-by-ursadsp" target="_blank">Lagrange</a></h3>
+        <img src="https://static.kvraudio.com/i/b/piglizards.png" loading="lazy">
+        <p>一种基于粒子引擎，兼具延迟与混响特点的独特空间效果。最新版移除了对VST2的支持</p>
+
+        <h3><a href="https://glitchmachines.com/products/hysteresis/" target="_blank">Hysteresis</a></h3>
+        <img src="https://glitchmachines.com/wp-content/uploads/2017/10/Hysteresis_UI-1-scaled.jpg" loading="lazy">
+        <p>一款粒子延迟</p>        
         
-		<h3><a href="https://www.kvraudio.com/product/lagrange-by-ursa-dsp" target="_blank">Lagrange</a></h3>
-        <img src="https://static.kvraudio.com/i/b/lag093.png" loading="lazy">
-        <p>一种基于粒子引擎，兼具延迟与混响特点的独特空间效果</p>
-        <p>格式：VST、AU</p>
+        <h3><a href="https://www.kvraudio.com/product/emergence-by-daniel-gergely" target="_blank">Emergence</a></h3>
+        <img src="https://static.kvraudio.com/i/b/v0_3_-_vlcsnap-2022-01-22-18h04m02s279.png" loading="lazy">
+        <p>另一款粒子效果</p>
         
     </section>
     
@@ -294,30 +350,46 @@
         
         <section id="algorithmic">
             
+            <h3><a href="https://acondigital.com/products/verberate-basic" target="_blank">Verberate Basic 2</a> & <a href="https://stone-voices.ru/vst/dreverb_lite" target="_blank">DReverb Lite</a></h3>
+            <img src="https://static.kvraudio.com/i/b/verberate-basic-2-en.png" loading="lazy">
+            <img src="https://static.kvraudio.com/i/b/d_reverb_lite.png" loading="lazy">
+            <p>两款旋钮数量不多的混响，操作简单易上手。</p>
+
             <h3><a href="https://github.com/michaelwillis/dragonfly-reverb" target="_blank">Dragonfly Reverb</a></h3>
             <img src="https://github.com/michaelwillis/dragonfly-reverb/raw/master/collage.png" loading="lazy">
-            <p>开源的湿冷风格混响，UI直观，可调性丰富。提供Room/Hall/Plate/Early Reflection四种算法。有着空间感强烈的反射声（Plate除外）和相对潮湿混浊的Tail，比较适合鼓、打击乐以及音效设计。</p>
-            <p>格式：VST、LV2</p>
+            <p>开源的湿冷风格混响，UI直观，可调性丰富。提供Room/Hall/Plate/Early Reflection四种算法。有着空间感强烈的反射声和相对潮湿混浊的Tail，比较适合鼓、打击乐以及音效设计。支持LV2 for Linux</p>
+
+            <h3><a href="https://varietyofsound.wordpress.com/vst-effects/" target="_blank">epicPLATE</a></h3>
+            <img src="https://varietyofsound.files.wordpress.com/2022/05/epicplate.png" loading="lazy">
+            <p>复古的金属板混响，非常明亮的感觉很适合用在人声和打击乐上，带Gate和Drive功能。仅支持VST2 for Window</p>
             
+            <h3><a href="https://tal-software.com/products/tal-reverb-4" target="_blank">TAL-Reverb-4</a></h3>
+            <img src="https://tal-software.com/images/products/tal-reverb-402.jpg" loading="lazy">
+            <p>高密度金属板混响，带Ducking功能，可用Sidechain输入触发，另外内置了调制、移调、降采样等模块。支持Linux</p>
+
             <h3><a href="https://www.voxengo.com/product/oldskoolverb/" target="_blank">OldSkoolVerb</a></h3>
-            <img src="https://www.voxengo.com/cdn/img/43/43nc3yy2u-2.webp" loading="lazy">
+            <img src="https://media.plugins4free.com/img/OldSkoolVerb_1.jpg" loading="lazy">
             <p>温暖的七八十年代老式数字混响</p>
-            <p>格式：VST、AU、AAX</p>
-            
-            <h3><a href="https://tal-software.com/products/tal-reverb-4" target="_blank">TAL Reverb 4</a></h3>
-            <img src="https://tal-software.com/images/products/tal-reverb-4-v2.png" loading="lazy">
-            <p>复古的金属板混响，非常明亮的感觉很适合用在人声和打击乐上</p>
-            <p>格式：VST、AU、AAX</p>
-            
-            <h3><a href="https://www.mutools.com/muverb-product.html">MuVerb</a></h3>
-            <img src="https://www.mutools.com/pics/muverb-product-picture.png" loading="lazy">
-            <p>一款有着宽松tail的超现实混响。轻度调制可以营造甜美的感觉，重度调制可以制造恐怖音效。</p>
-            <p>格式：VST</p>
+
+            <h3><a href="https://bedroomproducersblog.com/free-download/#dirty-spring" target="_blank">BPB Dirty Spring</a></h3>
+            <img src="https://bedroomproducersblog.com/wp-content/uploads/2022/02/dirty-spring.png" loading="lazy">
+            <p>弹簧混响+Bitcrusher</p>
+
+            <h3><a href="https://www.pspaudioware.com/products/psp-pianoverb" target="_blank">PSP PianoVerb</a></h3>
+            <img src="https://www.pspaudioware.com/assets/products/pianoverb-freebie.png" loading="lazy">
+            <p>以钢琴的琴弦作为混响，相比弹簧混响多了音调</p>
+
+            <h3><a href="https://valhalladsp.com/shop/reverb/valhalla-supermassive/" target="_blank">Super Massive</a></h3>
+            <img src="https://static.kvraudio.com/i/b/supermassive-gui.jpg" loading="lazy">
+            <p>可塑性极强的调制类混响，目前已经更新到18种算法，从稀薄的空间延迟效果到混沌的太空混响效果。</p>
             
             <h3><a href="https://github.com/ValdemarOrn/CloudSeed" target="_blank">CloudSeed</a></h3>
             <img src="https://bedroomproducersblog.com/wp-content/uploads/2011/05/cloud-seed-vst.jpg" loading="lazy">
-            <p>可以囊括天空和星系的超现实混响，适合设定很长很长很长的Decay。</p>
-            <p>格式：VST。这个插件目前存在一些bug，例如在Reason不显示GUI，在Sonar不记忆参数……它的声音非常好，以至于严重的bug也变得可以容忍</p>
+            <p>可以囊括天空和星系的超现实粒子混响，适合设定很长很长很长的Decay。仅支持VST for Windows，GUI在部分宿主无法显示。原作者疏于维护，建议使用以下两个fork版本：<a href="https://github.com/xunil-cloud/CloudReverb" target="_blank">CloudReverb (VST3 for Windows/Linux/macOS)</a>、<a href="https://github.com/Dougal-s/Aether" target="_blank">Aether (LV2 for Linux)</a></p>
+
+            <h3><a href="https://www.kvraudio.com/product/solaris-by-adam-szabo" target="_blank">Solaris</a></h3>
+            <img src="https://static.kvraudio.com/i/b/solaris.png" loading="lazy">
+            <p>一款Shimmer混响。仅支持VST for Windows</p>
             
         </section>
         
@@ -331,83 +403,103 @@
         <img src="https://www.izotope.com/en/products/vinyl/_jcr_content/root/flexcontainer_339762556/sectioncontainer/flexcontainer/image.coreimg.82.1280.png/1566998560317/vinyl.png" loading="lazy">
         <p>老式黑胶唱机效果</p>
         
-        <h3><a href="https://senderspike.wordpress.com/2019/12/06/sn03g-tape-recorder/" target="_blank">SN03-G</a></h3>
-        <img src="https://senderspike.files.wordpress.com/2020/01/sn03_gui-1.png" loading="lazy">
-        <p>较细微不易察觉的磁带录音效果，可以给数字母带增添一点点的模拟味儿</p>
-        <p>格式：VST3、AU</p>
+        <h3><a href="https://github.com/jatinchowdhury18/AnalogTapeModel" target="_blank">Chow Tape Model</a></h3>
+        <img src="https://raw.githubusercontent.com/jatinchowdhury18/AnalogTapeModel/master/Plugin/Screenshots/full_gui.png" loading="lazy">
+        <p>模拟了一台Sony TC-260磁带录音机。全平台全格式支持，包括iOS。</p>
         
-        <h3><a href="http://caelumaudio.com/CaelumAudio/?Page=TapeCassette" target="_blank">Tape Cassette</a></h3>
-        <img src="https://i.imgur.com/LJVc9RK.png" loading="lazy">
-        <p>老式磁带效果</p>
-        <p>格式：VST3、AU</p>
+        <h3><a href="http://caelumaudio.com/CaelumAudio/?Page=TapeCassette2" target="_blank">Tape Cassette 2</a></h3>
+        <img src="https://i.imgur.com/KjwNeDR.png" loading="lazy">
+        <p>另一个磁带效果。支持Windows/macOS/iOS的VST3和AUv3，不支持VST2。</p>
         
-        <h3><a href="https://www.wavesfactory.com/free-audio-plugins/cassette-transport/" target="_blank">Cassette Transport</a></h3>
-        <img src="https://www.wavesfactory.com/img/freebies/free-audio-plugins/cassette-transport.png">
-        <p>磁带播放音效</p>
-        
+        <h3><a href="https://puremagnetik.com/products/driftmaker-delay-disintegration-device" target="_blank">Driftmaker</a></h3>
+        <img src="https://cdn.shopifycdn.net/s/files/1/1561/5265/products/Driftmaker_Screenshot_1200x.png?v=1676303185" loading="lazy">
+        <p>磁带延迟的劣化效果</p>
+
+        <h3><a href="https://superflydsp.com/index.php/lost-sampler-freeware/" target="_blank">Lost Samplers</a></h3>
+        <img src="https://superflydsp.com/wp-content/uploads/2023/03/LostSamplers.png" loading="lazy">
+        <p>低比特数字失真效果。支持Linux，不支持VST2</p>
+
     </section>
     
 	<section id="modulation"><h2>Modulation</h2>
         
         <h3><a href="https://www.ujam.com/fin-micro/" target="_blank">Finisher Micro</a></h3>
         <img src="https://www.ujam.com/wp-content/uploads/2019/12/fin-micro-gui.png" loading="lazy">
-        <p>简约而强大的25in1插件，集成了滤波器、失真、箱体模拟、混响、Shimmer、延迟、Chorus、Vibrato、Flanger、Phaser等等效果。仅需单一旋钮即可控制插件内部的多个参数，方便进行自动化控制。</p>
-        
-        <h3><a href="https://hy-plugins.com/product/hy-filter3/" target="_blank">HY-Filter3 Free</a></h3>
-        <img src="https://hy-plugins.com/wp-content/uploads/hyfilter3_free_cover-768x286.jpg" loading="lazy">
-        <p>双模式(SVF、Reso)滤波器</p>
-        
-        <h3><a href="https://bedroomproducersblog.com/free-vst-plugins/bpb-dirty-filter/" target="_blank">BPB Dirty Filter</a></h3>
-        <img src="https://bedroomproducersblog.com/wp-content/uploads/2020/10/dirty-filter-screenshot.jpg" loading="lazy">
-        <p>一个可以Drive出很脏音色的滤波器</p>
-        
-        <h3><a href="https://tal-software.com/products/tal-chorus-lx" target="_blank">TAL Chorus LX</a></h3>
-        <img src="https://tal-software.com/images/products/tal-chorus-lx.png" loading="lazy">
-        <p>罗兰Juno-60风格的复古合唱，操作简洁</p>
-        <p>格式：VST、AU、AAX</p>
-        
+        <p>简约的25in1插件，集成了滤波器、失真、箱体模拟、混响、Shimmer、延迟、Chorus、Vibrato、Flanger、Phaser等等效果。仅需单一旋钮即可控制插件内部的多个参数，方便进行自动化控制。</p>
+
+        <h3><a href="https://hy-plugins.com/product/hy-mbmfxwinmac/" target="_blank">HY-MBMFX2 free</a></h3>
+        <img src="https://hy-plugins.com/wp-content/uploads/mbmfx2_free_cover2-820x274.jpg" loading="lazy">
+        <p>复杂的22in1插件，MBMFX = Multi Band Multi FX，免费版可在三个频段各自使用一个效果。</p>
+
+        <h3><a href="https://valhalladsp.com/shop/modulation/valhalla-space-modulator/" target="_blank">Space Modulator</a></h3>
+        <img src="https://static.kvraudio.com/i/b/valhallaspacemod.jpg" loading="lazy">
+        <p>可调空间比较大的现代风格调制效果，能做出Flanger/Chorus/Reverb等效果</p>
+
+        <h3><a href="https://acondigital.com/products/multiply/" target="_blank">Multiply</a></h3>
+        <img src="https://cms.acondigital.com/uploads/large_multiply_7d0b388e42.png" loading="lazy">
+        <p>高品质的立体声合唱，对于拓宽声音有非常好的效果</p>
+
         <h3><a href="https://senderspike.wordpress.com/2020/04/07/modul-8/" target="_blank">Modul 8</a></h3>
         <img src="https://senderspike.files.wordpress.com/2020/04/fx02_gui.png" loading="lazy">
         <p>有两个独立LFO的复古风格Chorus/Flanger</p>
+
+        <h3><a href="https://babyaud.io/freebies" target="_blank">Baby Audio</a>Pitch Drift & Magic Switch</h3>
+        <img src="https://static.kvraudio.com/i/b/pitch_drift_baby_audio_interface.png" loading="lazy"><img src="https://static.kvraudio.com/i/b/mas_yeah_1.jpg" loading="lazy">
+        <p>两个操作简洁的效果，前者是模拟原声乐器的轻微跑调效果（比普通的Vibrato多了些随机性），后者是一个罗兰Juno风格的合唱。支持iOS</p>
         
-        <h3><a href="https://acondigital.com/products/multiply/" target="_blank">Multiply</a></h3>
-        <img src="https://acondigital.com/wordpress/wp-content/uploads/Multiply_en.png" loading="lazy">
-        <p>高品质的立体声合唱，对于拓宽声音有非常好的效果</p>
-        <p>格式：VST、AU、AAX</p>
-        
-        <h3><a href="https://www.meldaproduction.com/MFlanger" target="_blank">MFlanger</a> / <a href="https://www.meldaproduction.com/MPhaser" target="_blank">MPhaser</a> / <a href="https://www.meldaproduction.com/MVibrato" target="_blank">MVibrato</a> / <a href="https://www.meldaproduction.com/MTremolo" target="_blank">MTremolo</a></h3>
+        <h3><a href="https://www.izotope.com/en/products/vocal-doubler.html" target="_blank">Vocal Doubler</a></h3>
+        <img src="https://www.izotope.com/en/products/vocal-doubler/_jcr_content/root/flexcontainer/sectioncontainer_186/flexcontainer/teaser_2666/image.coreimg.82.1280.jpeg/1643312541409/vocal-doubler-unparalleled-ease-of-use-why.jpeg" loading="lazy">
+        <p>人声拓宽效果</p>
+
+        <h3><a href="https://www.meldaproduction.com/MVibrato" target="_blank">MVibrato</a> / <a href="https://www.meldaproduction.com/MFlanger" target="_blank">MFlanger</a> / <a href="https://www.meldaproduction.com/MPhaser" target="_blank">MPhaser</a> / <a href="https://www.meldaproduction.com/MTremolo" target="_blank">MTremolo</a></h3>
         <img src="https://www.meldaproduction.com/webtemp/imagecache/screenshots/MVibrato00.v1.jpg" loading="lazy">
         <p>一套提供丰富LFO波形的调制效果</p>
-        <p>格式：VST、AU、AAX</p>
-        
+
         <h3><a href="https://pechenegfx.blogspot.com/2014/11/the-plugin-pecheneg-tremolo.html" target="_blank">PechenegTremolo</a></h3>
-        <img src="https://2.bp.blogspot.com/-HzhwHa1BV3g/VL0ZGfMlBkI/AAAAAAAAAVg/UoevvVY-Kf4/s1600/1.png" loading="lazy">
-        <p>界面直观、可以调整LFO波形的Tremolo</p>
-        <p>格式：VST、AU</p>
-        
+        <img src="https://static.kvraudio.com/i/b/1.1421681575.png" loading="lazy">
+        <p>可以无极调整LFO波形类型、相位、对称性的Tremolo/Panne，界面直观r</p>
+
         <h3><a href="https://bedroomproducersblog.com/2018/01/11/hy-plugins-tp2/" target="_blank">HY-TP2</a></h3>
         <img src="https://bedroomproducersblog.com/wp-content/uploads/2018/01/hy-tp2-screenshot-1.jpg" loading="lazy">
-        <p>另一个可调LFO波形的Tremolo，支持独立调整Tremolo Depth和Pan Width</p>
+        <p>一个可以选择LFO波形的Tremolo/Panner，支持独立调整Tremolo Depth和Pan Width</p>
+
+        <h3><a href="https://hy-plugins.com/product/hy-filter4/" target="_blank">HY-Filter4 Free</a></h3>
+        <img src="https://hy-plugins.com/wp-content/uploads/fiter4free.jpg" loading="lazy">
+        <p>双模式滤波器（SVF and 3BP）、五种调制模式（LFO, 2DLFO, RND, Env Follower and XY Control）</p>
         
+        <h3><a href="https://tal-software.com/products/tal-filter" target="_blank">TAL-Filter-2</a></h3>
+        <img src="https://tal-software.com/images/products/tal-filter-2-new.jpg" loading="lazy">
+        <p>支持绘制LFO波形的Filter/Volume/Pan Modulator。支持Linux</p>
+
+        <h3><a href="https://www.caelumaudio.com/CaelumAudio/?Page=FluxMini2" target="_blank">Flux Mini 2</a> & <a href="https://audiomodern.com/shop/plugins/panflow/" target="_blank">PANFLOW</a></h3>
+        <img src="https://static.kvraudio.com/i/b/png.png" loading="lazy">
+        <img src="https://static.kvraudio.com/i/b/panflow_ui_001.png" loading="lazy">
+        <p>前者是Filter/Volume Modulator，后者是Pan Modulator，均支持绘制LFO波形，均支持Windows/macOS/Linux/iOS全平台。Flux Mini2不支持VST2</p>
+
+        <h3>AUDIOMODERN <a href="https://audiomodern.com/shop/plugins/filterstep/" target="_blank">FILTERSTEP</a> & <a href="https://audiomodern.com/shop/plugins/gatelab/" target="_blank">GATELAB</a></h3>
+        <img src="https://static.kvraudio.com/i/b/filterstep-ipad.png" loading="lazy">
+        <img src="https://static.kvraudio.com/i/b/gatelab_ui_001.png" loading="lazy">
+        <p>Filter Sequencer和Gate Sequencer。Windows/macOS/iOS全平台支持</p>
+
+        <h3><a href="https://kilohearts.com/products/trance_gate" target="_blank">kHs Trance Gate</a></h3>
+        <img src="https://kilohearts.com/img/products/trance_gate_full.png" loading="lazy">
+        <p>一个16 Step的Gate Sequencer。支持Rack Extension</p>
+        
+        <h3><a href="https://stone-voices.ru/vst/brandulator" target="_blank">Brandulator</a>
+        <img src="https://static.kvraudio.com/i/b/brandulator_v2.png" loading="lazy">
+        <p>FX Sequencer。支持为多种效果设定音序：comb filters, trance gate, vocoder, wah-wah, various types of modulation (chorus, flanger, phaser, ring, etc.)</p>
+        
+        <h3><a href="https://www.audiodamage.com/pages/free-and-legacy" target="_blank">Automaton</a></h3>
+        <img src="https://static.kvraudio.com/i/b/automaton_ss_new.png" loading="lazy">
+        <p>FX Sequencer。支持为四种效果设定音序：Stutter (a buffer delay for extremely short loop slices), Modulate (a self-modulating ring modulator), Bitcrush (sample rate and bit depth reduction, and our own "Error" effect), and Replicate (a special version of our Replicant effect, tuned for use with the cellular automata sequencer).</p>
+
     </section>
     
 	<section id="imaging"><h2>声像</h2>
-        
-		<h3><a href="https://www.izotope.com/en/products/visual-mixer.html">Visual Mixer</a></h3>
-        <img src="https://www.izotope.com/en/products/visual-mixer/_jcr_content/root/flexcontainer_1546528000/sectioncontainer_cop/flexcontainer/image.coreimg.82.1280.png/1567026140082/visual-mixer.png" loading="lazy">
-        <p>一个更加直观的混音台，可将各轨道的Volume和Pan推子投射在同一个二维平面</p>
-        
+                
 		<h3><a href="https://www.izotope.com/en/products/ozone-imager.html" target="_blank">Ozone Imager 2</a></h3>
         <img src="https://www.izotope.com/en/products/ozone-imager/_jcr_content/root/flexcontainer_1546528000/sectioncontainer_cop/flexcontainer/image.coreimg.82.1280.png/1575559152484/free-imager-lissajous.png" loading="lazy">
         <p>调整音源的立体声宽度，或者将单声道源拓宽为立体声。</p>
-        
-		<h3><a href="https://www.tokyodawn.net/proximity/" target="_blank">Proximity</a></h3>
-        <img src="https://www.tokyodawn.net/cache/847e89211786c30ae15c1bb9fd30f411_w480_h230_grav_north_sc.png?x12957" loading="lazy">
-        <p>一个符合心理声学模型的距离推子，运用得当可增加混音声场的层次感。亦可通过自动化控制来制造一些音源正在逼近或远离听者的效果。</p>
-        
-        <h3><a href="https://www.gvst.co.uk/glfo.htm" target="_blank">GLFO</a></h3>
-        <img src="https://www.gvst.co.uk/glfo_ui.png" loading="lazy">
-        <p>一个参考了心理声学规律的AutoPanner，可以制造音源围绕听者运动的效果。</p>
         
     </section>
 </article>
