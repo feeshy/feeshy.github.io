@@ -16,17 +16,19 @@
 
 <h2>微软生态</h2>
 
-    <h3>Windows 10 数字许可证</h3>
+    <h3>Windows数字许可证</h3>
     
-        <q>关于Windows 10的数字许可证激活<a href="https://www.zhihu.com/question/376281858/answer/1059876378">这位知乎网友的回答</a>解释的比较透彻</q>	
+        <q>关于Windows的数字许可证激活<a href="https://www.zhihu.com/question/376281858/answer/1059876378">这位知乎网友的回答</a>解释的比较透彻</q>	
         <h4>重装系统</h4>
-            <p>Windows数字许可证与OEM硬件绑定。不更换硬件，仅仅是重装系统的话，不需要处理激活的问题。</p>        
-        <h4>更换硬件前旧电脑可以正常工作</h4>
-            <p>我们要检查 Windows 的激活状态是否为“已使用与 Microsoft 帐户关联的数字许可证激活”。如果不是，则要先<a href="https://support.microsoft.com/zh-cn/help/20530" target="_blank">将数字许可证链接到微软账户</a>，再更换硬件，然后验证账户即可重新激活。</p>
-        <h4>原硬件已无法开机</h4>
-            <details><summary>如果你的数字许可证早已关联到微软账户，那么更换硬件后只需要重新验证账户即可。</summary>
-            <p>微软允许的硬件变动幅度超乎你的想象。例如我的旧笔记本第一次更换硬件是机械硬盘升级固态硬盘，重装系统后验证账户激活；第二次更换硬件是笔记本坏掉，把固态硬盘装入另外一台电脑，此时已经没有任何与原笔记本出厂时相同的硬件了，验证账户仍然成功激活。</p></details>
-            <p>对于未关联账户的情况，我看到这样一种说法：拨打微软的<a href="tel: 4008203800">400服务号码</a>，解释清楚，提供购买记录等必要的信息，工程师可能会帮你远程激活。</p>
+            <p>厂商预装的Windows数字许可证与OEM硬件绑定。不更换硬件，仅仅是重装系统可以自动激活。</p>        
+        <h4></h4>
+            <h5>更换硬件前</h5>
+            <p>我们要检查 Windows 的激活状态是否为“已使用与 Microsoft 帐户关联的数字许可证激活”。如果不是，则要先<a href="https://support.microsoft.com/zh-cn/help/20530" target="_blank">将数字许可证链接到微软账户</a>，再更换硬件。</p>
+            <h5>更换硬件后</h5>
+            <p>更换硬件后Windows变为未激活状态，在<a href="ms-settings:activation?activationSource=SMC-Article-20530" target="_blank">激活疑难解答</a>中选择“最近更换了此设备的硬件”→“这是我当前正在使用的设备”，即可将原来的数字许可证转移至新机。微软对于硬件的“更换”程度是不设限制的，我经历过只换硬盘、更换主板型号、全新装机，从win7到win11，从3代移动到10代桌面，每一次都可以顺利承接这份链接到微软账户的数字许可证，即便最初预装它的那台笔记本物理上已经不存在了。</p>
+            <p>转移许可证操作的前提是，新机的系统必须与原有数字许可证的版本准确对应。近几年中国大陆销售的电脑一般是预装Windows家庭中文版(EditionID=CoreCountrySpecific)，而淘汰的旧笔记本则有可能是预装家庭版(EditionID=Core)，两个版本极易混淆，且不支持互转。可以在（<a href="https://account.microsoft.com/devices" target="_blank">微软账户的设备页</a>查询）。</p>
+        <h4></h4>
+            <p>对于未关联账户的情况，也有这样一种说法：拨打微软的<a href="tel: 4008203800">400服务号码</a>，解释清楚，提供购买记录等必要的信息，工程师可能会帮你远程激活。</p>
 
     <h3>Office家庭和学生版</h3>
         <p>买断版的Office 限制1台电脑。无法在重装系统前取消激活，而要在下次安装Office时按照<a href="https://support.microsoft.com/zh-cn/office/%e4%bd%bf%e7%94%a8%e6%bf%80%e6%b4%bb%e5%90%91%e5%af%bc%e6%bf%80%e6%b4%bboffice-1144e0de-e849-496e-8e33-ed6fb1b34202?ui=zh-CN&rs=zh-CN&ad=CN#bkmk_reinstall" target="_blank">重装激活</a>的流程通过电话激活</p>
