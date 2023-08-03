@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    
+    <title>自建Aria2离线下载服务</title>
+    <meta name="keywords" content="aira2, onedrive, tasker, shortcuts">
+    <meta name="description" property="og:description" content="折腾aria2的过程记录，最终效果是实现在移动设备将文件远程下载到VPS或者NAS上，并自动取回OneDrive">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="article">
+    
+    <link rel="stylesheet" href="/style/fonts.css">
+    <link rel="stylesheet" href="/style/tech.css">
+
+    <script>
+        var root = location.protocol + '//' + location.host;
+        var links = document.querySelectorAll('a');
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].textContent.indexOf(root) < 0) {
+                links[i].addEventListener('click', function() {
+                    this.target = '_blank';
+                });
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <p class="date"><a href="https://meta.appinn.net/t/topic/15821" target="_blank">→参与讨论</a></p>
+    
+    <article class="sans">
+        <p>折腾aria2的过程记录，最终效果是实现在移动设备将文件远程下载到VPS或者NAS上，并自动取回OneDrive。我的服务端用的是Ubuntu/Debian，CentOS仍然可以沿用同样的流程，但具体命令会有细微的差别。</p>
+        <h2 id="prep">1. 准备工作</h2>
+            <ol>
+                <li>准备一台VPS或者有公网IP的NAS</li>
+                <li>可选：后续有一些步骤需要修改配置文件。如果用不惯vim、nano这类命令行编辑器，可以给<a href="https://code.visualstudio.com/">VS Code</a>安装<a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh">Remote - SSH</a>插件，就能在VS Code中修改远程主机上的文件了</li>
+                <li>可选：注册域名，推荐<a href="https://www.freenom.com/en/index.html">免费域名</a>或者<a href="https://hostloc.com/thread-968376-1-1.html">低价xyz数字域名。然后在域名服务商配置DNS记录，将<code>example.com</code>和<code>www.example.com</code>指向VPS或者NAS的公网IP</li>
+            </ol>
+        <h2 id="server">2. 在服务器安装Aria2</h2>
+            <p>使用了<a href="https://github.com/P3TERX/aria2.sh">这个脚本</a>。</p>
+            <ol>
+                <li>安装基础组件wget、curl、ca-certificates <code>apt install wget curl ca-certificates</code></li>
+                <li>下载脚本 <code>wget -N git.io/aria2.sh && chmod +x aria2.sh</code></li>
+                <li>运行脚本 <code>./aria2.sh</code></li>
+                <li>接下来按照脚本提示安装aria2</li>
+                <li>可选：根据自己的情况修改aria2的配置文件 <code>/root/.aria2c/aria2.conf</code></li>
+            </ol>
+        <h2 id="client">3. 配置添加任务的途径</h2>
+            <p>配置下列图形界面，需要填写Aria2 RPC地址以及安装Aria2时设定或者生成的RPC端口和密码，并指定在服务器的下载位置</p>
+            <h3 id="web">网页</h3>
+                <ol>
+                    <li>安装Nginx <code>sudo apt-get install nginx</code> 装完通过HTTP访问VPS的域名，确定出现了Nginx的默认页面</li>
+                    <li><a href="https://certbot.eff.org/instructions?ws=nginx&amp;os=ubuntufocal">用Certbot部署HTTPS证书</a>，记录私钥以及<code>/etc/letsencrypt/live</code>目录下的证书文件路径</li>
+                    <li>打开aria2配置文件 <code>/root/.aria2c/aria2.conf</code>，找到<code>rpc-certificate</code>与<code>rpc-private-key</code>两项，按上一步的记录填好</li>
+                    <li>在VPS部署<a href="https://ariang.mayswind.net/zh_Hans/">Aria2NG的依赖环境以及其本体</a></li>
+                    <li>用任意浏览器访问即可添加任务</li>
+                </ol>
+            <p>相比于部署过程跟使用体验都不太方便的远程网页，可能以下本地客户端才是更好的选择：</p>
+            <h3 id="desktop">桌面</h3>
+                <p>推荐<a href="https://chrome.google.com/webstore/detail/mpkodccbngfoacfalldjimigbofkhgjn">Chrome扩展</a>/<a href="https://microsoftedge.microsoft.com/addons/detail/jjfgljkjddpcpfapejfkelkbjbehagbh">Edge扩展</a>，支持右键添加任务/自动接管下载、下载完成通知等功能</p>
+                <p>如果懒得打开浏览器的话，也可以用<a href="https://github.com/mayswind/AriaNg-Native">Electron版AriaNG</a>
+            <h3 id="iOS">iOS</h3>
+                <p>需要安装<a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334">快捷指令</p>
+                <ol>
+                    <li>导入<a href="https://www.icloud.com/shortcuts/9a8e4f1c2da146839e01cba966b99b6a">这个快捷指令</a>后输入RPC信息即可使用，有些版本的系统可能需要进设置勾选“允许不受信任的快捷指令”</li>
+                    <li>在浏览器中长按想下载的文件，选择Aria2下载快捷指令<br>
+                        <div><a href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/2/a212a9659869122d4174d317fba015cbf5bf5d92.jpeg" data-download-href="https://meta.appinn.net/uploads/default/a212a9659869122d4174d317fba015cbf5bf5d92" title="image"><img src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/2/a212a9659869122d4174d317fba015cbf5bf5d92_2_345x202.jpeg" alt="image" data-base62-sha1="n7LkD1WgeeUC93CZMUj2vFMZPt8" width="345" height="202" srcset="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/2/a212a9659869122d4174d317fba015cbf5bf5d92_2_345x202.jpeg, https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/2/a212a9659869122d4174d317fba015cbf5bf5d92_2_517x303.jpeg 1.5x, https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/2/a212a9659869122d4174d317fba015cbf5bf5d92_2_690x404.jpeg 2x" data-dominant-color="DDDEDF"></a></div>
+                    </li>
+                </ol>
+            <h3 id="tasker">Android</h3>
+                <p>需要安装<a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm">Tasker</a> 和 <a href="https://play.google.com/store/apps/details?id=com.joaomgcd.autoshare">AutoShare</a></p>
+                <ol>
+                    <li>打开 AutoShare，进入 Share Targets，勾选 AutoShare Command</li>
+                    <li>打开 AutoShare，进入 Manage Commands，新建一个名为 <code>Aria2</code> 的 Command，设置一个你喜欢的图标</li>
+                    <li>如果是第一次使用Tasker，先打开Tasker授予必要权限</li>
+                    <li>导入<a href="https://taskernet.com/shares/?user=AS35m8kd%2B%2B8TCtuKD5vi%2BgxDuL5p9VAa8vrSP6viIGO6nBMQGv6ntB%2BfsCHAjiN7MZx1YA%3D%3D&amp;id=Profile%3AAria2">这个Profile</a>，然后在Tasker任务中手动填写RPC信息<br>
+                        <div><a href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/c/0c34f6d414bad99a64e30715854a3990cb423c9a.png" data-download-href="https://meta.appinn.net/uploads/default/0c34f6d414bad99a64e30715854a3990cb423c9a" title="image"><img src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/c/0c34f6d414bad99a64e30715854a3990cb423c9a_2_133x250.png" alt="image" data-base62-sha1="1JZcHuP28dF6WkBscifpY0VmtZ0" width="133" height="250" srcset="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/c/0c34f6d414bad99a64e30715854a3990cb423c9a_2_133x250.png, https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/c/0c34f6d414bad99a64e30715854a3990cb423c9a_2_199x375.png 1.5x, https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/c/0c34f6d414bad99a64e30715854a3990cb423c9a_2_266x500.png 2x" data-dominant-color="0F0E0D"></a></div>
+                    </li>
+                    <li>在浏览器中长按想下载的文件，选择AutoShare Commands，然后选择Aria2<br>
+                        <div>
+                            <a href="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/7/17b186ab0a7a632a880dfe875e4ccb566555b3a4.png" data-download-href="https://meta.appinn.net/uploads/default/17b186ab0a7a632a880dfe875e4ccb566555b3a4" title="image"><img src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/7/17b186ab0a7a632a880dfe875e4ccb566555b3a4_2_125x250.png" alt="image" data-base62-sha1="3nBkr4jBKVtvGnDHfgC2XiWubhG" width="125" height="250" srcset="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/7/17b186ab0a7a632a880dfe875e4ccb566555b3a4_2_125x250.png, https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/7/17b186ab0a7a632a880dfe875e4ccb566555b3a4_2_187x375.png 1.5x, https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/7/17b186ab0a7a632a880dfe875e4ccb566555b3a4_2_250x500.png 2x" data-dominant-color="452D2B"></a>
+                            <a href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/2/a2087e4b616ec5173915e2c72a4b144fde53112d.png" data-download-href="https://meta.appinn.net/uploads/default/a2087e4b616ec5173915e2c72a4b144fde53112d" title="image"><img src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/2/a2087e4b616ec5173915e2c72a4b144fde53112d_2_133x250.png" alt="image" data-base62-sha1="n7pxV4pygAzg6hIKQmHORS2myQt" width="133" height="250" srcset="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/2/a2087e4b616ec5173915e2c72a4b144fde53112d_2_133x250.png, https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/2/a2087e4b616ec5173915e2c72a4b144fde53112d_2_199x375.png 1.5x, https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/2/a2087e4b616ec5173915e2c72a4b144fde53112d_2_266x500.png 2x" data-dominant-color="443230"></a>
+                        </div>
+                    </li>
+                </ol>
+        <h2 id="rclone">4. 配置自动转存到OneDrive或者Google Drive</h2>
+        <ol>
+            <li><a href="https://rclone.org/install/#script-installation">安装Rclone</a>：<code>curl https://rclone.org/install.sh | sudo bash</code></li>
+            <li>授权Rclone访问<a href="https://p3terx.com/archives/rclone-installation-and-configuration-tutorial.html#toc_2">OneDrive</a>或者<a href="https://p3terx.com/archives/rclone-installation-and-configuration-tutorial.html#toc_5">Google Drive</a></li>
+            <li><a href="https://p3terx.com/archives/offline-download-of-onedrive-gdrive.html#toc_4">配置自动上传脚本</a></li>
+            <ol>
+                <li>打开aria2配置文件：<code>/root/.aria2c/aria2.conf</code> 找到“下载完成后执行的命令”，把clean.sh替换为upload.sh。</li>
+                <li>可选：根据自己的情况修改自动上传脚本的配置文件：<code>/root/.aria2c/script.conf</code></li>
+                <li>重启aria2：<code>重启 Aria2 </code></li>
+            </ol>
+        </ol>
+    </article>
+
+    <br><br><br>
+    <nav><a href="./">&lt;</a></nav>
+    <nav><a href="https://meta.appinn.net/t/topic/15821" target="_blank">💬</a></nav>
+    <footer>
+    </footer>
+
+</body>
+
+</html>
