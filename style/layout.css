@@ -94,8 +94,13 @@ iframe, img {
 iframe.large, .large iframe, img.large, .large img {
     max-height: 87.5vh;
 }
-p img, li img, nav img, footer img, h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+p img, li img {
 	display: inline-block;
+}
+nav img, footer img, h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+	display: inline-block;
+	height: 1em;
+	width: auto;
 }
 blockquote {
     padding-left: 0.75em;
