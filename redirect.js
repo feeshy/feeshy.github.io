@@ -14,5 +14,8 @@ window.onload=function() {
         case url.includes('px_pt_dp.html'):
             document.location = url.replace('px_pt_dp', 'css_width')
             break
+        case url.includes('/shortcuts'):
+            document.location = url.replace('/shortcuts', '/tech/smartphonesmart#ios')
+            break
     }
 }
