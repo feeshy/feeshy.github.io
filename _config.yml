@@ -1,0 +1,130 @@
+# site info
+
+#  language codes https://www.w3schools.com/tags/ref_language_codes.asp
+# territory codes https://www.w3schools.com/tags/ref_country_codes.asp
+
+lang: zh-Hans # default language tag of the site. 
+locale: zh_CN # og:locale of the format language_TERRITORY.
+author: feeshy # name of site's author
+title: 浮鲜 # name of the site
+description: > # description of the site (multiple lines allowed)
+  feeshy的自留地
+url: https://feeshy.github.io # the base hostname & protocol for your site
+baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+webmaster_verifications:
+  google: 13TdFZIpyncmP_FVn1REpOcCIgM5Tu9PwO6qTAcEFZo
+
+# favicon & app icon
+
+# generate modern svg favicon at https://realfavicongenerator.net/svg-favicon/
+# generate png icons pack at https://realfavicongenerator.net/
+# generate maskable chrome icons at https://maskable.app/editor/
+
+favicon:
+  ico: "/favicon.ico" # legacy 'favicon.ico' at the root folder of your site, it is highly recommended not changing this name
+  svg: "/favicon.svg" # name+extension of modern vector favicon
+  ios: "/maskable-180x180.png" # icon for Safari
+ms_tile_color: "#403F5F" # hex background for windows 8.1~10 tile. and don't forget to configure your tile icons at "/browserconfig.xml"
+webmanifest: "/manifest.json" # icon config file for Chrome. and don't forget to check the favicon names at webmanifest.
+
+# pwa
+
+pwa:
+  enabled: true # set false to temporarily disable this plugin
+  sw_src_filepath: service-worker.js
+  sw_dest_filename: service-worker.js
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 0
+  precache_glob_directory: /
+  precache_glob_patterns:
+    - "assets/background/*.{png,svg,gif}"
+    - "assets/css/*.{css}"
+    - "assets/js/*.{js}"
+    - "assets/OpenFont/**/*.{eot,ttf,woff,woff2}"
+  precache_glob_ignores:
+    - index.html
+    - "/ppi-calc/"
+    - "/ingress-tools/"
+
+# theme config
+
+# theme: less-style-please # if you use it as a local theme
+remote_theme: feeshy/less-style-please # if you use it as a remote theme on github pages
+show_logo: true # show the svg favicon in home page
+show_description: false # show blog description in home page
+sort_by_modified_date: false # sort posts by modified date rather than published date. Attention: You will have to set last_modified_date for every post
+background_image: # path to background images for light and dark mode
+  light: "/assets/img/light-paper-fibers.png"
+  dark: "/assets/img/black-paper.png"
+nav:
+  back_home: "home" # customize text for homepage link
+  go_to_top: "🔝" # customize text for go to top button
+date_format: "%Y-%m-%d" # customize how date is formatted at https://strftime.net/
+copyright: "by-nc-nd" # available values: "all-rights-reserved", "by-nc-nd", "by-nd", "by-nc-sa", "by-nc", "by-sa", "by", "public-domain". choose here https://chooser-beta.creativecommons.org/
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+
+# defaults
+
+permalink: /:categories/:title
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: "*/index.md"
+      type: pages
+    values:
+      layout: archive
+  -
+    scope:
+      path: music
+    values:
+      fonts: serif
+  -
+    scope:
+      path: poetry
+    values:
+      layout: poetry
+      fonts: serif
+  -
+    scope:
+      path: prose
+    values:
+      fonts: serif
+      dropcap: true
+
+# build settings
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "highlight", "footnotes", "with_toc_data"]
+toc:
+  min_level: 2 # value: 1-6
+  max_level: 3 # value: 1-6
+sass:
+  sass_dir: _sass
+  style: compressed
+feed:
+  posts_limit: 20 # max number of posts on feed
+
+# plugins
+
+plugins:
+  - jekyll-remote-theme # enable this if you use it as a remote theme on github pages
+  - jekyll-seo-tag
+  - jekyll-toc
+  - jekyll-target-blank
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-pwa-workbox
+  - jekyll-redirect-from
