@@ -1,0 +1,11 @@
+---
+layout: archive
+which_category: poetry
+title: 诗
+---
+📔 [**灰**](gloom/)
+| [**蓝**](blue/)
+| [**粉**](pink/)
+| [**红**](blood/)
+| [**你脑子才有病**](freak/)
+| [**三行真男人**](fragments/)

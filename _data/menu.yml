@@ -1,0 +1,63 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+
+  - title: 理性
+    entries:
+    - title: 技术
+      url: tech
+      post_list:
+        limit: 3
+        category: tech
+        show_more: false
+    - title: 汇编
+      url: lists
+      post_list:
+        limit: 3
+        category: lists
+        show_more: false
+    - title: 种草
+      url: smzdm
+      post_list:
+        limit: 3
+        category: smzdm
+        show_more: false
+
+  - title: 感性
+    entries:
+    - title: 胡思乱想
+      url: prose
+      post_list:
+        limit: 3
+        category: prose
+        show_more: false
+    - title: 诗
+      url: poetry
+      post_list:
+        limit: 3
+        category: poetry
+        show_more: false
+    - title: 歌
+      url: music
+      post_list:
+        limit: 3
+        category: music
+        show_more: false
+
+  - title: 链接
+    entries:
+    - title: feed
+      url: feed.xml
+    - title: Telegram频道
+      url: https://t.me/feeshy_channel
+    - title: 快捷指令
+      url: shortcuts
+    - title: Tasker
+      url: https://feeshy.github.io/tasker-shares/
+    - title: PPI计算器
+      url: https://feeshy.github.io/ppi-calc/
+    - title: Ingress Tools
+      url: https://feeshy.github.io/ingress-tools/
+    - title: Jekyll主题
+      url: https://github.com/feeshy/less-style-please/
