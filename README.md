@@ -9,10 +9,9 @@ I publish my blog posts using a cross-platform workflow that runs seamlessly on 
 
 ```mermaid
 flowchart TD
-A[content creation] -->|obsidian| C[jekyll project repository]
-B[theme developing] -->|vs code| C
-C -->|build with github actions| D[static files]
-D -->|deploy with github actions| E[github pages]
+A[content creation] -->|obsidian| B[obsidian vault] -->|obsidian git| C[jekyll project repository]
+D[theme developing] -->|vs code| E[jekyll theme repository] -->|remote theme| C
+C -->|build & deploy with github actions| F[github pages]
 ```
 
 ## Links

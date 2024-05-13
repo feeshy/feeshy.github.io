@@ -21,4 +21,4 @@ redirect_from:
 | 小本本                | 聚合剪贴板，将共享表单或者剪贴板的内容记到小本本上，每次记一行，记完统一提取                                             |
 | 音视频转码              | 多合一媒体转码工具，目标格式包括AAC/HEVC/H.264/GIF                                                 |
 
-如果您是Android用户，也可以关注一下[feeshy的Tasker配置分享](https://feeshy.github.io/tasker-shares)
+如果您是Android用户，也请关注[feeshy的Tasker配置分享](https://feeshy.github.io/tasker-shares)
