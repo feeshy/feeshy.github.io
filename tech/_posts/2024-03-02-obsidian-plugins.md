@@ -2,7 +2,7 @@
 layout: post
 title: Obsidian插件折腾记录
 date: 2024-03-02
-last_modified_at: 2024-04-18
+last_modified_at: 2024-05-16
 tags:
   - obsidian
   - appinn
@@ -11,39 +11,33 @@ redirect_from:
   - https://meta.appinn.net/t/topic/53296
 toc: true
 ---
+> Obsidian 是一款支持Markdown语法、本地存储的笔记软件，其特色在于其双向链接功能和灵活的插件系统，可以帮助用户以非线性的方式组织和管理知识。简而言之，Obsidian 可以看作是增强版的个人知识库，它可以让用户将知识碎片连接起来，形成一个庞大的知识网络，并通过插件扩展其功能，实现多种用途。
 
-之前我是轻度的[Obsidian](https://obsidian.md)用户，最近把[幕布](https://mubu.com/)上的笔记都迁移过来了，准备把Obsidian当成主力笔记。折腾了一下，目前的插件方案是这样的：
+从前我只是轻度的[Obsidian](https://obsidian.md)用户，最近把[幕布](https://mubu.com/)上的笔记都迁移过来了，准备把Obsidian当成主力笔记。折腾了一番，目前的插件方案是这样的：
 
 ## 内置同步
 
 虽然直接把Obsidian本地库放在网盘中就能同步（纯桌面可以用任意网盘，iOS与桌面可以用iCloud），但Android平台的网盘客户端很难兼顾同步与续航。如果涉及Android，那么就只存在Obsidian软件内同步这项选择。
 
-Obsidian官方的内置同步服务要每月花费8美金，这使得许多用户会选择以下两个第三方的内置同步方案：[remotely-save](https://obsidian.md/plugins?id=remotely-save) \| [remotely-sync](https://obsidian.md/plugins?id=remotely-secure)
+Obsidian官方的内置同步服务要每月花费8美金，这使得许多用户会选择以下两个第三方的内置同步方案：[remotely-save](https://obsidian.md/plugins?id=remotely-save) \| [remotely-sync](https://obsidian.md/plugins?id=remotely-secure)[^sync]，可将Obsidian接入Dropbox / OneDrive / WebDAV / Amazon S3。如果更看重版本管理，还可以使用git同步插件[obsidian-git](https://obsidian.md/plugins?id=obsidian-git)[^git]
 
-- 两插件同源。remotely-save原作者fyears在2022年~2023年有一年半没更新，于是sboesen fork了一个新的分支remotely-sync进行维护，2024年初fyears归来，目前两个项目平行更新
-- 支持OneDrive / Dropbox / S3 / WebDAV。WebDAV不建议用免费版坚果云，这两个插件目前的同步方式不是很科学，会消耗大量请求次数。
-- 首次安装后需要进入插件授权云端存储，以及配置自动同步间隔。
-- 默认仅同步笔记库，建议勾选“同步配置文件夹”以同步插件和主题。目前配置文件夹只支持增量同步，不支持删除，如果想要卸载插件或者主题，需要在云端和每一台设备分别删除插件文件夹。
+[^sync]: 两插件同源。remotely-save原作者fyears在2022年~2023年有一年半没更新，于是sboesen fork了一个新的分支remotely-sync进行维护，2024年初fyears归来，目前两个项目平行更新
 
-另外，如果更看重版本管理，还可以使用git同步插件[obsidian-git](https://obsidian.md/plugins?id=obsidian-git)。我现在就是用这个插件打通了从Obsidian到GitHub Pages的流程。
+[^git]: obsidian git插件的意义不仅仅是同步与版本管理。例如，我现在就是靠它打通了从Obsidian到GitHub的路由，从而实现了直接从Obsidian发布博客的工作流
 
-## 杂七杂八
+## 编辑器
 
 - [Auto Link Title](https://obsidian.md/plugins?id=obsidian-auto-link-title) - 粘贴URL，自动获取网页标题
 - [Advanced Tables](https://obsidian.md/plugins?id=table-editor-obsidian) - 所见即所得的表格编辑器
-- [Mermaid Tools](https://obsidian.md/plugins?id=mermaid-tools) - 用文本绘制流程图
-- [File Cleaner Redux](https://obsidian.md/plugins?id=file-cleaner-redux) - 文件清理器，可以清除未被引用的附件、空文件、大文件、过期文件
-- [Open with VS Code](https://obsidian.md/plugins?id=open-vscode) - 直接在VS Code中打开当前库，处理博客的代码部分，再配合 obsidian-git 上传到GitHub Pages
-- [五种Obsidian<->Zotero联动方案](zotero#obsidian)
-
-## 大纲笔记
+- [Mermaid Tools](https://obsidian.md/plugins?id=mermaid-tools) - 可视化的mermaid流程图代码片段预设
+- [Open with VS Code](https://obsidian.md/plugins?id=open-vscode) - 调用VS Code打开当前库，用更专业的工具处理Obsidian不擅长的代码编辑工作
 
 以下两个插件可以在Obsidian中获得类似Workflowy、幕布的编辑体验
 
-- [Outliner](https://obsidian.md/plugins?id=obsidian-outliner) - 列表编辑增强，将`Tab`、`Enter`，`Ctrl+A`、`Ctrl+Shift+↑/↓`等操作修改为workflowy相同的效果，还支持列表的拖拽排序
+- [Outliner](https://obsidian.md/plugins?id=obsidian-outliner) - 列表编辑快捷键增强，将`Tab`、`Enter`，`Ctrl+A`、`Ctrl+Shift+↑/↓`等操作修改为workflowy相同的效果，还支持列表的拖拽排序
 - [Heading Shifter](https://obsidian.md/plugins?id=obsidian-heading-shifter) - 用`Tab`、`Shift+Tab`调整标题等级，推荐自己再绑定`alt+1~6`的快捷键
 
-以下两个第三方插件可以为大纲笔记渲提供额外的视图。需要修改文件头，建议配合核心插件“模板”使用
+以下两个第三方插件可以为大纲笔记提供额外的视图
 
 - [Enhancing Mindmap](https://obsidian.md/plugins?id=obsidian-enhancing-mindmap) - 为大纲笔记启用树形视图，替代[幕布](https://mubu.com)
    ![](https://user-images.githubusercontent.com/18719494/124454742-63ec8580-ddbb-11eb-8da0-7cd44f38a225.gif)
@@ -59,6 +53,13 @@ Obsidian官方的内置同步服务要每月花费8美金，这使得许多用�
    ![](https://github.com/Leonezz/obsidian-tasks-calendar-wrapper/raw/master/imgs/quick_entry.png)
 - [Cardboard](https://obsidian.md/plugins?id=tasks-calendar-wrapper) - 用看板的形式显示库中的全部待办事项。与[Kanban](https://obsidian.md/plugins?id=obsidian-kanban)的区别是，Cardboard更专注于任务管理的功能，看板完全自动生成，但每个库只能有一个看板
   ![](https://github.com/roovo/obsidian-card-board/raw/main/images/dateBoard.png?raw=true)
+
+## 文档库管理
+
+- [File Cleaner Redux](https://obsidian.md/plugins?id=file-cleaner-redux) - 文件清理器，可以清除未被引用的附件、空文件、大文件、过期文件
+- [五种Obsidian<->Zotero联动方案](zotero#obsidian)
+- [Homepage](https://obsidian.md/plugins?id=homepage) - 将某篇笔记设为首页，[配合dataview很好用](https://xzsj.vip/2022/obsidian-08/)
+- [Dataview](https://obsidian.md/plugins?id=dataview) - YAML数据查询工具，可以将文档库整理成图表
 
 ## 主题
 
