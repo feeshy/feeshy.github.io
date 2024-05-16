@@ -18,7 +18,10 @@ redirect_from:
 - 尺寸：直板机宽度不超过72mm，折叠机收起后尺寸不超过80mmx90mm
 - 重量：直板机与折叠机不超过200g，超轻机不超过140g
 
-<details><summary>关于双卡：</summary>p代表实体SIM，e代表eSIM。p+p/e代表支持双实体SIM或者实体+eSIM的双卡双待，p+e代表单实体卡槽，可通过eSIM支持双卡双待，p/e+p/e代表支持实体与eSIM任意组合的双卡双待；[ESIM支持情况](https://bmzhp.com/uncategorized/516.html)因销售市场而异。中国移动、中国电信、中国联通的ESIM业务仅限于手表、平板，并没有开放手机端业务，因此表中列出的全部手机的国行版本都是不支持ESIM的。</details>
+<details><summary>关于双卡</summary>
+	<p>p: 实体SIM卡<br>e: eSIM卡<br>p+p: 双卡槽，不支持eSIM<br>p+p/e: 双卡槽，支持双实体或实体+eSIM双卡双待<br>p+e: 单卡槽，支持实体+eSIM双卡双待<br>p/e+e: 单卡槽，支持双eSIM或者实体+eSIM双卡双待</p>
+	<p><a href="https://bmzhp.com/uncategorized/516.html" target="_blank">ESIM支持情况</a>因销售市场而异。中国移动、中国电信、中国联通的ESIM业务仅限于手表、平板，并没有开放手机端业务，因此表中列出的全部手机的国行版本都是不支持ESIM的。</p>
+</details>
 
 P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 ## 在售机型
@@ -79,7 +82,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 	<td>172g</td>
 	<td>3279mAh</td>
 	<td>Apple A15</td>
-	<td>p/e+p/e</td>
+	<td>p+p p/e+e</td>
 	<td>2022</td>
 </tr>
 <tr>
@@ -89,7 +92,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 	<td>171g</td>
 	<td>3349mAh</td>
 	<td>Apple A16</td>
-	<td>p/e+p/e</td>
+	<td>p+p p/e+e</td>
 	<td>2023</td>
 </tr>
 <tr>
@@ -104,17 +107,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 	<td>2023</td>
 </tr>
 <tr>
-	<td rowspan="3">小米</td>
-	<td><a href="https://www.mi.com/xiaomi-13" target="_blank">小米13</a></td>
-	<td>6.28" 20:9</td>
-	<td>71.5mm</td>
-	<td>189g</td>
-	<td>4500mAh</td>
-	<td>骁龙8 II</td>
-	<td>p+p/e</td>
-	<td>2022</td>
-</tr>
-<tr>
+	<td rowspan="2">小米</td>
 	<td><a href="https://www.mi.com/xiaomi-14" target="_blank">小米14</a></td>
 	<td>6.36" 20:9</td>
 	<td>71.5mm</td>
@@ -156,6 +149,17 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 	<td>2024</td>
 </tr>
 <tr>
+	<td rowspan="1">夏普</td>
+	<td><a href="https://jp.sharp/products/aquos-sense8" target="_blank">Aquos sense8</a></td>
+	<td>6.1" 19.5:9</td>
+	<td>71mm</td>
+	<td>159g</td>
+	<td>5000mAh</td>
+	<td>骁龙6</td>
+	<td>p+e</td>
+	<td>2023</td>
+</tr>
+<tr>
 	<td>华硕</td>
 	<td><a href="https://www.asus.com/us/mobile-handhelds/phones/zenfone/zenfone-10" target="_blank">Zenfone 10</a></td>
 	<td>5.9" 20:9</td>
@@ -167,7 +171,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 	<td>2023</td>
 </tr>
 <tr>
-	<td colspan="8" style="text-align:center">超轻机</td>
+	<td colspan="9" style="text-align:center">超轻机</td>
 </tr>
 <tr>
 	<td rowspan="1">Unihertz</td>
@@ -192,7 +196,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 	<td>2023</td>
 </tr>
 <tr>
-	<td colspan="8" style="text-align:center">折叠机</td>
+	<td colspan="9" style="text-align:center">折叠机</td>
 </tr>
 <tr>
 	<td rowspan="1">三星</td>
@@ -274,12 +278,13 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<th>重量</th>
 		<th>电池</th>
 		<th>SoC</th>
+		<th>双卡</th>
 		<th>年份</th>
 	</tr>
 	</thead>
 	<tbody>
 	<tr>
-		<td colspan="8" style="text-align:center">折叠机</td>
+		<td colspan="9" style="text-align:center">折叠机</td>
 	</tr>
 	<tr>
 		<td rowspan="4">三星</td>
@@ -289,6 +294,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>183g</td>
 		<td>3300mAh</td>
 		<td>骁龙855+</td>
+		<td></td>
 		<td>2020</td>
 	</tr>
 	<tr>
@@ -298,6 +304,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>183g</td>
 		<td>3300mAh</td>
 		<td>骁龙865+</td>
+		<td>p+e</td>
 		<td>2020</td>
 	</tr>
 	<tr>
@@ -307,16 +314,18 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>183g</td>
 		<td>3300mAh</td>
 		<td>骁龙888</td>
+		<td>p+e</td>
 		<td>2021</td>
 	</tr>
 	<tr>
-	<td>Galaxy Z Flip4</td>
-	<td>6.7" 22:9</td>
-	<td>71.9mm</td>
-	<td>187g</td>
-	<td>3700mAh</td>
-	<td>骁龙8</td>
-	<td>2022</td>
+		<td>Galaxy Z Flip4</td>
+		<td>6.7" 22:9</td>
+		<td>71.9mm</td>
+		<td>187g</td>
+		<td>3700mAh</td>
+		<td>骁龙8</td>
+		<td>p+e</td>
+		<td>2022</td>
 	</tr>
 	<tr>
 		<td rowspan="3">motorola</td>
@@ -326,6 +335,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>205g</td>
 		<td>2510mAh</td>
 		<td>骁龙710</td>
+		<td></td>
 		<td>2019</td>
 	</tr>
 	<tr>
@@ -335,6 +345,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>192g</td>
 		<td>2800mAh</td>
 		<td>骁龙765G</td>
+		<td></td>
 		<td>2020</td>
 	</tr>
 	<tr>
@@ -344,6 +355,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>200g</td>
 		<td>3500mAh</td>
 		<td>骁龙888</td>
+		<td></td>
 		<td>2022</td>
 	</tr>
 	<tr>
@@ -354,6 +366,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 	<td>191g</td>
 	<td>4300mAh</td>
 	<td>天玑9000+</td>
+	<td></td>
 	<td>2022</td>
 	</tr>
 	<tr>
@@ -364,6 +377,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>190g</td>
 		<td>4000mAh</td>
 		<td>骁龙888</td>
+		<td></td>
 		<td>2021</td>
 	</tr>
 	<tr>
@@ -373,38 +387,22 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>190g</td>
 		<td>4000mAh</td>
 		<td>骁龙778G</td>
+		<td></td>
 		<td>2022</td>
 	</tr>
 	<tr>
-		<td colspan="8" style="text-align:center">直板机</td>
+		<td colspan="9" style="text-align:center">直板机</td>
 	</tr>
 	<tr>
 		<td rowspan="13">苹果</td>
-		<td>iPhone SE (2016)</td>
+		<td>iPhone SE</td>
 		<td>4.0" 16:9</td>
 		<td>58.6mm</td>
 		<td>113g</td>
 		<td>1642mAh</td>
 		<td>Apple A9</td>
+		<td>p</td>
 		<td>2016</td>
-	</tr>
-	<tr>
-		<td>Phone 12 mini</td>
-		<td>5.4" 19.5:9</td>
-		<td>64.2mm</td>
-		<td>133g</td>
-		<td>2227mAh</td>
-		<td>Apple A14</td>
-		<td>2020</td>
-	</tr>
-	<tr>
-		<td>iPhone 13 mini</td>
-		<td>5.4" 19.5:9</td>
-		<td>64.2mm</td>
-		<td>140g</td>
-		<td>2406mAh</td>
-		<td>Apple A15</td>
-		<td>2021</td>
 	</tr>
 	<tr>
 		<td>iPhone 7</td>
@@ -413,6 +411,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>138g</td>
 		<td>1960mAh</td>
 		<td>Apple A10</td>
+		<td>p</td>
 		<td>2016</td>
 	</tr>
 	<tr>
@@ -422,24 +421,47 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>148g</td>
 		<td>1821mAh</td>
 		<td>Apple A11</td>
+		<td>p</td>
 		<td>2017</td>
 	</tr>
 	<tr>
-		<td>iPhone SE (2020)</td>
+		<td>iPhone SE</td>
 		<td>4.7" 16:9</td>
 		<td>67.3mm</td>
 		<td>148g</td>
 		<td>1821mAh</td>
 		<td>Apple A13</td>
+		<td>p+e</td>
 		<td>2020</td>
 	</tr>
 	<tr>
-		<td>iPhone SE (2022)</td>
+		<td>Phone 12 mini</td>
+		<td>5.4" 19.5:9</td>
+		<td>64.2mm</td>
+		<td>133g</td>
+		<td>2227mAh</td>
+		<td>Apple A14</td>
+		<td>p+e</td>
+		<td>2020</td>
+	</tr>
+	<tr>
+		<td>iPhone 13 mini</td>
+		<td>5.4" 19.5:9</td>
+		<td>64.2mm</td>
+		<td>140g</td>
+		<td>2406mAh</td>
+		<td>Apple A15</td>
+		<td>p+e</td>
+		<td>2021</td>
+	</tr>
+	<tr>
+		<td>iPhone SE</td>
 		<td>4.7" 16:9</td>
 		<td>67.3mm</td>
 		<td>144g</td>
 		<td>2018mAh</td>
 		<td>Apple A15</td>
+		<td>p+e</td>
 		<td>2022</td>
 	</tr>
 	<tr>
@@ -449,6 +471,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>174g</td>
 		<td>2716mAh</td>
 		<td>Apple A11</td>
+		<td>p</td>
 		<td>2017</td>
 	</tr>
 	<tr>
@@ -458,6 +481,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>177g</td>
 		<td>2658mAh</td>
 		<td>Apple A12</td>
+		<td>p+p/e</td>
 		<td>2018</td>
 	</tr>
 	<tr>
@@ -467,6 +491,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>188g</td>
 		<td>3046mAh</td>
 		<td>Apple A13</td>
+		<td>p+p/e</td>
 		<td>2019</td>
 	</tr>
 	<tr>
@@ -476,6 +501,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>164g</td>
 		<td>2815mAh</td>
 		<td>Apple A14</td>
+		<td>p+p/e</td>
 		<td>2020</td>
 	</tr>
 	<tr>
@@ -485,6 +511,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>173g</td>
 		<td>3227mAh</td>
 		<td>Apple A15</td>
+		<td>p+p p/e+e</td>
 		<td>2021</td>
 	</tr>
 	<tr>
@@ -494,6 +521,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>173g</td>
 		<td>3279mAh</td>
 		<td>Apple A15</td>
+		<td>p+p p/e+e</td>
 		<td>2022</td>
 	</tr>
 	<tr>
@@ -504,6 +532,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>135g</td>
 		<td>2700mAh</td>
 		<td>骁龙650</td>
+		<td>p</td>
 		<td>2016</td>
 	</tr>
 	<tr>
@@ -513,6 +542,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>140g</td>
 		<td>2700mAh</td>
 		<td>骁龙835</td>
+		<td>p</td>
 		<td>2017</td>
 	</tr>
 	<tr>
@@ -522,61 +552,8 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>168g</td>
 		<td>2870mAh</td>
 		<td>骁龙845</td>
+		<td>p p+p</td>
 		<td>2018</td>
-	</tr>
-	<tr>
-		<td>Xperia Ace (SO-02L)</td>
-		<td>5.0" 18:9</td>
-		<td>67mm</td>
-		<td>154g</td>
-		<td>2700mAh</td>
-		<td>骁龙630</td>
-		<td>2019</td>
-	</tr>
-	<tr>
-		<td>Xperia 10</td>
-		<td>6.0" 21:9</td>
-		<td>68mm</td>
-		<td>162g</td>
-		<td>2870mAh</td>
-		<td>骁龙630</td>
-		<td>2019</td>
-	</tr>
-	<tr>
-		<td>Xperia 10 II</td>
-		<td>6.0" 21:9</td>
-		<td>69mm</td>
-		<td>151g</td>
-		<td>3600mAh</td>
-		<td>骁龙665</td>
-		<td>2020</td>
-	</tr>
-	<tr>
-		<td>Xperia 10 III</td>
-		<td>6.0" 21:9</td>
-		<td>68mm</td>
-		<td>169g</td>
-		<td>4500mAh</td>
-		<td>骁龙690</td>
-		<td>2021</td>
-	</tr>
-	<tr>
-		<td>Xperia 10 IV</td>
-		<td>6.0" 21:9</td>
-		<td>67mm</td>
-		<td>161g</td>
-		<td>5000mAh</td>
-		<td>骁龙695</td>
-		<td>2022</td>
-	</tr>
-	<tr>
-		<td>Xperia 10 V</td>
-		<td>6.1" 21:9</td>
-		<td>68mm</td>
-		<td>158g</td>
-		<td>5000mAh</td>
-		<td>骁龙695</td>
-		<td>2023</td>
 	</tr>
 	<tr>
 		<td>Xperia 5</td>
@@ -585,6 +562,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>164g</td>
 		<td>3140mAh</td>
 		<td>骁龙855</td>
+		<td>p p+p</td>
 		<td>2019</td>
 	</tr>
 	<tr>
@@ -594,6 +572,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>163g</td>
 		<td>4000mAh</td>
 		<td>骁龙865</td>
+		<td>p p+p</td>
 		<td>2020</td>
 	</tr>
 	<tr>
@@ -603,6 +582,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>168g</td>
 		<td>4500mAh</td>
 		<td>骁龙888</td>
+		<td>p p+p</td>
 		<td>2021</td>
 	</tr>
 	<tr>
@@ -612,16 +592,68 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>172g</td>
 		<td>5000mAh</td>
 		<td>骁龙8</td>
+		<td>p+p/e</td>
+		<td>2022</td>
+	</tr>
+		<tr>
+		<td>Xperia 10</td>
+		<td>6.0" 21:9</td>
+		<td>68mm</td>
+		<td>162g</td>
+		<td>2870mAh</td>
+		<td>骁龙630</td>
+		<td>p p+p</td>
+		<td>2019</td>
+	</tr>
+	<tr>
+		<td>Xperia 10 II</td>
+		<td>6.0" 21:9</td>
+		<td>69mm</td>
+		<td>151g</td>
+		<td>3600mAh</td>
+		<td>骁龙665</td>
+		<td>p p+p</td>
+		<td>2020</td>
+	</tr>
+	<tr>
+		<td>Xperia 10 III</td>
+		<td>6.0" 21:9</td>
+		<td>68mm</td>
+		<td>169g</td>
+		<td>4500mAh</td>
+		<td>骁龙690</td>
+		<td>p p+p</td>
+		<td>2021</td>
+	</tr>
+	<tr>
+		<td>Xperia 10 IV</td>
+		<td>6.0" 21:9</td>
+		<td>67mm</td>
+		<td>161g</td>
+		<td>5000mAh</td>
+		<td>骁龙695</td>
+		<td>p+p/e</td>
 		<td>2022</td>
 	</tr>
 	<tr>
-		<td rowspan="2">夏普</td>
+		<td>Xperia 10 V</td>
+		<td>6.1" 21:9</td>
+		<td>68mm</td>
+		<td>158g</td>
+		<td>5000mAh</td>
+		<td>骁龙695</td>
+		<td>p+p/e</td>
+		<td>2023</td>
+	</tr>
+	<tr>
+		<td rowspan="3">夏普</td>
 		<td>AQUOS R Compact</td>
 		<td>4.9" 17:9</td>
 		<td>66mm</td>
 		<td>140g</td>
 		<td>2500mAh</td>
 		<td>骁龙660</td>
+		<td></td>
 		<td>2017</td>
 	</tr>
 	<tr>
@@ -631,7 +663,18 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>135g</td>
 		<td>2500mAh</td>
 		<td>骁龙845</td>
+		<td></td>
 		<td>2019</td>
+	</tr>
+	<tr>
+		<td>AQUOS sense7</td>
+		<td>6.1" 20:9</td>
+		<td>70mm</td>
+		<td>158g</td>
+		<td>4570mAh</td>
+		<td>骁龙695</td>
+		<td></td>
+		<td>2023</td>
 	</tr>
 	<tr>
 		<td rowspan="2">华硕</td>
@@ -641,6 +684,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>169g</td>
 		<td>4000mAh</td>
 		<td>骁龙888</td>
+		<td></td>
 		<td>2021</td>
 	</tr>
 	<tr>
@@ -650,16 +694,18 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>169g</td>
 		<td>4300mAh</td>
 		<td>骁龙8+</td>
+		<td></td>
 		<td>2022</td>
 	</tr>
 	<tr>
-		<td rowspan="8">三星</td>
+		<td rowspan="9">三星</td>
 		<td>Galaxy S8</td>
 		<td>5.8" 18.5:9</td>
 		<td>68.1mm</td>
 		<td>155g</td>
 		<td>3000mAh</td>
 		<td>骁龙835</td>
+		<td></td>
 		<td>2017</td>
 	</tr>
 	<tr>
@@ -669,6 +715,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>163g</td>
 		<td>3000mAh</td>
 		<td>骁龙845</td>
+		<td></td>
 		<td>2018</td>
 	</tr>
 	<tr>
@@ -678,6 +725,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>150g</td>
 		<td>3100mAh</td>
 		<td>骁龙855</td>
+		<td></td>
 		<td>2019</td>
 	</tr>
 	<tr>
@@ -687,6 +735,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>157g</td>
 		<td>3400mAh</td>
 		<td>骁龙855</td>
+		<td></td>
 		<td>2019</td>
 	</tr>
 	<tr>
@@ -696,6 +745,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>168g</td>
 		<td>3500mAh</td>
 		<td>骁龙855</td>
+		<td></td>
 		<td>2019</td>
 	</tr>
 	<tr>
@@ -705,6 +755,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>163g</td>
 		<td>4000mAh</td>
 		<td>骁龙865</td>
+		<td>p+p/e</td>
 		<td>2020</td>
 	</tr>
 	<tr>
@@ -714,6 +765,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>169g</td>
 		<td>4000mAh</td>
 		<td>骁龙888</td>
+		<td>p+p/e</td>
 		<td>2021</td>
 	</tr>
 	<tr>
@@ -723,26 +775,29 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>167g</td>
 		<td>3700mAh</td>
 		<td>骁龙8</td>
+		<td>p+p/e</td>
 		<td>2022</td>
 	</tr>
 	<tr>
-		<td rowspan="5">小米</td>
+		<td>Galaxy S23</td>
+		<td>6.1" 19.5:9</td>
+		<td>70.9mm</td>
+		<td>168g</td>
+		<td>3900mAh</td>
+		<td>骁龙8 II</td>
+		<td>p+p/e</td>
+		<td>2023</td>
+	</tr>
+	<tr>
+		<td rowspan="8">小米</td>
 		<td>小米6</td>
 		<td>5.15" 16:9</td>
 		<td>70.5mm</td>
 		<td>168g</td>
 		<td>3350mAh</td>
 		<td>骁龙835</td>
+		<td>p+p</td>
 		<td>2017</td>
-	</tr>
-	<tr>
-		<td>小米9 SE</td>
-		<td>5.97" 19.5:9</td>
-		<td>70.5mm</td>
-		<td>155g</td>
-		<td>3070mAh</td>
-		<td>骁龙712</td>
-		<td>2019</td>
 	</tr>
 	<tr>
 		<td>小米12</td>
@@ -751,6 +806,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>180g</td>
 		<td>4500mAh</td>
 		<td>骁龙8</td>
+		<td>p+p</td>
 		<td>2021</td>
 	</tr>
 	<tr>
@@ -760,6 +816,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>176g</td>
 		<td>4500mAh</td>
 		<td>骁龙870</td>
+		<td>p+p</td>
 		<td>2021</td>
 	</tr>
 	<tr>
@@ -769,6 +826,47 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>179g</td>
 		<td>4500mAh</td>
 		<td>骁龙8+</td>
+		<td>p+p</td>
+		<td>2022</td>
+	</tr>
+	<tr>
+		<td>小米13</td>
+		<td>6.28" 20:9</td>
+		<td>71.5mm</td>
+		<td>189g</td>
+		<td>4500mAh</td>
+		<td>骁龙8 II</td>
+		<td>p+p/e</td>
+		<td>2022</td>
+	</tr>
+	<tr>
+		<td>小米9 SE</td>
+		<td>5.97" 19.5:9</td>
+		<td>70.5mm</td>
+		<td>155g</td>
+		<td>3070mAh</td>
+		<td>骁龙712</td>
+		<td>p+p</td>
+		<td>2019</td>
+	</tr>
+	<tr>
+		<td>小米Civi</td>
+		<td>6.55" 20:9</td>
+		<td>71.5mm</td>
+		<td>166g</td>
+		<td>4500mAh</td>
+		<td>骁龙788</td>
+		<td>p+p</td>
+		<td>2021</td>
+	</tr>
+		<tr>
+		<td>小米Civi 1S</td>
+		<td>6.55" 20:9</td>
+		<td>71.5mm</td>
+		<td>166g</td>
+		<td>4500mAh</td>
+		<td>骁龙788+</td>
+		<td>p+p</td>
 		<td>2022</td>
 	</tr>
 	<tr>
@@ -779,6 +877,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>143g</td>
 		<td>2770mAh</td>
 		<td>骁龙821</td>
+		<td>p</td>
 		<td>2016</td>
 	</tr>
 	<tr>
@@ -788,6 +887,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>143g</td>
 		<td>2700mAh</td>
 		<td>骁龙835</td>
+		<td>p</td>
 		<td>2017</td>
 	</tr>
 	<tr>
@@ -797,6 +897,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>148g</td>
 		<td>2915mAh</td>
 		<td>骁龙845</td>
+		<td>p+e</td>
 		<td>2018</td>
 	</tr>
 	<tr>
@@ -806,6 +907,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>147g</td>
 		<td>3000mAh</td>
 		<td>骁龙670</td>
+		<td>p+e</td>
 		<td>2019</td>
 	</tr>
 	<tr>
@@ -815,6 +917,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>162g</td>
 		<td>2800mAh</td>
 		<td>骁龙855</td>
+		<td>p+e</td>
 		<td>2019</td>
 	</tr>
 	<tr>
@@ -824,6 +927,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>143g</td>
 		<td>3140mAh</td>
 		<td>骁龙730G</td>
+		<td>p+e</td>
 		<td>2020</td>
 	</tr>
 	<tr>
@@ -833,6 +937,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>151g</td>
 		<td>4080mAh</td>
 		<td>骁龙765G</td>
+		<td>p+e</td>
 		<td>2020</td>
 	</tr>
 	<tr>
@@ -842,6 +947,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>178g</td>
 		<td>4410mAh</td>
 		<td>Tensor</td>
+		<td>p+e</td>
 		<td>2022</td>
 	</tr>
 	<tr>
@@ -852,6 +958,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>145g</td>
 		<td>3200mAh</td>
 		<td>麒麟960</td>
+		<td></td>
 		<td>2017</td>
 	</tr>
 	<tr>
@@ -861,6 +968,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>165g</td>
 		<td>3400mAh</td>
 		<td>麒麟970</td>
+		<td></td>
 		<td>2018</td>
 	</tr>
 	<tr>
@@ -870,6 +978,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>165g</td>
 		<td>3650mAh</td>
 		<td>麒麟980</td>
+		<td></td>
 		<td>2019</td>
 	</tr>
 	<tr>
@@ -879,6 +988,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>175g</td>
 		<td>3800mAh</td>
 		<td>麒麟990 5G</td>
+		<td></td>
 		<td>2020</td>
 	</tr>
 	<tr>
@@ -889,6 +999,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>162g</td>
 		<td>4000mAh</td>
 		<td>骁龙8+</td>
+		<td></td>
 		<td>2021</td>
 	</tr>
 	<tr>
@@ -898,6 +1009,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>162g</td>
 		<td>4000mAh</td>
 		<td>骁龙888+</td>
+		<td></td>
 		<td>2021</td>
 	</tr>
 </tbody>
