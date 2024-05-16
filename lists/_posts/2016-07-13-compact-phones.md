@@ -19,7 +19,14 @@ redirect_from:
 - 重量：直板机与折叠机不超过200g，超轻机不超过140g
 
 <details><summary>关于双卡</summary>
-	<p>p: 实体SIM卡<br>e: eSIM卡<br>p+p: 双卡槽，不支持eSIM<br>p+p/e: 双卡槽，支持双实体或实体+eSIM双卡双待<br>p+e: 单卡槽，支持实体+eSIM双卡双待<br>p/e+e: 单卡槽，支持双eSIM或者实体+eSIM双卡双待</p>
+	<ul>
+		<li>p: 实体SIM卡</li>
+		<li>e: eSIM卡</li>
+		<li>p+p: 双卡槽，不支持eSIM</li>
+		<li>p+p/e: 双卡槽，支持双实体卡或实体+eSIM双卡双待</li>
+		<li>p+e: 单卡槽，支持实体+eSIM双卡双待</li>
+		<li>p/e+e: 单卡槽，支持双eSIM或者实体+eSIM双卡双待</li>
+	</ul>
 	<p><a href="https://bmzhp.com/uncategorized/516.html" target="_blank">ESIM支持情况</a>因销售市场而异。中国移动、中国电信、中国联通的ESIM业务仅限于手表、平板，并没有开放手机端业务，因此表中列出的全部手机的国行版本都是不支持ESIM的。</p>
 </details>
 
