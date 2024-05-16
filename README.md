@@ -5,13 +5,13 @@ This is the repository for my personal blog [feeshy.github.io](https://feeshy.gi
 
 ## Workflow
 
-I publish my blog posts using a cross-platform workflow that runs seamlessly on mobile devices. Building and deployment are automatically triggered via GitHub Actions in the cloud. The entire process can be handled within the Obsidian app, eliminating the need for Ruby or Jekyll on my local machine. This frees me to focus solely on content creation.
+I publish my blog posts using a cross-platform workflow that runs seamlessly on mobile devices. Building and deployment are automatically triggered via GitHub Actions in the cloud. The entire blogging process can be handled within the Obsidian app, eliminating the need for Ruby or Jekyll on my local machine. This frees me to focus solely on content creation.
 
 ```mermaid
 flowchart TD
-A[content creation] -->|obsidian| B[obsidian vault] -->|obsidian git| C[jekyll project repository]
+A[content creation] -->|obsidian| B[obsidian vault] -->|obsidian git| C{this repository}
 D[theme developing] -->|vs code| E[jekyll theme repository] -->|remote theme| C
-C -->|build & deploy with github actions| F[github pages]
+C -->|build & deploy with github actions| F[live site]
 ```
 
 ## Links

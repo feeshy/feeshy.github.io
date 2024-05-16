@@ -18,7 +18,7 @@ redirect_from:
 - 尺寸：直板机宽度不超过72mm，折叠机收起后尺寸不超过80mmx90mm
 - 重量：直板机与折叠机不超过200g，超轻机不超过140g
 
-[^1]: p代表实体SIM，e代表eSIM。p+p/e代表支持双实体SIM或者实体+eSIM的双卡双待，p+e代表单实体卡槽，可通过eSIM支持双卡双待，p/e+p/e代表支持实体与eSIM任意组合的双卡双待；[ESIM支持情况](https://bmzhp.com/uncategorized/516.html)因销售市场而异。中国移动、中国电信、中国联通的ESIM业务仅限于手表、平板，并没有开放手机端业务，因此表中列出的全部手机的国行版本都是不支持ESIM的。
+<details><summary>关于双卡：</summary>p代表实体SIM，e代表eSIM。p+p/e代表支持双实体SIM或者实体+eSIM的双卡双待，p+e代表单实体卡槽，可通过eSIM支持双卡双待，p/e+p/e代表支持实体与eSIM任意组合的双卡双待；[ESIM支持情况](https://bmzhp.com/uncategorized/516.html)因销售市场而异。中国移动、中国电信、中国联通的ESIM业务仅限于手表、平板，并没有开放手机端业务，因此表中列出的全部手机的国行版本都是不支持ESIM的。</details>
 
 P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 ## 在售机型
@@ -32,7 +32,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 	<th>重量</th>
 	<th>电池</th>
 	<th>SoC</th>
-	<th>双卡[^1]</th>
+	<th>双卡</th>
 	<th>年份</th>
 </tr>
 </thead>
