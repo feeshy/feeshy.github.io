@@ -5,8 +5,7 @@ date: 2013-02-03
 last_modified_at: 2017-12-25
 tags:
   - 诗
-  - bandcamp
-  - 幻象岛
+  - 音乐
 ---
 
 抬头对视<br>

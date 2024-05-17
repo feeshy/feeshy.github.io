@@ -5,11 +5,10 @@ date: 2015-01-04
 last_modified_at: 2015-09-08
 tags:
   - 影评
+  - 豆瓣
 redirect_from:
   - https://movie.douban.com/review/7594169/
 ---
-
-[乌托邦式与现实的理想主义（荆轲刺秦王）影评](https://movie.douban.com/review/7594169/)
   
 本片的剧情在史书记录上有所发挥，将刺杀的“阴谋”变成“阳谋”。秦王和赵姬成为电影的两条线索，二者有着共同的特质——理想主义。  
   

@@ -5,8 +5,7 @@ date: 2012-03-15
 last_modified_at: 2019-01-02
 tags:
   - 诗
-  - bandcamp
-  - 虚芜角
+  - 音乐
 ---
 
 <iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=ffffff/linkcol=4ec5ec/artwork=none/track=3462940593/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>

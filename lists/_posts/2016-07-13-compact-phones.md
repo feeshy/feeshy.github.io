@@ -5,8 +5,7 @@ date: 2016-07-13
 last_modified_at: 2024-05-16
 tags:
   - 手机
-  - 小尺寸手机
-  - 紧凑手机
+  - 知乎
 redirect_from:
   - https://www.zhihu.com/question/26872017/answer/110877785
   - /tech/compact_phones.html

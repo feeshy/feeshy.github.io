@@ -5,10 +5,10 @@ date: 2020-08-14
 last_modified_at: 2022-01-28
 tags:
   - appinn
-  - 网络黄页
   - ffmpeg
   - 编码
-redirect_from: https://meta.appinn.net/t/topic/18299
+redirect_from:
+  - https://meta.appinn.net/t/topic/18299
 toc: true
 ---
 注意：本帖讨论的是**硬编**，**不是**硬解

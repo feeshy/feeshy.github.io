@@ -4,10 +4,7 @@ title: 虚芜角 | Ends of Nihil
 date: 2019-01-02
 last_modified_at: 2019-07-13
 tags:
-  - bandcamp
-  - 虚芜角
-  - 诗
-  - 都市传奇
+  - 音乐
 redirect_from:
   - /sounds/ends_of_nihil.html
 ---

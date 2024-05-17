@@ -6,7 +6,6 @@ last_modified_at: 2021-01-26
 tags:
   - 混音
   - 知乎
-  - bandcamp
   - 折腾记录
 redirect_from:
   - https://www.zhihu.com/question/417045936/answer/1532203357
@@ -27,7 +26,7 @@ ___
 
 <iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4028171195/size=small/bgcol=ffffff/linkcol=4ec5ec/track=1545109972/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-beats">Illusory Beats by feeshy</a></iframe>
 
-这首歌的master信号流大致是这样的：
+以这首歌为例，我的master信号流大致是这样的：
 
 ## Mid/Side EQ
 

@@ -7,6 +7,7 @@ tags:
   - github-pages
   - 重定向
   - 折腾记录
+toc: true
 ---
 
 Github Pages没有开放可配置的301、302重定向，只能用其他替代方式实现页面重定向。对搜索引擎的爬虫来说，[js跳转的效果可能不是那么稳定](https://maxket.com/technical-seo-js-redirect/)，如果能使用HTML标签，最好还是用HTML标签。

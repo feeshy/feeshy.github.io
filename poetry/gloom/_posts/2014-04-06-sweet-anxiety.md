@@ -5,9 +5,9 @@ date: 2014-04-06
 last_modified_at: 2019-01-02
 tags:
   - 诗
-  - bandcamp
-  - 虚芜角
-redirect_from: sweet_anxiety.html
+  - 音乐
+redirect_from:
+  - sweet_anxiety.html
 ---
 <iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=ffffff/linkcol=4ec5ec/artwork=none/track=2763182701/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
 

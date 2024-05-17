@@ -45,10 +45,14 @@ entries:
         category: music
         show_more: false
 
+  - title: 标签
+    url: archive
+
+  - title: feed
+    url: feed.xml
+
   - title: 链接
     entries:
-    - title: feed
-      url: feed.xml
     - title: Telegram频道
       url: https://t.me/feeshy_channel
     - title: 快捷指令

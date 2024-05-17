@@ -5,12 +5,11 @@ date: 2015-09-08
 last_modified_at: 2015-09-08
 tags:
   - 影评
+  - 豆瓣
 redirect_from:
   - https://movie.douban.com/review/7594497/
 toc: true
 ---
-
-[剧情梳理（钢琴家）影评](https://movie.douban.com/review/7594497/)
 
 影片的时间在主角的视角下可以分成几个阶段，我在这里简要介绍一下每个阶段的历史背景以及出现的角色。
 

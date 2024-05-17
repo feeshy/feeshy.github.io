@@ -4,8 +4,7 @@ title: wet as hell
 date: 2020-02-28
 last_modified_at: 2020-11-02
 tags:
-  - bandcamp
-  - wet-as-hell
+  - 音乐
 redirect_from:
   - /sounds/wet_as_hell.html
 ---

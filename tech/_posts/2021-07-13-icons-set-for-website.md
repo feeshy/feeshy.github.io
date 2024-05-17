@@ -4,6 +4,8 @@ title: 创建可适配主流浏览器的favicon集合
 last_modified_at: 2024-05-03
 tags:
   - 折腾记录
+  - github-pages
+  - favicon
 redirect_from:
   - https://meta.appinn.net/t/topic/24614
 toc: true

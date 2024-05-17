@@ -4,8 +4,7 @@ title: 动词大词典
 date: 2023-07-04
 last_modified_at: 2024-04-15
 tags:
-  - bandcamp
-  - 动词大词典
+  - 音乐
 redirect_from:
   - /sounds/illusory_beats.html
 ---
