@@ -53,6 +53,9 @@ remote_theme: feeshy/less-style-please # if you use it as a remote theme on gith
 show_logo: true # show the svg favicon in home page
 show_description: false # show blog description in home page
 sort_by_modified_date: false # sort posts by modified date rather than published date. Attention: You will have to set last_modified_date for every post
+tags_page:
+  enabled: true # creates a query page for all posts with specific tags
+  url: archive # permalink for your tags page
 chinese_webfonts: true # by disabling this, page loading speed will be increased significantly
 background_image: # path to background images for light and dark mode
   light: "/assets/img/light-paper-fibers.png"
