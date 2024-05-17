@@ -5,8 +5,7 @@ date: 2015-08-27
 last_modified_at: 2020-02-28
 tags:
   - 诗
-  - bandcamp
-  - wet-as-hell
+  - 音乐
 ---
 
 <iframe style="border: 0; height: 42px; margin-left: 0;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=small/bgcol=ffffff/linkcol=4ec5ec/artwork=none/track=1712751363/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>

@@ -5,8 +5,6 @@ date: 2014-12-31
 last_modified_at: 2024-05-07
 tags:
   - 歌单
-  - 播放列表
-  - playlist
 toc: true
 redirect_from:
   - /douban/playlists.html

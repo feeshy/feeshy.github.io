@@ -7,11 +7,9 @@ locale: en_US
 lang: en
 description: 
 tags:
-  - Godspeed-You-Black-Emperor
-  - GYBE
-  - song-titles
-  - bootleg
-  - setlist
+  - reddit
+  - 豆瓣
+  - 歌单
 redirect_from:
   - https://www.reddit.com/r/gybe/comments/1c80jfg/
   - https://www.douban.com/group/topic/80303758/

@@ -5,15 +5,14 @@ date: 2016-01-23
 last_modified_at: 2016-06-15
 tags:
   - 都市传奇
-  - bandcamp
-  - 虚芜角
+  - 音乐
 redirect_from:
   - /legends/taichicat.html
 ---
 
 <iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=ffffff/linkcol=4ec5ec/artwork=none/track=3489358287/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
 
-[▷ ♫](https://music.163.com/song?id=1813641511)
+> [▷ ♫](https://music.163.com/song?id=1813641511)
 
 那是1999年夏天的一个傍晚，阵雨过后空气显得闷热。新园区还大半是工地，没有什么娱乐设施。我吃过晚饭，折回宿舍，盘算着不如睡前洗个冷水澡。
 

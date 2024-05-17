@@ -5,8 +5,9 @@ last_modified_at: 2024-05-09
 tags:
   - fonts
   - monospace
+  - 字体
 custom_head: "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r<link href=\"https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+Mono:wght@100..900&family=PT+Mono&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Sans+Mono:wght@400..700&display=swap\" rel=\"stylesheet\">"
-custom_js: "/assets/js/monospace-test.js"
+custom_js: /assets/js/monospace-test.js
 ---
 汉字字体普遍采用等宽设计，而西文字体则有比例和等宽两种选择。
 

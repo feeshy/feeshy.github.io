@@ -3,10 +3,12 @@ layout: post
 title: 运用云试听辅助选购蓝牙音箱
 date: 2020-10-10
 last_modified_at: 2020-10-24
-tags: 
+tags:
   - 晒单
+  - 音箱
 toc: true
-redirect_from: /tech/budget_bt_speakers
+redirect_from:
+  - /tech/budget_bt_speakers
 ---
 
 前一阵子突然想买个小音箱来替代手机和笔记本外放。市面上100元左右的非杂牌蓝牙音箱并不太多，小米算是其中一个听过名字的品牌。不过小米是一个蓝牙音箱狂魔，光是在我的50~150元目标区间的型号就有4~5款。我本打算去小米之家现场找不同好决定买哪一款，结果到了卖场才发现，现在线下只卖小爱音箱了。那种插市电的音箱怎么能做手机和笔记本的外设……

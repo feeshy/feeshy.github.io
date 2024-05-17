@@ -4,8 +4,9 @@ title: Zendure X5 PD移动电源+USB Hub晒单
 date: 2020-07-05
 last_modified_at: 2020-07-05
 tags:
-  - 扩展坞
   - 晒单
+  - 扩展坞
+  - 移动电源
 redirect_from:
   - https://post.smzdm.com/p/a4wmg6lw/
 ---

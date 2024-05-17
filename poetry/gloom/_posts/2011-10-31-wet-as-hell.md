@@ -4,8 +4,7 @@ title: 纯写景诗
 date: 2011-10-31
 tags:
   - 诗
-  - bandcamp
-  - wet-as-hell
+  - 音乐
 ---
 
 <iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=small/bgcol=ffffff/linkcol=4ec5ec/track=3150444517/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
