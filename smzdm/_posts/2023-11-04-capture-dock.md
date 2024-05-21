@@ -7,6 +7,7 @@ tags:
   - 晒单
   - 扩展坞
   - 采集卡
+  - 显示器
 redirect_from:
   - https://post.smzdm.com/p/a5o23oo7/
 ---

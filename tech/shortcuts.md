@@ -6,6 +6,8 @@ permalink: /shortcuts
 redirect_from:
   - /tech/smartphonesmart
   - /smartphonesmart
+tags:
+  - 快捷指令
 ---
 通过iCloud获取：[20240417](https://www.icloud.com/shortcuts/f345c1bce05f4218bc83952f0e6dec34)
 

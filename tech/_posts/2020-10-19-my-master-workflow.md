@@ -20,13 +20,11 @@ ___
 
 提响度不等于简单地提gain——只有先削弱对于成品价值不大的声音，才能获得更多提gain的headroom——这种想法应该既存在于混音的过程中，也存在于混音完成后的master阶段
 
-下面分享一点具体的总线处理思路来抛砖引玉
-
 > 注意：在混音工程的总线做master仅仅适用于不找外人做master的情况，否则请将整体响度问题交给母带师来解决，别重复master两遍
 
-<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4028171195/size=small/bgcol=ffffff/linkcol=4ec5ec/track=1545109972/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-beats">Illusory Beats by feeshy</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4028171195/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1545109972/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-beats">Illusory Beats by feeshy</a></iframe>
 
-以这首歌为例，我的master信号流大致是这样的：
+接下来以这首歌的总线信号流为例，分享一点具体的总线处理思路来抛砖引玉
 
 ## Mid/Side EQ
 

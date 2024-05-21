@@ -5,9 +5,8 @@ date: 2021-06-28
 last_modified_at: 2021-06-28
 tags:
   - appinn
-  - 三星
   - 手机
-  - 投屏
+  - 显示器
 redirect_from:
   - https://www.coolapk.com/feed/28065199?shareKey=NjgwMGE2NDYzNmJhNjYzYzg3ZmU~
 ---

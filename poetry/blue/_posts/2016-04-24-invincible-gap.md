@@ -5,7 +5,6 @@ date: 2016-04-24
 last_modified_at: 2016-04-24
 tags:
   - 诗
-  - 乐评
 ---
 
 > [▷ 岁月鸿沟 - 惘闻](https://music.163.com/song?id=409941366)
