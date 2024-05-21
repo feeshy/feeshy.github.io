@@ -1,5 +1,5 @@
 ---
 layout: archive
-categories: freak
+categories: [poetry, freak]
 title: 你脑子才有病
 ---

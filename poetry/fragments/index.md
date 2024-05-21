@@ -1,5 +1,5 @@
 ---
 layout: archive
-categories: fragments
+categories: [poetry, fragments]
 title: 三行真男人
 ---
