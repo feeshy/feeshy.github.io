@@ -1,5 +1,5 @@
 ---
 layout: archive
-which_category: smzdm
+categories: smzdm
 title: 种草
 ---

@@ -1,5 +1,5 @@
 ---
 layout: archive
-which_category: prose
+categories: prose
 title: 胡思乱想
 ---

@@ -45,16 +45,17 @@ entries:
         category: music
         show_more: false
 
-  - title: 标签
-    url: archive
-
-  - title: feed
-    url: feed.xml
+  - title: 归档
+    entries: 
+    - title: 标签
+      url: tags
+    - title: RSS
+      url: feed.xml
+    - title: Telegram频道
+      url: https://t.me/feeshy_channel
 
   - title: 链接
     entries:
-    - title: Telegram频道
-      url: https://t.me/feeshy_channel
     - title: 快捷指令
       url: shortcuts
     - title: Tasker

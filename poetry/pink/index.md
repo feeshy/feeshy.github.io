@@ -1,5 +1,5 @@
 ---
 layout: archive
-which_category: pink
+categories: [poetry, pink]
 title: 粉
 ---
