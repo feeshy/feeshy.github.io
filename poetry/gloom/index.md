@@ -1,5 +1,5 @@
 ---
 layout: archive
-categories: gloom
+categories: [poetry, gloom]
 title: 灰
 ---

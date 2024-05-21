@@ -1,5 +1,5 @@
 ---
 layout: archive
-categories: blood
+categories: [poetry, blood]
 title: 红
 ---
