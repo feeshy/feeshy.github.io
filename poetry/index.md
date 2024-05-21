@@ -1,6 +1,6 @@
 ---
 layout: archive
-which_category: poetry
+categories: poetry
 title: 诗
 ---
 📔 [**灰**](gloom/)

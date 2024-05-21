@@ -1,5 +1,5 @@
 ---
 layout: archive
-which_category: blue
+categories: [poetry, blue]
 title: 蓝
 ---

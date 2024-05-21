@@ -1,6 +1,6 @@
 ---
 layout: archive
-which_category: tech
+categories: tech
 title: 技术
 ---
 ⌨️ [**GitHub**](https://github.com/feeshy)

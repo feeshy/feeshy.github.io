@@ -1,6 +1,6 @@
 ---
 layout: archive
-which_category: music
+categories: music
 title: 音乐
 ---
 💿 [**Bandcamp**](https://feeshy.bandcamp.com)
