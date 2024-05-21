@@ -5,7 +5,7 @@ date: 2020-10-10
 last_modified_at: 2020-10-24
 tags:
   - 晒单
-  - 音箱
+  - 音频
 toc: true
 redirect_from:
   - /tech/budget_bt_speakers

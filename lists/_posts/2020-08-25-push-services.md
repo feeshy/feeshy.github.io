@@ -7,6 +7,8 @@ tags:
   - appinn
   - 剪贴板
   - 推送
+  - tasker
+  - 快捷指令
 redirect_from:
   - https://meta.appinn.net/t/topic/18527
 toc: true

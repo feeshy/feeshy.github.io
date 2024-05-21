@@ -5,11 +5,8 @@ date: 2024-03-08
 last_modified_at: 2024-03-27
 tags:
   - appinn
-  - 浏览器插件
-  - 剪藏
-  - 搜索引擎
   - web-clipper
-  - search-engine
+  - 浏览器插件
 redirect_from:
   - https://meta.appinn.net/t/topic/53644
   - /lists/web-clipper-search-intergrations

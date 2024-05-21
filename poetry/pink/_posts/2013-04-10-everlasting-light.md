@@ -5,7 +5,6 @@ date: 2013-04-10
 last_modified_at: 2013-04-10
 tags:
   - 诗
-  - 乐评
 ---
 
 > [▷ Everlasting Light - MONO](https://music.163.com/song?id=776677)

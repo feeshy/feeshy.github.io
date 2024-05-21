@@ -7,6 +7,7 @@ tags:
   - 编码
   - 知乎
   - 科普
+  - 音频
 redirect_from:
   - https://www.zhihu.com/question/48749285/answer/112433648
 ---

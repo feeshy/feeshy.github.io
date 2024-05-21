@@ -9,6 +9,7 @@ tags:
   - live-wallpapers
   - xperia
   - apkmirror
+  - 手机
 redirect_from:
   - https://www.reddit.com/r/SonyXperia/comments/15gtzkj/an_index_of_xperia_live_wallpapers_packages/
   - /tech/xperia-live-wallpapers

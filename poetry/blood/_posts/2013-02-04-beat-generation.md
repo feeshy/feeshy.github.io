@@ -5,7 +5,6 @@ date: 2013-02-04
 last_modified_at: 2013-02-05
 tags:
   - 诗
-  - 垮掉的一代
 ---
 
 

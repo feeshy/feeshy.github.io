@@ -4,8 +4,6 @@ title: 免费音频效果插件推荐
 date: 2020-01-12
 last_modified_at: 2024-03-31
 tags:
-  - 音频插件
-  - plugin
   - VST
   - AUv3
   - 混音
@@ -14,7 +12,7 @@ redirect_from:
   - /sounds/free_audio_plugins.html
   - /tech/free_audio_plugins.html
 toc: true
-custom_head: "<style>img{max-width:320px;max-height:240px;border-radius:5px;padding:2.5px;filter:drop-shadow(-2.5px 2.5px 5px rgba(0,0,0,.5))}</style>"
+custom_head: <style>img{max-width:320px;max-height:240px;border-radius:5px;padding:2.5px;filter:drop-shadow(-2.5px 2.5px 5px rgba(0,0,0,.5))}</style>
 ---
 
 DAW（Digital Audio Workstation，数字音频工作站）是用于音频制作、录音、编辑和混音的软件。插件（Plugins）则是运行在 DAW 中的扩展程序，可以为音频增添各种效果或功能，可分为效果类插件、虚拟乐器类插件和工具类插件等。
