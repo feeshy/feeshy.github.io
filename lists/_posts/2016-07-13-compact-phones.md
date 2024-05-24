@@ -223,7 +223,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 	<td>189g</td>
 	<td>3800mAh</td>
 	<td>骁龙8+</td>
-	<td>p+p/e</td>
+	<td>p+e</td>
 	<td>2023</td>
 </tr>
 <tr>
