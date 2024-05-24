@@ -23,24 +23,24 @@ toc: true
 
 [^howto]: [How to Favicon in 2024: Six files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
 
-| 文件                        | 特性               | 适用范围                                                                            |
-| ------------------------- | ---------------- | ------------------------------------------------------------------------------- |
-| ICO                       |                  | 所有                                                                              |
-| SVG+XML                   | 无损缩放、动态样式        | Firefox, Chrome, Edge (Chromium), Opera                                         |
-| PNG                       | iOS主屏幕图标         | Safari                                                                          |
-| PNG + `webmanifest`       | Android 主屏幕图标    | Chrome & Edge (Chromium)                                                        |
+| 文件                      | 特性               | 适用范围                                                                        |
+| ------------------------- | ------------------ | ------------------------------------------------------------------------------- |
+| ICO                       |                    | 所有                                                                            |
+| SVG+XML                   | 无损缩放、动态样式 | Firefox, Chrome, Edge (Chromium), Opera                                         |
+| PNG                       | iOS主屏幕图标      | Safari                                                                          |
+| PNG + `webmanifest`       | Android 主屏幕图标 | Chrome & Edge (Chromium)                                                        |
 | PNG + `browserconfig.xml` | Windows Metro 磁贴 | Edge Legacy / IE 11 on Windows 8.1 & 10 / Windows Phone 8.1 / Windows 10 Mobile |
 
 ## 位图图标
 
 通常会用到以下几种尺寸的位图图标：
 
-| 浏览器            | 尺寸              |
+| 浏览器         | 尺寸            |
 | -------------- | --------------- |
-| 通用             | 16x16 或 32x32   |
+| 通用           | 16x16 或 32x32  |
 | Safari         | 180x180         |
 | Android Chrome | 192x192 512x512 |
-| Metro磁贴        | 150x150         |
+| Metro磁贴      | 150x150         |
 
 可以在设计软件手动导出以上分辨率，也可以只导出最高分辨率，使用[RealFaviconGenerator](https://realfavicongenerator.net/)生成全尺寸图标包。
 
@@ -105,23 +105,17 @@ Win8.1与Win10的Metro磁贴图标由放置在站点根目录的`browserconfig.x
 
 ## 矢量图标
 
-SVG是一种基于XML的矢量图形格式，可以使用CSS媒体查询来动态切换SVG图像的样式。例如，在夜间模式下，可以将SVG图像的填充颜色反转为深色，以提高阅读舒适度。
+SVG是一种基于XML的矢量图形格式，可以使用CSS媒体查询来动态切换SVG图像的样式——例如更改图形的填充颜色，以提高深色模式下的阅读舒适度。
 
-SVG favicon可以被2014年之后的Firefox以及2020年之后的Chromium内核浏览器支持，Safari目前尚不支持[^svg]。
+SVG favicon可以被2014年之后的Firefox以及2020年之后的Chromium内核浏览器支持，可惜Safari暂时还不支持[^svg]。
 
 [^svg]: [SVG favicons | Can I use... Support tables](https://caniuse.com/link-icon-svg)
 
-可以使用[SVG Favicon Generator](https://realfavicongenerator.net/)生成根据日夜主题动态切换的矢量图标。
+可以使用[SVG Favicon Generator](https://realfavicongenerator.net/)生成根据浏览器亮色/暗色模式动态反转的矢量图标。
 
-如果有其他的需求，也可以用文本编辑器打开SVG文件，自行编写其中的CSS代码。例如，本站日夜图标的转化并不是采用通常的invert filter，而是采用交换图标与背景色的方式，日间白底蓝字，夜间蓝底白字：
+如果有其他的需求，也可以用文本编辑器打开SVG文件，自行编写其中的CSS代码。例如，本站的图标在“浅色模式显示为深蓝色，深色模式显示为白色”的效果，是由以下CSS实现的：
 
 ```css
-@media (prefers-color-scheme: light) {
-    path { fill: rgb(64,63,95); stroke:rgb(64,63,95) }
-    circle { fill: rgb(255,255,255); }
-}
-@media (prefers-color-scheme: dark) {
-    path { fill: rgb(255,255,255); stroke:rgb(255,255,255) }
-    circle { fill: rgb(64,63,95); }
-}
+@media (prefers-color-scheme: light) { #foreground { fill: #403f5f; } }
+@media (prefers-color-scheme: dark) { #foreground { fill: #ffffff; } }
 ```
