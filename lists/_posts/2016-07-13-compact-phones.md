@@ -1004,7 +1004,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>69.2mm</td>
 		<td>162g</td>
 		<td>4000mAh</td>
-		<td>骁龙8+</td>
+		<td>骁龙888</td>
 		<td></td>
 		<td>2021</td>
 	</tr>
