@@ -2,7 +2,7 @@
 layout: post
 title: Index of Xperia Live Wallpapers
 date: 2023-08-03
-last_modified_at: 2023-08-03
+last_modified_at: 2024-06-18
 locale: en_US
 lang: en
 tags:
@@ -15,122 +15,33 @@ redirect_from:
   - /tech/xperia-live-wallpapers
 ---
 
-This is an index of Sony Xperia Live Wallpapers packages available on ApkMirror. There are not much differences between some packages released in the same year, except that each models may have their exclusive color schemes. For the 2nd gen of their number series in 2020, for example, blue is the exclusive scheme for Xperia 5 II, while green is exclusive for Xperia 1 II.
+This is an index of Sony Xperia Live Wallpapers packages[^1] available on [ApkMirror](https://www.apkmirror.com).
 
-<table>
-<thead>
-	<tr>
-		<th style="width: 23%"></td>
-		<th style="width: 50%">Package</td>
-		<th style="width: 10%">Released</td>
-		<th style="width: 17%">Notes</td>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-		<td >Xperia 1 V</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-16">com.sonymobile.wallpaper.dq</a></td>
-		<td>2023</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td >Xperia 5 IV</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-18">com.sonymobile.wallpaper.cq</a></td>
-		<td>2022</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td >Xperia 1 IV</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-17">com.sonymobile.wallpaper.ct</a></td>
-		<td>2022</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td >Xperia PRO-I</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-15">com.sonymobile.wallpaper.be</a></td>
-		<td>2021</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td >Xperia 5 III</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-14">com.sonymobile.wallpaper.bq</a></td>
-		<td>2021</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td >Xperia 10 III</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-13">com.sonymobile.wallpaper.bt</a></td>
-		<td>2021</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td >Xperia 1 III</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-10">com.sonymobile.wallpaper.bc</a></td>
-		<td>2021</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td >Xperia PRO</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-7">com.sonymobile.wallpaper.aq</a></td>
-		<td>2020</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td >Xperia 5 II</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-2">com.sonymobile.wallpaper.as</a></td>
-		<td>2020</td>
-		<td rowspan=2>subtle differences in colors</td>
-	</tr>
-	<tr>
-		<td >Xperia 1 II</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-4">com.sonymobile.wallpaper.pdx203</a></td>
-		<td>2020</td>
-	</tr>
-	<tr>
-		<td >Xperia 5</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-9">com.sonymobile.wallpaper.bahamut</a></td>
-		<td>2019</td>
-		<td rowspan=3>subtle differences in colors</td>
-	</tr>
-	<tr>
-		<td >Xperia 1 Professional
-				Edition</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-12">com.sonymobile.wallpaper.griffin.pro</a></td>
-		<td>2019</td>
-	</tr>
-	<tr>
-		<td >Xperia 1</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-6">com.sonymobile.wallpaper.light.j81</a></td>
-		<td>2019</td>
-	</tr>
-	<tr>
-		<td >Xperia 10</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-5">com.sonymobile.wallpaper.light.i31</a></td>
-		<td>2019</td>
-		<td rowspan=2>subtle differences in colors</td>
-	</tr>
-	<tr>
-		<td >Xperia 10 Plus</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-3">com.sonymobile.wallpaper.light.i32</a></td>
-		<td>2019</td>
-	</tr>
-	<tr>
-		<td >Xperia 8</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-11">com.sonymobile.wallpaper.himiko</a></td>
-		<td>2019</td>
-		<td>JP Only</td>
-	</tr>
-	<tr>
-		<td >Xperia Ace</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-8">com.sonymobile.wallpaper.horizon.jp1</a></td>
-		<td>2018</td>
-		<td>JP Only</td>
-	</tr>
-	<tr>
-		<td >Xperia XZ2 / XZ3</td>
-		<td><a href="https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-8">com.sonymobile.wallpaper.liquid</a></td>
-		<td>2018</td>
-		<td></td>
-	</tr>
-</tbody>
-</table>
+[^1]: I've mirrored some packages on [OneDrive](https://1drv.ms/f/s!As8fb6-4t65Kip0fs5v1yT_LuMN1tw?e=Ldwwl3), too.
+
+| Model                | Package Name                                                                                                         | Launch Year[^2] |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------- |
+| Xperia 1 VI          | [com.sonymobile.wallpaper.ec](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-20)          | 2024            |
+| Xperia 5 V           | [com.sonymobile.wallpaper.de](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-19)          | 2023            |
+| Xperia 1 V           | [com.sonymobile.wallpaper.dq](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-16)          | 2023            |
+| Xperia 5 IV          | [com.sonymobile.wallpaper.cq](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-18)          | 2022            |
+| Xperia 1 IV          | [com.sonymobile.wallpaper.ct](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-17)          | 2022            |
+| Xperia PRO-I         | [com.sonymobile.wallpaper.be](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-15)          | 2021            |
+| Xperia 5 III         | [com.sonymobile.wallpaper.bq](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-14)          | 2021            |
+| Xperia 10 III        | [com.sonymobile.wallpaper.bt](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-13)          | 2021            |
+| Xperia 1 III         | [com.sonymobile.wallpaper.bc](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-10)          | 2021            |
+| Xperia PRO           | [com.sonymobile.wallpaper.aq](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-7)           | 2020            |
+| Xperia 5 II          | [com.sonymobile.wallpaper.as](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-2)           | 2020            |
+| Xperia 1 II          | [com.sonymobile.wallpaper.pdx203](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-4)       | 2020            |
+| Xperia 5             | [com.sonymobile.wallpaper.bahamut](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-9)      | 2019            |
+| Xperia 1 Pro         | [com.sonymobile.wallpaper.griffin.pro](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-12) | 2019            |
+| Xperia 1             | [com.sonymobile.wallpaper.light.j81](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-6)    | 2019            |
+| Xperia 10            | [com.sonymobile.wallpaper.light.i31](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-5)    | 2019            |
+| Xperia 10 Plus       | [com.sonymobile.wallpaper.light.i32](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-3)    | 2019            |
+| Xperia 8             | [com.sonymobile.wallpaper.himiko](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-11)      | 2019            |
+| Xperia Ace           | [com.sonymobile.wallpaper.horizon.jp1](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-8)  | 2018            |
+| Xperia XZ2 / XZ3     | [com.sonymobile.wallpaper.liquid](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper)         | 2018            |
+| Xperia X / XZ / XZ1  | com.sonymobile.xperiaxlivewallpaper                                                                                  | 2016~2017       |
+| Xperia Z3 / Z3+ / Z5 | [com.sonymobile.experienceflow2](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-live-wallpaper)     | 2014~2015       |
+
+[^2]: There are not much differences between some packages launched in the same year, except that each model may have its exclusive color schemes. For the 2nd gen of their number series in 2020, for example, blue is the exclusive scheme for Xperia 5 II, while green is exclusive for Xperia 1 II.

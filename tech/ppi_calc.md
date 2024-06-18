@@ -1,7 +1,6 @@
 ---
 layout: redirect
 title: 不断进化的PPI计算器
-permalink: /tech/ppi_calc
 redirect_to: /ppi-calc/
 canonical_url: https://feeshy.github.io/ppi-calc/
 ---
