@@ -6,9 +6,6 @@ last_modified_at: 2024-06-18
 locale: en_US
 lang: en
 tags:
-  - live-wallpapers
-  - xperia
-  - apkmirror
   - 手机
 redirect_from:
   - https://www.reddit.com/r/SonyXperia/comments/15gtzkj/an_index_of_xperia_live_wallpapers_packages/
