@@ -2,7 +2,7 @@
 layout: post
 title: 市售小屏手机索引
 date: 2016-07-13
-last_modified_at: 2024-05-16
+last_modified_at: 2024-06-18
 tags:
   - 手机
   - 知乎
@@ -10,12 +10,12 @@ redirect_from:
   - https://www.zhihu.com/question/26872017/answer/110877785
   - /tech/compact_phones.html
 ---
-> 2024年5月更新：收录Xperia10 VI。新增双卡及eSIM支持情况
+> 2024年6月更新：收录近期折叠屏新机
 
-追求小屏手机的人追求的并不是屏幕尺寸，而是单手可以握牢的小尺寸手机。如果大屏幕手机的屏占比够高机身够小，既能握牢屏幕又大，何乐而不为呢？本文不会受制于屏幕的实际尺寸，而是将按照『小屏手机=小尺寸手机』的逻辑列出市面上的紧凑型手机。目前的收录标准为：
+追求小屏手机的人追求的并不是屏幕尺寸，而是能轻松塞入牛仔裤口袋的小尺寸手机。如果大屏幕手机的屏占比够高机身够小，何乐而不为呢？本文不会受制于屏幕的实际尺寸，而是将按照『小屏手机=小尺寸手机』的逻辑列出市面上的紧凑型手机。目前的收录标准为：
 
 - 尺寸：直板机宽度不超过72mm，折叠机收起后尺寸不超过80mmx90mm
-- 重量：直板机与折叠机不超过200g，超轻机不超过140g
+- 重量：直板机与折叠机不超过200g
 
 <details><summary>关于双卡</summary>
 	<ul>
@@ -217,24 +217,24 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 </tr>
 <tr>
 	<td rowspan="2">motorola</td>
-	<td><a href="https://item.lenovo.com.cn/product/1030281.html" target="_blank">Razr 40 Ultra</a></td>
+	<td><a href="https://item.lenovo.com.cn/product/1037904.html" target="_blank">Razr 50 Ultra</a></td>
 	<td>6.9" 22:9</td>
-	<td>74mm</td>
+	<td>73.9mm</td>
 	<td>189g</td>
-	<td>3800mAh</td>
-	<td>骁龙8+</td>
-	<td>p+e</td>
-	<td>2023</td>
+	<td>3830mAh</td>
+	<td>骁龙8s III</td>
+	<td>p+p/e</td>
+	<td>2024</td>
 </tr>
 <tr>
-	<td><a href="https://item.lenovo.com.cn/product/1030630.html" target="_blank">Razr 40</a></td>
+	<td><a href="https://item.lenovo.com.cn/product/1037904.html" target="_blank">Razr 50</a></td>
 	<td>6.9" 22:9</td>
-	<td>74mm</td>
-	<td>189g</td>
-	<td>4200mAh</td>
-	<td>骁龙7</td>
+	<td>73.9mm</td>
+	<td>188g</td>
+	<td>3950mAh</td>
+	<td>天玑7300X</td>
 	<td>p+p/e</td>
-	<td>2023</td>
+	<td>2024</td>
 </tr>
 <tr>
 	<td rowspan="1">OPPO</td>
@@ -267,6 +267,28 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 	<td>4000mAh</td>
 	<td>麒麟9000S</td>
 	<td>p+p</td>
+	<td>2024</td>
+</tr>
+<tr>
+	<td rowspan="1">荣耀</td>
+	<td><a href="https://www.honor.com/cn/phones/honor-magic-v-flip/" target="_blank">Magic V Flip</a></td>
+	<td>6.8" 21:9</td>
+	<td>75.6mm</td>
+	<td>193g</td>
+	<td>4800mAh</td>
+	<td>骁龙8+</td>
+	<td>p+p</td>
+	<td>2024</td>
+</tr>
+<tr>
+	<td rowspan="1">中兴</td>
+	<td><a href="https://www.ztedevices.com/cn/product/nubia-flip-5g/" target="_blank">Nubia Flip</a></td>
+	<td>6.9" 21:9</td>
+	<td>75.5mm</td>
+	<td>214g</td>
+	<td></td>
+	<td>骁龙7</td>
+	<td>p+p/e</td>
 	<td>2024</td>
 </tr>
 </tbody>
@@ -334,14 +356,14 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>2022</td>
 	</tr>
 	<tr>
-		<td rowspan="3">motorola</td>
+		<td rowspan="5">motorola</td>
 		<td>Razr 2019</td>
 		<td>6.2" 22:9</td>
 		<td>72mm</td>
 		<td>205g</td>
 		<td>2510mAh</td>
 		<td>骁龙710</td>
-		<td></td>
+		<td>e</td>
 		<td>2019</td>
 	</tr>
 	<tr>
@@ -351,7 +373,7 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>192g</td>
 		<td>2800mAh</td>
 		<td>骁龙765G</td>
-		<td></td>
+		<td>p+e</td>
 		<td>2020</td>
 	</tr>
 	<tr>
@@ -361,8 +383,28 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 		<td>200g</td>
 		<td>3500mAh</td>
 		<td>骁龙888</td>
-		<td></td>
+		<td>p+e</td>
 		<td>2022</td>
+	</tr>
+	<tr>
+		<td>Razr 40 Ultra</td>
+		<td>6.9" 22:9</td>
+		<td>74mm</td>
+		<td>189g</td>
+		<td>3800mAh</td>
+		<td>骁龙8+</td>
+		<td>p+e</td>
+		<td>2023</td>
+	</tr>
+	<tr>
+		<td>Razr 40</td>
+		<td>6.9" 22:9</td>
+		<td>74mm</td>
+		<td>189g</td>
+		<td>4200mAh</td>
+		<td>骁龙7</td>
+		<td>p+p/e</td>
+		<td>2023</td>
 	</tr>
 	<tr>
 	<td rowspan="1">OPPO</td>
