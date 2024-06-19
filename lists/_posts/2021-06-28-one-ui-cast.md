@@ -7,8 +7,9 @@ tags:
   - appinn
   - 手机
   - 显示器
+  - coolapk
 redirect_from:
-  - https://www.coolapk.com/feed/28065199?shareKey=NjgwMGE2NDYzNmJhNjYzYzg3ZmU~
+  - https://www.coolapk.com/feed/28065199?shareKey=NjgwMGE2NDYzNmJhNjYzYzg3ZmU
 ---
 
 三星的投屏方式还挺多的，这里总结一下区别
