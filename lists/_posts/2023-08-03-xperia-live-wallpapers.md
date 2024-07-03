@@ -12,6 +12,7 @@ tags:
 redirect_from:
   - https://www.coolapk.com/feed/48147518?shareKey=YjZkZWFkZGE1NjA4NjY3MTFiNjI
   - https://www.reddit.com/r/SonyXperia/comments/15gtzkj
+  - /tech/xperia-live-wallpapers
 ---
 
 This is an index of Sony Xperia Live Wallpapers packages available on ApkMirror[^1].
