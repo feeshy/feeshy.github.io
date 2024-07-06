@@ -477,7 +477,9 @@ SlickEQ是一个简单易用的高通滤波和三段EQ，并有多个可选的Pr
 
 ![](https://bedroomproducersblog.com/wp-content/uploads/2011/05/cloud-seed-vst.jpg)
 
-可以囊括天空和星系的超现实粒子混响，适合设定很长很长很长的Decay。仅支持VST for Windows，GUI在部分宿主无法显示。原作者疏于维护，建议使用以下两个fork版本：[CloudReverb (VST3 for Windows/Linux/macOS)](https://github.com/xunil-cloud/CloudReverb)、[Aether (LV2 for Linux)](https://github.com/Dougal-s/Aether)
+可以囊括天空和星系的超现实混响，适合设定很长很长的Decay。[V1](https://github.com/ValdemarOrn/CloudSeed/tree/legacy-v1)仅支持VST for Windows，在部分宿主存在无法正确显示GUI的bug，另有重做界面的[V2](https://ghostnoteaudio.uk/products/cloudseed)（售价46美金），支持Windows与macOS。
+
+内核开源，另有两个fork版本：[CloudReverb (VST3 for Windows/Linux/macOS)](https://github.com/xunil-cloud/CloudReverb)、[Aether (LV2 for Linux)](https://github.com/Dougal-s/Aether)。
 
 #### [RAUM](https://www.native-instruments.com/en/products/komplete/effects/raum/)
 
