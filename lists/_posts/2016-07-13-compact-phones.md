@@ -219,9 +219,9 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 	<td rowspan="2">motorola</td>
 	<td><a href="https://item.lenovo.com.cn/product/1037904.html" target="_blank">Razr 50 Ultra</a></td>
 	<td>6.9" 22:9</td>
-	<td>73.9mm</td>
+	<td>74mm</td>
 	<td>189g</td>
-	<td>3830mAh</td>
+	<td>4000mAh</td>
 	<td>骁龙8s III</td>
 	<td>p+p/e</td>
 	<td>2024</td>
@@ -229,9 +229,9 @@ P.S. 欢迎加入[小屏手机中文交流群](https://t.me/compact_phones)
 <tr>
 	<td><a href="https://item.lenovo.com.cn/product/1037904.html" target="_blank">Razr 50</a></td>
 	<td>6.9" 22:9</td>
-	<td>73.9mm</td>
+	<td>74mm</td>
 	<td>188g</td>
-	<td>3950mAh</td>
+	<td>4200mAh</td>
 	<td>天玑7300X</td>
 	<td>p+p/e</td>
 	<td>2024</td>
