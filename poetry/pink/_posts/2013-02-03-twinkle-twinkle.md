@@ -7,6 +7,7 @@ tags:
   - 诗
   - 音乐
 ---
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4270813475/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1522620350/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-island">illusory island by feeshy</a></iframe>
 
 抬头对视<br>
 遥远的你微笑，眯眼<br>
