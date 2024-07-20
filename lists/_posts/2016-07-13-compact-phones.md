@@ -20,20 +20,20 @@ redirect_from:
 
 直板机收录标准为：
 
-- 机身宽度不超过72mm，其中70.5~72mm区间标红
-- 机身重量不超过200g，其中180~200g区间标红
+- 机身宽度不超过73mm（其中70~73mm区间标红）
+- 机身重量不超过200g（其中180~200g区间标红）
 
-<iframe width="100%" height="370" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=4AAEB7B8AF6F1FCF%21168081&authkey=%21ACVeUksqMDriC9k&em=2&Item=%E8%A1%A81&wdHideGridlines=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
+<iframe width="100%" height="380" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=4AAEB7B8AF6F1FCF%21168081&authkey=%21ACVeUksqMDriC9k&em=2&Item=%E8%A1%A81&wdHideGridlines=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
 
 ## 折叠机
 
 折叠机收录标准为：
 
-- 机身宽度不超过80mm，其中75~80mm区间标红
-- 折叠后最长边不超过100mm，其中90~100mm区间标红
-- 机身重量不超过210g，其中190~210g区间标红
+- 机身宽度不超过80mm（其中75~80mm区间标红）
+- 折叠后最长边不超过100mm（其中90~100mm区间标红）
+- 机身重量不超过210g（其中190~210g区间标红）
 
-<iframe width="100%" height="280" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=4AAEB7B8AF6F1FCF%21168081&authkey=%21ACVeUksqMDriC9k&em=2&Item=%E8%A1%A82&wdHideGridlines=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
+<iframe width="100%" height="300" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=4AAEB7B8AF6F1FCF%21168081&authkey=%21ACVeUksqMDriC9k&em=2&Item=%E8%A1%A82&wdHideGridlines=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
 
 ---
 
