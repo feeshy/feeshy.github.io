@@ -9,12 +9,13 @@ tags:
 redirect_from:
   - https://www.zhihu.com/question/26872017/answer/110877785
   - /tech/compact_phones.html
+image: https://telegra.ph/file/022722a8670eea45acc5f.png
 ---
-> 2024年7月更新：由于表格越来越长，为了便于筛选，改为使用OneDrive嵌入的Excel表格
+> 2024年7月更新：由于表格越来越长，为了便于筛选，改为使用[OneDrive托管的Excel表格](https://1drv.ms/x/s!As8fb6-4t65KiqEReU3ZnjF2JWmGsw)
+> 
+> 追求小屏手机的人追求的并不是屏幕尺寸，而是能轻松塞入牛仔裤口袋的小尺寸手机。如果大屏幕手机的屏占比够高机身够小，何乐而不为呢？本文不会受制于屏幕的实际尺寸，而是按照『小屏手机=小尺寸手机』的逻辑整理目前市面上的紧凑型手机。
 
-<img src="https://telegra.ph/file/022722a8670eea45acc5f.png" width="320" height="320" style="mask: linear-gradient(black,transparent);">
-
-追求小屏手机的人追求的并不是屏幕尺寸，而是能轻松塞入牛仔裤口袋的小尺寸手机。如果大屏幕手机的屏占比够高机身够小，何乐而不为呢？本文不会受制于屏幕的实际尺寸，而是按照『小屏手机=小尺寸手机』的逻辑整理目前市面上的紧凑型手机。
+<img src="https://telegra.ph/file/022722a8670eea45acc5f.png"  style="max-width: 320px; max-height: 320px; mask: linear-gradient(black,transparent);">
 
 ## 直板机
 
