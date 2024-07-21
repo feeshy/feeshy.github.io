@@ -17,7 +17,9 @@ redirect_from:
 ---
 > [Godspeed You! Black Emperor](https://en.wikipedia.org/wiki/Godspeed_You!_Black_Emperor) is a Canadian post-rock band from Montreal, Quebec. Their music, mainly instrumental in nature, has been noted for its contrasts between ambient soundscapes and chaotic crescendos; use of field recordings and spoken word monologues; and focus on dystopian, anarchist and anti-war themes.
 
-One interesting aspect of GYBE's music is that the songs often have different titles when they are published on the studio albums than they were performed live. This can be confusing for fans who want to follow along with the music, or who are trying to find specific live performances of their favorite songs.
+One interesting aspect of GYBE's music is that the songs often have different titles when they are published on the studio albums than they were performed live. This can be confusing for fans who want to follow along with the music, or who are trying to find specific live performances of their favorite songs[^1].
+
+[^1]: Check [this post](https://www.reddit.com/r/gybe/comments/gtv6ay/the_ultimate_comprehensive_guide_to_all/) by [u/The_Other_Dragonborn](https://www.reddit.com/user/The_Other_Dragonborn/) for reviews on live variants
 
 I have created a table to compare GYBE's song titles on bootlegs and streaming platforms side-by-side. I hope it is a good starting point to find your favorite GYBE songs on [bootlegs](https://archive.org/details/GodspeedYouBlackEmperor)!
 
@@ -299,8 +301,3 @@ For feedback, you may leave your comments at my posts on [Reddit](https://www.re
 	<td style="width:30%;"></td>
 </tr>
 </tbody></table>
-
-
-> **Links**
->
-> - Check [this post](https://www.reddit.com/r/gybe/comments/gtv6ay/the_ultimate_comprehensive_guide_to_all/) by [u/The_Other_Dragonborn](https://www.reddit.com/user/The_Other_Dragonborn/) for reviews on live variants
