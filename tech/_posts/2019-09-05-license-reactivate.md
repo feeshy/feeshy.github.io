@@ -1,11 +1,12 @@
 ---
 layout: post
-title: 重装系统/更换硬件时软件授权的转移
+title: 重装系统/更换硬件时软件许可证的转移
 date: 2019-09-05
-last_modified_at: 2023-07-19
+last_modified_at: 2024-08-25
 tags:
   - license
   - 许可证
+  - ilok
   - 折腾记录
 redirect_from:
   - https://post.smzdm.com/p/a839v9g0/#cl_1
@@ -13,14 +14,15 @@ redirect_from:
 toc: true
 ---
 
-这是对2019年我在什么值得买社区发布的[一篇文章](https://post.smzdm.com/p/a839v9g0/#cl_1)的更新。主要记录我在重装系统、更换硬件，以及设备故障、出售、赠送、丢失前后需对电脑中软件授权进行的处理
+本文是对2019年[我在什么值得买社区发布的一篇文章](https://post.smzdm.com/p/a839v9g0/#cl_1)的更新，主要记录了我在重装系统、更换硬件，以及设备故障、出售、赠送和丢失前后，对电脑中软件许可证进行的处理。希望这些经验能够帮助大家更好地管理自己的软件授权，避免成为正版软件受害者。
+
 ___
 
 ## 微软生态
 
-### Windows数字许可证
+### Windows数字许可证[^win]
 
-关于Windows的数字许可证激活[这位知乎网友的回答](https://www.zhihu.com/question/376281858/answer/1059876378)解释的比较透彻
+[^win]: 关于Windows的数字许可证激活[这位知乎网友的回答](https://www.zhihu.com/question/376281858/answer/1059876378)解释的比较透彻
 
 #### 重装系统
 
@@ -40,7 +42,7 @@ ___
 
 ### Office家庭和学生版
 
-买断版的Office 限制1台电脑。无法在重装系统前取消激活，而要在下次安装Office时按照[重装激活](https://support.microsoft.com/zh-cn/office/%e4%bd%bf%e7%94%a8%e6%bf%80%e6%b4%bb%e5%90%91%e5%af%bc%e6%bf%80%e6%b4%bboffice-1144e0de-e849-496e-8e33-ed6fb1b34202?ui=zh-CN&rs=zh-CN&ad=CN#bkmk_reinstall)的流程通过电话激活
+买断版的 Office 限制1台电脑。无法在重装系统前取消激活，而要在下次安装Office时按照[重装激活](https://support.microsoft.com/zh-cn/office/%e4%bd%bf%e7%94%a8%e6%bf%80%e6%b4%bb%e5%90%91%e5%af%bc%e6%bf%80%e6%b4%bboffice-1144e0de-e849-496e-8e33-ed6fb1b34202?ui=zh-CN&rs=zh-CN&ad=CN#bkmk_reinstall)的流程通过电话激活
 
 ### Microsoft 365
 
@@ -58,56 +60,61 @@ Microsoft Store上购买的应用支持最多授权10台设备，移除对某台
 
 ### iTunes
 
-iTunes中的DRM内容有最多授权5台电脑的限制（iOS设备不占额度），授权和取消都[经由iTunes完成](https://support.apple.com/zh-cn/HT201251#deauthorize)，用户可以主动取消授权本电脑，也可以等数量达上限后一键取消对所有电脑的授权。
+iTunes中的DRM内容有最多授权5台电脑的限制（iOS设备不占额度），授权和取消都经由iTunes完成[^itunes]，用户可以主动取消授权本电脑，也可以等数量达上限后一键取消对所有电脑的授权。
+
+[^itunes]: [针对 Apple ID 购买项目对电脑授权或取消对电脑的授权](https://support.apple.com/zh-cn/HT201251#deauthorize)
 
 ## 图像处理软件
 
 ### Affinity Photo
 
-Affinity的软件本身[不限制个人用户的安装数](https://store.serif.com/zh-cn/help/)，因此没有转移前取消激活的必要。不过如果是经由操作系统的商店购买的软件，商店可能会有限制，例如微软商店购买的软件会统一限制10台。
+Affinity的软件本身不限制个人用户的安装数[^serif]，因此没有转移前取消激活的必要。不过如果是经由操作系统的商店购买的软件，商店可能会有限制，例如微软商店购买的软件会统一限制10台。
+
+[^serif]: [Affinity 商店和 Affinity 帐户的帮助与支持](https://store.serif.com/zh-cn/help)
 
 ## 音乐制作软件
 
-### iZotope——无需干预
-
-iZotope部分旧版插件支持把授权导出到iLok License Manager，数量限制仅仅为1台。现在更推荐使用的授权方式其实是iZotope Product Portal。
-
-iZotope的用户协议[并不限制单用户激活的设备数](https://support.izotope.com/hc/en-us/articles/360024955073)，但有[五次的激活数量上限](https://support.izotope.com/hc/en-us/articles/360026394474)，超出后写工单申请更多次数
-
-### Native Access——无需干预
-
-根据Native Instruments的用户协议，[其软件可以安装在至多2台电脑上](https://support.native-instruments.com/hc/en-us/articles/209559469)（其中MASCHINE和KOMPLETE的限制放宽到3台）。重装系统、更换硬件之前直接卸载即可，无需取消激活；如果旧电脑或旧硬盘已经不能访问，也可以在下一次安装NI软件时选择清除已损坏设备的授权。
-
 ### iLok License Manager——需取消激活
 
-大多数使用iLok授权的插件厂商会为我们的购买提供至少2台设备的激活量。
+ilok许可证的设备数限制由插件厂商决定，一般是2~3台。
 
-重装系统、更换硬件前打开 iLok License Manager，手动注销插件的授权；此外，也可以在被移除的设备iLok在线的情况下通过网络移除（然而并没有什么实用性）
+ilok许可证通常需要在重装系统、更换硬件前打开 iLok License Manager 手动注销。如果待移除的设备已经无法访问，就比较麻烦了，用户和PACE都没有权限注销已经离线的远程iLok设备，重置许可证需要经过插件厂商批准。有以下两种申请方式[^ilok]：
 
-如果设备无法访问，就比较麻烦了。iLok虽没给普通用户开放找回授权的入口，却给插件厂商预留了相关的权限。我们只需要联系自己所拥有众多插件授权中的一家厂商，请求其对损坏的设备发起授权Reset即可，其他厂商一般会陆续在后台批准。如果等不及，也可以在成功发起重置后，联系催促其他厂商批准。
+[^ilok]: [FAQ - Your Licenses](https://help.ilok.com/faq_licenses.html)
 
-由于时差的关系，常常需要两个工作日以上的沟通才能处理完。建议尽量在一封邮件中提供必要的信息：
+- 在另一台电脑安装并打开 iLok License Manager (5.5版本以上)，找到无法访问的设备，勾选 `Report as Unusable` 发送重置申请<br><img src="https://help.ilok.com/img/faq/unusable_circled.png" style="display:inline;">
+- 如果无法安装5.5版本以上的iLok License Manager，那么也可以联系自己所拥有的众多插件中的一家厂商，申请由厂商在后台发起授权重置，此时需要提供以下必要信息：
+	- 解释你的电脑坏了，希望重置激活数
+	- 提供你的 ilok 用户名
+	- 提供想重置的电脑的名称
 
--   解释你的电脑坏了，希望重置激活数
--   提供你的 ilok 用户名
--   提供想重置的电脑的名称
--   提供想重置的插件名称
+通过以上任一方式发起重置申请后，各家插件厂商会陆续审核并批准，处理速度因厂商而异。以我在2024年经历的一次主板损坏为例，Softube和Eventide均能在几小时内快速批准，Pulsar可在24小时内处理，而Universal Audio的反应则相对较慢[^uaudio]。
+
+[^uaudio]: [UA在帮助页面中标注，授权重置最长需要2周的审核时间](https://help.uaudio.com/hc/en-us/articles/21642033868436)
 
 ### Waves——需取消激活
 
 经由Waves Central完成，电脑仍然能开机可以[取消激活](https://www.waves.com/support/move-licenses)，电脑或硬盘损坏、丢失可以[找回授权](https://www.waves.com/support/reactivate-recover-licenses)（每年不超过1次）
 
-### Ableton Live——无需干预
+### Native Instruments——无需干预
+
+根据Native Instruments的用户协议，其软件可以安装在至多2台电脑上，其中MASCHINE和KOMPLETE的限制放宽到3台[^ni]。重装系统、更换硬件之前直接卸载即可，无需取消激活；如果旧电脑或旧硬盘已经不能访问，也可以在下一次安装NI软件时选择清除已损坏设备的授权。
+
+[^ni]: [我可以在多少台计算机上激活并使用我的 Native Instruments 产品](https://support.native-instruments.com/hc/zh-cn/articles/209559469)
+
+### Ableton——无需干预
 
 Live的授权也允许[激活两台电脑](https://help.ableton.com/hc/zh-cn/articles/209771885)，重装系统或更换硬件前[不需要取消激活](https://help.ableton.com/hc/zh-cn/articles/209068629)。当我们的激活数达到限制之后，只需登录Ableton账号[申请释放激活次数](https://www.ableton.com/account/request-unlocks)。
 
-### Reason 11 & Rack Extensions——登录授权不用管，离线激活记得取消
+### Reason & Rack Plugin——登录授权不用管，离线激活记得取消
 
 Reason 提供在线与离线两种激活方式。
 
 在线模式每次启动Reason时需要登录账号并连接服务器验证，同一时刻仅允许登陆一台设备。在线激活不限制安装的设备数，也不在本机存储激活信息，因此不需要取消激活。
 
-Codemeter离线模式仅可授权一个设备，重装系统或者更换硬件前要[手动移除](https://help.reasonstudios.com/hc/en-us/articles/360002214074)。如果已经重装系统，或者损坏，[则没有自助的补救措施](https://help.reasonstudios.com/hc/en-us/articles/360002214454)，暂时用在线登录方式，联系人工客服移除
+离线激活的方式在Reason 12.6更改过。目前12.6以前的离线授权服务器已经关闭，12.6以后的版本最多可以授权三台计算机用于长期使用。如果已经授权了三台计算机，需要先移除其中一台的授权。这个操作可以在这三台计算机中的任意一台上运行Reason/Reason Rack Plugin，然后在偏好设置/设置页面上点击“移除长期授权”按钮[^reason]
+
+[^reason]: [About offline use and authorization of Reason 12.6 and later](https://help.reasonstudios.com/hc/en-us/articles/10288581394322-About-offline-use-and-authorization-of-Reason-12-6-and-later)
 
 ## 移动设备
 
