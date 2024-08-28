@@ -2,7 +2,7 @@
 layout: post
 title: 小屏手机索引
 date: 2016-07-13
-last_modified_at: 2024-07-21
+last_modified_at: 2024-08-28
 tags:
   - 手机
   - 知乎
@@ -17,28 +17,26 @@ image: https://telegra.ph/file/022722a8670eea45acc5f.png
 
 ## 直板机
 
-直板机收录标准为：
+2024年直板机收录标准为：
 
-- 机身宽度不超过73mm（其中70~73mm区间标红）
-- 机身重量不超过200g（其中180~200g区间标红）
+- 机身宽度不超过73mm
+- 机身重量不超过200g
 
 <iframe width="100%" height="380" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=4AAEB7B8AF6F1FCF%21168081&authkey=%21ACVeUksqMDriC9k&em=2&Item=%E8%A1%A81&wdHideGridlines=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
 
 ## 折叠机
 
-折叠机收录标准为：
+2024年折叠机收录标准为：
 
-- 机身宽度不超过80mm（其中75~80mm区间标红）
-- 折叠后最长边不超过100mm（其中90~100mm区间标红）
-- 机身重量不超过210g（其中190~210g区间标红）
+- 机身宽度不超过80mm
+- 折叠后最长边不超过100mm
+- 机身重量不超过210g
 
 <iframe width="100%" height="300" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=4AAEB7B8AF6F1FCF%21168081&authkey=%21ACVeUksqMDriC9k&em=2&Item=%E8%A1%A82&wdHideGridlines=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
 
 ## 说明
 
-本页面嵌入的[Excel表格](https://1drv.ms/x/s!As8fb6-4t65KiqEReU3ZnjF2JWmGsw)由Microsoft Office Online托管，支持同本地Excel表格一样的筛选和排序功能。若表格无法显示，请排查自己的网络能否连接至[Office Online域名](https://learn.microsoft.com/zh-cn/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&redirectSourcePath=%252farticle%252f8548a211-3fe7-47cb-abb1-355ea5aa88a2#microsoft-365-common-and-office-online)。
-
-为了便于对比，已经将各机型竞争力较弱的参数在表格中标红，SoC的标记参考了极客湾制作的[移动芯片综合性能与能效排行](https://www.socpk.com/)。
+本页面嵌入的[Excel表格](https://1drv.ms/x/s!As8fb6-4t65KiqEReU3ZnjF2JWmGsw)由Microsoft Office Online托管，支持同本地Excel表格一样的筛选和排序功能。若表格无法显示，请排查自己的网络能否连接至[Office Online域名](https://learn.microsoft.com/zh-cn/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&redirectSourcePath=%252farticle%252f8548a211-3fe7-47cb-abb1-355ea5aa88a2#microsoft-365-common-and-office-online)。此外，为了让各机型之间的对比更加直观，部分参数已用色阶进行展示。其中，绿色代表该项参数的竞争力较强，而红色则表示其竞争力较弱。
 
 eSIM支持情况因销售市场而异[^esim]。中国大陆三家运营商的eSIM业务仅对可穿戴设备开放，因此表中所列出的全部手机的国行版本都是不支持eSIM的。此外，部分较为激进的针对美国市场的机型完全取消了实体SIM卡槽，仅支持eSIM。由于机型版本众多，表格无法保证整理绝对准确，具体请自行查证。
 
