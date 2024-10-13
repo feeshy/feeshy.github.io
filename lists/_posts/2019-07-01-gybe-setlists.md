@@ -222,7 +222,7 @@ For feedback, you may leave your comments at my posts on [Reddit](https://www.re
 	<td style="width:30%;"><em>Piss Crowns Are Trebled</em></td>
 </tr>
 <tr>
-	<td colspan="4" style="width:30%; text-align:center;">2017 Luciferian Towers</td>
+	<td colspan="4" style="width:30%; text-align:center;">2017 "Luciferian Towers"</td>
 </tr>
 <tr>
 	<td style="width:10%;">23</td>
@@ -250,7 +250,7 @@ For feedback, you may leave your comments at my posts on [Reddit](https://www.re
 </tr>
 <tr>
 	<td style="width:10%;" rowspan="3">26</td>
-	<td style="width:30%;" rowspan="3"><em>Glacier</em></td>
+	<td style="width:30%;" rowspan="3"><em>Glaciers</em></td>
 	<td style="width:30%;"><em>A Military Alphabet (five eyes all blind)</em></td>
 	<td style="width:30%;" rowspan="3"></td>
 </tr>
@@ -262,9 +262,9 @@ For feedback, you may leave your comments at my posts on [Reddit](https://www.re
 </tr>
 <tr>
 	<td style="width:10%;">27</td>
+	<td style="width:30%;"><em>Static</em></td>
 	<td style="width:30%;"><em>Fire at Static Valley</em></td>
-	<td style="width:30%;"><em>Fire at Static Valley</em></td>
-	<td style="width:30%;"></td>
+	<td style="width:30%;">It's not World Police</td>
 </tr>
 <tr>
 	<td style="width:10%;" rowspan="2">28</td>
@@ -276,28 +276,42 @@ For feedback, you may leave your comments at my posts on [Reddit](https://www.re
 	<td style="width:30%;"><em>Cliffs Gaze / cliffs' gaze at empty waters' rise / ASHES TO SEA or NEARER TO THEE</em></td>
 </tr>
 <tr>
-	<td style="width:10%;"></td>
+	<td style="width:10%;">29</td>
 	<td style="width:30%;"></td>
 	<td style="width:30%;"><em>OUR SIDE HAS TO WIN (for D.H.)</em></td>
 	<td style="width:30%;"></td>
 </tr>
  <tr>
-	<td colspan="4" style="width:30%; text-align:center;">next album</td>
+	<td colspan="4" style="width:30%; text-align:center;">2024 "NO​ ​TITLE AS OF 13 FEBRUARY 2024 28​,​340 DEAD"</td>
 </tr>
 <tr>
-	<td style="width:10%;"></td>
-	<td style="width:30%;">untitled (flowers)<br>13~15 minutes</td>
-	<td style="width:30%;"></td>
-	<td rowspan="3" style="width:30%;">since <a href="https://archive.org/details/gybe2024-02-28.CA14_H4n" target="_blank">early 2024</a>, they have performed 3 new songs in their live concerts<br>'flowers', 'flames', and 'feathers' are not official titles but placeholder names <a href="https://www.brooklynvegan.com/godspeed-you-black-emperor-debuted-3-new-songs-at-tour-kickoff-at-knockdown-center-listen-pics-2024-dates/" target="_blank">based on the projections</a></td>
+	<td style="width:10%;">30</td>
+	<td style="width:30%;">DRONEPIPES</td>
+	<td style="width:30%;">SUN IS A HOLE SUN IS VAPORS</td>
+	<td style="width:30%;">intro drone since <a href="https://www.reddit.com/r/gybe/comments/1g1r01p/paper_setlist_from_lausanne_20241011/" target="_blank">2024</a></td>
 </tr>
 <tr>
-	<td style="width:10%;"></td>
-	<td style="width:30%;">untitled (flames)<br>22~24 minutes</td>
-	<td style="width:30%;"></td>
+	<td style="width:10%;">31</td>
+	<td style="width:30%;">CLOUD</td>
+	<td style="width:30%;">BABYS IN A THUNDERCLOUD</td>
+	<td style="width:30%;">formerly known as <a href="https://www.brooklynvegan.com/godspeed-you-black-emperor-debuted-3-new-songs-at-tour-kickoff-at-knockdown-center-listen-pics-2024-dates/" target="_blank">'flowers'</a> between fans</td>
 </tr>
 <tr>
-	<td style="width:10%;"></td>
-	<td style="width:30%;">untitled (feathers)<br>12~14 minutes, or 20 minutes with outro drone</td>
-	<td style="width:30%;"></td>
+	<td style="width:10%;">32</td>
+	<td style="width:30%;">JIMMY</td>
+	<td style="width:30%;">RAINDROPS CAST IN LEAD</td>
+	<td style="width:30%;">formerly known as <a href="https://www.brooklynvegan.com/godspeed-you-black-emperor-debuted-3-new-songs-at-tour-kickoff-at-knockdown-center-listen-pics-2024-dates/" target="_blank">'feathers'</a> between fans<br>On <a href="https://www.reddit.com/r/gybe/comments/1g1r01p/paper_setlist_from_lausanne_20241011/" target="_blank">this setlist</a>, the band called it 'jimmy'</td>
+</tr>
+<tr>
+	<td rowspan="3" style="width:10%;">32</td>
+	<td rowspan="3" style="width:10%;">PALE</td>
+	<td style="width:30%;">BROKEN SPIRES AT DEAD KAPITAL</td>
+	<td rowspan="3" style="width:30%;">formerly known as <a href="https://www.brooklynvegan.com/godspeed-you-black-emperor-debuted-3-new-songs-at-tour-kickoff-at-knockdown-center-listen-pics-2024-dates/" target="_blank">'flames'</a> between fans</td>
+</tr>
+<tr>
+	<td style="width:30%;">PALE SPECTATOR TAKES PHOTOGRAPHS</td>
+</tr>
+<tr>
+	<td style="width:30%;">GREY RUBBLE - GREEN SHOOTS</td>
 </tr>
 </tbody></table>
