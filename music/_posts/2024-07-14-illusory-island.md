@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 幻象岛 | Illusory Island
+title: 幻象岛
 date: 2024-07-14
 tags:
   - 音乐
