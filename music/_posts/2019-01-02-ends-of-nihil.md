@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 虚芜角 | Ends of Nihil
+title: 虚芜角
 date: 2019-01-02
 last_modified_at: 2019-07-13
 tags:

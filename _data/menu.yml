@@ -32,17 +32,17 @@ entries:
         limit: 3
         category: prose
         show_more: false
-    - title: 诗
-      url: poetry
-      post_list:
-        limit: 3
-        category: poetry
-        show_more: false
     - title: 歌
       url: music
       post_list:
         limit: 3
         category: music
+        show_more: false
+    - title: 诗
+      url: poetry
+      post_list:
+        limit: 3
+        category: poetry
         show_more: false
 
   - title: 归档
