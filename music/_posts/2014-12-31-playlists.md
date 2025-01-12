@@ -2,7 +2,7 @@
 layout: post
 title: feeshy的年度歌单
 date: 2014-12-31
-last_modified_at: 2024-05-07
+last_modified_at: 2025-01-01
 tags:
   - 歌单
 toc: true
@@ -10,11 +10,63 @@ redirect_from:
   - /douban/playlists.html
   - /lists/playlists
 ---
-虾米音乐关停的前夕，我开启了这个每年维护的文字版歌单，旨在总结当年的音乐发现，记录我的音乐口味变迁。收录标准不限于当年发行的音乐，并带有强烈的主观风格偏好，更包含了一些私货。
+虾米音乐关停的前夕，我开启了这个年更的歌单计划，旨在回顾当年的音乐发现，记录我的音乐口味变迁。收录会有主观的风格偏好，不局限于当年新发行的音乐，也可能会包含一些私货。
 
 - 年度唱片 = 当年循环次数较多的唱片
 - 年度歌单 = 当年单曲循环次数较多的音乐
 - 私货 = 当年<s>花了</s>（混）<s>较多</s>（到）<s>心思</s>（快）<s>制作</s>（吐）的音乐
+
+### 2024
+
+关键词：live recordings & bootlegs, groove, 808
+
+2024年，我的听音口味与往年相比稳中有变，最明显的变化是倾向于寻找不那么常规的律动，对音色的审美虽大体保持在原有的舒适区，但今年也留意到来自Tosca、窦唯、方大同的多首歌中的滑音sub bass，听起来酷酷的，以后有机会模仿一下。
+
+这一年，持续恶化的全球态势吸引了世界各地的目光，我对以前不太能欣赏的GYBE的《Yanqui U.X.O.》等作品有了更多的共鸣，他们一反常态在几个月内迅速完成录音与后期制作、今秋发布的新专辑《NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD》——从2月份流出的bootleg就被我持续循环，[11月25日在蒙特利尔的setlist](https://archive.org/details/gybe2024-11-25.mtx)更是完美反映了我这一年的感受——这场演出结尾三首歌的节奏型先由322转到6/8，然后由4/4转到323，最后由6/8转回4/4再进入drone，张弛的律动与激进的音色，鲜明地传达出他们对于此刻正在发生的人道主义灾难的抵制态度。
+
+今年还有一些现场唱片也给我留下了深刻印象：
+
+- 1990年5月18日，Amadinda打击乐团在布达佩斯演奏Steve Reich的《Music for 18 Musicians》
+- 1997年7月24日，Portishead在纽约Roseland舞厅现场录音的25周年重制版
+- 2019年大流行之前，汪文伟在成都和北京的两场氛围音乐会中的即兴表演——借此我也认识了摩登天空旗下的Sound Blanc子厂牌，终于有窗口了解国内在窦唯的圈子以外的青年氛围音乐人
+- 2024年3月21日，Nils Frahm在巴黎爱乐音乐厅的氛围音乐演出
+
+此外，今年也是我第一次尝试将Bilibili作为发现新歌的渠道，通过[Hopico Music](https://space.bilibili.com/261485584/)和[安非思泊](https://space.bilibili.com/334147498)，接触到更多Z世代音乐人的作品。
+
+#### 年度唱片
+
+1. Godspeed You! Black Emperor - _NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD_ / _Live at MTELUS on 25 November 2024 bootleg_
+2. Portishead - _Roseland NYC Live 25th Anniversary_
+3. Nils Frahm - _Paris_
+4. Blonde Redhead - _Sit Down for Dinner_
+
+#### 年度歌单 - [Apple Music](https://music.apple.com/cn/playlist/2024%E5%B9%B4%E5%BA%A6%E6%AD%8C%E5%8D%95/pl.u-KVXB2eWCZjNPeqo)
+
+- Melody Experiment - Blonde Redhead
+- Oscar - Tosca
+- 旷野 - Dem-One, 汪文伟 & L+R
+- 野餐音乐会 Day1 - 汪文伟
+- Music for 18 Musicians - Amadinda Percussion Group
+- Broken Spires at Dead Kapital / Pale Spectator Takes Photograph / Grey Rubble Green Shoots - Godspeed You! Black Emperor
+- The End of the World - Skeeter Davis
+- Roads - Portishead
+- 独上C楼 - YELLOW黄宣
+- You and Me - 王若琳
+- 驯化录 - iimmune
+- Ladybird - Sogyumo Acacia Band
+- A Place - Nils Frahm
+- Fauna - Carbon Based Lifeforms
+- 飞咯 - 窦靖童
+- 童嫄世界 - 窦唯
+- Inaka - Mei Semones
+- Roamin' - Danny Keane
+- The Rhythm Changes - Kamasi Washington
+- Luminous Beings - Jon Hopkins
+- Hammers - Nils Frahm
+
+#### 私货
+
+- [Hind](https://music.163.com/song?id=2607984445)
 
 ### 2023
 

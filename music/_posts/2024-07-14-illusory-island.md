@@ -6,7 +6,7 @@ tags:
   - 音乐
 ---
 
-由2016~2020年的老工程整理而来，算是「[虚芜角](/music/ends-of-nihil)」的姊妹篇，相比前者，「幻象岛」更注重情绪与旋律。
+大部分曲目整理自2016~2020年的老工程，时间上算是「[虚芜角](/music/ends-of-nihil)」的姊妹篇。相比「虚芜角」的奇幻诡谲，「幻象岛」的主题侧重人生易逝的感慨。
 
 <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=4270813475/size=large/bgcol=333333/linkcol=4ec5ec/minimal=true/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-island">illusory island by feeshy</a></iframe>
 
