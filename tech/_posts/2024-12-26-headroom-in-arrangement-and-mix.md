@@ -5,7 +5,7 @@ date: 2025-01-12
 tags:
   - 混音
   - 折腾记录
-toc: true
+toc: false
 ---
 > 记录我在2024年关于编曲、混音阶段保留动态余量的看法，相比2021年[^2021]有了更进一步的理解。
 
@@ -29,7 +29,7 @@ toc: true
 
 [^cheatsheet]: [Sweetwater | Musical Instrument Frequency Cheatsheet](https://www.sweetwater.com/insync/music-instrument-frequency-cheatsheet/)
 
-<object data="https://s3.amazonaws.com/ssipublic/musicfrequencycheatsheet.pdf" type="application/pdf"></object>
+<object data="https://s3.amazonaws.com/ssipublic/musicfrequencycheatsheet.pdf" type="application/pdf" width="100%"></object>
 
 ### 使用失真类效果增强谐波
 
