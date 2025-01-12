@@ -18,7 +18,7 @@ redirect_from:
 
 ## 2024
 
-![](assets/img/playlist2024.png)
+![](/assets/img/playlist2024.png)
 
 关键词：live recordings & bootlegs, groove, 808
 
@@ -61,8 +61,6 @@ redirect_from:
 - 童嫄世界 - 窦唯
 - Inaka - Mei Semones
 - Roamin' - Danny Keane
-- The Rhythm Changes - Kamasi Washington
-- Luminous Beings - Jon Hopkins
 - Hammers - Nils Frahm
 
 #### 私货
