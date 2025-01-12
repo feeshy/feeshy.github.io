@@ -2,7 +2,7 @@
 layout: post
 title: feeshy的年度歌单
 date: 2014-12-31
-last_modified_at: 2025-01-01
+last_modified_at: 2025-01-12
 tags:
   - 歌单
 toc: true
@@ -16,7 +16,9 @@ redirect_from:
 - 年度歌单 = 当年单曲循环次数较多的音乐
 - 私货 = 当年<s>花了</s>（混）<s>较多</s>（到）<s>心思</s>（快）<s>制作</s>（吐）的音乐
 
-### 2024
+## 2024
+
+![](assets/img/playlist2024.png)
 
 关键词：live recordings & bootlegs, groove, 808
 
@@ -38,7 +40,6 @@ redirect_from:
 1. Godspeed You! Black Emperor - _NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD_ / _Live at MTELUS on 25 November 2024 bootleg_
 2. Portishead - _Roseland NYC Live 25th Anniversary_
 3. Nils Frahm - _Paris_
-4. Blonde Redhead - _Sit Down for Dinner_
 
 #### 年度歌单 - [Apple Music](https://music.apple.com/cn/playlist/2024%E5%B9%B4%E5%BA%A6%E6%AD%8C%E5%8D%95/pl.u-KVXB2eWCZjNPeqo)
 
@@ -68,7 +69,7 @@ redirect_from:
 
 - [Hind](https://music.163.com/song?id=2607984445)
 
-### 2023
+## 2023
 
 这一年听歌的频率有所下降。秋天去了一次发光曲线的现场，回来把他们的三张专辑翻出来一直听到年底。2023年我的听歌主题词是合成器，无论何种流派，无论新歌还是旧作，总能听到合成器的声音。
 
@@ -92,7 +93,7 @@ redirect_from:
 
 - [零件被碰上机油的手一件件的安装](https://music.163.com/song?id=2061034150)
 
-### 2022
+## 2022
 
 2022年我的音乐口味很杂，在另类摇滚与后摇滚的基础上，还涉猎了Trip-Hop、Lo-fi、氛围音乐等不同的风格，甚至通过Apple Music的漫游功能发掘了一些世界音乐。
 
@@ -123,7 +124,7 @@ redirect_from:
 -   野火 - 惘闻
 -   松果体 - 暴力香槟
 
-### 2021
+## 2021
 
 上半年，ECM厂牌的音乐占据了歌单较大的比重。秋季因疫情封控滞留外地，A Midsummer Evening的歌词与当时的情景格外契合。年底去了沼泽的现场，被震撼人心的《争鸣》深深打动，一扫此前低迷的心情。
 
@@ -155,7 +156,7 @@ redirect_from:
 
 -   [Moonlight Slow Train](https://music.163.com/song?id=1908030437)
 
-### 2020
+## 2020
 
 最杂食的一年，电子、TripHop、爵士、摇滚、氛围音乐等多种风格交织碰撞。这一年的三张年度唱片都不水。Portishead的《Third》完美戳中当时封控下内心的迷茫与不安；痛仰的电子专辑展现了他们多元化的音乐风格，迸发出全新的火花；Black Hearted Brother的专辑则是我意外发现的宝藏，来自Slowdive吉他手Neil Halstead的支线计划，延续了他一贯的梦幻风格。
 
@@ -189,7 +190,7 @@ redirect_from:
 -  [The Traveler](/poetry/gloom/the-traveler)
 - 虾米数据导出：[歌单](/assets/xiami/2029879_collect.csv) | [艺术家](/assets/xiami/2029879_artist.csv) | [专辑](/assets/xiami/2029879_album.csv) | [单曲](/assets/xiami/2029879_song.csv)
 
-### 2019
+## 2019
 
 在动感的电子乐、金属乐与安静的氛围音乐之间横跳的一年。
 
@@ -224,7 +225,7 @@ Yann Tiersen 的 《Hent》 是对上一张专辑 《EUSA》 中八个即兴片�
 
 -   [west wind drift](/music/wet_as_hell)
 
-### 2018
+## 2018
 
 2018年我的听歌兴趣涵盖了氛围音乐、电子与trip-hop——这些歌曲的音乐性与音响效果可以说是各具特色，但都有催眠的共同特质。
 
@@ -255,7 +256,7 @@ Yann Tiersen 的 《Hent》 是对上一张专辑 《EUSA》 中八个即兴片�
 
 -   [电石号的奇幻漂流](/music/ends-of-nihil)
 
-### 2017
+## 2017
 
 这一年的关键词是盯鞋。令我惊喜的是，Slowdive在2014年的重组并非仅仅是出于怀旧情怀，他们还悄然积累了一张新专辑的素材。Slowdive的新消息也让我重新关注了当年Creation Records旗下的另一只乐队My Bloody Valentine，并发现了他们早在2007年盯鞋刚刚显露出复兴迹象的时候，就已经重新集结，并已经在2013年发行了历时近20年制作的新专辑，泪目，终于有机会听到立体声的mbv了！
 
@@ -286,7 +287,7 @@ Yann Tiersen 的 《Hent》 是对上一张专辑 《EUSA》 中八个即兴片�
 
 -   [Sweet Anxiety](/music/ends-of-nihil)
 
-### 2016
+## 2016
 
 2016年的关键词是氛围，我的音乐旅程始于Neil Hastead在Looper中的吉他和人声回响，延伸至谢玉岗手持琴弓演奏的吉他音景，再到Peter Hook催眠般的bassline与Ian Curtis低沉阴郁的嗓音，最终归于窦唯的电影采样。
 
@@ -317,7 +318,7 @@ Yann Tiersen 的 《Hent》 是对上一张专辑 《EUSA》 中八个即兴片�
 
 -   [太极猫](/music/ends-of-nihil)
 
-### 2015
+## 2015
 
 2015年的听歌主题延续了前一年的发现之旅。
 
@@ -354,7 +355,7 @@ Yann Tiersen 的 《Hent》 是对上一张专辑 《EUSA》 中八个即兴片�
 
 -   [渴](/music/ends-of-nihil)
 
-### 2014
+## 2014
 
 曲库疯狂扩充的一年。从《天使爱美丽》这部电影发现了Yann Tiersen这位音乐全才，不管是早期的原声乐器作品，还是近来的电子作品，都很对我的胃口。
 
@@ -389,7 +390,7 @@ Yann Tiersen 的 《Hent》 是对上一张专辑 《EUSA》 中八个即兴片�
 
 -   [影之尘](/music/ends-of-nihil)
 
-### 2004-2013
+## 2004-2013
 
 变化比较大的十年，听歌方式经历了四个阶段
 
