@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 编曲、混音阶段保留动态余量的技巧
+title: 编曲、混音保留动态余量的一些技巧
 date: 2025-01-12
 tags:
   - 混音
@@ -9,9 +9,9 @@ toc: false
 ---
 > 记录我在2024年关于编曲、混音阶段保留动态余量的看法，相比2021年[^2021]有了更进一步的理解。
 
-[^2021]: [我的混音总线信号流 - 浮鲜](/tech/my-master-workflow)
+提升歌曲的响度不仅仅是母带处理的问题，还在很大程度上与音频的具体内容有关。在编排与混音阶段，如何为各个音轨分配频率、声场、动态，会对歌曲的动态余量（headroom）产生重大影响。只有先削弱对于成品价值不大的声音，才能获得更多的空间用来提升响度。
 
-提升歌曲的响度不仅仅是母带处理的问题，还在很大程度上与音频的具体内容有关。在编排与混音阶段，如何为各个音轨分配频率、声场、动态，会对歌曲的动态余量（headroom）产生重大影响。只有先削弱对于成品价值不大的声音，才能获得更多的提升响度的空间。
+[^2021]: [我的混音总线信号流 - 浮鲜](/tech/my-master-workflow)
 
 ## 频率分布
 
@@ -27,9 +27,9 @@ toc: false
 
 这提醒我们，做分轨EQ时，不仅要听solo，还要保留一定的全局视角。当不同乐器轨道的频率相冲突时，我们应当保留每个乐器最核心的特征频率[^cheatsheet]，同时适当地衰减不太重要的频率。
 
-[^cheatsheet]: [Sweetwater | Musical Instrument Frequency Cheatsheet](https://www.sweetwater.com/insync/music-instrument-frequency-cheatsheet/)
-
 <object data="https://s3.amazonaws.com/ssipublic/musicfrequencycheatsheet.pdf" type="application/pdf" width="100%"></object>
+
+[^cheatsheet]: [Sweetwater | Musical Instrument Frequency Cheatsheet](https://s3.amazonaws.com/ssipublic/musicfrequencycheatsheet.pdf)
 
 ### 使用失真类效果增强谐波
 
