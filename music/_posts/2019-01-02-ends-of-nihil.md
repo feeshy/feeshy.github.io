@@ -46,20 +46,19 @@ Stream: [Bandcamp](https://feeshy.bandcamp.com/album/ends-of-nihil) | [SoundClo
 
 ## Credits
 
-TTS: [Google Translate](https://translate.google.com/) & [讯飞在线语音合成](https://www.xfyun.cn/services/online_tts)
+- [inspirations](https://music.163.com/playlist/13199800552)
+- TTS: [Google Translate](https://translate.google.com/) & [讯飞在线语音合成](https://www.xfyun.cn/services/online_tts)
 
-Samples: ↓
+[^2]: sample by [Godspeed You! Black Emperor](https://www.last.fm/music/Godspeed+You!+Black+Emperor/_/%5BGlockenspiel+Duet+Recorded+On+A+Campsite+In+Rhinebeck,+N.y.%5D)
 
-[^2]: [Godspeed You! Black Emperor](https://www.last.fm/music/Godspeed+You!+Black+Emperor/_/%5BGlockenspiel+Duet+Recorded+On+A+Campsite+In+Rhinebeck,+N.y.%5D)
+[^3]: sample by [patobottos](https://freesound.org/s/178504/), [caquet](https://freesound.org/s/221164/)
 
-[^3]: [patobottos](https://freesound.org/s/178504/), [caquet](https://freesound.org/s/221164/)
+[^6]: sample by [Dynamicell](https://freesound.org/s/17548/)
 
-[^6]: [Dynamicell](https://freesound.org/s/17548/)
+[^7]: sample by [tim.kahn](https://freesound.org/s/197714/)
 
-[^7]: [tim.kahn](https://freesound.org/s/197714/)
+[^8]: sample by [YOH](https://freesound.org/s/170866/), [ViaTorci](https://freesound.org/s/66789/)
 
-[^8]: [YOH](https://freesound.org/s/170866/), [ViaTorci](https://freesound.org/s/66789/)
+[^9]: sample by [this video](https://youtu.be/3ZxjV0s2CrA) 
 
-[^9]: [this video](https://youtu.be/3ZxjV0s2CrA) 
-
-[^12]: [Gutek](https://freesound.org/s/385646/), [helenavelikaja](https://freesound.org/s/361923/)
+[^12]: sample by [Gutek](https://freesound.org/s/385646/), [helenavelikaja](https://freesound.org/s/361923/)
