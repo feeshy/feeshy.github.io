@@ -2,11 +2,14 @@
 layout: post
 title: 幻象岛
 date: 2024-07-14
+last_modified_at: 2025-01-27
 tags:
   - 音乐
 ---
 
-大部分曲目整理自2016~2020年的老工程，时间上算是「[虚芜角](/music/ends-of-nihil)」的姊妹篇。相比「虚芜角」的奇幻诡谲，「幻象岛」的主题侧重人生易逝的感慨。
+> 2024-01-27：重新制做了第一首歌
+
+大部分曲目整理自2016~2020年的老工程，时间大抵算是「[虚芜角](/music/ends-of-nihil)」的姊妹篇。相比「虚芜角」的奇幻诡谲，「幻象岛」的主题侧重人生易逝的感慨。
 
 <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=4270813475/size=large/bgcol=333333/linkcol=4ec5ec/minimal=true/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-island">illusory island by feeshy</a></iframe>
 
@@ -28,6 +31,8 @@ tags:
 Stream: [Bandcamp](https://feeshy.bandcamp.com/album/illusory-island) | [网易云音乐](https://music.163.com/album?id=242123244)
 
 ## Credits
+
+- [inspirations](https://music.apple.com/cn/playlist/inspirations-for-illusory-island/pl.u-jV89akWudA0Ne6o)
 
 [^1]: sample by [inchadney](https://freesound.org/s/429077/), text from [庄子/至乐](https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E8%87%B3%E6%A8%82), vocal via [X Studio](https://xstudio.music.163.com/)
 [^2]: samples by [13gpanska-david-koci](https://freesound.org/s/377852/), [ultradust](https://freesound.org/s/166923/), [silverillusionist](https://freesound.org/s/411172/)

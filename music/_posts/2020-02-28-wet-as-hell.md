@@ -39,16 +39,15 @@ Stream: [Bandcamp](https://feeshy.bandcamp.com/album/wet-as-hell) | [SoundCloud
 
 ## Credits
 
-cover photo by [Zoltan Kovacs](https://unsplash.com/photos/CdlDVEY6pcU)
+- cover photo by [Zoltan Kovacs](https://unsplash.com/photos/CdlDVEY6pcU)
+- [inspirations & original recordings](https://music.apple.com/cn/playlist/inspirations-original-recordings-for-wet-as-hell/pl.u-2aoqpAatNXdvbYz)
 
 [^2]: samples by [Paresh](https://freesound.org/people/Paresh/sounds/324086/), [inchadney](https://freesound.org/people/inchadney/sounds/113383/), [Dynamicell](https://freesound.org/people/Dynamicell/sounds/17548/)
 
-[^3]: cover [Godspeed You! Black Emperor](https://www.youtube.com/watch?v=yg-okiuauBQ), samples by [Kenkeknem](https://freesound.org/people/Kenkeknem/sounds/414932/)
+[^3]: cover [09-15-00](https://www.youtube.com/watch?v=yg-okiuauBQ) by Godspeed You! Black Emperor, samples by [Kenkeknem](https://freesound.org/people/Kenkeknem/sounds/414932/)
 
-[^4]: inspired by [Éloge](http://www.zafka.cn/music/prague-le-pont-2005/#:~:text=Eloge)
+[^4]: inspired by [Éloge](http://www.zafka.cn/music/prague-le-pont-2005/#:~:text=Eloge) by Prague & Radioactivity by Kraftwerk
 
 [^5]: sample [stormpetrel](https://freesound.org/people/stormpetrel/sounds/173096/)
 
-[^6]: cover [Godspeed You! Black Emperor](https://www.youtube.com/watch?v=HSnABcDg4t8)
-
-[^8]: inspired by [Identity V Game OST](https://music.163.com/song?id=551335721)
+[^6]: cover [The Sad Mafioso](https://www.youtube.com/watch?v=HSnABcDg4t8) by Godspeed You! Black Emperor
