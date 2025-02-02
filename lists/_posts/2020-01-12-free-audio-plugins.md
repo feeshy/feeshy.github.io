@@ -2,7 +2,7 @@
 layout: post
 title: 免费音频效果插件推荐
 date: 2020-01-12
-last_modified_at: 2025-01-11
+last_modified_at: 2025-02-02
 tags:
   - VST
   - AUv3
@@ -183,7 +183,7 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 ![](https://media.plugins4free.com/img/AO-BritPre_2.jpg)
 ![](https://bedroomproducersblog.com/wp-content/uploads/2022/11/dirty-filter-plus.png)
 
-内置高/低通滤波器的饱和效果。前者提供电子管、303、Lo-fi、量化失真四种模式，后者模拟了1960年代的英式调音台。
+内置高/低通滤波器的饱和效果。前者模拟了1960年代的英式调音台，后者提供电子管、303、Lo-fi、量化失真四种模式。
 
 #### [Tube Amp](https://www.voxengo.com/product/tubeamp/)
 
@@ -195,7 +195,7 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 ![](https://static.kvraudio.com/i/b/sga1566.png)
 
-模拟了Altec 1566A电子管话放的两级12AX7放大电路，非常吃CPU。另有售价$55的改进版[Phoenix 2](https://www.shatteredglassaudio.com/product/112)，大幅减小了性能开销。
+模拟了Altec 1566A电子管话放的两级12AX7放大电路，非常吃CPU。另有售价$55的重制版[Phoenix 2](https://www.shatteredglassaudio.com/product/112)，大幅减小了性能开销并且添加了新的放大器风格。
 
 #### [PreBOX & Distox](https://analogobsession.com/color-preamp-saturation/)
 
@@ -392,7 +392,7 @@ SlickEQ是一个简单易用的高通滤波和三段EQ，并有多个可选的Pr
 
 ![](https://tal-software.com/images/products/tal-reverb-402.jpg)
 
-高密度金属板混响，带Ducking功能，可用Sidechain输入触发，另外内置了调制、移调、降采样等模块。支持三大桌面平台，包括Linux
+高密度金属板混响，带Ducking功能（可用Sidechain输入触发），另外内置了调制、移调、降采样等模块。支持三大桌面平台，包括Linux
 
 #### [OldSkoolVerb](https://www.voxengo.com/product/oldskoolverb/)
 
@@ -410,7 +410,7 @@ SlickEQ是一个简单易用的高通滤波和三段EQ，并有多个可选的Pr
 
 ![](https://www.pspaudioware.com/assets/products/pianoverb-freebie.png)
 
-以钢琴的琴弦作为混响材质，相比普通的混响多了些音调的感觉
+模型使用了A(55Hz)～G#(103.8Hz)的12根钢琴琴弦作为混响材质，相比普通的混响多了些音调的感觉
 
 #### [Supermassive](https://valhalladsp.com/shop/reverb/valhalla-supermassive/)
 
@@ -428,7 +428,7 @@ SlickEQ是一个简单易用的高通滤波和三段EQ，并有多个可选的Pr
 - [Cloud Seed AU & VST3](https://github.com/HolyBimBam/CloudSeed_AU_VST3): AU & VST3 for macOS
 - [Aether](https://github.com/Dougal-s/Aether): LV2 for Linux
 - [CloudReverb](https://github.com/xunil-cloud/CloudReverb): VST3 for Windows/Linux/macOS
-- [Cloud Seed 2](https://ghostnoteaudio.uk/products/cloudseed): 重制版，支持VST & AU for Windows/macOS，售价$44可以无限试用（类似Reaper）
+- [Cloud Seed 2](https://ghostnoteaudio.uk/products/cloudseed): 原作者的重制版，支持VST & AU for Windows/macOS，售价$44，可以无限期全功能试用（类似Reaper）
 - [DaisyCloudSeed](https://github.com/erwincoumans/DaisyCloudSeed): Daisy Patch 硬件DSP版
 - [DaisyCloudSeed](https://github.com/GuitarML/DaisyCloudSeed): Terrarium 单块版
 
@@ -472,24 +472,41 @@ SlickEQ是一个简单易用的高通滤波和三段EQ，并有多个可选的Pr
 
 音色干净的数字延迟。涵盖了一个基础款数字延迟所应具备的全部功能：立体声偏移、高低通、EQ、Ping Pong模式、Ducking（并且支持用sidechain信号来控制ducking）
 
-#### [Deelay](https://sixthsample.com/deelay/) / [Spaceship Delay](https://www.musicalentropy.com/SpaceshipDelay.html) / [TAL-Dub-II](https://tal-software.com/products/tal-dub)
+#### [Deelay](https://sixthsample.com/deelay/)
 
-![](https://static.kvraudio.com/i/b/normalmode-a.png) ![](https://static.kvraudio.com/i/b/screenshot-4.png) ![](https://tal-software.com/images/products/tal-dub-2.jpg)
+![](https://static.kvraudio.com/i/b/normalmode-a.png) 
 
-三款支持时间调制、feedback回路滤波的Self-Oscillation、过载等功能的延迟效果，可以制造从温暖的过载回声到眩晕的跑调回声效果。其中Deelay提供更多的过载模型，且支持混响、反向、变调、ducking等模式，Spaceship提供更多的滤波器模型（包括MS-20、Meeblip合成器的经典滤波器），TAL Dub2有着更加复古的界面和音色，但功能与前两者相比稍显简单，且不支持macOS
+强大且易用的万金油延迟，支持feedback回路滤波、延迟时间调制、wow & flutter、失真、ducking、混响、反向延迟、shimmer等功能。
+
+免费版提供11种失真算法：saturation, asymmetrical, clip, tube, rectify, crackly, lightning, amp, bumpy, razor, pixelated；美中不足的是，滤波器的resonance不可调，无法做出较激烈的Self-Oscillation效果。
+
+另有售价€30的[Platinum Edition](https://sixthsample.com/deelay-pe/)，提供更多失真算法，滤波器可调Q值，以及移频延迟、移调延迟等扩展模式。
+
+#### [Spaceship Delay](https://www.musicalentropy.com/SpaceshipDelay.html)
+
+![](https://static.kvraudio.com/i/b/screenshot-4.png)
+
+支持延迟时间调制、feedback回路滤波、过载、周边效果等功能的延迟效果，可以制造从温暖的过载回声到眩晕的Self-Oscillation回声效果。提供普通数字滤波器以及复刻自MS-20、Meeblip等经典合成器的滤波器。
+
+#### [GSi Varispeed](https://www.genuinesoundware.com/?a=showproduct&b=47) / [NastyDLA](https://varietyofsound.wordpress.com/vst-effects/) / [PSP stepDelay](https://www.pspaudioware.com/products/psp-stepdelay) / [Airwindows TapeDelay](https://www.airwindows.com/tapedelay/) & [TapeDelay2](https://www.airwindows.com/tapedelay2/)
+
+![](https://www.genuinesoundware.com/Products/VariSpeed/img/VariSpeed.png)
+![](https://varietyofsound.files.wordpress.com/2010/10/nastydla1.png)
+![](https://www.pspaudioware.com/assets/products/psp_stepdelay_freebie.jpg)
+![](https://blog.landr.com/_next/image/?url=https%3A%2F%2Fblog-api.landr.com%2Fwp-content%2Fuploads%2F2024%2F05%2F02-Airwindows-TapeDelay2.png&w=1440&q=75)
+
+磁带延迟大合集
+
+- [GSi Varispeed](https://www.genuinesoundware.com/?a=showproduct&b=47): 复刻Copicat IC400磁带延迟机的变速效果，由于过于忠于原版，而既不能显示延迟时间，也不支持tempo sync。提供3种磁带头
+- [NastyDLA](https://varietyofsound.wordpress.com/vst-effects/): 仅支持VST2 for Windows
+- [PSP stepDelay](https://www.pspaudioware.com/products/psp-stepdelay): 功能相对全面的磁带风格延迟
+- [Airwindows TapeDelay](https://www.airwindows.com/tapedelay/) & [TapeDelay2](https://www.airwindows.com/tapedelay2/): 声音不错但界面简陋，不支持tempo sync
 
 #### [Full Bucket Brigade Delay](https://www.fullbucket.de/music/fbdelay.html)
 
 ![](https://www.fullbucket.de/music/images/fbdelay.jpg)
 
 一款温暖的BBD延迟（Bucket Brigade Device），支持时间调制以及feedback回路滤波的Self-Oscillation
-
-#### [Airwindows TapeDelay](https://www.airwindows.com/tapedelay/) & [TapeDelay2](https://www.airwindows.com/tapedelay2/) / [Varispeed](https://www.genuinesoundware.com/?a=showproduct&b=47) / [NastyDLA](https://varietyofsound.wordpress.com/vst-effects/) / [Echobox D7](https://senderspike.wordpress.com/2020/03/22/echobox-d7/)
-
-![](https://www.genuinesoundware.com/Products/VariSpeed/img/VariSpeed.png)
-![](https://varietyofsound.files.wordpress.com/2010/10/nastydla1.png) ![](https://senderspike.files.wordpress.com/2020/04/fx01_gui-1.png)
-
-磁带延迟大合集。Airwindows的两款声音不错，但界面简陋（无截图）。GSi Varispeed界面较复古。后两款界面更加易用，但仅支持VST2 for Windows
 
 #### [Valhalla Freq Echo](https://valhalladsp.com/shop/delay/valhalla-freq-echo/) / [Moon Echo](https://www.audiothing.net/effects/moon-echo/)
 
@@ -498,11 +515,19 @@ SlickEQ是一个简单易用的高通滤波和三段EQ，并有多个可选的Pr
 
 内置了Frequency Shifter模块的延迟插件。既可用作一般的延迟，也可当作眩晕的跑调延迟来使用
 
-#### [kHs Reverser](https://kilohearts.com/products/reverser)
+#### [HZ Delay](https://higherhz.com/hz-delay/)
 
-![](https://kilohearts.com/resources/media_dynamic/offers/reverser/screenshot.jpg)
+![](https://higherhz.com/wp-content/uploads/2022/03/hz-delay-plugin-gui.webp)
 
-音频反向器，与普通延迟串联即可制作反向延迟效果。
+内置以复杂方式串并联的3条delay line，可以做出复杂律动、延迟+合唱、混响等效果。
+
+![](https://higherhz.com/wp-content/uploads/2022/03/hz-delay-signal-flow-diagram.webp)
+
+#### [Spirals](https://daniel-gergely.itch.io/spirals)
+
+![](https://img.itch.zone/aW1nLzE2NzE0NzA0LnBuZw==/original/Z4MML%2F.png)
+
+带移调的延迟/混响，可以当作shimmer来使用
 
 ## Granular
 
@@ -643,6 +668,12 @@ Baby Audio提供的若干个免费效果，操作简洁。全平台支持（包�
 磁带噪音延迟
 
 ## Others
+
+#### [kHs Reverser](https://kilohearts.com/products/reverser)
+
+![](https://kilohearts.com/resources/media_dynamic/offers/reverser/screenshot.jpg)
+
+音频反向器，与普通延迟串联即可制作反向延迟效果。
 
 #### kHs [Pitch Shifter](https://kilohearts.com/products/pitch_shifter) & [Frenquency Shifter](https://kilohearts.com/products/frequency_shifter)
 
