@@ -27,9 +27,9 @@ ffmpeg -encoders
 
 在下面的三组表格中，可以查询到自己GPU硬件支持的编码格式：
 
-- [Intel](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video#Hardware_decoding_and_encoding)
-- [AMD](https://en.wikipedia.org/wiki/Unified_Video_Decoder#Format_support)
-- [Nvidia](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix)
+- Intel: [1](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video#Hardware_decoding_and_encoding) | [2](https://bluesky-soft.com/dxvac/deviceInfo/decoder/intel.html)
+- AMD: [1](https://en.wikipedia.org/wiki/Unified_Video_Decoder#Format_support) | [2](https://bluesky-soft.com/dxvac/deviceInfo/decoder/amd.html)
+- Nvidia: [1](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix) | [2](https://bluesky-soft.com/dxvac/deviceInfo/decoder/nvidia.html)
 - Apple Silicon
   - M1: H.264, HEVC
   - M1 Pro/M1 Max: H.264, HEVC, ProRes

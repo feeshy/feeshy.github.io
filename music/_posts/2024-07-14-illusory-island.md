@@ -2,44 +2,66 @@
 layout: post
 title: 幻象岛
 date: 2024-07-14
-last_modified_at: 2025-01-27
+last_modified_at: 2026-01-24
 tags:
   - 音乐
 ---
+这张专辑的大部分旋律在 2016 至 2020 年间便已写下草稿，时间上大抵可算作「[虚芜角](/music/ends-of-nihil)」的姊妹篇。后期制作因疏懒而延宕，却也因此见证了亲人的意外变故、新冠疫情以及加沙的人道主义危机。
 
-> 2025-01-27：重新制做了第一首歌
-
-大部分曲目整理自2016~2020年的老工程，时间大抵算是「[虚芜角](/music/ends-of-nihil)」的姊妹篇。相比「虚芜角」的奇幻诡谲，「幻象岛」的主题侧重人生易逝的感慨。
+相比「虚芜角」的奇幻诡谲，「幻象岛」的主题更侧重于人生易逝的感慨。
 
 <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=4270813475/size=large/bgcol=333333/linkcol=4ec5ec/minimal=true/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-island">illusory island by feeshy</a></iframe>
 
+> 2024-07-14: 初始发布
+> 2025-02-21: 重新制作了《至乐》与《Hind》
+> 2026-01-24: 重新混音，提升响度
+
 ## Track List
   
-1. 至乐 | Past Joy[^1]
-2. 自得 | The Alone Song[^2]
-3. [情诗 | Twinkle Twinkle](/poetry/pink/twinkle-twinkle)[^3]
+1. 至乐 | Past Joy
+2. 自得 | The Alone Song
+3. [情诗 | Twinkle Twinkle](/poetry/pink/twinkle-twinkle)
 4. [夏夜 | Chill Night](/poetry/pink/chill-night)
-5. 落霞 | Pink Sky[^5]
-6. [交织的两个夏天 | Blended Memories](/poetry/pink/blended-momeries)[^6]
-7. Dance Music in E-Piano
-8. 月光慢车 | Moonlight Slow Train[^8]
-9. Hind[^9]
+5. 落霞 | Pink Sky
+6. [交织的两个夏天 | Blended Memories](/poetry/pink/blended-memories)
+7. Ethereal Dream Music
+8. 月光慢车 | Moonlight Slow Train
+9. Hind
 10. Sunrise
-11. 纷纷 | Drizzle[^11]
-12. [燕归 | Deja Vu](/poetry/blue/deja-vu)[^12]
+11. 纷纷 | Drizzle
+12. [燕归 | Deja Vu](/poetry/blue/deja-vu)
 
-Stream: [Bandcamp](https://feeshy.bandcamp.com/album/illusory-island) | [网易云音乐](https://music.163.com/album?id=242123244)
+Stream: [Bandcamp](https://feeshy.bandcamp.com/album/illusory-island) | [网易云音乐](https://music.163.com/album?id=242123244) | [QQ音乐](https://y.qq.com/n/ryqq_v2/albumDetail/000vjYo43JkN71)
+
+Small Speaker Version[^1]: [Bandcamp](https://feeshy.bandcamp.com/album/ii4ss) | <span lang="zh">抖音</span><span lang="en">TikTok</span>[^2]
+
+[^1]: <span lang="zh">该版本削减低频以优化在移动设备上播放时的响度表现。允许作为手机铃声或视频、场所配乐用途的非商业性使用（可参与视频平台激励计划），充电视频、商单视频或经营性场所等商业用途需联系作者获得授权。此外禁止分发、销售原始音频文件。</span> <span lang="en">This version reduces low-end frequencies to enhance loudness and clarity on mobile phones. Free for non-commercial use as ringtones or background music. For commercial use (such as advertising or promotional content), please support me with a donation of $10 USD or more on bandcamp. This license is for background use only (e.g., in videos, livestreams, or as in-store music). Please do not repack, redistribute, or resell the audio files as-is.</span>
+
+[^2]: 请在 选配乐 界面搜索 feeshy / Search for _feeshy_ in the _picking background music_ UI
 
 ## Credits
 
-- [inspirations](https://music.apple.com/cn/playlist/inspirations-for-illusory-island/pl.u-jV89akWudA0Ne6o)
+- inspired by songs in this [playlist](https://163cn.tv/1HbAL79)
+- text written & read, songs played, recorded, mixed & mastered, and cover designed by feeshy, except for:
+	- samples: [inchadney](https://freesound.org/s/429077/); [13gpanska-david-koci](https://freesound.org/s/377852/), [ultradust](https://freesound.org/s/166923/), [silverillusionist](https://freesound.org/s/411172/); [kkswinso](https://freesound.org/s/187300/); [lionroar0905](https://freesound.org/s/398904/); [bonnyorbit](https://freesound.org/s/442625/); [yoh](https://freesound.org/s/170866/), [exuberate](https://freesound.org/s/115912/); [The Palestine Red Crescent Society](https://www.youtube.com/watch?v=zknke1P2tus); [WhaleSynth](https://www.whalesynth.com/); [klankbeeld](https://freesound.org/s/506828/)
+	- text: [庄子/至乐](https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E8%87%B3%E6%A8%82); [清明（杜牧）](https://zh.wikisource.org/wiki/%E6%B8%85%E6%98%8E_(%E6%9D%9C%E7%89%A7))
+	- TTS: [Microsoft Azure Speech Studio](https://speech.microsoft.com/), [X Studio](https://xstudio.music.163.com/)
 
-[^1]: sample by [inchadney](https://freesound.org/s/429077/), text from [庄子/至乐](https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E8%87%B3%E6%A8%82), vocal via [X Studio](https://xstudio.music.163.com/)
-[^2]: samples by [13gpanska-david-koci](https://freesound.org/s/377852/), [ultradust](https://freesound.org/s/166923/), [silverillusionist](https://freesound.org/s/411172/)
-[^3]: sample by [kkswinso](https://freesound.org/s/187300/)
-[^5]: sample by [lionroar0905](https://freesound.org/s/398904/)
-[^6]: sample by [bonnyorbit](https://freesound.org/s/442625/), vocal via [Microsoft Azure Speech Studio](https://speech.microsoft.com/)
-[^8]: samples by [yoh](https://freesound.org/s/170866/), [exuberate](https://freesound.org/s/115912/)
-[^9]: sample by [The Palestine Red Crescent Society](https://www.youtube.com/watch?v=zknke1P2tus)
-[^11]: sample by [WhaleSynth](https://www.whalesynth.com/), vocal via [X Studio](https://xstudio.music.163.com/)
-[^12]: sample by [klankbeeld](https://freesound.org/s/506828/)
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const userLang = navigator.language || navigator.userLanguage; 
+    const isChinese = userLang.toLowerCase().startsWith('zh');
+    const updateLanguageDisplay = (showChinese) => {
+        const zhElements = document.querySelectorAll('[lang="zh"]');
+        const enElements = document.querySelectorAll('[lang="en"]');
+        if (showChinese) {
+            zhElements.forEach(el => el.style.display = '');
+            enElements.forEach(el => el.style.display = 'none');
+        } else {
+            zhElements.forEach(el => el.style.display = 'none');
+            enElements.forEach(el => el.style.display = '');
+        }
+    };
+    updateLanguageDisplay(isChinese);
+});
+</script>
