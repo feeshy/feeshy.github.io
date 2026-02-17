@@ -2,29 +2,30 @@
 layout: post
 title: wet as hell
 date: 2020-02-28
-last_modified_at: 2020-11-02
+last_modified_at: 2023-02-18
 tags:
   - 音乐
 redirect_from:
   - /sounds/wet_as_hell.html
 ---
 
-sᴏɴɢs ᴡɪᴛʜ ʜᴏᴘᴇʟᴇss ɢᴜɪᴛᴀʀs ᴀɴᴅ ᴍᴜᴅᴅʏ ʀᴇᴠᴇʀʙs
+songs with hopeless guitars and muddy reverbs. 
 
 <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=large/bgcol=ffffff/linkcol=4ec5ec/minimal=true/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
 
+> 2020-02-28: initially published
+> 2020-11-02: improved the mixing of 'the traveler'
+> 2023-02-18: added a new track 'wasteland'
 ## Track List
 
-1. ᴀssᴀssɪɴ's sᴛᴇᴘ
-2. [ᴛʜᴇ ᴛʀᴀᴠᴇʟᴇʀ](/poetry/gloom/the-traveler)[^2]
-3. 09-15-00 ᴘᴀʀᴛ 2 (cover Godspeed You! Black Emperor)[^3]
-4. [ᴡᴇᴛ ᴀs ʜᴇʟʟ](#morse)[^4]
-5. ᴡᴇsᴛ ᴡɪɴᴅ ᴅʀɪғᴛ[^5]
-6. ᴛʜᴇ sᴀᴅ ᴍᴀғɪᴏsᴏ (cover Godspeed You! Black Emperor)[^6]
-7. ᴡᴀsᴛᴇʟᴀɴᴅ
-8. ʜᴜɴᴛɪɴɢ ɢᴀᴍᴇ[^8]
+1. assassin's step
+2. [the traveler](/poetry/gloom/the-traveler)
+3. [wet as hell](#morse) [^3]
+4. west wind drift
+5. wasteland
+6. hunting game
 
-Stream: [Bandcamp](https://feeshy.bandcamp.com/album/wet-as-hell) | [SoundCloud](https://soundcloud.com/feeshy_cn/sets/wet-as-hell) | [网易云音乐](https://music.163.com/album?id=121817724)
+Stream: [Bandcamp](https://feeshy.bandcamp.com/album/wet-as-hell) | [网易云音乐](https://music.163.com/album?id=121817724) | [QQ音乐](https://y.qq.com/n/ryqq_v2/albumDetail/001Rrq522EQIJt)
 
 ---
 
@@ -40,14 +41,5 @@ Stream: [Bandcamp](https://feeshy.bandcamp.com/album/wet-as-hell) | [SoundCloud
 ## Credits
 
 - cover photo by [Zoltan Kovacs](https://unsplash.com/photos/CdlDVEY6pcU)
-- [inspirations & original recordings](https://music.apple.com/cn/playlist/inspirations-original-recordings-for-wet-as-hell/pl.u-2aoqpAatNXdvbYz)
-
-[^2]: samples by [Paresh](https://freesound.org/people/Paresh/sounds/324086/), [inchadney](https://freesound.org/people/inchadney/sounds/113383/), [Dynamicell](https://freesound.org/people/Dynamicell/sounds/17548/)
-
-[^3]: cover [09-15-00](https://www.youtube.com/watch?v=yg-okiuauBQ) by Godspeed You! Black Emperor, samples by [Kenkeknem](https://freesound.org/people/Kenkeknem/sounds/414932/)
-
-[^4]: inspired by [Éloge](http://www.zafka.cn/music/prague-le-pont-2005/#:~:text=Eloge) by Prague & Radioactivity by Kraftwerk
-
-[^5]: sample [stormpetrel](https://freesound.org/people/stormpetrel/sounds/173096/)
-
-[^6]: cover [The Sad Mafioso](https://www.youtube.com/watch?v=HSnABcDg4t8) by Godspeed You! Black Emperor
+- samples: [Paresh](https://freesound.org/people/Paresh/sounds/324086/), [inchadney](https://freesound.org/people/inchadney/sounds/113383/), [Dynamicell](https://freesound.org/people/Dynamicell/sounds/17548/), [Kenkeknem](https://freesound.org/people/Kenkeknem/sounds/414932/), [stormpetrel](https://freesound.org/people/stormpetrel/sounds/173096/), [thatgamecompany](https://www.thatskygame.com/)
+- inspired by & cover of songs in this [playlist](https://music.163.com/playlist?id=13201587981), and the melody of 'wet as hell' is inspired by [Éloge by Prague](http://www.zafka.cn/music/prague-le-pont-2005/#:~:text=Eloge)

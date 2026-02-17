@@ -2,7 +2,7 @@
 layout: post
 title: feeshy的年度歌单
 date: 2014-12-31
-last_modified_at: 2025-01-12
+last_modified_at: 2026-02-17
 tags:
   - 歌单
 toc: true
@@ -15,6 +15,43 @@ redirect_from:
 - 年度唱片 = 当年循环次数较多的唱片
 - 年度歌单 = 当年单曲循环次数较多的音乐
 - 私货 = 当年<s>花了</s>（混）<s>较多</s>（到）<s>心思</s>（快）<s>制作</s>（吐）的音乐
+
+
+## 2025
+
+![](/assets/img/playlist2025.png)
+
+关键词：ambient, psybient, psytrance
+
+听歌兴趣集中于氛围音乐、电子乐的平淡的一年，并没有过多尝试新口味。
+
+这一年陪伴我度过最多夜晚的唱片是 Nils Frahm 的 _Music for Animals_。此外，红手乐队的《触碰》与 Carbon Based Lifeforms 的 _Live at Ozora 2024_ 也给我带来惊喜——前者作为2000年代北京爵士乐场景著名乐手们迟来的首张专辑，丰厚的积淀使人回味无穷；后者将现场乐队的摇滚三大件与Psybient的电音音色进行了精妙的融合，无论是有人味的鼓组贝斯，还是用Ebow复刻Pad段落的吉他，都为CBL的经典歌曲赋予别样的感觉。
+
+#### 年度唱片
+
+1. Nils Frahm - _Music for Animals_
+2. 红手 - 触碰
+3. Carbon Based Lifeforms - _Live at Ozora 2024_
+
+#### 年度歌单 - [Apple Music](https://music.apple.com/cn/playlist/2025%E5%B9%B4%E5%BA%A6%E6%AD%8C%E5%8D%95/pl.u-jV89a29udA0Ne6o) | [网易云](https://163cn.tv/1HKmggc)
+
+- 折光1 - 红手
+- Right Right Right - Nils Frahm
+- Two Chambers - Loscil
+- 烧火 - 惘闻
+- Arne - Yann Tiersen
+- Year of the Snake - Arcade Fire
+- Kiss Her Before The Snow Melts - Blonde Redhead
+- Ta Tvam Asi - Saafi Brothers
+- Spirals of Creation - Saafi Brothers
+- Lemming Leisures (Cbl Carbonator Rmx)- Carbon Based Lifeforms
+- chained to a cloud - Slowdive
+- Seeker (Live at Ozora 2024) - Carbon Based Lifeforms
+
+#### 私货
+
+- [Morning Drone](https://music.163.com/song/2715102687)
+- [Frozen Gallop, Melting Sundog](https://music.163.com/song/3327188931)
 
 ## 2024
 
@@ -41,7 +78,7 @@ redirect_from:
 2. Portishead - _Roseland NYC Live 25th Anniversary_
 3. Nils Frahm - _Paris_
 
-#### 年度歌单 - [Apple Music](https://music.apple.com/cn/playlist/2024%E5%B9%B4%E5%BA%A6%E6%AD%8C%E5%8D%95/pl.u-KVXB2eWCZjNPeqo)
+#### 年度歌单 - [Apple Music](https://music.apple.com/cn/playlist/2024%E5%B9%B4%E5%BA%A6%E6%AD%8C%E5%8D%95/pl.u-KVXB2eWCZjNPeqo) | [网易云](https://163cn.tv/1H7k0x4)
 
 - Melody Experiment - Blonde Redhead
 - Oscar - Tosca
@@ -52,7 +89,7 @@ redirect_from:
 - The End of the World - Skeeter Davis
 - Roads - Portishead
 - 独上C楼 - YELLOW黄宣
-- You and Me - 王若琳
+- People Don't Eat Dinner by Themselves - 王若琳
 - 驯化录 - iimmune
 - Ladybird - Sogyumo Acacia Band
 - A Place - Nils Frahm

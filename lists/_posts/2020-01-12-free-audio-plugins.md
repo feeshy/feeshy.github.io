@@ -2,7 +2,7 @@
 layout: post
 title: 免费音频效果插件推荐
 date: 2020-01-12
-last_modified_at: 2025-02-02
+last_modified_at: 2025-02-16
 tags:
   - VST
   - AUv3
@@ -15,15 +15,15 @@ toc: true
 custom_head: <style>img{max-width:320px;max-height:240px;border-radius:5px;padding:2.5px;filter:drop-shadow(-2.5px 2.5px 5px rgba(0,0,0,.5))}</style>
 ---
 
-音频宿主是一种能够加载和运行各种音频插件的软件环境，它可以是具备多轨录音、音频编辑和混音等功能的数字音频工作站（DAW），也可以只专注于特定功能，比如合成器或效果器。插件是运行在宿主软件中的扩展程序，主要分为效果类插件、虚拟乐器类插件和工具类插件。
+音频宿主是一种能够加载和运行各种音频插件的软件环境，它可以是具备多轨录音、音频编辑和混音等功能的数字音频工作站（DAW），也可以只专注于特定功能（如合成器或效果器）。插件是运行在宿主软件中的扩展程序，主要分为效果类插件、虚拟乐器类插件和工具类插件。
 
 本文介绍了百余款可免费获取的音频效果插件，涵盖各种常用效果类型，如压缩、均衡、延迟、混响、失真等。笔者结合自身短期试用或长期使用的感受，对每款插件进行了简单的介绍和点评，着重突出了其特色功能和适用场景。
 
 关于插件兼容性的说明：
 
 - 未特别标注的插件通常支持 Windows/macOS 平台的 VST2、VST3 和 AU 格式。
-- 如果插件有其他支持或不支持的平台/格式，将会在介绍中特别注明Rack Extension、LV2、Linux、iOS等关键词，请善用Ctrl+F查找。
-- 本文不关注各插件是否提供 AAX 格式，因为作者认为免费插件和 Pro Tools 的组合并不常见。
+- 如果插件有其他支持或不支持的平台/格式，将会在介绍中特别注明Rack Extension、LV2、iOS等关键词，请善用Ctrl+F查找。
+- 本文不关注各插件是否提供 AAX 格式。
 
 ## Multi Effects
 
@@ -31,7 +31,7 @@ custom_head: <style>img{max-width:320px;max-height:240px;border-radius:5px;paddi
 
 ![](https://kilohearts.com/resources/media_dynamic/offers/kilohearts_essentials/spotlight.jpg)
 
-kilohearts生态系统的免费插件包，提供30多款界面简洁、美观的效果插件——包括多达5种滤波器，非常适合音色设计。除了各大DAW使用的常见插件格式，还提供适合Reason的[Rack Extension](https://www.reasonstudios.com/shop/bundle/kilohearts-toolbox/)。
+kilohearts生态系统的免费插件包，提供30多款简洁、美观的效果插件——包括多达5种滤波器，非常适合音色设计。除了各大常见DAW使用的插件格式，还提供适合Reason的[Rack Extension](https://www.reasonstudios.com/shop/bundle/kilohearts-toolbox/)。
 
 以上免费效果除了单独使用，还可作为「Snapin」模块，载入另售的[Phase Plant](https://kilohearts.com/products/phase_plant)合成器、[Multipass](https://kilohearts.com/products/multipass)分频处理系统、[Snap Heap](https://kilohearts.com/products/snap_heap)机架系统，进行组合与调制。
 
@@ -45,7 +45,7 @@ MeldaProduction的免费插件包，内含30多种插件。提供一些很实用
 
 ![](https://analogobsession.com/wp-content/uploads/2023/04/HOME-1536x734.png)
 
-Analog Obsession专注于开发受经典硬件EQ、压缩、染色失真、通道条启发的音频效果，并为其添加MS处理、侧链输入等现代实用功能。目前已发布数十款插件，全部免费下载（如果觉得好用，可以在[patreon.com](https://www.patreon.com/analogobsession)支持他）
+Analog Obsession专注于开发受经典硬件EQ、压缩、染色失真、通道条启发的音频插件，并为其添加超采样、MS处理、侧链输入等现代实用功能。目前已发布数十款插件，全部免费下载（如果觉得好用，[请在patreon.com支持他](https://www.patreon.com/analogobsession)）
 
 #### Airwindows Consolidated
 
@@ -55,9 +55,7 @@ Analog Obsession专注于开发受经典硬件EQ、压缩、染色失真、通�
 
 #### [Surge Effects Bank](https://surge-synthesizer.github.io/)
 
-![](https://surge-synth-team.org/_astro/surge-effects.DTceTPjS_1TGGyV.png)
-
-Surge合成器的内置效果，也作为一个单独的插件提供，方便加载在其他乐器音轨上使用。提供27种算法，还包括一个Airwindows开源算法的合集，实际可用的效果总数有80多种。
+Surge合成器的内置效果，也作为一个单独的插件提供，方便加载在其他音轨使用。提供27种算法，还包括一个Airwindows开源算法的精选合集，实际可用的效果总数有80多种。
 
 #### [Finisher Micro](https://www.ujam.com/fin-micro/)
 
@@ -66,20 +64,6 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 简约的25in1插件，集成了滤波器、失真、箱体模拟、混响、Shimmer、延迟、Chorus、Vibrato、Flanger、Phaser等等效果。仅需单一旋钮即可控制插件内部的多个参数
 
 ## Dynamic
-
-### Gate / Expander
-
-#### [kHs Gate](https://kilohearts.com/products/gate)
-
-![](https://kilohearts.com/resources/media_dynamic/offers/gate/screenshot.jpg)
-
-支持Sidechain输入的门限器。除了常见的格式，还提供[Rack Extension](https://www.reasonstudios.com/shop/browse/?developer=Kilohearts%20AB)
-
-#### [Denoiser Classic](https://bertomaudio.com/denoiser-classic.html)
-
-![](https://img.youtube.com/vi/6EQ9hPg4bcU/maxresdefault.jpg)
-
-多频段噪声门插件，支持全桌面系统包括Linux
 
 ### Compressor / Exciter
 
@@ -97,7 +81,7 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 一款界面直观、容易上手的压缩。可调空间非常大，将压缩比设为1000:1，Attack设为0，甚至能当成Limiter来使用。支持侧链高通和外置侧链信号输入，内置一个可选择是否开启的模仿模拟设备温暖音色的滤波器。提供全平台全格式，包括Linux平台的LV2和iOS平台的AUv3。
 
-#### [DC1A](https://klanghelm.com/contents/products/DC1A.php)
+#### [DC1A](https://klanghelm.com/contents/products/DC1A)
 
 ![](https://static.kvraudio.com/i/b/dc1a3.jpg)
 
@@ -105,9 +89,10 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 #### [OTT](https://xferrecords.com/freeware) / [Cramit](https://sixthsample.com/cramit/)
 
-![](https://static.kvraudio.com/i/b/ott_ss.png)![](https://static.kvraudio.com/i/b/cramit-v1_2_0-live.png)
+![](https://i.redd.it/hdf04fsrjhx81.jpg)
+![](https://static.kvraudio.com/i/b/cramit-v1_2_0-live.png)
 
-深受电子音乐人喜爱的多频段双向（压缩高电平、提升低电平），界面直观易用。Cramit还在压缩的基础上集成了7种音染模型
+深受电子音乐人喜爱的多频段双向压缩（压缩高电平、提升低电平），界面直观易用。Cramit还在压缩的基础上集成了7种音染模型。
 
 #### [KolinMB](https://www.patreon.com/posts/kolinmb-85062886)
 
@@ -115,9 +100,10 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 电子管风格多频段压缩
 
-#### [MJUC jr.](https://klanghelm.com/contents/products/MJUCjr.php) / [Supercharger](https://www.native-instruments.com/zh/products/komplete/effects/supercharger/)
+#### [MJUC jr.](https://klanghelm.com/contents/products/MJUCjr) / [Supercharger](https://www.native-instruments.com/zh/products/komplete/effects/supercharger/)
 
-![](https://static.kvraudio.com/i/b/mjucjr.jpg) ![](https://static.kvraudio.com/i/b/supercharger.png)
+![](https://static.kvraudio.com/i/b/mjucjr.jpg)
+![](https://static.kvraudio.com/i/b/supercharger.png)
 
 两款强烈的电子管风格压缩，旋钮不多易上手
 
@@ -125,7 +111,7 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 ![](https://usercontent.one/wp/audiotools.se/wp-content/uploads/edd/2018/04/levelingTool131.png)
 
-顺滑的光学风格压缩，相比原版LA-2A多了Attack、Release调节，还内置了染色功能
+顺滑的光学风格压缩，相比原版LA-2A多了Attack、Release调节，还内置了染色与过载功能
 
 #### [Fetish](https://www.patreon.com/posts/51962024)
 
@@ -139,81 +125,99 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 ![](https://static.kvraudio.com/i/b/lm_screenshot.1631827969.png)
 
-真峰值限幅器。支持VST2、VST3、AU、LADSPA、Winamp格式
+声音很干净的真峰值限幅器。支持VST2、VST3、AU、LADSPA、Winamp格式
+
+#### [Wave Breaker](https://pressplay-music.com/wave-breaker/)
+
+![](https://static.kvraudio.com/i/b/screenshot-2023-06-25-at-09-23-31.png)
+
+有着完善图形化显示的限幅器，直观展示动态变化。可选透明或染色风格
 
 #### [Limiter №6](https://www.tokyodawn.net/vladg-limiter-n6/)
 
 ![](https://vladgsound.files.wordpress.com/2014/08/limiter6-env1.jpg)
 
-功能强大的总线限幅器，内置了可以按需开启的RMS压缩、峰值限幅、高频限幅、削波、真峰值限幅5个模块，每个模块还可选择多种工作模式
+功能强大的总线限幅器，内置了可以按需开启的RMS压缩、峰值限幅、高频限幅、削波、真峰值限幅5个模块，每个模块还可选择多种工作模式。支持 VST2 for Windows / macOS，不过由于开发年代久远没有签名，[macOS安装流程较麻烦](https://www.osirisguitar.com/2020/04/01/how-to-make-unsigned-vsts-work-in-macos-catalina/)
 
-#### [Wave Breaker](https://www.kvraudio.com/product/wave-breaker-by-press-play)
+### Gate / Expander
 
-![](https://static.kvraudio.com/i/b/screenshot-2023-06-25-at-09-23-31.png)
+#### [Bob Perry Gate 2](https://www.bobperry-audio.com/shop/bob-perry-gate-2/) / [kHs Gate](https://kilohearts.com/products/gate)
 
-有着非常完善的电平表的限幅器，直观展示动态变化。还提供染色功能
+![](https://www.bobperry-audio.com/wp-content/uploads/Screenshot-2021-01-02-at-12.11.30.png)
+![](https://kilohearts.com/resources/media_dynamic/offers/gate/screenshot.jpg)
 
-### Others
+两款支持Sidechain输入的门限器。放在鼓组send音轨混响之后，即可组合经典的80年代gated reverb效果。
 
-#### [Transpire](https://web.archive.org/web/20190926213601/http://sonic.supermaailma.net/plugins) / [kHs Transient Shaper](https://kilohearts.com/products/transient_shaper) / [Audec Transient](https://audec.gumroad.com/l/audec-transient)
+- Bob Perry: VST / AU / AAX
+- kHs: VST / AU / AAX / Snapin / [Rack Extension](https://www.reasonstudios.com/shop/browse/?developer=Kilohearts%20AB)
 
-![](https://raw.githubusercontent.com/Sonic-Anomaly/Sonic-Anomaly-JSFX/master/Plugins/transpire_gfx/bg.png) ![](https://kilohearts.com/resources/media_dynamic/offers/transient_shaper/screenshot.jpg)
+#### [Denoiser Classic](https://bertomaudio.com/denoiser-classic.html)
+
+![](https://img.youtube.com/vi/6EQ9hPg4bcU/maxresdefault.jpg)
+
+多频段噪声门插件，支持全桌面系统包括Linux
+
+### Transient Shaper
+
+瞬态修饰器，可用于强调或减弱鼓、打击乐、钢琴、吉他等乐器的瞬态。
+
+#### [Transpire](https://web.archive.org/web/20190926213601/http://sonic.supermaailma.net/plugins)
+
+![](https://raw.githubusercontent.com/Sonic-Anomaly/Sonic-Anomaly-JSFX/master/Plugins/transpire_gfx/bg.png)
+
+采用非线性的工作方式，这意味着低电平瞬态相对高电平瞬态受到的影响更强，有利于突显较小的细节，同时不会使大的音头过载。与传统的同类效果相比，Transpire处理的打击乐轨道听起来会更加稳定和可控。只支持Windows上的VST2与JSFX格式
+
+#### [kHs Transient Shaper](https://kilohearts.com/products/transient_shaper) / [Audec Transient](https://audec.gumroad.com/l/audec-transient)
+
+![](https://kilohearts.com/resources/media_dynamic/offers/transient_shaper/screenshot.jpg)
 ![](https://audec-music.com/wp-content/uploads/2019/10/Transient.png)
 
-瞬态修饰器，可用于强调或减弱鼓、打击乐、钢琴、吉他等乐器的瞬态。其中Transpire只支持Windows，提供VST与Reaper的JSFX格式
+两款支持Windows / macOS的瞬态修饰器
 
 ## Color
 
-### Pre-Amp / Saturation / Overdrive / Distortion
+### Pre-Amp / Saturation / Distortion
 
 #### [Saturation Knob](https://www.softube.com/saturationknob/) / [Heatwave](https://slatedigital.com/heatwave-saturation-plugin/) / [MoMa](https://www.patreon.com/posts/100041804)
 
-![](https://i.imgur.com/p1yyHEY.png) ![](https://slatedigital.com/wp-content/uploads/2023/11/HEATWAVE-GUI.webp) ![](https://bedroomproducersblog.com/wp-content/uploads/2024/03/moma-bpb.jpg)
+![](https://i.imgur.com/p1yyHEY.png)
+![](https://slatedigital.com/wp-content/uploads/2023/11/HEATWAVE-GUI.webp)
+![](https://bedroomproducersblog.com/wp-content/uploads/2024/03/moma-bpb.jpg)
 
-三款极简操控的万金油Saturator
+三款极简操控的Saturator，可以作为为混音注入「mojo」的万金油使用
 
-#### [IVGI](https://klanghelm.com/contents/products/IVGI.php)
+#### [IVGI](https://klanghelm.com/contents/products/IVGI)
 
 ![](https://static.kvraudio.com/i/b/ivgi.jpg)
 
-另一款实用的Saturator。ASYM MIX参数可以控制过载的“透明度”
+一款可调性丰富的Saturator，ASYM MIX参数决定过载的「压缩感」与「透明度」，Response旋钮控制过载的频率响应
 
-#### [BritPre](https://www.patreon.com/posts/britbundle-79798060) / [BPB Dirty Filter Plus](https://bpb.gumroad.com/l/dirtyfilterplus)
+#### [BritPre](https://www.patreon.com/posts/britbundle-79798060) / [SGA1566](https://www.shatteredglassaudio.com/product/104) / [PreBOX & Distox](https://analogobsession.com/color-preamp-saturation/) / [BPB Dirty Filter Plus](https://bpb.gumroad.com/l/dirtyfilterplus)
 
 ![](https://media.plugins4free.com/img/AO-BritPre_2.jpg)
+![](https://static.kvraudio.com/i/b/sga1566.png)
+![](https://media.plugins4free.com/img/PreBOX_3.jpg)
+![](https://media.plugins4free.com/img/Distox_3.jpg)
 ![](https://bedroomproducersblog.com/wp-content/uploads/2022/11/dirty-filter-plus.png)
 
-内置高/低通滤波器的饱和效果。前者模拟了1960年代的英式调音台，后者提供电子管、303、Lo-fi、量化失真四种模式。
+几款内置了低通/高通滤波器或EQ的饱和&失真效果，广泛适用于各种音频素材
 
-#### [Tube Amp](https://www.voxengo.com/product/tubeamp/)
-
-![](https://static.kvraudio.com/i/b/voxengo_tube_amp_screenshot_gray.1681987318.jpg)
-
-一款简单好用的电子管风格过载
-
-#### [SGA1566](https://www.shatteredglassaudio.com/product/104)
-
-![](https://static.kvraudio.com/i/b/sga1566.png)
-
-模拟了Altec 1566A电子管话放的两级12AX7放大电路，非常吃CPU。另有售价$55的重制版[Phoenix 2](https://www.shatteredglassaudio.com/product/112)，大幅减小了性能开销并且添加了新的放大器风格。
-
-#### [PreBOX & Distox](https://analogobsession.com/color-preamp-saturation/)
-
-![](https://analogobsession.com/wp-content/uploads/2024/05/COLOR_BUNDLE.png)
-
-PreBOX是一个11合1的前级模拟，Distox是一个7合1的运放过载和电子管过载模拟。
+- BritPre: 1960年代英式调音台模拟
+- SGA1566: 模拟了Altec 1566A电子管话放的两级12AX7放大电路，算法优化较差，CPU占用非常高。另有售价$55的重制版[Phoenix 2](https://www.shatteredglassaudio.com/product/112)，大幅减小了性能开销并且添加了更多的电子管模拟。
+- PreBOX: 11合1前级模拟
+- Distox: 7合1运放过载和电子管过载模拟，干湿平行处理
+- Dirty Filter Plus: 电子管、303、Lo-fi、量化失真4合1，mix平行处理
 
 #### [Airwindows Tape](https://www.airwindows.com/tape/) / [FerricTDS](https://varietyofsound.wordpress.com/vst-effects/) / [Chow Tape Model](https://github.com/jatinchowdhury18/AnalogTapeModel)
 
 ![](https://varietyofsound.files.wordpress.com/2021/09/ferrictdsmkii.png)
 ![](https://raw.githubusercontent.com/jatinchowdhury18/AnalogTapeModel/master/Plugin/Screenshots/full_gui.png)
 
+磁带染色合集
 
-磁带染色。
-
-- Airwindows 界面简陋（无截图）
-- FerricTDS 仅支持VST2 for Windows
-- ChowTapeModel 支持全系统，包括[iOS](https://apps.apple.com/us/app/chowtapemodel/id1557806564)
+- Airwindows: 界面简陋（无截图）
+- FerricTDS: 仅支持VST2 for Windows
+- ChowTapeModel: 支持全系统，包括[iOS](https://apps.apple.com/us/app/chowtapemodel/id1557806564)
 
 #### [FetDrive](https://www.patreon.com/posts/51962024)
 
@@ -231,7 +235,7 @@ PreBOX是一个11合1的前级模拟，Distox是一个7合1的运放过载和电
 
 ![](https://www.izotope.com/storage-cms/images/_aliases/ab_audio_player_1280w_2x/5/5/5/3/1023555-2-eng-GB/50fa15c83642-iZotope-Trash-web-03-Trash-module-2x.png.webp)
 
-可调性极高的失真效果，免费功能包括可自由调整混合比例的四个waveshaper，支持桌面和iOS
+可调性极高的失真效果，免费功能包括可自由调整混合比例的四个Waveshaper，支持桌面和iOS
 
 #### [BPB Bassaturator](https://bpb.gumroad.com/l/bassaturator)
 
@@ -247,6 +251,31 @@ PreBOX是一个11合1的前级模拟，Distox是一个7合1的运放过载和电
 两款提升高频空气感的工具，因可调参数少而简单易用
 
 ### Guitar Amp & Pedal Simulator
+
+#### [Neural Amp Modeler](https://www.neuralampmodeler.com/users)
+
+![](https://static.wixstatic.com/media/aada5f_163c6346cc4e46a28d501cc6374f1163~mv2.png)
+
+开源的神经网络箱模生态系统，由加载器与模型组成：
+
+- 加载器
+	- 免费插件
+		- [Neural Amp Modeler](https://www.neuralampmodeler.com/users)
+		- [NAM Universal](https://wavemind.net/software)
+		- [TONOCRACY](https://tonocracy.com)
+		- [GigFast Lite](https://apps.apple.com/us/app/gigfast-lite-neural-amp-suite/id6503917233): iOS / macOS
+		- [Transistor Legacy Virtual](https://ghostnoteaudio.uk/products/transistor-legacy-plugin): 对自家七款单块效果器的数字化
+	- 单块
+		- [NAM Player](https://www.dimehead.de)
+		- [Ample](https://www.polyeffects.com/polyeffects/p/ample)
+- 模型
+	- 社区
+		- [ToneHunt](https://tonehunt.org/models)
+		- [Github](https://github.com/pelennor2170/NAM_models)
+		- [Facebook群组](https://www.facebook.com/groups/5669559883092788)
+	- 训练工具
+		- [TONEZONE3000](https://www.tonezone3000.com)
+		- [NAM trainer](https://colab.research.google.com/github/sdatkinson/NAMTrainerColab/blob/main/notebook.ipynb)
 
 #### [AmpliTube CS](https://ikmultimedia.com/products/amplitube5cs/) / [TONEX CS](https://ikmultimedia.com/products/tonex/#tonexcs)
 
@@ -322,25 +351,19 @@ Nembrini Audio出品的若干吉他音箱与单块模拟，均支持桌面和iOS
 
 ![](https://www.izotope.com/storage-cms/images/5/7/1/9/1019175-1-eng-GB/d151ee76f603-Screenshot-12-Ozone-EQ-on-stereo-buss.jpeg)
 
-可能是我们能免费用到的最强大的EQ，支持立体声、Mid/Side、Transient/Sustain模式
-
-#### [Overtone GEQ](https://www.voxengo.com/product/overtonegeq/) / [Marvel GEQ](https://www.voxengo.com/product/marvelgeq/)
-
-![](https://static.kvraudio.com/i/b/voxengo_overtone_geq_screenshot_gray.1681987260.jpg) ![](https://static.kvraudio.com/i/b/voxengo_marvel_geq_screenshot_gray.1685251820.jpg)
-
-支持环绕声和MS工作模式的7段图形EQ、线性相位16段图形EQ。
-
-#### [QRange](https://www.kvraudio.com/product/qrange-by-lkjb)
-
-![](https://static.kvraudio.com/i/b/lkjb_qrange_102.png)
-
-带频谱图的线性相位12段图形EQ。每一段都可以指定滤波器类型，以及处理Stereo、M/S、L/R信号
+可能是我们能免费用到的最强大的EQ，支持立体声、Mid/Side，以及类似Eventide SplitEQ的Transient/Sustain模式
 
 #### [TDR Nova](https://www.tokyodawn.net/tdr-nova/)
 
 ![](https://www.tokyodawn.net/wp-content/uploads/2018/11/Seite-1-Kopie-1-1.png)
 
 既是EQ又是多段压缩的动态均衡插件。推荐一篇[有关多段压缩与动态均衡的文章](https://www.izotope.com/en/learn/multiband-compressors-vs-dynamic-eqs.html)。
+
+#### [Overtone GEQ](https://www.voxengo.com/product/overtonegeq/) / [Marvel GEQ](https://www.voxengo.com/product/marvelgeq/)
+
+![](https://static.kvraudio.com/i/b/voxengo_overtone_geq_screenshot_gray.1681987260.jpg) ![](https://static.kvraudio.com/i/b/voxengo_marvel_geq_screenshot_gray.1685251820.jpg)
+
+支持环绕声和MS工作模式的7段图形EQ、线性相位16段图形EQ。
 
 #### [TDR VOS SlickEQ](https://www.tokyodawn.net/tdr-vos-slickeq/) / [Luftikus](https://www.kvraudio.com/product/luftikus-by-lkjb)
 
@@ -364,6 +387,116 @@ SlickEQ是一个简单易用的高通滤波和三段EQ，并有多个可选的Pr
 ![](https://static.kvraudio.com/i/b/pteq-x.1512992240.jpg)
 
 在一个插件里复刻了三个经典的Pultec硬件均衡器：HL3C、EQP-1A、MEQ-5。
+
+## Delay
+
+#### [HY-Delay4 Free](https://hy-plugins.com/product/hy-delay4)
+
+![](https://hy-plugins.com/wp-content/uploads/delay4_freecover.jpg)
+
+音色干净的数字延迟。涵盖了一个基础款数字延迟所应具备的全部功能：立体声偏移、高低通、EQ、Ping Pong模式、Ducking（并且支持用sidechain信号来控制ducking）
+
+#### [Deelay](https://sixthsample.com/deelay/)
+
+![](https://static.kvraudio.com/i/b/normalmode-a.png) 
+
+强大且易用的万金油延迟，支持feedback回路滤波、延迟时间调制、磁带wow & flutter、失真、ducking、混响、反向延迟、shimmer等功能。
+
+免费版提供11种失真算法：saturation, asymmetrical, clip, tube, rectify, crackly, lightning, amp, bumpy, razor, pixelated；美中不足的是，滤波器的resonance不可调，无法做出较激烈的Self-Oscillation效果。
+
+另有售价€30的[Platinum Edition](https://sixthsample.com/deelay-pe/)，提供更多失真算法，滤波器可调Q值，以及移频延迟、移调延迟等扩展模式。
+
+#### [Spaceship Delay](https://www.musicalentropy.com/SpaceshipDelay.html)
+
+![](https://static.kvraudio.com/i/b/screenshot-4.png)
+
+支持feedback回路滤波、过载、延迟时间调制、周边效果等功能的延迟效果，可以制造从温暖的过载回声到眩晕的Self-Oscillation回声效果。提供普通低通高通滤波器以及复刻自MS-20、Meeblip等经典合成器的滤波器。
+
+#### [GSi Varispeed](https://www.genuinesoundware.com/?a=showproduct&b=47) / [NastyDLA](https://varietyofsound.wordpress.com/vst-effects/) / [PSP stepDelay](https://www.pspaudioware.com/products/psp-stepdelay) / [Airwindows TapeDelay](https://www.airwindows.com/tapedelay/) & [TapeDelay2](https://www.airwindows.com/tapedelay2/)
+
+![](https://www.genuinesoundware.com/Products/VariSpeed/img/VariSpeed.png)
+![](https://varietyofsound.files.wordpress.com/2010/10/nastydla1.png)
+![](https://www.pspaudioware.com/assets/products/psp_stepdelay_freebie.jpg)
+![](https://blog.landr.com/_next/image/?url=https%3A%2F%2Fblog-api.landr.com%2Fwp-content%2Fuploads%2F2024%2F05%2F02-Airwindows-TapeDelay2.png&w=1440&q=75)
+
+磁带延迟大合集
+
+- [GSi Varispeed](https://www.genuinesoundware.com/?a=showproduct&b=47): 复刻Copicat IC400磁带延迟机的变速效果，由于过于忠于原版，而既不能显示延迟时间，也不支持tempo sync。提供3种磁带头
+- [NastyDLA](https://varietyofsound.wordpress.com/vst-effects/): 仅支持VST2 for Windows
+- [PSP stepDelay](https://www.pspaudioware.com/products/psp-stepdelay): 功能相对全面的磁带风格延迟
+- [Airwindows TapeDelay](https://www.airwindows.com/tapedelay/) & [TapeDelay2](https://www.airwindows.com/tapedelay2/): 声音不错但界面简陋，不支持tempo sync
+
+#### [Full Bucket Brigade Delay](https://www.fullbucket.de/music/fbdelay.html)
+
+![](https://www.fullbucket.de/music/images/fbdelay.jpg)
+
+一款温暖的BBD延迟（Bucket Brigade Device），支持时间调制以及feedback回路滤波的Self-Oscillation
+
+#### [Valhalla Freq Echo](https://valhalladsp.com/shop/delay/valhalla-freq-echo/) / [Moon Echo](https://www.audiothing.net/effects/moon-echo/)
+
+![](https://static.kvraudio.com/i/b/valhallafreqecho.png)
+![](https://www.audiothing.net/wp-content/uploads/2024/06/Moon-Echo-GUI.jpg)
+
+内置了Frequency Shifter模块的延迟插件。既可用作一般的延迟，也可当作眩晕的跑调延迟来使用
+
+#### [HZ Delay](https://higherhz.com/hz-delay/)
+
+![](https://higherhz.com/wp-content/uploads/2022/03/hz-delay-plugin-gui.webp)
+
+内置以复杂方式串并联的3条delay line，可以做出复杂律动、延迟+合唱、混响等效果。
+
+![](https://higherhz.com/wp-content/uploads/2022/03/hz-delay-signal-flow-diagram.webp)
+
+#### [Lagrange](https://ursadsp.com/#lagrange)
+
+![](https://static.kvraudio.com/i/b/piglizards.png) 
+
+基于粒子引擎，兼具延迟与混响特点的空间效果。
+
+#### [Spirals](https://daniel-gergely.itch.io/spirals) / [Diffuse](https://daniel-gergely.itch.io/diffuse)
+
+![](https://img.itch.zone/aW1nLzE2NzE0NzA0LnBuZw==/original/Z4MML%2F.png)
+![](https://img.itch.zone/aW1nLzEyNTYyNTk0LnBuZw==/original/hJZl%2FN.png)
+
+两款兼具延迟/混响/shimmer特点的空间类效果。前者操控更接近传统的空间类效果，后者探索可能性更大、更有实验气息
+
+## Chorus / Flanger
+
+#### [Baby Audio Freebies](https://babyaud.io/freebies)
+
+![](https://images.squarespace-cdn.com/content/v1/561e2985e4b08862a3496b82/795ab135-e799-44a2-b152-c46acacdaa57/Baby+Audio+Best+Free+VST+Plugins+2025+Line-Up.png?format=1500w)
+
+Baby Audio提供的若干个免费效果，操作简洁。全平台支持（包括iOS）
+
+- Magic Dice: 随机参数的空间类效果
+- Pitch Drift: 模拟原声乐器轻微跑调的效果，相比普通LFO调制的Vibrato多了些随机性
+- Beat Slammer: 激进的压缩效果，适合需要「pumping」感的音轨使用
+- Magic Switch: 罗兰Juno风格的合唱
+- Warp: 音频变速效果
+
+#### [Space Modulator](https://valhalladsp.com/shop/modulation/valhalla-space-modulator/)
+
+![](https://static.kvraudio.com/i/b/valhallaspacemod.jpg)
+
+可调空间比较大的现代风格调制效果，能做出Flanger/Chorus/Reverb等感觉
+
+#### [Multiply](https://acondigital.com/products/multiply/)
+
+![](https://cms.acondigital.com/uploads/large_multiply_7d0b388e42.png)
+
+高品质的现代风格立体声合唱，对于拓宽声音有非常好的效果
+
+#### [SVEP](https://klevgrand.com/products/svep)
+
+![](https://img.klevgrand.se/ui_images/ui_svep.jpg)
+
+操作简洁的Phaser/Flanger/Chorus，支持Windows/macOS/iOS
+
+#### [Modul 8](https://senderspike.wordpress.com/2020/04/07/modul-8/)
+
+![](https://senderspike.files.wordpress.com/2020/04/fx02_gui.png)
+
+有两个独立LFO的复古风格Chorus/Flanger
 
 ## Reverb
 
@@ -464,134 +597,28 @@ SlickEQ是一个简单易用的高通滤波和三段EQ，并有多个可选的Pr
 
 对经典的 Bricasti Model 7 机架混响的复刻，内置了原版的11类234种预设
 
-## Delay
-
-#### [HY-Delay4 Free](https://hy-plugins.com/product/hy-delay4)
-
-![](https://hy-plugins.com/wp-content/uploads/delay4_freecover.jpg)
-
-音色干净的数字延迟。涵盖了一个基础款数字延迟所应具备的全部功能：立体声偏移、高低通、EQ、Ping Pong模式、Ducking（并且支持用sidechain信号来控制ducking）
-
-#### [Deelay](https://sixthsample.com/deelay/)
-
-![](https://static.kvraudio.com/i/b/normalmode-a.png) 
-
-强大且易用的万金油延迟，支持feedback回路滤波、延迟时间调制、wow & flutter、失真、ducking、混响、反向延迟、shimmer等功能。
-
-免费版提供11种失真算法：saturation, asymmetrical, clip, tube, rectify, crackly, lightning, amp, bumpy, razor, pixelated；美中不足的是，滤波器的resonance不可调，无法做出较激烈的Self-Oscillation效果。
-
-另有售价€30的[Platinum Edition](https://sixthsample.com/deelay-pe/)，提供更多失真算法，滤波器可调Q值，以及移频延迟、移调延迟等扩展模式。
-
-#### [Spaceship Delay](https://www.musicalentropy.com/SpaceshipDelay.html)
-
-![](https://static.kvraudio.com/i/b/screenshot-4.png)
-
-支持延迟时间调制、feedback回路滤波、过载、周边效果等功能的延迟效果，可以制造从温暖的过载回声到眩晕的Self-Oscillation回声效果。提供普通数字滤波器以及复刻自MS-20、Meeblip等经典合成器的滤波器。
-
-#### [GSi Varispeed](https://www.genuinesoundware.com/?a=showproduct&b=47) / [NastyDLA](https://varietyofsound.wordpress.com/vst-effects/) / [PSP stepDelay](https://www.pspaudioware.com/products/psp-stepdelay) / [Airwindows TapeDelay](https://www.airwindows.com/tapedelay/) & [TapeDelay2](https://www.airwindows.com/tapedelay2/)
-
-![](https://www.genuinesoundware.com/Products/VariSpeed/img/VariSpeed.png)
-![](https://varietyofsound.files.wordpress.com/2010/10/nastydla1.png)
-![](https://www.pspaudioware.com/assets/products/psp_stepdelay_freebie.jpg)
-![](https://blog.landr.com/_next/image/?url=https%3A%2F%2Fblog-api.landr.com%2Fwp-content%2Fuploads%2F2024%2F05%2F02-Airwindows-TapeDelay2.png&w=1440&q=75)
-
-磁带延迟大合集
-
-- [GSi Varispeed](https://www.genuinesoundware.com/?a=showproduct&b=47): 复刻Copicat IC400磁带延迟机的变速效果，由于过于忠于原版，而既不能显示延迟时间，也不支持tempo sync。提供3种磁带头
-- [NastyDLA](https://varietyofsound.wordpress.com/vst-effects/): 仅支持VST2 for Windows
-- [PSP stepDelay](https://www.pspaudioware.com/products/psp-stepdelay): 功能相对全面的磁带风格延迟
-- [Airwindows TapeDelay](https://www.airwindows.com/tapedelay/) & [TapeDelay2](https://www.airwindows.com/tapedelay2/): 声音不错但界面简陋，不支持tempo sync
-
-#### [Full Bucket Brigade Delay](https://www.fullbucket.de/music/fbdelay.html)
-
-![](https://www.fullbucket.de/music/images/fbdelay.jpg)
-
-一款温暖的BBD延迟（Bucket Brigade Device），支持时间调制以及feedback回路滤波的Self-Oscillation
-
-#### [Valhalla Freq Echo](https://valhalladsp.com/shop/delay/valhalla-freq-echo/) / [Moon Echo](https://www.audiothing.net/effects/moon-echo/)
-
-![](https://static.kvraudio.com/i/b/valhallafreqecho.png)
-![](https://www.audiothing.net/wp-content/uploads/2024/06/Moon-Echo-GUI.jpg)
-
-内置了Frequency Shifter模块的延迟插件。既可用作一般的延迟，也可当作眩晕的跑调延迟来使用
-
-#### [HZ Delay](https://higherhz.com/hz-delay/)
-
-![](https://higherhz.com/wp-content/uploads/2022/03/hz-delay-plugin-gui.webp)
-
-内置以复杂方式串并联的3条delay line，可以做出复杂律动、延迟+合唱、混响等效果。
-
-![](https://higherhz.com/wp-content/uploads/2022/03/hz-delay-signal-flow-diagram.webp)
-
-#### [Spirals](https://daniel-gergely.itch.io/spirals)
-
-![](https://img.itch.zone/aW1nLzE2NzE0NzA0LnBuZw==/original/Z4MML%2F.png)
-
-带移调的延迟/混响，可以当作shimmer来使用
-
-## Granular
-
-#### [Lagrange](https://ursadsp.com/#lagrange) / [Diffuse](https://daniel-gergely.itch.io/diffuse)
-
-![](https://static.kvraudio.com/i/b/piglizards.png) ![](https://img.itch.zone/aW1hZ2UvMjEzMTcxMS8xMjU2MTUxNC5wbmc=/original/x%2F%2Fb%2Bw.png)
-
-两款基于粒子引擎，兼具延迟与混响特点的空间效果。Lagrange的易用性接近传统的延迟、混响，Diffuse有更大的可调空间
-
-#### [PaulXStretch](https://sonosaurus.com/paulxstretch/)
-
-![](https://sonosaurus.com/paulxstretch/assets/images/paulxstretch_screenshot.png)
-
-一个非常适合声音设计的时间拉伸工具，能够在不改变音色的基础上大幅拉伸其持续时间
-
-#### [Emergence 0.3](https://daniel-gergely.itch.io/emergence)
-
-![](https://i.imgur.com/zLvWirk.png)
-
-含4条独立stream的实时粒子处理器，提供LFO和随机调制
-
-## Modulation
-
-#### [Space Modulator](https://valhalladsp.com/shop/modulation/valhalla-space-modulator/)
-
-![](https://static.kvraudio.com/i/b/valhallaspacemod.jpg)
-
-可调空间比较大的现代风格调制效果，能做出Flanger/Chorus/Reverb等感觉
-
-#### [Baby Audio Freebies](https://babyaud.io/freebies)
-
-![](https://images.squarespace-cdn.com/content/v1/561e2985e4b08862a3496b82/795ab135-e799-44a2-b152-c46acacdaa57/Baby+Audio+Best+Free+VST+Plugins+2025+Line-Up.png?format=1500w)
-
-Baby Audio提供的若干个免费效果，操作简洁。全平台支持（包括iOS）
-
-- Magic Dice：随机参数的空间类效果
-- Pitch Drift：模拟原声乐器轻微跑调的效果，相比普通LFO调制的Vibrato多了些随机性
-- Beat Slammer：激进的压缩效果，适合需要「pumping」感的音轨使用
-- Magic Switch：罗兰Juno风格的合唱
-- Warp：音频变速效果
-
-#### [SVEP](https://klevgrand.com/products/svep)
-
-![](https://img.klevgrand.se/ui_images/ui_svep.jpg)
-
-操作简洁的Phaser/Flanger/Chorus，支持Windows/macOS/iOS
-
-#### [Modul 8](https://senderspike.wordpress.com/2020/04/07/modul-8/)
-
-![](https://senderspike.files.wordpress.com/2020/04/fx02_gui.png)
-
-有两个独立LFO的复古风格Chorus/Flanger
-
-#### [Multiply](https://acondigital.com/products/multiply/)
-
-![](https://cms.acondigital.com/uploads/large_multiply_7d0b388e42.png)
-
-高品质的现代风格立体声合唱，对于拓宽声音有非常好的效果
+## Filter / Tremolo / Panner / Gate Sequencer
 
 #### [HY-Filter4 Free](https://hy-plugins.com/product/hy-filter4/)
 
 ![](https://hy-plugins.com/wp-content/uploads/fiter4free.jpg)
 
-可调制滤波器，支持SVF、3BP两种滤波模式、LFO、2DLFO、随机、包络跟随、XY Control五种调制模式
+调制自由度很高的滤波器，免费版支持SVF、3BP两种滤波模式，LFO、2DLFO、随机、包络跟随、XY Control五种调制源。
+
+#### [Frohmager](https://www.ohmforce.com/frohmager)
+
+![](https://cdn.prod.website-files.com/5de9e08758e6cb77bd570e7a/6203d0048a754a1e8d7d6642_Screenshot_frohmager%402x.png)
+
+低通滤波器，支持 ADSR、包络跟随、LFO 调制源单独或组合使用，支持宏控制。
+
+#### [TAL-Filter-2](https://tal-software.com/products/tal-filter) / [Flux Mini 2](https://www.caelumaudio.com/CaelumAudio/?Page=FluxMini2) / [PANFLOW](https://audiomodern.com/shop/plugins/panflow/)
+
+![](https://tal-software.com/images/products/tal-filter-2-new.jpg) ![](https://static.kvraudio.com/i/b/png.png) ![](https://static.kvraudio.com/i/b/panflow_ui_001.png)
+
+三个允许自由绘制LFO波形的滤波器/tremolo/panner。
+- TAL filter调制Filter/Volume/Pan
+- Flux Mini 2调制Filter/Volume，支持包括iOS的全平台。
+- Panflow仅调制Pan，支持包括iOS的全平台。
 
 #### [PechenegTremolo](https://pechenegfx.blogspot.com/2014/11/the-plugin-pecheneg-tremolo.html) / [HY-TP2](https://bedroomproducersblog.com/2018/01/11/hy-plugins-tp2/)
 
@@ -599,17 +626,15 @@ Baby Audio提供的若干个免费效果，操作简洁。全平台支持（包�
 
 两个Tremolo/Panner。前者允许无极调整LFO波形的类型、相位、对称性，十分适合通过自动化给声音增加一些变化；后者允许独立调整LFO Depth和Pan Width
 
-#### [TAL-Filter-2](https://tal-software.com/products/tal-filter) / [Flux Mini 2](https://www.caelumaudio.com/CaelumAudio/?Page=FluxMini2) / [PANFLOW](https://audiomodern.com/shop/plugins/panflow/)
+#### AUDIOMODERN [FILTERSTEP](https://audiomodern.com/shop/plugins/filterstep/) / [GATELAB](https://audiomodern.com/shop/plugins/gatelab/) / 
 
-![](https://tal-software.com/images/products/tal-filter-2-new.jpg) ![](https://static.kvraudio.com/i/b/png.png) ![](https://static.kvraudio.com/i/b/panflow_ui_001.png)
+![](https://static.kvraudio.com/i/b/filterstep-ipad.png) ![](https://static.kvraudio.com/i/b/gatelab_ui_001.png) ![](https://kilohearts.com/resources/media_dynamic/offers/trance_gate/screenshot.jpg)
 
-三个允许自由绘制LFO波形的效果。TAL调制Filter/Volume/Pan，Flux调制Filter/Volume，Panflow仅调制Pan；TAL支持Windows/macOS/Linux，后两者支持包括iOS的全平台。
+三款使用Sequencer调制的效果
 
-#### AUDIOMODERN [FILTERSTEP](https://audiomodern.com/shop/plugins/filterstep/) / [GATELAB](https://audiomodern.com/shop/plugins/gatelab/)
-
-![](https://static.kvraudio.com/i/b/filterstep-ipad.png) ![](https://static.kvraudio.com/i/b/gatelab_ui_001.png)
-
-支持随机节奏的Filter Sequencer和Gate Sequencer。Windows/macOS/iOS全平台支持
+- FILTERSTEP: 调制滤波器，支持随机生成，Windows/macOS/iOS全平台
+- GATELAB: 调制音量，支持随机生成，Windows/macOS/iOS全平台
+- kHs Trance Gate: 调制音量，Gate的ADSR可调，支持丰富的桌面格式，包括Reason的Rack Extension
 
 #### [HY-ESG](https://sellfy.com/bedroomproducersblog/p/hy-esg/)
 
@@ -693,25 +718,32 @@ Baby Audio提供的若干个免费效果，操作简洁。全平台支持（包�
 
 两款免费自动修音插件
 
+#### [PaulXStretch](https://sonosaurus.com/paulxstretch/)
+
+![](https://sonosaurus.com/paulxstretch/assets/images/paulxstretch_screenshot.png)
+
+一个非常适合声音设计的时间拉伸工具，能够在不改变音色的基础上大幅拉伸其持续时间
+
+#### [Emergence 0.3](https://daniel-gergely.itch.io/emergence)
+
+![](https://i.imgur.com/zLvWirk.png)
+
+含4条独立stream的实时粒子处理器，提供LFO和随机调制
+
 #### [Ozone Imager 2](https://www.izotope.com/en/products/ozone-imager.html)
 
 ![](https://www.izotope.com/storage-cms/images/_aliases/image_default_1280w_2x/6/9/8/9/209896-1-eng-GB/e2bc260f49eb-free-imager-lissajous.png.webp)
 
 调整音源的立体声宽度，或者将单声道源拓宽为立体声。
 
-#### [TheSplit](https://www.kvraudio.com/product/thesplit-by-thezhe)
+#### [Goodhertz Loudness](https://goodhertz.com/loudness/)
 
-![](https://static.kvraudio.com/i/b/1_0_2_3.png)
+![](https://static.goodhertz.co/statics/store/artifacts/gen/screencaps/goodhertz-loudness-3.11-full-en_shadow.png)
 
-界面简陋、功能强大的分离处理工具，支持按照m/s、频率、瞬态、电平四种方式对音轨进行分离处理：
+响度表&声像表，支持简体中文界面
 
-> 1.  C&S: "Center & Sides" mode uses a mid-side algorithm to split audio in the spatial domain.
-> 2.  L&H: "Low & High" mode uses a crossover to split audio in the frequency domain.
-> 3.  A&S: "Attack & Sustain" mode uses a transient splitter to split audio in the time domain.
-> 4.  L&S: "Loud & Soft" mode uses a gate to split audio in the amplitude domain.
+#### [ZL Splitter](https://github.com/ZL-Audio/ZLSplitter)
 
-#### [ChowMultiTool](https://chowdsp.com/products.html#multitool)
+![](https://zl-audio.github.io/images/zlsplitter/dark_crop.png)
 
-![](https://raw.githubusercontent.com/Chowdhury-DSP/ChowMultiTool/main/images/title_screen.png)
-
-瑞士军刀，提供包括EQ、Signal Generator、Waveshaper、Band-Splitter、Analog-style EQ、Brickwall Filters、State Variable Filters等工具。Band-Splitter支持多通道输出，可以配合其他效果使用，使得原本不支持Multiband处理的插件具备Bultiband能力
+音频平行处理工具，支持按照L/R、M/S、频率、瞬态、电平五种方式对音轨进行分离处理。
