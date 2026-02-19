@@ -26,7 +26,9 @@ redirect_from:
 祝各位听了沉睡不醒。
 
 > 2019-01-02: initial release
+> 
 > 2019-07-12: remastered to enhance loudness
+> 
 > 2025-12-31: remastered to enhance loudness, again
 
 ## Track List

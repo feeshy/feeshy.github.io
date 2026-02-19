@@ -14,8 +14,10 @@ songs with hopeless guitars and muddy reverbs.
 <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=large/bgcol=ffffff/linkcol=4ec5ec/minimal=true/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
 
 > 2020-02-28: initially published
-> 2020-11-02: improved the mixing of 'the traveler'
-> 2023-02-18: added a new track 'wasteland'
+> 
+> 2020-11-02: improved the mixing of _the traveler_
+> 
+> 2023-02-18: added a new track _wasteland_
 ## Track List
 
 1. assassin's step

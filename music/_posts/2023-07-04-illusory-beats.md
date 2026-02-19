@@ -13,7 +13,9 @@ redirect_from:
 <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=4028171195/size=large/bgcol=ffffff/linkcol=4ec5ec/minimal=true/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-beats">Illusory Beats by feeshy</a></iframe>
 
 > 2023-07-04: 初始发布
+> 
 > 2024-04-15: 更新了英文翻译，添加了一首2024年的歌和两首2019年的歌
+> 
 > 2025-03-01: 优化了《上海自来水来自海上》的混音
 
 ## Track List
