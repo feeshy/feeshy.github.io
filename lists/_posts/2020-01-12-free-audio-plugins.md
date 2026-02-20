@@ -15,7 +15,7 @@ toc: true
 custom_head: <style>img{max-width:320px;max-height:240px;border-radius:5px;padding:2.5px;filter:drop-shadow(-2.5px 2.5px 5px rgba(0,0,0,.5))}</style>
 ---
 
-音频宿主是一种能够加载和运行各种音频插件的软件环境，它可以是具备多轨录音、音频编辑和混音等功能的数字音频工作站（DAW），也可以只专注于特定功能（如合成器或效果器）。插件是运行在宿主软件中的扩展程序，主要分为效果类插件、虚拟乐器类插件和工具类插件。
+> 音频宿主是一种能够加载和运行各种音频插件的软件环境，它可以是具备多轨录音、音频编辑和混音等功能的数字音频工作站（DAW），也可以只专注于特定功能（如合成器或效果器）。插件是运行在宿主软件中的扩展程序，主要分为效果类插件、虚拟乐器类插件和工具类插件。
 
 本文介绍了百余款可免费获取的音频效果插件，涵盖各种常用效果类型，如压缩、均衡、延迟、混响、失真等。笔者结合自身短期试用或长期使用的感受，对每款插件进行了简单的介绍和点评，着重突出了其特色功能和适用场景。
 
@@ -65,7 +65,7 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 ## Dynamic
 
-### Compressor / Exciter
+### Compressor / Expander
 
 > 两篇比较好的关于硬件压缩器的科普，分别来自：[@huang jiayi](https://zhuanlan.zhihu.com/p/104533883)以及[@midifan](https://www.midifan.com/modulenews-detailview-31558.htm)
 
@@ -73,13 +73,14 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 ![](https://www.tokyodawn.net/wp-content/uploads/2018/06/Kotelnikov_1.png)
 
-一款功能完善、音色中性的后反馈压缩。内置了能同时工作的峰值压缩和RMS压缩，可通过PEAK CREST旋钮控制两种模式的比例；另有Stereo Sensitivity参数允许压缩模式在Stereo与Dual Mono之间平滑过渡；还提供侧链高通与Soft Knee
+一款功能完善、音色中性的后反馈压缩。内置了能同时工作的峰值压缩和RMS压缩，可通过PEAK CREST旋钮控制两种模式的比例；另有Stereo Sensitivity参数允许压缩模式在Stereo与Dual Mono之间平滑过渡。
 
-#### [Rough Rider 3](https://www.audiodamage.com/pages/free-and-legacy)
+#### [ZL Compressor](https://zl-audio.github.io/plugins/zlcompressor)
 
-![](https://static.kvraudio.com/i/b/roughrider3_480x480.png)
+![](https://zl-audio.github.io/images/zlcompressor/dark_crop.jpg)
 
-一款界面直观、容易上手的压缩。可调空间非常大，将压缩比设为1000:1，Attack设为0，甚至能当成Limiter来使用。支持侧链高通和外置侧链信号输入，内置一个可选择是否开启的模仿模拟设备温暖音色的滤波器。提供全平台全格式，包括Linux平台的LV2和iOS平台的AUv3。
+
+全场景适用的动态效果器。集成向下/向上的压缩/扩展四种动态处理模式，Clean/Classic/Optical/Vocal四种压缩风格。高效的Lookahead算法与最高8倍过采样。类似TDR Kotelnikov，可对侧链信号进行均衡、立体声链接度等高级处理。
 
 #### [DC1A](https://klanghelm.com/contents/products/DC1A)
 
@@ -105,7 +106,7 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 ![](https://static.kvraudio.com/i/b/mjucjr.jpg)
 ![](https://static.kvraudio.com/i/b/supercharger.png)
 
-两款强烈的电子管风格压缩，旋钮不多易上手
+两款染色强烈的电子管风格压缩，旋钮不多易上手
 
 #### [ADHD Leveling Tool](https://audiotools.se/downloads/leveling-tool/)
 
@@ -131,7 +132,7 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 ![](https://static.kvraudio.com/i/b/screenshot-2023-06-25-at-09-23-31.png)
 
-有着完善图形化显示的限幅器，直观展示动态变化。可选透明或染色风格
+有着完善图形化显示的限幅器，直观展示动态变化。
 
 #### [Limiter №6](https://www.tokyodawn.net/vladg-limiter-n6/)
 
@@ -139,7 +140,7 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 功能强大的总线限幅器，内置了可以按需开启的RMS压缩、峰值限幅、高频限幅、削波、真峰值限幅5个模块，每个模块还可选择多种工作模式。支持 VST2 for Windows / macOS，不过由于开发年代久远没有签名，[macOS安装流程较麻烦](https://www.osirisguitar.com/2020/04/01/how-to-make-unsigned-vsts-work-in-macos-catalina/)
 
-### Gate / Expander
+### Gate
 
 #### [Bob Perry Gate 2](https://www.bobperry-audio.com/shop/bob-perry-gate-2/) / [kHs Gate](https://kilohearts.com/products/gate)
 
@@ -167,12 +168,11 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 采用非线性的工作方式，这意味着低电平瞬态相对高电平瞬态受到的影响更强，有利于突显较小的细节，同时不会使大的音头过载。与传统的同类效果相比，Transpire处理的打击乐轨道听起来会更加稳定和可控。只支持Windows上的VST2与JSFX格式
 
-#### [kHs Transient Shaper](https://kilohearts.com/products/transient_shaper) / [Audec Transient](https://audec.gumroad.com/l/audec-transient)
+#### [kHs Transient Shaper](https://kilohearts.com/products/transient_shaper)
 
 ![](https://kilohearts.com/resources/media_dynamic/offers/transient_shaper/screenshot.jpg)
-![](https://audec-music.com/wp-content/uploads/2019/10/Transient.png)
 
-两款支持Windows / macOS的瞬态修饰器
+支持侧链输入的Transient Shaper，在部分场景很实用。例如在叠加 Bass 音色时，我可以先用支持 Transient/ Sustain 分离处理的 EQ 处理一轨 Bass，仅保留其全频段的瞬态音头以及延音部分的高频。随后，将该信号作为侧链输入到另一轨 Bass 的 Transient Shaper 中，从而精准地切除后者的音头。支持Windows / macOS
 
 ## Color
 
@@ -192,10 +192,10 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 一款可调性丰富的Saturator，ASYM MIX参数决定过载的「压缩感」与「透明度」，Response旋钮控制过载的频率响应
 
-#### [BritPre](https://www.patreon.com/posts/britbundle-79798060) / [SGA1566](https://www.shatteredglassaudio.com/product/104) / [PreBOX & Distox](https://analogobsession.com/color-preamp-saturation/) / [BPB Dirty Filter Plus](https://bpb.gumroad.com/l/dirtyfilterplus)
+#### [BritPre](https://www.patreon.com/posts/britbundle-79798060) / [PHOENIX LT](https://www.shatteredglassaudio.com/product/115) / [PreBOX & Distox](https://analogobsession.com/color-preamp-saturation/) / [BPB Dirty Filter Plus](https://bpb.gumroad.com/l/dirtyfilterplus)
 
 ![](https://media.plugins4free.com/img/AO-BritPre_2.jpg)
-![](https://static.kvraudio.com/i/b/sga1566.png)
+![](https://www.shatteredglassaudio.com/assets/images/phoenix-lt-detail-image.jpg)
 ![](https://media.plugins4free.com/img/PreBOX_3.jpg)
 ![](https://media.plugins4free.com/img/Distox_3.jpg)
 ![](https://bedroomproducersblog.com/wp-content/uploads/2022/11/dirty-filter-plus.png)
@@ -203,7 +203,7 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 几款内置了低通/高通滤波器或EQ的饱和&失真效果，广泛适用于各种音频素材
 
 - BritPre: 1960年代英式调音台模拟
-- SGA1566: 模拟了Altec 1566A电子管话放的两级12AX7放大电路，算法优化较差，CPU占用非常高。另有售价$55的重制版[Phoenix 2](https://www.shatteredglassaudio.com/product/112)，大幅减小了性能开销并且添加了更多的电子管模拟。
+- Phoenix LT: 模拟了一种含有两个12AU7三极管的前级放大电路
 - PreBOX: 11合1前级模拟
 - Distox: 7合1运放过载和电子管过载模拟，干湿平行处理
 - Dirty Filter Plus: 电子管、303、Lo-fi、量化失真4合1，mix平行处理
@@ -347,23 +347,21 @@ Nembrini Audio出品的若干吉他音箱与单块模拟，均支持桌面和iOS
 
 ## EQ
 
-#### [Ozone 11 Equalizer](https://www.native-instruments.com/en/products/izotope/ozone-11-eq/)
+#### [ZL Equalizer 2](https://zl-audio.github.io/zh-cn/plugins/zlequalizer2/) / [TDR Nova](https://www.tokyodawn.net/tdr-nova/)
+
+![](https://camo.githubusercontent.com/9ebb04451d183b137ef8d4944fd738a19e65652c06797779713b4a12e18d4e6c/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d31786e55475273334e76574c2d324d5a326938726730673062556e47364d534f32)
+![](https://www.tokyodawn.net/wp-content/uploads/2018/11/Seite-1-Kopie-1-1.png)
+
+两款免费动态EQ。关于[多段压缩与动态均衡的区别](https://www.izotope.com/en/learn/multiband-compressors-vs-dynamic-eqs.html)。
+
+- ZL Equalizer：可能是2026年我们能免费用到的最强大的EQ。支持 6 种滤波器结构、8 种滤波器类型、5 种立体声模式、7 种可变斜率和多达 24 个频段。每个频段均支持独立的动态EQ设置，以及独立的M/S或L/R处理。还提供冲突频率检测、均衡匹配等实用功能。
+- TDR Nova：纯粹、高效的动态EQ。功能上是ZL Equalizer的子集，但界面更美观。
+
+#### [Ozone Equalizer](https://www.native-instruments.com/en/products/izotope/ozone-12-eq/)
 
 ![](https://www.izotope.com/storage-cms/images/5/7/1/9/1019175-1-eng-GB/d151ee76f603-Screenshot-12-Ozone-EQ-on-stereo-buss.jpeg)
 
-可能是我们能免费用到的最强大的EQ，支持立体声、Mid/Side，以及类似Eventide SplitEQ的Transient/Sustain模式
-
-#### [TDR Nova](https://www.tokyodawn.net/tdr-nova/)
-
-![](https://www.tokyodawn.net/wp-content/uploads/2018/11/Seite-1-Kopie-1-1.png)
-
-既是EQ又是多段压缩的动态均衡插件。推荐一篇[有关多段压缩与动态均衡的文章](https://www.izotope.com/en/learn/multiband-compressors-vs-dynamic-eqs.html)。
-
-#### [Overtone GEQ](https://www.voxengo.com/product/overtonegeq/) / [Marvel GEQ](https://www.voxengo.com/product/marvelgeq/)
-
-![](https://static.kvraudio.com/i/b/voxengo_overtone_geq_screenshot_gray.1681987260.jpg) ![](https://static.kvraudio.com/i/b/voxengo_marvel_geq_screenshot_gray.1685251820.jpg)
-
-支持环绕声和MS工作模式的7段图形EQ、线性相位16段图形EQ。
+支持立体声、Mid/Side，以及类似Eventide SplitEQ的Transient/Sustain模式
 
 #### [TDR VOS SlickEQ](https://www.tokyodawn.net/tdr-vos-slickeq/) / [Luftikus](https://www.kvraudio.com/product/luftikus-by-lkjb)
 
@@ -744,6 +742,6 @@ Baby Audio提供的若干个免费效果，操作简洁。全平台支持（包�
 
 #### [ZL Splitter](https://github.com/ZL-Audio/ZLSplitter)
 
-![](https://zl-audio.github.io/images/zlsplitter/dark_crop.png)
+![](https://camo.githubusercontent.com/2721ed650edc00a39f8e719e14b64b0f529ea3dc7e2182f0cc2afa61a50c88e3/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d3161676d4d4644354256796c624a4f72355a4a6d5038646f66374c6b43586c6878)
 
 音频平行处理工具，支持按照L/R、M/S、频率、瞬态、电平五种方式对音轨进行分离处理。
