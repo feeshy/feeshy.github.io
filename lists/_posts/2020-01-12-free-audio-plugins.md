@@ -235,6 +235,12 @@ Surge合成器的内置效果，也作为一个单独的插件提供，方便加
 
 有现代Tone Control功能的Fuzz效果插件
 
+#### [Obliterate](https://www.newfangledaudio.com/obliterate)
+
+![](https://static.wixstatic.com/media/bc5df0_36681dff190a43b8af97d75c87ce8935~mv2.png/v1/crop/x_0,y_338,w_1796,h_904/fill/w_729,h_362,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ObliterateFrontPage.png)
+
+一款听感爆裂的失真效果。含有两个可自由设置的滤波器，可以更好地为音色塑形
+
 #### [Trash Lite](https://www.izotope.com/en/products/trash/trash-lite.html)
 
 ![](https://www.izotope.com/storage-cms/images/_aliases/ab_audio_player_1280w_2x/5/5/5/3/1023555-2-eng-GB/50fa15c83642-iZotope-Trash-web-03-Trash-module-2x.png.webp)
