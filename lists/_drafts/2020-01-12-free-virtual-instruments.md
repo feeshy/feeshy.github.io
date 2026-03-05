@@ -223,11 +223,13 @@ Alchemy原本是Logic Pro X内置的口碑非常好的合成器。
 
 - 格式：VST、AU
 
-#### [Noisetar](https://static.kvraudio.com/i/b/noisetar_au_vst_colours1.png)
+#### [Verv](https://puremagnetik.com/collections/free-plugins/products/verv-sunbaked-tape-loop-synthesizer) / [Expanse](https://puremagnetik.com/collections/free-plugins/products/expanse-texture-generator)
 
-一个非常适合制造氛围音效的噪音合成器
+![](https://cdn.shopify.com/s/files/1/1561/5265/products/Verv-Screenshot_590x.png?v=1762529401)
 
-- 格式：VST、AU
+两款 drone 合成器。Verv 的灵感源自弦乐机、磁带循环、Mellotron 以及其他充满岁月感的模拟录音的。Expanse 是一款噪声可对噪声进行频谱模糊、音高调整和滤波处理。
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3613530900/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://micahfrank.bandcamp.com/album/into-a-bright-land">Into a Bright Land by Larum</a></iframe>
 
 #### [Quilcom SIM系列](https://flowstoners.com/quilcom)
 
