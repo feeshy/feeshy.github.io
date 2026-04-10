@@ -153,7 +153,9 @@ Audiomodern 在 2024年最新推出的新生代虚拟乐器引擎。支持三大
 | Irish Harp                   | 竖琴           | 944MB  |
 | Yangqin                      | 扬琴           | 1.02GB |
 | Factory Selection 1 & 2      | 50余款简化版音色    | 7.00GB |
+[Inspiring Sessions: Azure Lake - ZAK Sound](https://zaksound.com/inspiring-sessions-azure-lake/)
 
+[Infinite Space Piano 2 - ZAK Sound](https://zaksound.com/infinite-space-piano/)
 ## 合成器
 
 
