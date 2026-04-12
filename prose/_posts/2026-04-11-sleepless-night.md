@@ -4,7 +4,7 @@ title: 不眠夜
 date: 2026-04-11
 tags:
   - 都市传说
-image: https://storage.moegirl.org.cn/moegirl/commons/b/be/%E7%9D%A1%E8%95%89%E5%B0%8F%E7%8C%B4%E5%AE%98%E5%9B%BE.jpg
+image: https://i.ytimg.com/vi/41vaCRin8Es/maxresdefault.jpg
 ---
 我已经记不清最开始为什么要逃了。
 
