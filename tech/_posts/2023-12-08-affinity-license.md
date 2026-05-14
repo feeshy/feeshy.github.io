@@ -9,6 +9,7 @@ tags:
   - license
 redirect_from:
   - https://meta.appinn.net/t/topic/50162
+  - /lists/affinity-license
 ---
 
 Affinity创意软件系列目前有矢量绘图软件Designer、位图编辑软件Photo、排版软件Publisher三款产品，作为坚守买断制的创意软件，其定价策略在如今的订阅制大潮下显得十分良心。

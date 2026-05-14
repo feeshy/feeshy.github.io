@@ -12,7 +12,7 @@ redirect_from:
   - https://post.smzdm.com/p/adm3rkzk/
   - https://www.zhihu.com/question/360834028/answer/941297834
   - /photography/museum.html
-  - /smzdm/film-cameras
+  - /lists/film-cameras
 toc: true
 ---
 

@@ -54,15 +54,11 @@ entries:
     - title: Telegram频道
       url: https://t.me/feeshy_channel
 
-  - title: 链接
+  - title: PWA
     entries:
-    - title: 快捷指令
-      url: shortcuts
-    - title: Tasker
-      url: https://feeshy.github.io/tasker-shares/
+    - title: 简单拼图
+      url: https://feeshy.github.io/simple-image-stitcher/
     - title: PPI计算器
       url: https://feeshy.github.io/ppi-calc/
-    - title: Ingress Tools
-      url: https://feeshy.github.io/ingress-tools/
-    - title: Jekyll主题
-      url: https://github.com/feeshy/less-style-please/
+    - title: Link Distance Calc
+      url: https://feeshy.github.io/ingress-tools/range/
