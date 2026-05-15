@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 创建可适配主流浏览器的favicon集合
-last_modified_at: 2024-05-03
+last_modified_at: 2026-05-15
 tags:
   - 折腾记录
   - github-pages
@@ -107,15 +107,31 @@ Win8.1与Win10的Metro磁贴图标由放置在站点根目录的`browserconfig.x
 
 SVG是一种基于XML的矢量图形格式，可以使用CSS媒体查询来动态切换SVG图像的样式——例如更改图形的填充颜色，以提高深色模式下的阅读舒适度。
 
-SVG favicon可以被2014年之后的Firefox以及2020年之后的Chromium内核浏览器支持，可惜Safari暂时还不支持[^svg]。
+SVG favicon可以被2014年之后的Firefox、2020年之后的Chromium内核浏览器、2025年之后的Safari浏览器支持[^svg]。
 
 [^svg]: [SVG favicons | Can I use... Support tables](https://caniuse.com/link-icon-svg)
 
 可以使用[SVG Favicon Generator](https://realfavicongenerator.net/)生成根据浏览器亮色/暗色模式动态反转的矢量图标。
 
-如果有其他的需求，也可以用文本编辑器打开SVG文件，自行编写其中的CSS代码。例如，本站的图标在“浅色模式显示为深蓝色，深色模式显示为白色”的效果，是由以下CSS实现的：
+如果有其他的需求，也可以用文本编辑器打开SVG文件，自行修改或者编写其中的代码。例如，本站的图标在“浅色模式显示为深蓝色，深色模式显示为白色”的效果，是由以下CSS实现的：
 
 ```css
 @media (prefers-color-scheme: light) { #foreground { fill: #403f5f; } }
 @media (prefers-color-scheme: dark) { #foreground { fill: #ffffff; } }
 ```
+
+得益于矢量图标可自由缩放的特性，SVG favicon也可以作为通用的设计素材被复用到网页的UI设计中。由于Safari不支持通过`<img>`标签引用SVG文件，通常的处理方式是改用`<object>`标签：
+
+```html
+<object type="image/svg+xml" data="/favicon.svg"></object>
+```
+
+此时需特别注意，通过`<object>`标签引用的SVG文件与网页整体对于`color-scheme`的声明必须匹配[^object]：若网页已声明支持亮暗切换，则SVG也必须在其根元素中进行对等的声明。若两者声明不一致，则在深色模式下，浏览器会将SVG中原本透明的区域改为纯白或者纯黑，导致显示bug。
+
+```xml
+<svg style="color-scheme: light dark;">
+    /* svg 原本图形代码 */
+</svg>
+```
+
+[^object]: [Object 嵌入 SVG 深色模式踩坑记](](./adaptive-svg-for-dark-mode))

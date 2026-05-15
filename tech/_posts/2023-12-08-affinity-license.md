@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Affinity创意软件老用户重装V1以及升级V2方式
+title: Affinity老用户重装V1以及升级V2方式
 date: 2023-12-08
 last_modified_at: 2024-06-15
 tags:

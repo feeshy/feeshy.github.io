@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 编曲、混音保留动态余量的一些技巧
-date: 2025-01-12
+last_modified_at: 2025-01-12
 tags:
   - 混音
   - 折腾记录
