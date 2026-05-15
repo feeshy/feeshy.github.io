@@ -12,7 +12,7 @@
             "src": "/monochrome.svg",
             "sizes": "any 512x512",
             "type": "image/svg+xml",
-            "purpose": "monochrome maskable"
+            "purpose": "monochrome"
         },
         {
             "src": "/favicon.svg",
