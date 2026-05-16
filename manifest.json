@@ -1,16 +1,16 @@
 {
-    "name": "\u6d6e\u9c9c",
-    "short_name": "\u6d6e\u9c9c",
+    "name": "浮鲜 | feeshy的自留地",
+    "short_name": "浮鲜",
     "icons": [
         {
             "src": "/maskable.svg",
-            "sizes": "any 192x192",
+            "sizes": "any",
             "type": "image/svg+xml",
-            "purpose": "any maskable"
+            "purpose": "maskable"
         },
         {
             "src": "/monochrome.svg",
-            "sizes": "any 512x512",
+            "sizes": "any",
             "type": "image/svg+xml",
             "purpose": "monochrome"
         },
@@ -18,10 +18,46 @@
             "src": "/favicon.svg",
             "sizes": "any",
             "type": "image/svg+xml",
-            "purpose": "monochrome"
+            "purpose": "any"
         }
     ],
+    "display": "standalone",
     "start_url": "/",
     "background_color": "#403f5f",
-    "display": "standalone"
+    "user_preferences": {
+        "color_scheme": {
+            "dark": {
+                "background_color": "#403f5f"
+            },
+            "light": {
+                "background_color": "#ffffff"
+            }
+        }
+    },
+    "shortcuts": [
+        {
+            "name": "技术",
+            "url": "/tech",
+        },
+        {
+            "name": "汇编",
+            "url": "/lists",
+        },
+        {
+            "name": "种草",
+            "url": "/smzdm",
+        },
+        {
+            "name": "胡思乱想",
+            "url": "/prose",
+        },
+        {
+            "name": "音乐",
+            "url": "/music",
+        },
+        {
+            "name": "诗",
+            "url": "/poetry",
+        }
+    ]
 }
