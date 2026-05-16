@@ -37,27 +37,27 @@
     "shortcuts": [
         {
             "name": "技术",
-            "url": "/tech",
+            "url": "/tech"
         },
         {
             "name": "汇编",
-            "url": "/lists",
+            "url": "/lists"
         },
         {
             "name": "种草",
-            "url": "/smzdm",
+            "url": "/smzdm"
         },
         {
             "name": "胡思乱想",
-            "url": "/prose",
+            "url": "/prose"
         },
         {
             "name": "音乐",
-            "url": "/music",
+            "url": "/music"
         },
         {
             "name": "诗",
-            "url": "/poetry",
+            "url": "/poetry"
         }
-    ]
+    ],
 }
