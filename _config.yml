@@ -23,7 +23,7 @@ webmaster_verifications:
 favicon:
   ico: "/favicon.ico" # legacy 'favicon.ico' at the root folder of your site, it is highly recommended not changing this name
   svg: "/favicon.svg" # name+extension of modern vector favicon
-  ios: "/maskable.svg" # icon for Safari
+  ios: "apple-touch-icon.png" # icon for Safari
 ms_tile_color: "#403F5F" # hex background for windows 8.1~10 tile. and don't forget to configure your tile icons at "/browserconfig.xml"
 webmanifest: "/manifest.json" # icon config file for Chrome. and don't forget to check the favicon names at webmanifest.
 
