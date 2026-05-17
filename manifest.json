@@ -1,5 +1,5 @@
 {
-    "name": "浮鲜 | feeshy的自留地",
+    "name": "浮鲜",
     "short_name": "浮鲜",
     "icons": [
         {
@@ -7,12 +7,6 @@
             "sizes": "any",
             "type": "image/svg+xml",
             "purpose": "maskable"
-        },
-        {
-            "src": "/monochrome.svg",
-            "sizes": "any",
-            "type": "image/svg+xml",
-            "purpose": "monochrome"
         },
         {
             "src": "/favicon.svg",
@@ -23,11 +17,11 @@
     ],
     "display": "standalone",
     "start_url": "/",
-    "background_color": "#403f5f",
+    "background_color": "#666699",
     "user_preferences": {
         "color_scheme": {
             "dark": {
-                "background_color": "#403f5f"
+                "background_color": "#666699"
             },
             "light": {
                 "background_color": "#ffffff"
