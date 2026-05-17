@@ -3,7 +3,7 @@
   
   <style>
     path { vector-effect: non-scaling-stroke; stroke-width: 1.5px; }
-    @media (prefers-color-scheme: light) { #foreground { fill: #403f5f; } }
+    @media (prefers-color-scheme: light) { #foreground { fill: #666699; } }
     @media (prefers-color-scheme: dark) { #foreground { fill: #ffffff; } }
   </style>
 

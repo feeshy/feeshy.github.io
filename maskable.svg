@@ -3,8 +3,8 @@
   
   <style>
     path { vector-effect: non-scaling-stroke; stroke-width: 1.5px; }
-    @media (prefers-color-scheme: light) { #background { fill: #ffffff; } #logo { fill: #403f5f; stroke: #403f5f; } }
-    @media (prefers-color-scheme: dark) { #background { fill: #403f5f; } #logo { fill: #ffffff; stroke: #ffffff; } }
+    @media (prefers-color-scheme: light) { #background { fill: #ffffff; } #logo { fill: #666699; stroke: #666699; } }
+    @media (prefers-color-scheme: dark) { #background { fill: #666699; } #logo { fill: #ffffff; stroke: #ffffff; } }
   </style>
 
   <rect id="background" height="1280" width="1280"/>
