@@ -10,31 +10,6 @@ redirect_from:
   - https://meta.appinn.net/t/topic/24614
 toc: true
 ---
-打散原来的结构，按以下大纲重新组织内容：
-
-- 地址栏/标签栏/收藏夹：favicon
-	- favicon的历史
-	- 位图favicon的尺寸
-	- svg favicon的优点：矢量尺寸、通过@media query动态适配深色模式（举例）
-	- svg favicon素材复用的踩坑
-- 桌面图标
-  - 可遮罩的桌面图标：正方形纯色背景、预留安全区，方便启动器按照用户指定的形状裁切
-    - 表格列出favicon与遮罩图标的区别：自由形状透明背景、不需要安全区
-  - Chromium
-    - 什么是PWA以及appmanifest
-    - purpose any与maskable：favicon更适合any、遮罩图标更适合maskable
-    - 位图图标：常用尺寸192x192、512x512，现在也些网站开始使用1024x1024
-    - SVG图标
-      - 尺寸：any
-      - 深色模式：目前原生Android还没有系统级的深色浅色动态图标的概念，PWA自然也没有适配。不过动态配色SVG的媒体查询还是会在安装那一刻生效，浅色模式安装，就永远是浅色图标，深色模式安装就永远是深色图标
-  - Webkit（也包括iOS平台的Chrome等浏览器）
-    - 旧的apple touch icon语法，只支持png
-    - Safari从xxxx开始已经支持manifest的图标，但倾向于读取purpose any的。前面已经说过，any更适合放透明图层的favicon。所以旧语法png
-    - iOS18引入系统级的深色图标，iOS26液态玻璃效果，这些都不用设计适配。只要你的图标白底且界限分明，没有添加阴影或羽化效果，就会被iOS自动抠图适配深色模式。当然，设计浅色图标时，还是要同时考虑前景色与白底、黑底搭配的效果。
-  - Edge Legacy / IE11
-    - 照搬原文
-
----
 
 ## favicon
 
