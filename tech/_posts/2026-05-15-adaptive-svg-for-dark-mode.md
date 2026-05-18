@@ -2,6 +2,7 @@
 layout: post
 title: Object 引用 SVG 深色模式踩坑
 date: 2026-05-15
+last_modified_at: 2026-05-15
 tags:
   - 折腾记录
   - favicon

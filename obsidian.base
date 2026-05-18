@@ -1,0 +1,34 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+        - layout == "post"
+        - layout == "poetry"
+views:
+  - type: cards
+    name: 卡片
+    groupBy:
+      property: file.folder
+      direction: DESC
+    order:
+      - title
+    sort:
+      - property: last_modified_at
+        direction: DESC
+      - property: file.mtime
+        direction: DESC
+    cardSize: 210
+    imageAspectRatio: 0.5
+  - type: table
+    name: 表格
+    order:
+      - title
+      - file.folder
+      - file.name
+      - last_modified_at
+      - file.tags
+    sort:
+      - property: last_modified_at
+        direction: DESC
+      - property: file.mtime
+        direction: DESC

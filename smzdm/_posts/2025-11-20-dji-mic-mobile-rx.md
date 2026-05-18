@@ -2,6 +2,7 @@
 layout: post
 title: 关于 DJI Mic 手机版接收器的几个细节
 date: 2025-11-20
+last_modified_at: 2025-11-20
 tags:
   - 晒单
   - 麦克风
