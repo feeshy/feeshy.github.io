@@ -9,6 +9,12 @@
             "purpose": "maskable"
         },
         {
+            "src": "/monochrome.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "monochrome"
+        },
+        {
             "src": "/favicon.svg",
             "sizes": "any",
             "type": "image/svg+xml",
@@ -30,28 +36,16 @@
     },
     "shortcuts": [
         {
-            "name": "技术",
-            "url": "/tech"
+            "name": "小屏手机",
+            "url": "/compact-phones"
         },
         {
-            "name": "汇编",
-            "url": "/lists"
+            "name": "简单拼图",
+            "url": "/simple-image-stitcher"
         },
         {
-            "name": "种草",
-            "url": "/smzdm"
-        },
-        {
-            "name": "胡思乱想",
-            "url": "/prose"
-        },
-        {
-            "name": "音乐",
-            "url": "/music"
-        },
-        {
-            "name": "诗",
-            "url": "/poetry"
+            "name": "PPI计算",
+            "url": "/ppi-calc"
         }
     ]
 }
