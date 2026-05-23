@@ -1,9 +1,24 @@
 ---
-layout: redirect
-title: 兼容微软便笺云同步的笔记客户端
+layout: post
+title: 兼容微软便笺云同步的EAS客户端
 date: 2025-07-10
-last_modified_at: 2025-10-07
+last_modified_at: 2026-05-23
 tags:
   - appinn
-redirect_to: https://meta.appinn.net/t/73036
+redirect_from: https://meta.appinn.net/t/73036
 ---
+微软便笺的数据存储在微软邮箱的「备注」文件夹中，可被所有支持 Exchange ActiveSync 同步协议的笔记客户端兼容（但墨迹、图片等高级格式仅限微软自家客户端支持），这个表格汇总了各系统可同步微软便笺的客户端：
+
+|                         | Web                                      | Windows                                                                                | macOS                                                         | iOS                                                                      | Android                                                                         | 特色                 |
+| ----------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------- | ------------------ |
+| 便笺                      |                                          | [✅](https://apps.microsoft.com/detail/9nblggh4qghw)                                    |                                                               |                                                                          |                                                                                 | 开机自动启动             |
+| Apple 备忘录               |                                          |                                                                                        | ✅                                                             | [✅](https://apps.apple.com/app/%E5%A4%87%E5%BF%98%E5%BD%95/id1110145109) |                                                                                 | 桌面小部件              |
+| 微软桌面                    |                                          |                                                                                        |                                                               |                                                                          | [✅](https://play.google.com/store/apps/details?id=com.microsoft.launcher)       | 桌面小部件              |
+| OneNote                 | [✅](https://www.onenote.com/stickynotes) | [✅](https://apps.microsoft.com/detail/xpffzhvgqwwlhb)                                  | [✅](https://apps.apple.com/app/microsoft-onenote/id784801555) | [✅](https://apps.apple.com/app/microsoft-onenote/id410395246)            | [✅](https://play.google.com/store/apps/details?id=com.microsoft.office.onenote) | 全平台 共享菜单           |
+| Outlook                 | [✅](https://outlook.live.com/mail/notes) | [经典版](https://setup.office.com/), [新版](https://apps.microsoft.com/detail/9nrx63209r7b) | [新版](https://apps.apple.com/app/id985367838)                  |                                                                          |                                                                                 | 位于邮箱中的「备注」或「便笺」文件夹 |
+| Mailbird                |                                          | [✅](https://www.getmailbird.com/)                                                      | [✅](https://www.getmailbird.com/)                             |                                                                          |                                                                                 | 全功能EAS客户端          |
+| eM Client               |                                          | [✅](https://www.emclient.com/)                                                         | [✅](https://www.emclient.com/)                                | [‎✅](https://apps.apple.com/app/em-client/id1561166404)                  | [✅](https://play.google.com/store/apps/details?id=com.emclient.mailclient)      | 全功能EAS客户端          |
+| 黑莓 Hub+ 备注              |                                          |                                                                                        |                                                               |                                                                          | [✅](https://play.google.com/store/apps/details?id=com.blackberry.notes)         |                    |
+| Nine                    |                                          |                                                                                        |                                                               |                                                                          | [✅](https://play.google.com/store/apps/details?id=com.ninefolders.hd3)          | 全功能EAS客户端          |
+| Tasks & Notes           |                                          |                                                                                        |                                                               |                                                                          | [✅](https://play.google.com/store/apps/details?id=org.myklos.inote)             |                    |
+| Floaty for Sticky Notes |                                          |                                                                                        |                                                               |                                                                          | [✅](https://play.google.com/store/apps/details?id=com.editoy.memo.floaty)       | 浮窗                 |
