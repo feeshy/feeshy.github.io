@@ -8,6 +8,7 @@ title: 技术
 - PWA工具
 	- [简单拼图 - 纵向/横向长图拼接](https://feeshy.github.io/simple-image-stitcher)
 	- [PPI计算器 - 智能推荐缩放系数](https://feeshy.github.io/ppi-calc)
+	- [小屏手机数据库](https://feeshy.github.io/compact-phones/)
 	- [Ingress Link Distance Calculator](https://feeshy.github.io/ingress-tools/range)
 - 预设分享
 	- [快捷指令](/shortcuts)

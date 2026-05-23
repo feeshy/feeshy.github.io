@@ -36,16 +36,16 @@
     },
     "shortcuts": [
         {
-            "name": "小屏手机",
-            "url": "/compact-phones"
+            "name": "标签",
+            "url": "/tags"
         },
         {
             "name": "简单拼图",
             "url": "/simple-image-stitcher"
         },
         {
-            "name": "PPI计算",
-            "url": "/ppi-calc"
+            "name": "小屏机数据库",
+            "url": "/compact-phones"
         }
     ]
 }

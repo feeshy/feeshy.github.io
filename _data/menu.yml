@@ -51,14 +51,14 @@ entries:
       url: tags
     - title: RSS
       url: feed.xml
-    - title: Telegram频道
+    - title: TG频道
       url: https://t.me/feeshy_channel
 
   - title: PWA
     entries:
     - title: 简单拼图
       url: https://feeshy.github.io/simple-image-stitcher
+    - title: 小屏手机数据库
+      url: https://feeshy.github.io/compact-phones
     - title: PPI计算器
       url: https://feeshy.github.io/ppi-calc
-    - title: Link Distance Calc
-      url: https://feeshy.github.io/ingress-tools/range
