@@ -1,19 +1,20 @@
-// 0. 子 PWA 独立作用域避让规则
-
-self.addEventListener('fetch', (event) => {
-    const url = new URL(event.request.url);
-    const subPaths = ['/compact-phones/', '/ingress-tools/', '/ppi-calc/', '/simple-image-stitcher/'];
-    if (subPaths.some(path => url.pathname.startsWith(path))) {
-        return;
-    }
-});
-
-// 1. 接管页面控制权
+// 0. 接管页面控制权
 workbox.core.skipWaiting();
 workbox.core.clientsClaim();
 
-// 2. 预缓存规则
+// 1. 预缓存规则
 workbox.precaching.precacheAndRoute(self.__precacheManifest);
+
+// =========================================================================
+// 2. 子 PWA 独立作用域避让规则
+// =========================================================================
+workbox.routing.registerRoute(
+    ({ url }) => url.pathname.startsWith('/compact-phones/') ||
+        url.pathname.startsWith('/ingress-tools/') ||
+        url.pathname.startsWith('/ppi-calc/') ||
+        url.pathname.startsWith('/simple-image-stitcher/'),
+    new workbox.strategies.NetworkOnly()
+);
 
 // =========================================================================
 // 3. 运行时全自动缓存路由
@@ -44,7 +45,7 @@ workbox.routing.registerRoute(
                 maxEntries: 200
             }),
             new workbox.cacheableResponse.CacheableResponsePlugin({
-                statuses: [0, 200]
+                statuses: [200]
             })
         ]
     })
