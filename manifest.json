@@ -1,6 +1,21 @@
 {
     "name": "浮鲜",
     "short_name": "浮鲜",
+    "id": "blog",
+    "scope": "/",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#666699",
+    "user_preferences": {
+        "color_scheme": {
+            "dark": {
+                "background_color": "#666699"
+            },
+            "light": {
+                "background_color": "#ffffff"
+            }
+        }
+    },
     "icons": [
         {
             "src": "/maskable.svg",
@@ -21,32 +36,42 @@
             "purpose": "any"
         }
     ],
-    "display": "standalone",
-    "scope" : "/",
-    "start_url": "/",
-    "background_color": "#666699",
-    "user_preferences": {
-        "color_scheme": {
-            "dark": {
-                "background_color": "#666699"
-            },
-            "light": {
-                "background_color": "#ffffff"
-            }
-        }
-    },
     "shortcuts": [
         {
             "name": "标签",
-            "url": "/tags"
+            "url": "/tags",
+            "icons": [
+                {
+                    "src": "/favicon.svg",
+                    "sizes": "any",
+                    "type": "image/svg+xml",
+                    "purpose": "any"
+                }
+            ]
         },
         {
             "name": "简单拼图",
-            "url": "/simple-image-stitcher"
+            "url": "/simple-image-stitcher/",
+            "icons": [
+                {
+                    "src": "/simple-image-stitcher/favicon.svg",
+                    "sizes": "any",
+                    "type": "image/svg+xml",
+                    "purpose": "any"
+                }
+            ]
         },
         {
-            "name": "小屏机数据库",
-            "url": "/compact-phones"
+            "name": "小屏手机",
+            "url": "/compact-phones/",
+            "icons": [
+                {
+                    "src": "/compact-phones/favicon.svg",
+                    "sizes": "any",
+                    "type": "image/svg+xml",
+                    "purpose": "any"
+                }
+            ]
         }
     ]
 }
