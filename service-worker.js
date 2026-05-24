@@ -1,3 +1,5 @@
+workbox.precaching.precacheAndRoute(self.__precacheManifest);
+
 // 1. 接管页面控制权
 workbox.core.skipWaiting();
 workbox.core.clientsClaim();

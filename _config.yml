@@ -36,9 +36,13 @@ pwa:
   dest_js_directory: assets/js # Required
   precache_recent_posts_num: 0
   precache_glob_directory: /
-  precache_glob_patterns: []
+  precache_glob_patterns:
+    - "index.html"
+    - "assets/css/main.css"
+    - "assets/js/main.js"
   precache_glob_ignores:
-    - "**/*"
+    - "assets/OpenFont/**"   
+    - "images/**"
 
 # theme config
 
