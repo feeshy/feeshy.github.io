@@ -22,6 +22,7 @@
         }
     ],
     "display": "standalone",
+    "scope" : "/",
     "start_url": "/",
     "background_color": "#666699",
     "user_preferences": {
