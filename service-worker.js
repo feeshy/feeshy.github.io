@@ -1,40 +1,100 @@
-// service-worker.js
-
-// set names for both precache & runtime cache
-workbox.core.setCacheNameDetails({
-    prefix: 'feeshy',
-    suffix: 'v1.0',
-    precache: 'precache',
-    runtime: 'runtime-cache'
-});
-
-// let Service Worker take control of pages ASAP
+// 1. 接管页面控制权
 workbox.core.skipWaiting();
 workbox.core.clientsClaim();
 
-// let Workbox handle our precache list
-workbox.precaching.precacheAndRoute(self.__precacheManifest);
-
-// use `NetworkFirst` strategy for html, css and js
+// =========================================================================
+// 2. 子 PWA 独立作用域避让规则
+// =========================================================================
 workbox.routing.registerRoute(
-    /\.(?:html|js|css)$/,
-    new workbox.strategies.NetworkFirst()
+    ({ url }) => url.pathname.startsWith('/compact-phones/') ||
+        url.pathname.startsWith('/ingress-tools/') ||
+        url.pathname.startsWith('/ppi-calc/') ||
+        url.pathname.startsWith('/simple-image-stitcher/'),
+    new workbox.strategies.NetworkOnly()
 );
 
-// use `CacheFirst` strategy for webfonts
+// =========================================================================
+// 3. 运行时全自动缓存路由
+// =========================================================================
+
+// 【网页切片字体】使用 CacheFirst 策略
 workbox.routing.registerRoute(
-    /\.(?:woff2|woff|ttf|eot)$/,
-    new workbox.strategies.CacheFirst()
+    /\/assets\/OpenFont\//,
+    new workbox.strategies.CacheFirst({
+        cacheName: 'feeshy-fonts-cache',
+        plugins: [
+            new workbox.expiration.ExpirationPlugin({
+                maxAgeSeconds: 365 * 24 * 60 * 60,
+                maxEntries: 999
+            })
+        ]
+    })
 );
 
-// use `CacheFirst` strategy for images
+// 【图片与对象 SVG】使用 CacheFirst 策略
 workbox.routing.registerRoute(
-    /assets\/(img|background)/,
-    new workbox.strategies.CacheFirst()
+    ({ request, url }) => request.destination === 'image' || /\.(?:svg)$/i.test(url.pathname),
+    new workbox.strategies.CacheFirst({
+        cacheName: 'feeshy-images-cache',
+        plugins: [
+            new workbox.expiration.ExpirationPlugin({
+                maxAgeSeconds: 365 * 24 * 60 * 60,
+                maxEntries: 200
+            }),
+            new workbox.cacheableResponse.CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
 );
 
-// use `StaleWhileRevalidate` third party files
-// workbox.routing.registerRoute(
-//     /^https?:\/\/cdn.staticfile.org/,
-//     new workbox.strategies.StaleWhileRevalidate()
-// );
+// 【CSS & JS 核心资产】使用 Stale-While-Revalidate 策略
+workbox.routing.registerRoute(
+    ({ request }) => request.destination === 'style' || request.destination === 'script',
+    new workbox.strategies.StaleWhileRevalidate({
+        cacheName: 'feeshy-assets-cache',
+        plugins: [
+            new workbox.expiration.ExpirationPlugin({
+                maxAgeSeconds: 365 * 24 * 60 * 60,
+                maxEntries: 100
+            })
+        ]
+    })
+);
+
+// 【文章 HTML 页面】使用 Network First 策略
+workbox.routing.registerRoute(
+    ({ request }) => request.mode === 'navigate',
+    new workbox.strategies.NetworkFirst({
+        cacheName: 'feeshy-pages-cache',
+        plugins: [
+            new workbox.expiration.ExpirationPlugin({
+                maxAgeSeconds: 60 * 24 * 60 * 60,
+                maxEntries: 200
+            })
+        ]
+    })
+);
+
+// =========================================================================
+// 4. 旧版本历史遗留缓存清理
+// =========================================================================
+self.addEventListener('activate', (event) => {
+    event.waitUntil(
+        caches.keys().then((cacheNames) => {
+            return Promise.all(
+                cacheNames
+                    .filter((name) => {
+                        const validCaches = [
+                            'feeshy-fonts-cache',
+                            'feeshy-images-cache',
+                            'feeshy-assets-cache',
+                            'feeshy-pages-cache'
+                        ];
+                        return name.startsWith('feeshy') && !validCaches.includes(name);
+                    })
+                    .map((name) => caches.delete(name))
+            );
+        })
+    );
+});

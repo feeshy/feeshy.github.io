@@ -36,15 +36,9 @@ pwa:
   dest_js_directory: assets/js # Required
   precache_recent_posts_num: 0
   precache_glob_directory: /
-  precache_glob_patterns:
-    - "assets/background/*.{png,svg,gif}"
-    - "assets/css/*.{css}"
-    - "assets/js/*.{js}"
-    - "assets/OpenFont/**/*.{eot,ttf,woff,woff2}"
+  precache_glob_patterns: []
   precache_glob_ignores:
-    - index.html
-    - "/ppi-calc/"
-    - "/ingress-tools/"
+    - "**/*"
 
 # theme config
 
