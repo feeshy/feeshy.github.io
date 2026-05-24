@@ -70,6 +70,7 @@ workbox.routing.registerRoute(
     ({ request }) => request.mode === 'navigate',
     new workbox.strategies.NetworkFirst({
         cacheName: 'feeshy-pages-cache',
+        networkTimeoutSeconds: 2,
         plugins: [
             new workbox.expiration.ExpirationPlugin({
                 maxAgeSeconds: 60 * 24 * 60 * 60,
