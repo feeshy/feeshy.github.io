@@ -9,7 +9,7 @@ author: feeshy # name of site's author
 title: 浮鲜 # name of the site
 description: > # description of the site (multiple lines allowed)
   feeshy的自留地
-url: https://feeshy.github.io # the base hostname & protocol for your site
+url: https://feeshy.top # the base hostname & protocol for your site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 webmaster_verifications:
   google: 13TdFZIpyncmP_FVn1REpOcCIgM5Tu9PwO6qTAcEFZo

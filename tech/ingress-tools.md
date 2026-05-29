@@ -1,7 +1,9 @@
 ---
 layout: redirect
-title: Ingress Tools
-permalink: /ingress/portal_calc
-redirect_to: /ingress-tools/
-canonical_url: https://feeshy.github.io/ingress-tools/
+title: Ingress Calc
+redirect_from:
+  - /ingress-tools/range
+  - /ingress/portal_calc
+redirect_to: https://ingress.feeshy.top/
+canonical_url: https://ingress.feeshy.top/
 ---

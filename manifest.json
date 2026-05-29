@@ -48,30 +48,6 @@
                     "purpose": "any"
                 }
             ]
-        },
-        {
-            "name": "简单拼图",
-            "url": "/simple-image-stitcher/",
-            "icons": [
-                {
-                    "src": "/simple-image-stitcher/favicon.svg",
-                    "sizes": "any",
-                    "type": "image/svg+xml",
-                    "purpose": "any"
-                }
-            ]
-        },
-        {
-            "name": "小屏手机",
-            "url": "/compact-phones/",
-            "icons": [
-                {
-                    "src": "/compact-phones/favicon.svg",
-                    "sizes": "any",
-                    "type": "image/svg+xml",
-                    "purpose": "any"
-                }
-            ]
         }
     ]
 }

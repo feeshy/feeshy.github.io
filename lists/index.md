@@ -7,4 +7,4 @@ title: 汇编
 
 以下各主题会不定期更新
 
-- 小屏手机列表 - [PWA](https://feeshy.github.io/compact-phones) ｜ [Google Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vTxyzFWZtixYEqZMLHM_hwnSeSmFjIxIm27YWVMIMZjbfkbsfG6aPLR1fqAFuiyyW6K8znFPuAqVrOj/pubhtml?gid=134994152&single=true) ｜ [交流群](https://t.me/compact_phones)
+- 小屏手机列表 - [PWA](https://phones.feeshy.top) ｜ [Google Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vTxyzFWZtixYEqZMLHM_hwnSeSmFjIxIm27YWVMIMZjbfkbsfG6aPLR1fqAFuiyyW6K8znFPuAqVrOj/pubhtml) ｜ [交流群](https://t.me/compact_phones)
