@@ -3,6 +3,10 @@ workbox.core.skipWaiting();
 workbox.core.clientsClaim();
 
 // 2. 预缓存规则
+workbox.core.setCacheNameDetails({
+    prefix: 'feeshy',
+    precache: 'precache'
+});
 workbox.precaching.precacheAndRoute(self.__precacheManifest);
 
 // =========================================================================
@@ -70,7 +74,7 @@ workbox.routing.registerRoute(
 );
 
 // =========================================================================
-// 4. 旧版本历史遗留缓存清理
+// 5. 清理不在白名单的缓存
 // =========================================================================
 self.addEventListener('activate', (event) => {
     event.waitUntil(
@@ -78,13 +82,23 @@ self.addEventListener('activate', (event) => {
             return Promise.all(
                 cacheNames
                     .filter((name) => {
-                        const validCaches = [
+
+                        const validRuntimeCaches = [
                             'feeshy-fonts-cache',
                             'feeshy-images-cache',
                             'feeshy-assets-cache',
                             'feeshy-pages-cache'
                         ];
-                        return name.startsWith('feeshy') && !validCaches.includes(name);
+                        if (validRuntimeCaches.includes(name)) {
+                            return false;
+                        }
+
+                        if (name.includes('feeshy-precache')) {
+                            return false;
+                        }
+
+                        return true;
+
                     })
                     .map((name) => caches.delete(name))
             );
