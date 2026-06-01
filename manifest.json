@@ -48,6 +48,18 @@
                     "purpose": "any"
                 }
             ]
+        },
+        {
+            "name": "今年",
+            "url": "/thisyear",
+            "icons": [
+                {
+                    "src": "/favicon.svg",
+                    "sizes": "any",
+                    "type": "image/svg+xml",
+                    "purpose": "any"
+                }
+            ]
         }
     ]
 }

@@ -47,9 +47,10 @@ pwa:
 # theme config
 
 # theme: less-style-please # if you use it as a local theme
-remote_theme: feeshy/less-style-please # if you use it as a remote theme on github pages
+remote_theme: feeshy/less-style-please@full # if you use it as a remote theme on github pages
 show_logo: true # show the svg favicon in home page
 show_description: false # show blog description in home page
+bilingual: true # auto hide lang="zh" elements for non-chinese visitors
 chinese_webfonts: true # by disabling this, page loading speed will be increased significantly
 # background_image: # path to background images for light and dark mode
 #   light: ""
@@ -126,6 +127,14 @@ sass:
   style: compressed
 feed:
   posts_limit: 20 # max number of posts on feed
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - .github
+  - .gitignore
+  - obsidian.base
+  - README.md
 
 # plugins
 

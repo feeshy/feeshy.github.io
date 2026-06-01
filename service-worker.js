@@ -1,17 +1,35 @@
-// 1. 接管页面控制权
-workbox.core.skipWaiting();
-workbox.core.clientsClaim();
+// =========================================================================
+// 1. 核心配置（必须放在最前面，确保后续所有缓存和控制权都应用此规则）
+// =========================================================================
 
-// 2. 预缓存规则
+// 设置缓存名称命名空间
 workbox.core.setCacheNameDetails({
     prefix: 'feeshy',
     precache: 'precache'
 });
+
+// 接管页面控制权
+workbox.core.skipWaiting();
+workbox.core.clientsClaim();
+
+// =========================================================================
+// 2. 预缓存规则
+// =========================================================================
 workbox.precaching.precacheAndRoute(self.__precacheManifest);
 
 // =========================================================================
 // 3. 运行时全自动缓存路由
 // =========================================================================
+
+// 【快捷方式动态重定向】
+workbox.routing.registerRoute(
+    ({ url }) => url.pathname === '/thisyear',
+    ({ url }) => {
+        const currentYear = new Date().getFullYear();
+        const targetUrl = `${url.origin}/${currentYear}`;
+        return Response.redirect(targetUrl, 302);
+    }
+);
 
 // 【网页切片字体】使用 CacheFirst 策略
 workbox.routing.registerRoute(
@@ -74,7 +92,7 @@ workbox.routing.registerRoute(
 );
 
 // =========================================================================
-// 5. 清理不在白名单的缓存
+// 4. 清理不在白名单的缓存
 // =========================================================================
 self.addEventListener('activate', (event) => {
     event.waitUntil(
