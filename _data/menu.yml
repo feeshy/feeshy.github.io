@@ -49,16 +49,14 @@ entries:
     entries: 
     - title: 标签
       url: tags
+    - title: 今年
+      url: thisyear
     - title: RSS
       url: feed.xml
     - title: TG频道
       url: https://t.me/feeshy_channel
-
-  - title: PWA
+  
+  - title: 友链
     entries:
-    - title: 简单拼图
-      url: https://stitcher.feeshy.top
-    - title: 小屏手机数据库
-      url: https://phones.feeshy.top
-    - title: PPI计算器
-      url: https://ppi.feeshy.top
+    - title: 开往(随机博客)
+      url: https://www.travellings.cn/go.html
