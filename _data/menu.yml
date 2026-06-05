@@ -46,17 +46,17 @@ entries:
         show_more: false
 
   - title: 归档
-    entries: 
+    entries:
     - title: 标签
       url: tags
-    - title: 今年
-      url: thisyear
+    - title: 最近
+      url: recent
     - title: RSS
       url: feed.xml
-    - title: TG频道
+    - title: 频道
       url: https://t.me/feeshy_channel
   
   - title: 友链
     entries:
-    - title: 开往(随机博客)
+    - title: 开往·随机世界
       url: https://www.travellings.cn/typewriter

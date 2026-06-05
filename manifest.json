@@ -50,8 +50,8 @@
             ]
         },
         {
-            "name": "今年",
-            "url": "/thisyear",
+            "name": "最近",
+            "url": "/recent",
             "icons": [
                 {
                     "src": "/favicon.svg",

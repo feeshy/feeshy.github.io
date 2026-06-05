@@ -21,16 +21,6 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest);
 // 3. 运行时全自动缓存路由
 // =========================================================================
 
-// 【快捷方式动态重定向】
-workbox.routing.registerRoute(
-    ({ url }) => url.pathname === '/thisyear',
-    ({ url }) => {
-        const currentYear = new Date().getFullYear();
-        const targetUrl = `${url.origin}/${currentYear}`;
-        return Response.redirect(targetUrl, 302);
-    }
-);
-
 // 【网页切片字体】使用 CacheFirst 策略
 workbox.routing.registerRoute(
     /\/assets\/OpenFont\//,
