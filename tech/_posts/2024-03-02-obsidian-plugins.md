@@ -2,7 +2,7 @@
 layout: post
 title: Obsidian插件折腾记录
 date: 2024-03-02
-last_modified_at: 2026-06-05
+last_modified_at: 2026-04-12
 tags:
   - obsidian
   - appinn

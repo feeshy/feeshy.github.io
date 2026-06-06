@@ -76,7 +76,7 @@ redirect_from: /olddir/oldpage
 
 > 小明为了更好地组织内容，将部分目录进行了重命名。例如，将名为 "aaaa" 的目录重命名为 "bbbb"。这导致了目录下所有网页的 URL 也发生了变化。单页跳转相对容易配置，但如果涉及整个目录的结构调整，逐一修改将是一项耗时费力的工作。此时可以采用以下两种批量处理方案。
 
-### 方案 A：利用404页面降级跳转
+### 利用404页面降级跳转
 
 在代码库根目录建立一个 `404.html`，利用js跳转来曲线救火：
 
@@ -93,7 +93,7 @@ window.onload=function() {
 
 以后每次改目录名，只需在脚本中新增一个case。这种方法的缺点是对搜索引擎爬虫不太友好，且访客会短暂看到404页面，体验存在割裂感。
 
-### 方案 B：利用 Service Worker 客户端拦截（进阶方案）
+### 利用 Service Worker 客户端拦截
 
 为了解决404页面的延迟感并提升体验，可以引入 Service Worker。Service Worker 可以在浏览器端拦截网络请求，相当于在访客本地建立了一个代理。当访客请求旧目录下的 URL 时，Service Worker 会截获该请求并直接返回重定向响应。
 
@@ -102,12 +102,9 @@ window.onload=function() {
 ```javascript
 self.addEventListener('fetch', event => {
     const url = new URL(event.request.url);
-    
-    // 当请求路径包含旧目录时，执行重定向
     if (url.pathname.startsWith('/aaaa/')) {
         const newUrl = url.href.replace('/aaaa/', '/bbbb/');
-        // 返回 301 重定向响应
-        event.respondWith(Response.redirect(newUrl, 301));
+        event.respondWith(Response.redirect(newUrl, 302));
     }
 });
 ```
