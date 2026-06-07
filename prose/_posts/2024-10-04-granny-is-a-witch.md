@@ -5,7 +5,7 @@ date: 2024-10-04
 last_modified_at: 2026-03-06
 tags:
   - 都市传说
-image: /assets/img/granny-is-a-witch.jpg
+image: /assets/img/granny-is-a-witch.avif
 ---
 > 这是2005年我在天涯社区潜水时读过的一篇帖子。随着天涯关站，许多印记也变得模糊，因此我决定在自己的记忆消逝之前，将这段故事复述下来：
 

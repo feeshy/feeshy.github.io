@@ -28,7 +28,7 @@ tags:
 拉拉尾巴<br>
 相约吞下明天的太阳
 
-![](/assets/img/spirited-away-1.jpg)
-![](/assets/img/spirited-away-2.jpg)
+![](/assets/img/spirited-away-1.avif)
+![](/assets/img/spirited-away-2.avif)
 
 13/4/10

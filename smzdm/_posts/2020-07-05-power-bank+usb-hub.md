@@ -14,7 +14,7 @@ redirect_from:
 
 ## 外观  
 
-![](/assets/img/zendure-1.png)
+![](/assets/img/zendure-1.avif)
 
 为了搭配笔记本选的黑金配色。拿到实物发现，严格来说这配色并不是渲染图那种黑金的感觉，而是**藏青**+**玫瑰金**。  
 
@@ -59,7 +59,7 @@ redirect_from:
 
 ### Windows 10
 
-![](/assets/img/zendure-2.png)
+![](/assets/img/zendure-2.avif)
 
 用C-C数据线接在电脑的全功能C口，可以一边传输数据一边给电脑充电。
 
@@ -67,11 +67,11 @@ redirect_from:
 
 移动硬盘直接连接电脑
 
-![](/assets/img/zendure-3.png)
+![](/assets/img/zendure-3.avif)
 
 移动硬盘通过Hub连接电脑
 
-![](/assets/img/zendure-4.png)
+![](/assets/img/zendure-4.avif)
 
 ### Android  
 

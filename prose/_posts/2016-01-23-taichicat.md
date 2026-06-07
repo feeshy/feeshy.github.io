@@ -24,7 +24,7 @@ redirect_from:
 
 这是我最后一次见到太极猫。
 
-![](/assets/img/taichicat.png)
+![](/assets/img/taichicat.webp)
 
 文 16/1/23 记梦 24/10/4 修改
 音 16/6/15

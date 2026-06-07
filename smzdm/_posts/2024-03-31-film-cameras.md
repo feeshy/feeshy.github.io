@@ -194,7 +194,7 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 
 135手动旁轴退烧的终点是徕卡M，如果预算不够徕卡M系列，那么日系的Cosina（包括Zeiss Ikon、福伦达Bessa R2/R3/R4系列、禄莱35RF=Bessa R2换标）、柯尼卡Hexar RF、徕卡/美能达CL/CLE也都值得一试。以下是我在2018年整理的[廉价M口机身列表](https://www.zhihu.com/question/38537066/answer/77061572)：
 
-> ![](/assets/img/budget-m-body.png)
+> ![](/assets/img/budget-m-body.webp)
 > 
 > （第一列是2018年采集的闲鱼价格，现在已无参考价值）
 > 

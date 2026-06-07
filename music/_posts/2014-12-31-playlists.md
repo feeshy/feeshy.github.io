@@ -18,7 +18,7 @@ redirect_from:
 
 ## 2025
 
-![](/assets/img/playlist2025.png)
+![](/assets/img/playlist2025.webp)
 
 关键词：ambient, psybient, psytrance
 
@@ -54,7 +54,7 @@ redirect_from:
 
 ## 2024
 
-![](/assets/img/playlist2024.png)
+![](/assets/img/playlist2024.webp)
 
 关键词：live recordings & bootlegs, groove, 808
 

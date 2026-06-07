@@ -137,7 +137,7 @@ iPad目前也有了[UTM](https://getutm.app/)虚拟机，但安装过程会较wi
 
 ## 小孩子才做选择题，成年人当然是全都要
 
-![](/assets/img/surface-versus-ipad.png)
+![](/assets/img/surface-versus-ipad.webp)
 
 ### iPad做Surface副屏
 
