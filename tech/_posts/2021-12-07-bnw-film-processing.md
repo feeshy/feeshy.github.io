@@ -123,6 +123,12 @@ custom_head: <style>div.figures{display:flex;flex-wrap:wrap;gap:16px;justify-con
     </figure>
     <figure>
       <div class="img-container">
+        <a href="https://thephotographyprofessor.com/top-26-film-developing-problems-what-to-look-for-and-how-to-solve-it/" target="_blank"><img src="https://thephotographyprofessor.com/wp-content/uploads/2020/09/bromide-drag-1024x550.jpg"></a>
+      </div>
+      <figcaption>摇晃过猛造成局部显影过度</figcaption>
+    </figure>
+    <figure>
+      <div class="img-container">
         <a href="https://www.ilfordphoto.com/common-film-processing-problems/" target="_blank"><img src="https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/Overdeveloped.jpg"></a>
       </div>
       <figcaption>显影过度</figcaption>
@@ -132,12 +138,6 @@ custom_head: <style>div.figures{display:flex;flex-wrap:wrap;gap:16px;justify-con
         <a href="https://www.ilfordphoto.com/common-film-processing-problems/" target="_blank"><img src="https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/Underdeveloped.jpg"></a>
       </div>
       <figcaption>显影不足</figcaption>
-      <figure>
-        <div class="img-container">
-          <a href="https://thephotographyprofessor.com/top-26-film-developing-problems-what-to-look-for-and-how-to-solve-it/" target="_blank"><img src="https://thephotographyprofessor.com/wp-content/uploads/2020/09/bromide-drag-1024x550.jpg"></a>
-        </div>
-        <figcaption>摇晃过猛造成的局部显影过度</figcaption>
-      </figure>
     </figure>
   </div>
 

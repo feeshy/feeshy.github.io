@@ -12,8 +12,6 @@ redirect_from:
 
 <iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=ffffff/linkcol=4ec5ec/artwork=none/track=3489358287/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
 
-> [▷ ♫](https://music.163.com/song?id=1813641511)
-
 那是1999年夏天的一个傍晚，阵雨过后空气中弥散着泥土味，闷热中透着暂时的清新。新园区还大半是工地，没有什么娱乐设施可供消遣。我吃过晚饭，穿过一片杂乱的空地，盘算着不如睡前洗个冷水澡。
 
 此刻唯一三点一线生活之外的事情，是看到沙堆旁走来一只流浪猫，毛色已不算白，琥珀色的眼睛，举止透出一股高贵的气质。爱猫的天性让我轻步靠近，抱起他来，想逗一逗。可是大猫并不领情，在我怀中扭动身体，竟借力打力，把我推倒在地，一路小跑钻进工地消失了。那是我第一次见到太极猫。

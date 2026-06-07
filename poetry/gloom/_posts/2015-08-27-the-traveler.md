@@ -6,9 +6,11 @@ last_modified_at: 2020-02-28
 tags:
   - 诗
   - 音乐
+image: /assets/img/the_traveller.jpg
 ---
+<img src="/assets/img/the_traveller.jpg" alt="" style="z-index: -1; position: absolute; inset: 0; width: 720px; height: 720px; max-height: 100%; object-fit: cover; opacity: 0.17; mask: linear-gradient(to bottom, black 75%, transparent); -webkit-mask: linear-gradient(to bottom, black 75%, transparent);">
 
-<iframe style="border: 0; height: 42px; margin-left: 0;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=small/bgcol=ffffff/linkcol=4ec5ec/artwork=none/track=1712751363/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
+<iframe style="border: 0; height: 42px; margin: 0 auto;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=small/bgcol=1c1c1c/linkcol=4ec5ec/artwork=none/track=1712751363/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
 
 在失落与更失落间踟蹰良久，迷失的旅人<br>
 走进驿站。停滞的箭矢突然运动<br>
@@ -24,8 +26,6 @@ tags:
 砍柴 取水 生火 煮饭<br>
 砍柴 煮饭 结婚 生活 生火 生火<br>
 迷失的旅人烧掉了森林。
-
-![](/assets/img/the_traveller.jpg)
 
 文：15/8/27、9/7~8  
 音：19/12/13

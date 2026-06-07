@@ -5,7 +5,10 @@ date: 2013-04-10
 last_modified_at: 2013-04-10
 tags:
   - 诗
+image: /assets/img/spirited-away-1.avif
 ---
+
+<img src="/assets/img/spirited-away-2.avif" style="z-index: -1; position: absolute; inset: 0; width: 100%; height: 100%; max-height: 100%; object-fit: cover; opacity: 0.25; mask: linear-gradient(to bottom, black 66.6%, transparent)">
 
 > [▷ Everlasting Light - MONO](https://music.163.com/song?id=776677)
 
@@ -28,7 +31,5 @@ tags:
 拉拉尾巴<br>
 相约吞下明天的太阳
 
-![](/assets/img/spirited-away-1.avif)
-![](/assets/img/spirited-away-2.avif)
 
 13/4/10

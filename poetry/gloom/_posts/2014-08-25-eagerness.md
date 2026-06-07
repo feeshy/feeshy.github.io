@@ -6,7 +6,10 @@ last_modified_at: 2019-01-02
 tags:
   - 诗
   - 音乐
+image: /assets/img/eagerness.jpg
 ---
+
+<img src="/assets/img/eagerness.jpg" alt="" style="z-index: -1; position: absolute; inset: 0; width: 100%; height: 100%; max-height:100%; object-fit: cover; opacity: 0.1;">
 
 <iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=ffffff/linkcol=4ec5ec/artwork=none/track=3993610460/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
 
@@ -21,7 +24,6 @@ tags:
 精神荒地燎原<br>
 渴是希望之光
 
-![](/assets/img/eagerness.jpg)
 
 文 14/8/25<br>
 音 15/9/23

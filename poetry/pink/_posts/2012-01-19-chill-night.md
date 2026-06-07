@@ -9,7 +9,7 @@ tags:
 redirect_from:
   - /poetry/pink/july
 ---
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4270813475/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1075887624/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-island">illusory island by feeshy</a></iframe>
+<iframe style="border: 0; width: fit-content; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4270813475/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1075887624/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-island">illusory island by feeshy</a></iframe>
 
 淅淅沥沥，人潮退落<br>
 夏日曾经很真实<br>
