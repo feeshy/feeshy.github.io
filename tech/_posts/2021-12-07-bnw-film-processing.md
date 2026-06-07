@@ -2,17 +2,17 @@
 layout: post
 title: 黑白胶卷家庭冲洗简明教程
 date: 2021-12-08
-last_modified_at: 2026-06-06
+last_modified_at: 2026-06-07
 tags:
   - 摄影
   - 科普
   - 胶片
 toc: true
 redirect_from:
-  - bnw-chem
-custom_head: <style>img{max-width:320px;}</style>
+  - /tech/bnw-chem
+custom_head: <style>div.figures{display:flex;flex-wrap:wrap;gap:16px;justify-content:center}.figures figure{width:300px;height:200px;margin:0;display:grid;grid-template-rows:1fr auto}.figures .img-container{display:flex;gap:4px;min-width:0;overflow:hidden}.figures .img-container>a{flex:1;position:relative;overflow:hidden;min-width:0}.figures .img-container img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.figures figcaption{font-size:.85em;text-align:center}</style>
 ---
-这篇面向家庭暗房新手的黑白胶卷冲洗指南，最初的框架源于一份关于黑白摄影基本化学原理的旧讲稿，在此基础上延伸出便宜实用的工具选购经验与干货突出的操作流程。
+这篇面向新手入门的黑白胶卷冲洗教程，起源于一份化学原理的旧讲稿，并结合多年家庭手冲经验编写而成。文章分两部分：一是突出“性价比”的器材选购指南，教你按需搭配显影罐与冲洗药水；二是主打“干货”的实操步骤，精炼了装片、显影、定影到水洗晾干的核心环节。文末另附原理解析与常见失误案例，供拓展参考。
 
 ## 工具
 
@@ -30,9 +30,9 @@ custom_head: <style>img{max-width:320px;}</style>
 	- **Paterson**：注液口宽大，倒入药液极其畅快；片芯和用药量表现中庸。Paterson与AP的片芯可以互换。  
 	- **Jobo**：省药，附件丰富（可搭配冲洗机使用），但价格较高。  
 
-![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Developing_Tank_8193.jpg)
-
 > 许多国内厂商在以上三类显影罐的规格基础上模仿改进，开发出众多便宜实用的产品。例如，笔者使用的是一款2021年购买的国内品牌改良的罐子，采用Paterson规格的罐体搭配AP规格的片芯，169元的价格也算实惠。
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Developing_Tank_8193.jpg)
 
 ### 暗袋
 
@@ -47,11 +47,12 @@ custom_head: <style>img{max-width:320px;}</style>
 ### 药水
 
 - **显影液**（必需）：通用的D76是不错的起点。​不同的显影液会有各自的特性，如果你追求更细的颗粒、更软的影调、迫冲、耐储存、安全环保等等，都有相应的显影液可供选择。
-  ![](https://www.photrio.com/forum/attachments/f002_0072hc-gif.6095/)
 - **停显液**（可选）：一般可用清水停显。若显影时间较短，对停显的即时性要求高，可考虑使用专用停显液。
 - **定影液**（必需）：不可省略的必要环节，但定影液的种类对成像影响不大。
 - **去海波液**（可选）：加速定影残留物释放，缩短水洗时间。
 - **去水渍液**（推荐）：防止胶卷晾干后形成水斑，可用洗洁精代替。
+
+<img src="https://www.photrio.com/forum/attachments/f002_0072hc-gif.6095/" style="max-width:100%">
 
 ### 量具
 
@@ -63,16 +64,13 @@ custom_head: <style>img{max-width:320px;}</style>
 
 ### 温度计与计时器
 
-黑白冲洗对测温、控温的要求相对宽容。普通的厨房烘焙温度计，或是常见的酒精温度计，均能胜任日常冲洗的需求。
+黑白冲洗对测温、控温的要求相对宽容，±0.5°C内的误差一般不会引起可感知的差异。普通的烘焙用温度计，或是常见的酒精温度计，均能胜任黑白胶卷冲洗的精度要求。
 
-明室冲洗不需要购买专用的暗房计时器，随着OLED屏幕的普及，手机 App 不仅可以完全代替暗房计时器功能，甚至往往更好用。
-
-> 市面上这类冲洗计时器很多，例如 Dev it ([‎iOS](https://itunes.apple.com/app/dev-it-darkroom-timer/id1018458471) | [Android](https://play.google.com/store/apps/details?id=it.devit.android))、Massive Dev Chart([iOS](https://apps.apple.com/app/massive-dev-chart-timer/id402405770) | [Android](https://play.google.com/store/apps/details?id=com.digitaltruth.mdc))，不仅能充当暗房计时器，还集成了丰富的黑白胶卷冲洗数据，非常适合新手参考。
+而在计时方面，明室冲洗不需要购买专用的暗房计时器。现在的手机 App 不仅可以完全代替计时功能，而且往往内置了丰富的黑白胶卷冲洗数据社区以及温度补偿计算，比传统计时器更好用。市面上这类 App 很多，较受欢迎的如 Dev it ([‎iOS](https://itunes.apple.com/app/dev-it-darkroom-timer/id1018458471) | [Android](https://play.google.com/store/apps/details?id=it.devit.android))、Massive Dev Chart([iOS](https://apps.apple.com/app/massive-dev-chart-timer/id402405770) | [Android](https://play.google.com/store/apps/details?id=com.digitaltruth.mdc)) 等。
 
 ## 流程
 
-> ![](https://pressbooks.cuny.edu/app/uploads/sites/35/2022/06/Photographic_processing.jpg)
-> 
+![](/assets/img/bnw-process.webp)
 
 ### 装片
 
@@ -80,21 +78,27 @@ custom_head: <style>img{max-width:320px;}</style>
 
 将胶卷、片芯、显影罐（包括安全盖）、剪刀放入暗袋或全黑环境中。胶卷的片头顺着导轨卷入片芯，双手捏住片芯交替往复，直到底片完全卷入片芯，剪断片尾，随后放入显影罐并盖严漏斗状的安全盖，后续的流程便可在明室操作。
 
-> 装片漏光
-> ![](https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/3.Fogged-film.jpg)
-> 装片卡壳造成的片基变形
-> ![](https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/6.-Crescent-on-left-Clear-Patches.jpg)
-> [Common Processing Problems - Ilford Photo](https://www.ilfordphoto.com/common-film-processing-problems/)
-> 装片卡壳造成的底片粘连（显影不均）
-> ![](https://micro.magnet.fsu.edu/primer/photomicrography/images/bwprocessingerrors/blankpatches.jpg)
-> [Molecular Expressions Microscopy Primer:...](https://micro.magnet.fsu.edu/primer/photomicrography/bwprocessingerrors.html)
-
+  <div class="figures">
+    <figure>
+      <div class="img-container">
+        <a href="https://www.ilfordphoto.com/common-film-processing-problems/" target="_blank"><img src="https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/3.Fogged-film.jpg"></a>
+      </div>
+      <figcaption>漏光造成的局部黑雾</figcaption>
+    </figure>
+    <figure>
+      <div class="img-container">
+        <a href="https://www.ilfordphoto.com/common-film-processing-problems/" target="_blank"><img src="https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/6.-Crescent-on-left-Clear-Patches.jpg"></a>
+        <a href="https://thephotographyprofessor.com/top-26-film-developing-problems-what-to-look-for-and-how-to-solve-it/" target="_blank"><img src="https://thephotographyprofessor.com/wp-content/uploads/2020/08/crinkled-or-kinked-film-copy-768x367.jpg"></a>
+      </div>
+      <figcaption>装片卡壳造成的片基“月牙纹”</figcaption>
+    </figure>
+  </div>
 
 ### 显影
 
 【目的】将胶卷上经曝光形成的潜影固定为肉眼可见的银质图像。
 
-彩色胶卷极易由于微小的温度偏差而引发偏色，因而通常需要水浴精确控温；黑白胶卷则允许在一定范围内通过调整显影时间来补偿温度偏差（高温缩短、低温延长），因而更适合家庭冲洗。若使用导热较慢的塑料显影罐，一般可以直接按开始显影前测量的药液温度来计算时间，显影过程中因化学反应与外界传导导致的微小温度变化通常可以忽略不计。
+彩色胶卷极易由于微小的温度偏差而引发偏色，因而通常需要水浴精确控温；黑白胶卷则允许在一定范围内通过调整显影时间来补偿温度偏差（高温缩短、低温延长），因而更适合家庭冲洗。若使用导热较慢的塑料显影罐，且室温与20℃偏差不大，通常可以忽略显影过程中因化学反应与外界传导导致的微小温度变化，直接按开始显影前测量的药液温度来计算显影时间。
 
 进液与排液的速度是控制显影时间的关键。 倒入和倒出药液时的动作应果断，以确保整卷底片的反应时间一致。此外在操作手法上需要注意，定影完成前的进液与排液只能打开显影罐最外层的倒液盖，绝不可拧开内部的漏斗盖（安全盖），以防胶卷见光报废。
 
@@ -109,12 +113,33 @@ custom_head: <style>img{max-width:320px;}</style>
     - **滚冲**：将罐体横卧持续滚动。药液只需满冲量的一半至三分之一，极度省药。
 - **停显**：用于中和或稀释残留的碱性显影液，使显影立刻停止以保护高光区域，同时避免污染后续定影液，便于回收定影液重复使用。显影长于5分钟用清水停显2-3次即可，短于5分钟推荐使用专用停显液。
 
-> 温差过大产生的网纹
-> ![](https://www.ilfordphoto.com/wp/wp-content/uploads/2016/08/Reticulated-Glove-Zoomed-1024x893.jpg)
-> 过度显影与显影不足的底片
-> ![](https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/Overdeveloped.jpg)
-> ![](https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/Underdeveloped.jpg)
-> [Common Processing Problems - Ilford Photo](https://www.ilfordphoto.com/common-film-processing-problems/)
+  <div class="figures">
+    <figure>
+      <div class="img-container">
+        <a href="https://evidentscientific.com/en/microscope-resource/knowledge-hub/photomicrography/bwprocessingerrors" target="_blank"><img src="https://evidentscientific.com/en/microscope-resource/knowledge-hub/photomicrography/media_1c7eaf39df85d0df3514498b6e65af525bb4aaf9f.jpg"></a>
+        <a href="https://www.ilfordphoto.com/unleash-that-reticulated-film-python/" target="_blank"><img src="https://www.ilfordphoto.com/wp/wp-content/uploads/2016/08/Reticulated-Glove-Zoomed-1024x893.jpg"></a>
+      </div>
+      <figcaption>温差过大产生网纹</figcaption>
+    </figure>
+    <figure>
+      <div class="img-container">
+        <a href="https://www.ilfordphoto.com/common-film-processing-problems/" target="_blank"><img src="https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/Overdeveloped.jpg"></a>
+      </div>
+      <figcaption>显影过度</figcaption>
+    </figure>
+    <figure>
+      <div class="img-container">
+        <a href="https://www.ilfordphoto.com/common-film-processing-problems/" target="_blank"><img src="https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/Underdeveloped.jpg"></a>
+      </div>
+      <figcaption>显影不足</figcaption>
+      <figure>
+        <div class="img-container">
+          <a href="https://thephotographyprofessor.com/top-26-film-developing-problems-what-to-look-for-and-how-to-solve-it/" target="_blank"><img src="https://thephotographyprofessor.com/wp-content/uploads/2020/09/bromide-drag-1024x550.jpg"></a>
+        </div>
+        <figcaption>摇晃过猛造成的局部显影过度</figcaption>
+      </figure>
+    </figure>
+  </div>
 
 ### 定影
 
@@ -124,10 +149,14 @@ custom_head: <style>img{max-width:320px;}</style>
 
 定影完成后不要直接倒出定影液，可先打开显影罐取出片芯观察，如果发现片基仍有浑浊或不透明，就说明仍未定影完全，可以将片芯放回，继续定影一段时间，直至片基完全通透。
 
-> 定影不足的底片
-> ![](https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/9b.Poor-fixing.jpg)
-> [Common Processing Problems - Ilford Photo](https://www.ilfordphoto.com/common-film-processing-problems/)
-
+  <div class="figures">
+    <figure>
+      <div class="img-container">
+        <a href="https://www.ilfordphoto.com/common-film-processing-problems/" target="_blank"><img src="https://www.ilfordphoto.com/wp/wp-content/uploads/2019/06/9b.Poor-fixing.jpg"></a>
+      </div>
+      <figcaption>定影不足导致的片基不通透</figcaption>
+    </figure>
+  </div>
 ### 水洗
 
 【目的】彻底清除片基上残留的药液（主要是定影液中的海波成分）。如果海波残留过多，底片在长期保存后容易发黄变质。
@@ -149,17 +178,34 @@ custom_head: <style>img{max-width:320px;}</style>
 
 在水洗收尾阶段，向显影罐内滴入去水渍液或洗洁精并搅拌均匀（注意用量，通常仅需很小的一滴，以不产生泡沫为合适），静置 1 分钟再捞出。这能有效破坏水的表面张力，使底片表面形成均匀水膜并自然流干，从而防止留下白色水渍。
 
+如果偷懒使用了自来水，最后的步骤要用纯净水冲洗。
+
 需要注意的是，此时乳剂层因吸水膨胀而极为脆弱，若使用刮水条或海绵强行刮水，需确保环境无尘，否则易因微小灰尘在整卷底片上留下不可逆的贯穿划痕。
 
 晾干时应选择洗手间等无风、少尘的空间自然阴干，不可用电吹风热风烘烤以防底片变形。悬挂时顶端用夹子固定，底端必须加挂带配重的夹子向下牵引，利用拉力抵消干燥过程中的自然卷曲，确保底片平整。
 
-> 灰尘、水渍与划痕
-> ![](https://media.invisioncic.com/l323473/monthly_2002_12/0049sZ-10484684.jpg.545990d11d04ea5f9bd93c58ed35f862.jpg)
-> ![](https://borisfx-com-res.cloudinary.com/image/upload//documentation/continuum/uploads/2013/06/filmdamage.jpg)
+  <div class="figures">
+    <figure>
+      <div class="img-container">
+        <a href="https://www.photo.net/forums/topic/45283-water-marks-and-dirt-on-negatives/" target="_blank"><img src="https://media.invisioncic.com/l323473/monthly_2002_12/0049sZ-10484684.jpg.545990d11d04ea5f9bd93c58ed35f862.jpg"></a>
+      </div>
+      <figcaption>灰尘与水渍</figcaption>
+    </figure>
+    <figure>
+      <div class="img-container">
+        <a href="https://thephotographyprofessor.com/top-26-film-developing-problems-what-to-look-for-and-how-to-solve-it/" target="_blank"><img src="https://thephotographyprofessor.com/wp-content/uploads/2020/09/horizontal-scratches-768x462.jpg"></a>
+      </div>
+      <figcaption>刮水失误造成的划痕</figcaption>
+    </figure>
+  </div>
 
-## 原理
+---
 
-> 拓展阅读：关于黑白摄影的简明化学原理，可参考这份[我在多年前制作的PPT](https://1drv.ms/p/s!As8fb6-4t65Kic9DbwBYkK3soFVcBg)[^2]
+## 拓展
+
+### 化学原理
+
+- [Brief Chemical Principles of B&W Photography](https://1drv.ms/p/s!As8fb6-4t65Kic9DbwBYkK3soFVcBg)
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 75.0000%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -169,3 +215,13 @@ custom_head: <style>img{max-width:320px;}</style>
   </iframe>
 </div>
 
+### 常见失误
+
+- [Common Processing Problems - Ilford Photo](https://www.ilfordphoto.com/common-film-processing-problems)
+- [B&W Film Processing Errors in Photomicrography: Diagnosis & Prevention \| Evident](https://evidentscientific.com/en/microscope-resource/knowledge-hub/photomicrography/bwprocessingerrors)
+- [Top 26 Film Developing Problems: What to Look for and How to Prevent Them – The Photography Professor – Film Photography How To and Help](https://thephotographyprofessor.com/top-26-film-developing-problems-what-to-look-for-and-how-to-solve-it/)
+- [Unleash that Reticulated Film Python - Ilford Photo](https://www.ilfordphoto.com/unleash-that-reticulated-film-python/)
+
+### 进阶资料
+
+- [砸场子的胶片课堂（二）：胶片的冲洗](https://zhuanlan.zhihu.com/p/56800099)
