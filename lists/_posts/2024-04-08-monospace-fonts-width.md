@@ -5,7 +5,6 @@ last_modified_at: 2026-05-30
 tags:
   - 字体
 custom_head: "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r<link href=\"https://fonts.googleapis.com/css2?family=Cascadia+Code&family=Cascadia+Mono&family=Fira+Code&family=Google+Sans+Code&family=Inconsolata&family=JetBrains+Mono&family=Noto+Sans+Mono&family=PT+Mono&family=Roboto+Mono&family=Source+Code+Pro&family=Ubuntu+Mono&family=Ubuntu+Sans+Mono&display=swap\" rel=\"stylesheet\">"
-custom_js: /assets/js/monospace-test.js
 ---
 汉字字体普遍采用等宽设计，而西文字体则有比例和等宽两种选择。
 
@@ -72,3 +71,64 @@ custom_js: /assets/js/monospace-test.js
 !! ?? && ||
 </code></pre></div>
 
+<script>
+const chooseSelect = document.getElementById('fontselect');
+const previewElement = document.getElementById('fontpreview');
+
+// 字体列表
+const fonts = [
+  "Cascadia Code",
+  "Cascadia Mono",
+  "Cascadia Next",
+  "Consolas",
+  "Courier New",
+  "DejaVu Sans Mono",
+  "Droid Sans Mono",
+  "Fira Code",
+  "Google Sans Code",
+  "Hack",
+  "Inconsolata",
+  "Intel One Mono",
+  "Iosevka",
+  "JetBrains Mono",
+  "Lucida Console",
+  "LXGW Bright Code",
+  "Maple Mono",
+  "Maple Mono CN",
+  "Menlo",
+  "Migu 1M",
+  "Monaco",
+  "Monolisa",
+  "NeoXiHei Code",
+  "Noto Sans Mono",
+  "Noto Sans Mono CJK SC",
+  "PT Mono",
+  "Roboto Mono",
+  "SF Mono",
+  "Source Code Pro",
+  "Source Han Mono SC",
+  "Source Han Sans HW SC",
+  "Sarasa Mono SC",
+  "Iosevka",
+  "Ubuntu Mono",
+  "Ubuntu Sans Mono",
+  "Wenquanyi Micro Hei Mono"
+];
+
+// 将字体按字母顺序排序
+fonts.sort();
+
+// 填充下拉选框
+for (const font of fonts) {
+  const option = document.createElement('option');
+  option.value = font;
+  option.textContent = font;
+  chooseSelect.appendChild(option);
+}
+
+// 监听下拉选框变化
+chooseSelect.addEventListener('change', function() {
+  const selectedFont = this.value;
+  previewElement.style.fontFamily = `${selectedFont}, monospace`;
+});
+</script>
