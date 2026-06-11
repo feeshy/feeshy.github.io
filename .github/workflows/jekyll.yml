@@ -62,3 +62,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Submit URLs to IndexNow
+        uses: ProjectEngineers/indexnow-action@v2
+        with:
+          domain: 'feeshy.top'
+          key: ${{ secrets.BING_INDEXNOW_KEY }}
