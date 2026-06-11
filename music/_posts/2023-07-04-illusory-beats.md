@@ -10,7 +10,7 @@ redirect_from:
 ---
 近年做的Downtempo与Trip Hop歌曲合集，主要制作于2019~2021、2023~2024两个时间段，记录了从合成器小白到合成器新手的成长。使用Soundcamp、GarageBand、Reason、Ableton Live编曲和混音。
 
-<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=4028171195/size=large/bgcol=ffffff/linkcol=4ec5ec/minimal=true/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-beats">Illusory Beats by feeshy</a></iframe>
+<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=4028171195/size=large/bgcol=333333/linkcol=4ec5ec/minimal=true/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-beats">Illusory Beats by feeshy</a></iframe>
 
 > 2023-07-04: 初始发布
 > 

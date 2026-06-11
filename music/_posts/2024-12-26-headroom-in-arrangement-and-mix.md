@@ -7,6 +7,8 @@ tags:
   - 混音
   - 折腾记录
 toc: true
+redirect_from:
+  - /tech/headroom-in-arrangement-and-mix
 ---
 > 记录近两年关于编曲、混音阶段保留动态余量的看法，相比[2021年](/tech/my-master-workflow)有了更进一步理解。
 
@@ -82,7 +84,7 @@ toc: true
 
 例如在这个项目中，我在Bass与Tom轨道大量使用了Eventide的Blackhole混响，以营造迷离的氛围，最后又通过M/S处理将浑浊的低频收紧。
 
-<iframe style="border: 0; width: fit-content; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4028171195/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1545109972/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-beats">Illusory Beats by feeshy</a></iframe>
+<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4028171195/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1545109972/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-beats">Illusory Beats by feeshy</a></iframe>
 
 ### 设计动态声场
 
@@ -126,7 +128,7 @@ toc: true
 
 当面对轨道间的频繁瞬态碰撞时，则可利用侧链压缩进行瞬态避让。这种手法将一轨信号路由至另一轨压缩器的侧链输入端，使其在前者发声时自动衰减。侧链压缩通常需使用具备 Lookahead 功能的压缩器（或手动为避让的音轨添加微小延迟），设定尽可能短的起始时间以及契合歌曲节奏的释放时间。值得一提的是，极端侧链压缩产生的强烈抽吸感，虽然最初是极力避免的瑕疵，但如今已演变成电子音乐中极具代表性的风格特征。现代制作中，这种特殊的抽吸效果甚至不再依赖压缩器，而是通过特定LFO波形的音量调制或自动化完成。 
 
-<iframe style="border: 0; width: fit-content; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4028171195/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=4014187950/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-beats">Illusory Beats by feeshy</a></iframe>
+<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4028171195/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=4014187950/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-beats">Illusory Beats by feeshy</a></iframe>
 
 #### 瞬态塑形
 

@@ -4,8 +4,9 @@ title: 联想Yoga Duet 2020深度体验报告
 date: 2020-07-04
 last_modified_at: 2020-07-04
 tags:
-  - surface
   - 深度体验
+  - Surface
+  - 晒单
 redirect_from:
   - https://post.smzdm.com/p/a5kqw083/
 toc: true

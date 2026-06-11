@@ -8,7 +8,7 @@ tags:
   - 音乐
 ---
 
-<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=ffffff/linkcol=4ec5ec/artwork=none/track=3462940593/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
+<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=3462940593/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
 
 我爱这残片.它们在空中自燃,明灭如真理.<br>
 这风沙也爱.你们舟车劳顿.有失远迎.

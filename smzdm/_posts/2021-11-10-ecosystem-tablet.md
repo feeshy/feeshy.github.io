@@ -4,10 +4,10 @@ title: iPad与Surface的生产力生态
 date: 2021-11-10
 last_modified_at: 2023-06-30
 tags:
-  - ipad
-  - surface
   - appinn
   - 深度体验
+  - iPad
+  - Surface
 redirect_from:
   - https://meta.appinn.net/t/27415
 toc: true

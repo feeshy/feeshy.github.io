@@ -2,12 +2,12 @@
 layout: poetry
 title: 情诗
 date: 2013-02-03
-last_modified_at: 2017-12-25
+last_modified_at: 2024-07-14
 tags:
   - 诗
   - 音乐
 ---
-<iframe style="border: 0; width: fit-content; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4270813475/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1522620350/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-island">illusory island by feeshy</a></iframe>
+<iframe style="border: 0; width: height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4270813475/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1522620350/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-island">illusory island by feeshy</a></iframe>
 
 抬头对视<br>
 遥远的你微笑，眯眼<br>

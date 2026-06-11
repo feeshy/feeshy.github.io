@@ -4,7 +4,6 @@ title: 《钢琴家》剧情梳理
 date: 2015-09-08
 last_modified_at: 2015-09-08
 tags:
-  - 影评
   - 豆瓣
 redirect_from:
   - https://movie.douban.com/review/7594497/

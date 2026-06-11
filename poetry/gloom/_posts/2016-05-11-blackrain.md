@@ -7,7 +7,7 @@ tags:
   - 诗
 ---
 
-<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=small/bgcol=ffffff/linkcol=63b2cc/track=2092967058/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
+<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=small/bgcol=333333/linkcol=4ec5ec/track=2092967058/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
 
 黑雨绵绵行人匆匆<br>
 梦中的大厦化为瘟疫<br>

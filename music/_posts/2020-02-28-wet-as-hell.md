@@ -11,7 +11,7 @@ redirect_from:
 
 songs with hopeless guitars and muddy reverbs. 
 
-<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=large/bgcol=ffffff/linkcol=4ec5ec/minimal=true/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
+<iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=large/bgcol=333333/linkcol=4ec5ec/minimal=true/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
 
 > 2020-02-28: initially published
 > 

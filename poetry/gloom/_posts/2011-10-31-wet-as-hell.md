@@ -2,13 +2,13 @@
 layout: poetry
 title: 纯写景诗
 date: 2011-10-31
-last_modified_at: 2011-10-31
+last_modified_at: 2020-02-28
 tags:
   - 诗
   - 音乐
 ---
 
-<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=small/bgcol=ffffff/linkcol=4ec5ec/track=3150444517/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
+<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=small/bgcol=333333/linkcol=4ec5ec/track=3150444517/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
 
 \_\_\_\_\_\_\_\_<br>
 \_\_\_\_\_\_\_\_<br>

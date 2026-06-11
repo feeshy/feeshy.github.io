@@ -9,7 +9,7 @@ tags:
 redirect_from:
   - sweet_anxiety.html
 ---
-<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=ffffff/linkcol=4ec5ec/artwork=none/track=2763182701/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
+<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=2763182701/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
 
 主体被分食<br>
 其余闪烁其词<br>

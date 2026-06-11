@@ -8,9 +8,9 @@ tags:
   - 音乐
 image: /assets/img/the_traveller.jpg
 ---
-<img src="/assets/img/the_traveller.jpg" alt="" style="z-index: -1; position: absolute; inset: 0; width: 720px; height: 720px; max-height: 100%; object-fit: cover; opacity: 0.17; mask: linear-gradient(to bottom, black 75%, transparent); -webkit-mask: linear-gradient(to bottom, black 75%, transparent);">
+<img src="/assets/img/the_traveller.jpg" style="z-index: -1; position: absolute; inset: 0; height: 100%; max-height:100%; object-fit: cover; opacity: 0.17; mask: linear-gradient(to right, transparent, black 50%, transparent); -webkit-mask: linear-gradient(to right, transparent, black 50%, transparent);">
 
-<iframe style="border: 0; height: 42px; margin: 0 auto;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=small/bgcol=1c1c1c/linkcol=4ec5ec/artwork=none/track=1712751363/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
+<iframe style="border: 0; height: 42px; margin: 0 auto;" src="https://bandcamp.com/EmbeddedPlayer/album=3279736846/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1712751363/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/wet-as-hell">wet as hell by feeshy</a></iframe>
 
 在失落与更失落间踟蹰良久，迷失的旅人<br>
 走进驿站。停滞的箭矢突然运动<br>

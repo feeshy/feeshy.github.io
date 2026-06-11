@@ -11,7 +11,7 @@ image: /assets/img/eagerness.jpg
 
 <img src="/assets/img/eagerness.jpg" alt="" style="z-index: -1; position: absolute; inset: 0; width: 100%; height: 100%; max-height:100%; object-fit: cover; opacity: 0.1;">
 
-<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=ffffff/linkcol=4ec5ec/artwork=none/track=3993610460/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
+<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=3993610460/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
 
 心镜如水，波澜如镜<br>
 视之无物，视之如雾

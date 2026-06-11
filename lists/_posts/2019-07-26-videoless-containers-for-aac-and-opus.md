@@ -5,8 +5,6 @@ date: 2019-07-26
 last_modified_at: 2024-03-27
 tags:
   - 编码
-  - aac
-  - opus
   - appinn
   - 科普
   - 音频

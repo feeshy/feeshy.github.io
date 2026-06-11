@@ -10,7 +10,7 @@ redirect_from:
   - /legends/taichicat.html
 ---
 
-<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=ffffff/linkcol=4ec5ec/artwork=none/track=3489358287/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
+<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=3489358287/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>
 
 那是1999年夏天的一个傍晚，阵雨过后空气中弥散着泥土味，闷热中透着暂时的清新。新园区还大半是工地，没有什么娱乐设施可供消遣。我吃过晚饭，穿过一片杂乱的空地，盘算着不如睡前洗个冷水澡。
 
