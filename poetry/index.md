@@ -1,7 +1,7 @@
 ---
 layout: archive
 categories: poetry
-title: 诗
+title: 诗歌
 ---
 📔 [**灰**](gloom/)
 | [**蓝**](blue/)

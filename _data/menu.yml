@@ -1,59 +1,57 @@
 entries:
 
-  - title: 理性
-    entries:
-    - title: 技术
-      url: tech
-      post_list:
-        limit: 3
-        category: tech
-        show_more: false
-    - title: 汇编
-      url: lists
-      post_list:
-        limit: 3
-        category: lists
-        show_more: false
-    - title: 种草
-      url: smzdm
-      post_list:
-        limit: 3
-        category: smzdm
-        show_more: false
-
-  - title: 感性
-    entries:
-    - title: 胡思乱想
-      url: prose
-      post_list:
-        limit: 3
-        category: prose
-        show_more: false
-    - title: 歌
-      url: music
-      post_list:
-        limit: 3
-        category: music
-        show_more: false
-    - title: 诗
-      url: poetry
-      post_list:
-        limit: 3
-        category: poetry
-        show_more: false
+  - title: 折腾
+    url: tech
+    post_list:
+      limit: 3
+      category: tech
+      show_more: false
+  - title: 笔记
+    url: lists
+    post_list:
+      limit: 3
+      category: lists
+      show_more: false
+  - title: 胡思乱想
+    url: prose
+    post_list:
+      limit: 3
+      category: prose
+      show_more: false
+  - title: 音乐
+    url: music
+    post_list:
+      limit: 3
+      category: music
+      show_more: false
+  - title: 诗歌
+    url: poetry
+    post_list:
+      limit: 3
+      category: poetry
+      show_more: false
+  - title: 种草
+    url: smzdm
+    post_list:
+      limit: 3
+      category: smzdm
+      show_more: false
 
   - title: 归档
+    url: recent
     entries:
     - title: 标签
       url: tags
     - title: 最近
       url: recent
-    - title: RSS
-      url: feed.xml
-    - title: 频道
-      url: https://t.me/feeshy_channel
+
+  - title: RSS
+    url: feed.xml
+  - title: 频道
+    url: https://t.me/feeshy_channel
   
   - title: 友链
+    url: links
     entries:
     - title: 开往·随机世界
       url: https://www.travellings.cn/typewriter
