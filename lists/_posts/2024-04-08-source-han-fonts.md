@@ -4,7 +4,7 @@ title: 思源系列字体中英名称对照表
 last_modified_at: 2026-06-11
 tags:
   - 字体
-description: 思源系列字体本身，以及基于它二次开发的CJK字体版本繁多、命名混乱。这里用几个表格整理了思源黑体和思源宋体的中英名称，方便在 CSS、PR、Figma、PS、Office 等场景中查找调用。
+description: 思源系列字体版本繁多、命名混乱。这里用几个表格整理了思源黑体和思源宋体的中英名称（含 Noto Sans CJK / Noto Serif CJK 等英文文件名），方便在 CSS、PR、Figma、PS、Office 等场景中查找调用。
 ---
 思源系列字体[^1]本身，以及基于它二次开发的CJK字体版本繁多、命名混乱。这里用几个表格整理了思源黑体和思源宋体的中英名称，方便在 CSS、PR、Figma、PS、Office 等场景中查找调用。
 

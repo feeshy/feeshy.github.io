@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 胶卷相机入坑大型科普帖
+title: 新手选购胶片相机指南
 date: 2024-03-31
 last_modified_at: 2024-04-05
 tags:
@@ -14,24 +14,26 @@ redirect_from:
   - /photography/museum.html
   - /lists/film-cameras
 toc: true
+description: 新手玩家选购首台胶卷相机的一站式科普。本文从画幅、镜头、取景、对焦、快门及曝光六个硬件维度，分类梳理并盘点经典的单反、旁轴、双反及傻瓜胶片机代表机型，提供纯硬件视角的二手胶片相机选购参考。
 ---
 
-当下年代玩胶片机的意义，更多在于综合体验复古的外观、操作与复古的成像风格。相机既是拍摄的工具，也是被拍的道具。如果只是想体验胶片的色彩风格，现在有许多数码相机拥有效果出色的胶片模拟，甚至要求不高的情况下，手机+滤镜App也能将知名胶片的色彩还原到五六不离十的程度。
+> 当下年代玩胶片机的意义，更多在于综合体验复古的外观、操作与复古的成像风格。相机既是拍摄的工具，也是被拍的道具。如果只是想体验胶片的色彩风格，现在有许多数码相机拥有效果出色的胶片模拟，甚至要求不高的情况下，手机+滤镜App也能将知名胶片的色彩还原到五六不离十的程度。
 
-在数码化浪潮的席卷下，整个胶片摄影市场在2010年之后鲜有新机问世，现在购买胶卷相机主要是通过二手交易。一般来说，二手直接买大路货是最省心的。谈到所谓的豆瓣、小红书“神机”，我们先放出“神机”第一定律：
+本文完善自[2019年的关于入坑胶卷相机的科普](https://www.zhihu.com/question/360834028/answer/941297834)，定位是入坑玩家选购前几台胶卷相机的一站式科普。将会从画幅、镜头、取景、对焦、快门、曝光六个维度展开，分类介绍以各个要素为特色的经典胶片相机（侧重介绍二战以后的型号），帮助你在挑选第一台胶片机时快速形成全局的了解。
 
-- 被炒起来的神机注定性价比不高。
-
-不过近年胶片回暖，大路货的需求比较旺盛。因而“神机”也会有两个高性价比的小众机型所不具备的优点：
-
-- 中文资料更易获取
-- 流通量大，更容易买到合适的成色；玩腻了也更容易找到接盘的下家
-
-我觉得这两个优点对于只为拍照、不想在器材上投入过多精力的新手玩家还是蛮有意义的。当然如果你对器材有更高的要求，或者是一个唯性价比论者，就只能花费更多的精力来搜寻资料和蹲守卖家了。
-
-本文完善自[2019年的关于入坑胶卷相机的科普](https://www.zhihu.com/question/360834028/answer/941297834)，定位是入坑玩家选购前几台胶片相机的一站式科普。将会从画幅、镜头、取景、对焦、快门、曝光六个方面，介绍以各个要素为特色的经典机型（侧重介绍二战以后的型号）。
-
-作为器材导购向的科普，本文对摄影基础知识的介绍基本都是一句带过。对于纯萌新，我也推荐看一看这个[2014年的演示文稿](https://1drv.ms/p/s!As8fb6-4t65KgplcXqBbwfYVwWf5uw)，里面用实例直观展示了各种参数对成像的影响，有助于对摄影的基础概念形成初步的认识。
+<details>
+<summary>关于豆瓣、小红书“神机”</summary>
+<p>在数码化浪潮的席卷下，整个胶片摄影市场在2010年之后鲜有新机问世，现在购买胶卷相机主要是通过二手交易。一般来说，二手直接买大路货是最省心的。谈到所谓的豆瓣、小红书“神机”，我们先放出“神机”第一定律：</p>
+<ul>
+<li>被炒起来的神机注定性价比不高。</li>
+</ul>
+<p>不过近年胶片回暖，大路货的需求比较旺盛。因而“神机”也会有两个高性价比的小众机型所不具备的优点：</p>
+<ul>
+<li>中文资料更易获取</li>
+<li>流通量大，更容易买到合适的成色；玩腻了也更容易找到接盘的下家</li>
+</ul>
+<p>我觉得这两个优点对于只为拍照、不想在器材上投入过多精力的新手玩家还是蛮有意义的。当然如果你对器材有更高的要求，或者是一个希望捡漏的唯性价比论者，就只能避开这些流通量大的“神机”，花费更多的精力来搜寻资料和蹲守卖家了。</p>
+</details>
 
 ## 1. 画幅
 
@@ -60,14 +62,14 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 
 使用120胶卷，也可以通过套件使用135胶卷。
 
-|     | 画面比例 | 一卷张数 | 知名品牌                               |
-| --- | ---- | ---- | ---------------------------------- |
-| 645 | 4:3  | 16   | 富士、玛米亚、宾得、Bronica                |
-| 66  | 1:1  | 12   | 德系哈苏、禄莱、Agfa、，日系Bronica、美能达、Yashica、Mamiya，国产海鸥 |
-| 67  | 7:6  | 10   | 玛米亚、宾得、富士                          |
-| 69  | 3:2  | 8    | 富士、福伦达                                 |
-| 612 | 2:1  | 6    | Linhof、Horseman                            |
-| 617 | 17:6 | 4    | Linhof、Fotoman、Panoral、富士                  |
+| 画幅  | 画面比例 | 一卷120胶卷拍摄张数 | 知名品牌                                            |
+| --- | ---- | ----------- | ----------------------------------------------- |
+| 645 | 4:3  | 16          | 富士、玛米亚、宾得、Bronica                               |
+| 66  | 1:1  | 12          | 德系哈苏、禄莱、Agfa、，日系Bronica、美能达、Yashica、Mamiya，国产海鸥 |
+| 67  | 7:6  | 10          | 玛米亚、宾得、富士                                       |
+| 69  | 3:2  | 8           | 富士、福伦达                                          |
+| 612 | 2:1  | 6           | Linhof、Horseman                                 |
+| 617 | 17:6 | 4           | Linhof、Fotoman、Panoral、富士                       |
 
 中画幅胶片机以66/645/67画幅为主流，即使是其中最小的645，成像面积也有56mm x 42mm，也要比现在的数码中画幅（44mm x 33mm）大一圈；如果你信奉底大一级压死人，也有6x9的“大徕卡”可以选择。
 
@@ -101,8 +103,8 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 
 主要影响暗光拍摄能力，并且与焦距共同影响景深。是区分镜头定位的重要参数，遵循一分钱一分货、一毛钱两分货的规律。
 
-> ![](https://images.ctfassets.net/b4k16c7lw5ut/3CtHLC5qrHPLvP9e8StotQ/9643e03826b2c60459b5be2e4813168c/How_aperture_of_a_camera_works_-_What_is_aperture_-__Clipchamp_blog.jpg)
-> [What is aperture? | Clipchamp Blog](https://clipchamp.com/en/blog/aperture/)
+> ![](/assets/img/aperture.webp)
+> [What is aperture? | Clipchamp Blog](https://web.archive.org/web/20231204165138/https://clipchamp.com/en/blog/aperture/)
 
 ### 镀膜、光学结构
 
@@ -117,56 +119,87 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 
 ### 知名卡口和螺口
 
-可换镜头有螺口、卡口两个大类，其中螺口想实现全开光圈测光会比较困难，还可能出现镜头拧在机身上中线却没有对齐的问题，在70年代左右被卡口淘汰。如果不是为了使用螺口系统的特定镜头，一般更推荐选择卡口系统。以下列表收录二战后部分较为知名的可换镜头系统，并链接到相应的资料网站：
+可换镜头有螺口、卡口两个大类，其中螺口想实现全开光圈测光会比较困难，还可能出现镜头拧在机身上中线却没有对齐的问题，在70年代左右被卡口淘汰。如果不是为了使用螺口系统的特定镜头，一般更推荐选择卡口系统。
 
-- 135单反卡口
-	- 1958 [DKL系统](https://tudaer.blogspot.com/search/label/Deckel%28DKL%29%20%E5%B8%9D%E5%9C%8B)——少有的镜间快门135系统
-	- 1958 [美能达SR/MC/MD卡口](https://lens-db.com/system/minolta-sr/)——[资料站](http://minolta.eazypix.de/)
-	- 1959 [尼康F卡口](https://lens-db.com/system/nikon-f/)——[镜头资料](http://www.photosynthesis.co.nz/nikon/lenses.html)，一直沿用到数码时代
-	- 1963 [奥林巴斯PEN F](https://lens-db.com/system/olympus-pen-f/)——半格单反
-	- 1965 [柯尼卡AR卡口](https://lens-db.com/system/konica-ar/)——[中文资料](http://www.hexanon.net/)
-	- 1970 [禄莱QBM](https://lens-db.com/system/rolleiflex-sl35/)
-	- 1971 [佳能FD卡口](https://lens-db.com/system/canon-fd/)
-	- 1972 [奥林巴斯OM](https://lens-db.com/system/olympus-om/)——[资料站](https://esif.world-traveller.org/om-sif.htm)
-	- 1975 [宾得K卡口](https://lens-db.com/system/pentax-k)——[资料站](http://kmp.pentaxians.eu/)、[镜头资料与点评](https://www.pentaxforums.com/lenssearch/)，一直沿用到数码时代
-	- 1975 [康泰时/雅西卡](https://lens-db.com/system/contax-yashica/)——[蔡司镜头资料](https://www.zeiss.com/consumer-products/int/service/download-center/historical-products/photography.html#:~:text=Contax%20Yashica%20Lenses)
-	- 1985 [美能达A卡口](https://lens-db.com/system/minolta-a/)——自动对焦，一直沿用到数码时代
-	- 1987 [佳能EF卡口](https://lens-db.com/system/canon-eos/)——自动对焦，一直沿用到数码时代
-- 中画幅单反卡口
-	- 1957 [哈苏V](https://lens-db.com/system/hasselblad-v/)
-	- 1969 [宾得67](https://lens-db.com/system/pentax-6x7/)
-	- 1970 [Mamiya RB67](https://lens-db.com/system/mamiya-rb67/)
-	- 1975 [Mamiya M645](https://lens-db.com/system/mamiya-m645/)
-	- 1976 [Bronica ETR](https://lens-db.com/system/bronica-etr/)——645画幅
-	- 1980 [Bronica SQ](https://lens-db.com/system/bronica-sq/)——66画幅
-	- 1982 [Mamiya RZ67](https://lens-db.com/system/mamiya-rz67/)
-	- 1983 [禄莱6000](https://lens-db.com/system/rolleiflex-sl66/)——66画幅
-	- 1984 [宾得645](https://lens-db.com/system/pentax-645/)
-- 旁轴卡口
-    - 1932 [康泰时旁轴](https://lens-db.com/system/contax/)
-    - 1947 [尼康S](https://lens-db.com/system/nikon-s/)
-	- 1954 [徕卡M](https://lens-db.com/system/leica-m)
-		- 徕卡：[机身资料1](https://lockhartslist.com/)、[机身资料2](https://www.cameraquest.com/leicaMcameraList.htm)、[镜头资料和评测](https://www.kenrockwell.com/leica/lens-reviews.htm)
-		- Cosina：[机身](https://www.cameraquest.com/voigtchart2.htm)、[镜头](https://www.cameraquest.com/voigtlenchart.htm)
-		- [Konica旁轴系列](https://www.hexanon.net/konicarangefinder/)
-	- 1994 [康泰时G](https://www.kenrockwell.com/contax/g-system.htm)
-	- 1995 [Mamiya 7](https://lens-db.com/system/mamiya-7/)
-- 螺口
-	- M42——单反螺口，起源于20世纪三四十年代的德国，兴盛五六十年代，宾得和富士坚持使用到1970年代
-	- L39/M39/LTM/LSM：十分混乱的旁轴螺口，有多种彼此不通用的规格，如确实有意购买，建议提前做好功课
+以下列表收录二战后较为知名的可换镜头系统，并链接到相应的资料网站：
 
-以下关于L39的说明摘自[camera-wiki.org](http://camera-wiki.org/wiki/39mm_screw_lenses)：
-> - The most important rangefinder camera bodies using the Leica screw mount are:
-> 	- [Leica I](http://camera-wiki.org/wiki/Leica_I "Leica I") / [II](http://camera-wiki.org/wiki/Leica_II "Leica II") / [III](http://camera-wiki.org/wiki/Leica_III "Leica III")
-> 	- [Canon rangefinders](http://camera-wiki.org/wiki/Canon_II/III/IV "Canon II/III/IV")
-> 	- [Cosina](http://camera-wiki.org/wiki/Cosina "Cosina") Voigtländer [Bessa L/T/R](http://camera-wiki.org/wiki/Bessa "Bessa")
-> 	- the Soviet [Zorki](http://camera-wiki.org/wiki/Zorki "Zorki"), [FED](http://camera-wiki.org/wiki/FED "FED"), [Leningrad](http://camera-wiki.org/wiki/Leningrad "Leningrad") and [Drug](http://camera-wiki.org/wiki/Drug "Drug")
-> 	- the British [Corfield](http://camera-wiki.org/wiki/Corfield "Corfield") [Periflex](http://camera-wiki.org/wiki/Periflex "Periflex") and [Reid](http://camera-wiki.org/wiki/Reid "Reid")
-> - Some manufacturers made cameras and lenses with a 39mm screw mount completely incompatible with the Leica one, because of the different film-to-flange distance. Four such systems are:
-> 	- the [Braun](http://camera-wiki.org/wiki/Braun "Braun") [Paxette](http://camera-wiki.org/wiki/Paxette "Paxette")
-> 	- early models of the Soviet [Zenit](http://camera-wiki.org/wiki/Zenit "Zenit")
-> 	- [长城 DF](http://camera-wiki.org/wiki/Great_Wall_DF "Great Wall DF") 中画幅单反
-> 	- Soviet half-frame [Chajka](http://camera-wiki.org/wiki/Chajka "Chajka") 2, 3 and 2m models
+<details>
+<summary><b>135单反卡口</b></summary>
+<ul>
+<li>1958 <a href="https://tudaer.blogspot.com/search/label/Deckel%28DKL%29%20%E5%B8%9D%E5%9C%8B">DKL系统</a>——少有的镜间快门135系统</li>
+<li>1958 <a href="https://lens-db.com/system/minolta-sr/">美能达SR/MC/MD卡口</a>——<a href="http://minolta.eazypix.de/">资料站</a></li>
+<li>1959 <a href="https://lens-db.com/system/nikon-f/">尼康F卡口</a>——<a href="http://www.photosynthesis.co.nz/nikon/lenses.html">镜头资料</a>，一直沿用到数码时代</li>
+<li>1963 <a href="https://lens-db.com/system/olympus-pen-f/">奥林巴斯PEN F</a>——半格单反</li>
+<li>1965 <a href="https://lens-db.com/system/konica-ar/">柯尼卡AR卡口</a>——<a href="http://www.hexanon.net/">中文资料</a></li>
+<li>1970 <a href="https://lens-db.com/system/rolleiflex-sl35/">禄莱QBM</a></li>
+<li>1971 <a href="https://lens-db.com/system/canon-fd/">佳能FD卡口</a></li>
+<li>1972 <a href="https://lens-db.com/system/olympus-om/">奥林巴斯OM</a>——<a href="https://esif.world-traveller.org/om-sif.htm">资料站</a></li>
+<li>1975 <a href="https://lens-db.com/system/pentax-k">宾得K卡口</a>——<a href="http://kmp.pentaxians.eu/">资料站</a>、<a href="https://www.pentaxforums.com/lenssearch/">镜头资料与点评</a>，一直沿用到数码时代</li>
+<li>1975 <a href="https://lens-db.com/system/contax-yashica/">康泰时/雅西卡</a>——<a href="https://www.zeiss.com/consumer-products/int/service/download-center/historical-products/photography.html#:~:text=Contax%20Yashica%20Lenses">蔡司镜头资料</a></li>
+<li>1985 <a href="https://lens-db.com/system/minolta-a/">美能达A卡口</a>——自动对焦，一直沿用到数码时代</li>
+<li>1987 <a href="https://lens-db.com/system/canon-eos/">佳能EF卡口</a>——自动对焦，一直沿用到数码时代</li>
+</ul>
+</details>
+
+<details>
+<summary><b>中画幅单反卡口</b></summary>
+<ul>
+<li>1957 <a href="https://lens-db.com/system/hasselblad-v/">哈苏V</a></li>
+<li>1969 <a href="https://lens-db.com/system/pentax-6x7/">宾得67</a></li>
+<li>1970 <a href="https://lens-db.com/system/mamiya-rb67/">Mamiya RB67</a></li>
+<li>1975 <a href="https://lens-db.com/system/mamiya-m645/">Mamiya M645</a></li>
+<li>1976 <a href="https://lens-db.com/system/bronica-etr/">Bronica ETR</a>——645画幅</li>
+<li>1980 <a href="https://lens-db.com/system/bronica-sq/">Bronica SQ</a>——66画幅</li>
+<li>1982 <a href="https://lens-db.com/system/mamiya-rz67/">Mamiya RZ67</a></li>
+<li>1983 <a href="https://lens-db.com/system/rolleiflex-sl66/">禄莱6000</a>——66画幅</li>
+<li>1984 <a href="https://lens-db.com/system/pentax-645/">宾得645</a></li>
+</ul>
+</details>
+
+<details>
+<summary><b>旁轴卡口</b></summary>
+<ul>
+<li>1932 <a href="https://lens-db.com/system/contax/">康泰时旁轴</a></li>
+<li>1947 <a href="https://lens-db.com/system/nikon-s/">尼康S</a></li>
+<li>1954 <a href="https://lens-db.com/system/leica-m">徕卡M</a>
+  <ul>
+  <li>徕卡：<a href="https://lockhartslist.com/">机身资料1</a>、<a href="https://www.cameraquest.com/leicaMcameraList.htm">机身资料2</a>、<a href="https://www.kenrockwell.com/leica/lens-reviews.htm">镜头资料和评测</a></li>
+  <li>Cosina：<a href="https://www.cameraquest.com/voigtchart2.htm">机身</a>、<a href="https://www.cameraquest.com/voigtlenchart.htm">镜头</a></li>
+  <li><a href="https://www.hexanon.net/konicarangefinder/">Konica旁轴系列</a></li>
+  </ul>
+</li>
+<li>1994 <a href="https://www.kenrockwell.com/contax/g-system.htm">康泰时G</a></li>
+<li>1995 <a href="https://lens-db.com/system/mamiya-7/">Mamiya 7</a></li>
+</ul>
+</details>
+
+<details>
+<summary><b>螺口</b></summary>
+<ul>
+<li><b>M42</b>——单反螺口，起源于20世纪三四十年代的德国，兴盛五六十年代，宾得和富士坚持使用到1970年代</li>
+<li><b>L39/M39/LTM/LSM</b>：十分混乱的旁轴螺口，有多种彼此不通用的规格，如确实有意购买，建议提前做好功课。以下关于L39的说明摘自<a href="http://camera-wiki.org/wiki/39mm_screw_lenses">camera-wiki.org</a>：
+  <ul>
+  <li>The most important rangefinder camera bodies using the Leica screw mount are:
+    <ul>
+    <li><a href="http://camera-wiki.org/wiki/Leica_I" title="Leica I">Leica I</a> / <a href="http://camera-wiki.org/wiki/Leica_II" title="Leica II">II</a> / <a href="http://camera-wiki.org/wiki/Leica_III" title="Leica III">III</a></li>
+    <li><a href="http://camera-wiki.org/wiki/Canon_II/III/IV" title="Canon II/III/IV">Canon rangefinders</a></li>
+    <li><a href="http://camera-wiki.org/wiki/Cosina" title="Cosina">Cosina</a> Voigtländer <a href="http://camera-wiki.org/wiki/Bessa" title="Bessa">Bessa L/T/R</a></li>
+    <li>the Soviet <a href="http://camera-wiki.org/wiki/Zorki" title="Zorki">Zorki</a>, <a href="http://camera-wiki.org/wiki/FED" title="FED">FED</a>, <a href="http://camera-wiki.org/wiki/Leningrad" title="Leningrad">Leningrad</a> and <a href="http://camera-wiki.org/wiki/Drug" title="Drug">Drug</a></li>
+    <li>the British <a href="http://camera-wiki.org/wiki/Corfield" title="Corfield">Corfield</a> <a href="http://camera-wiki.org/wiki/Periflex" title="Periflex">Periflex</a> and <a href="http://camera-wiki.org/wiki/Reid" title="Reid">Reid</a></li>
+    </ul>
+  </li>
+  <li>Some manufacturers made cameras and lenses with a 39mm screw mount completely incompatible with the Leica one, because of the different film-to-flange distance. Four such systems are:
+    <ul>
+    <li>the <a href="http://camera-wiki.org/wiki/Braun" title="Braun">Braun</a> <a href="http://camera-wiki.org/wiki/Paxette" title="Paxette">Paxette</a></li>
+    <li>early models of the Soviet <a href="http://camera-wiki.org/wiki/Zenit" title="Zenit">Zenit</a></li>
+    <li><a href="http://camera-wiki.org/wiki/Great_Wall_DF" title="Great Wall DF">长城 DF</a> 中画幅单反</li>
+    <li>Soviet half-frame <a href="http://camera-wiki.org/wiki/Chajka" title="Chajka">Chajka</a> 2, 3 and 2m models</li>
+    </ul>
+  </li>
+  </ul>
+</li>
+</ul>
+</details>
 
 ## 3. 取景方式
 
@@ -185,6 +218,7 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 - [旁轴](https://zh.wikipedia.org/wiki/%E6%97%81%E8%BD%B4%E7%9B%B8%E6%9C%BA)相机能观察到主体从取景范围外走进画面的过程，更适合街拍，但取景有视差无法拍近摄题材（旁轴镜头的最近对焦距离普遍在0.7~1m，只有固定镜头才能做到0.5m），而且对焦精度受限于固定的基线，很难使用超长焦镜头与超大光圈镜头
 
 简单科普旁轴取景器的一些要素：
+
 - **放大倍率**是取景器内与裸眼观察事物大小的比值，较低的倍率更适合搭配广角镜头，较高的倍率更适合搭配标准镜头、大光圈镜头
 - **框线**是取景器预览的对应焦距镜头所拍到的成像范围，决定了构图的精度，镜头与机身的框线最好匹配，否则可能出现”以为在画面边缘拍到了，实际超出边缘没拍到“的尴尬情况
 - **基线**是黄斑与取景窗的距离，基线与倍率的乘积为有效基线，影响对焦精度，决定了机身是否能使用大光圈、长焦镜头
@@ -192,29 +226,26 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 > ![](https://petapixel.com/assets/uploads/2022/10/leica-m6-viewfinder-magnification-frameline-comparison-1.jpg)
 > [Leica M6: One of the Best 35mm Film Cameras of All Time | PetaPixel](https://petapixel.com/leica-m6/)
 
-135手动旁轴退烧的终点是徕卡M，如果预算不够徕卡M系列，那么日系的Cosina（包括Zeiss Ikon、福伦达Bessa R2/R3/R4系列、禄莱35RF=Bessa R2换标）、柯尼卡Hexar RF、徕卡/美能达CL/CLE也都值得一试。以下是我在2018年整理的[廉价M口机身列表](https://www.zhihu.com/question/38537066/answer/77061572)：
+135手动旁轴退烧的终点是徕卡M，如果预算不够徕卡M系列，那么日系的Cosina（包括Zeiss Ikon、福伦达Bessa R2/R3/R4系列、禄莱35RF=Bessa R2换标）、柯尼卡Hexar RF、徕卡/美能达CL/CLE也都值得一试。
 
-> ![](/assets/img/budget-m-body.webp)
-> 
-> （第一列是2018年采集的闲鱼价格，现在已无参考价值）
-> 
-> 美能达/徕卡CLE和巧思RF都是自动化程度很高的机身，设计思路跟徕卡的机身完全不一样。得看个人喜好决定是否纳入备选。另外CLE的基线过短，挂饼干头十分安逸，大光圈就不敢保证对得准焦了。
-> 
-> 确善能的Bessa系列网上普遍评价做工不太好、基线偏短。手动曝光的RxM结构更简单，应该会比RxA可靠一点。这个系列的特色是有两款取景器倍率专门为标头(R3m/R3a)和广角(R4m/R4a)优化的型号，至于0.7x倍率的机型(R2m/R2a)就显得不是那么不可替代了，不如买Zeiss Ikon ZM。
-> 
-> 对了，确善能还有一个无取景器机身Bessa T，非常适合需要外置取景器的镜头。常常有机身+超广+取景器套出的，折算下来就是买镜头送机身了。
-> 
-> 徕卡M6版本很多，除了倍率之外还有大盘小盘的区别，由于价格已经不那么便宜，就不展开介绍了……中文资料很多，有兴趣可以自己细查。
-> 
-> 根据镜头选机身懒人版：
-> 
-> - 28mm、35mm、50mm，其中用28mm更多——M6 0.58x、Hexar RF
-> - 28/2.8、35mm、50mm，其中用35mm更多——M6 0.72x、Zeiss Ikon
-> - 35mm、50mm、75mm——M6 0.85x、Bessa R2m/R2a
-> - 40mm、50mm、75mm——Bessa R3m/R3a
-> - 28/2.8、40/2、90/4三饼干——美能达CLE、徕卡CLE
-> - 21/4、25/4、28/2、35/2等小体积广角——Bessa R4m/R4a
-> - 21mm以下超广——Bessa T
+<details>
+<summary><b>价格相对友好的 M 口机身</b></summary>
+<p><img src="/assets/img/budget-m-body.webp" alt="M口机身列表"></p>
+<p>美能达/徕卡CLE和巧思RF都是自动化程度很高的机身，设计思路跟徕卡的机身完全不一样。得看个人喜好决定是否纳入备选。另外CLE的基线过短，挂饼干头十分安逸，大光圈就不敢保证对得准焦了。</p>
+<p>确善能的Bessa系列网上普遍评价做工不太好、基线偏短。手动曝光的RxM结构更简单，应该会比RxA可靠一点。这个系列的特色是有两款取景器倍率专门为标头(R3m/R3a)和广角(R4m/R4a)优化的型号，至于0.7x倍率的机型(R2m/R2a)就显得不是那么不可替代了，不如买Zeiss Ikon ZM。</p>
+<p>对了，确善能还有一个无取景器机身Bessa T，非常适合需要外置取景器的镜头。常常有机身+超广+取景器套出的，折算下来就是买镜头送机身了。</p>
+<p>徕卡M6版本很多，除了倍率之外还有大盘小盘的区别，由于价格已经不那么便宜，就不展开介绍了……中文资料很多，有兴趣可以自己细查。</p>
+<p><b>根据镜头选机身懒人版：</b></p>
+<ul>
+  <li>28mm、35mm、50mm，其中用28mm更多——M6 0.58x、Hexar RF</li>
+  <li>28/2.8、35mm、50mm，其中用35mm更多——M6 0.72x、Zeiss Ikon</li>
+  <li>35mm、50mm、75mm——M6 0.85x、Bessa R2m/R2a</li>
+  <li>40mm、50mm、75mm——Bessa R3m/R3a</li>
+  <li>28/2.8、40/2、90/4三饼干——美能达CLE、徕卡CLE</li>
+  <li>21/4、25/4、28/2、35/2等小体积广角——Bessa R4m/R4a</li>
+  <li>21mm以下超广——Bessa T</li>
+</ul>
+</details>
 
 ### 腰平
 
@@ -265,11 +296,12 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 
 当然，虽说日系品牌的M口“廉价”，其实也要大几千块了。再低的预算，就只剩下不可换镜头的旁轴可选了。德系、美系的皮腔老旁轴（30~50年代的福伦达、Agfa、柯达等品牌）同样有年代过久的问题，60年代~70年代的日系品牌旁轴，成色普遍会比欧美的老古董好一些，比较容易买到工况良好、可以正常使用的，价格也更低，很适合追求性价比的玩家。
 
-> Riversky在知乎介绍了[7款值得推荐的日系小旁轴](https://zhuanlan.zhihu.com/p/536880331)：
->
-> ![](https://pic2.zhimg.com/v2-af5c56610c30a4282067fb02350768cd_r.jpg)
-
-作者介绍的过程也提到国外社区其实并没有所谓“旁轴七剑”的概念。“旁轴七剑”不代表性价比高，只代表它们规格够用的前提下，中文资料更多、二手市场流通性更高，跟”豆瓣神机“走的是一个路线。
+<details>
+<summary>“新旁轴七剑”</summary>
+<p>Riversky在知乎介绍了<a href="https://zhuanlan.zhihu.com/p/536880331">7款值得推荐的日系小旁轴</a>：</p>
+<p><img src="https://pic2.zhimg.com/v2-af5c56610c30a4282067fb02350768cd_r.jpg" alt="新旁轴七剑"></p>
+<p>作者介绍的过程也提到国外社区其实并没有所谓“旁轴七剑”的概念。“旁轴七剑”不代表性价比高，只代表它们规格够用的前提下，中文资料更多、二手市场流通性更高，跟“豆瓣神机”走的是一个路线。</p>
+</details>
 
 #### 120
 
@@ -303,15 +335,19 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 | 38~40mm | Leica Minilux / CM<br>Contax T2<br>Fuji Klasse = Rollei AFM35<br>Fujifilm Klasse S                  |                                                                                     |
 | 变焦      | GA645Zi<br>Contax TVS<br>Minilux Zoom                                                               | Fujifilm Natura Classica / Natura NS<br>Yashica T Zoom / T4 Zoom<br>Olympus μ2 zoom |
 
-简单介绍其中的几个有特色的型号：
-
-- 美能达TC-1，从The Camera One的命名就能看出，这是一台旗舰定位的精品袖珍机。无论做工还是成像都达到了当时的顶级水准，同时也是当时世界上最小的自动对焦35mm相机，结构精密，也有娇气易故障的缺点；Contax T3，采用蔡司镜头、造型比较现代的高端小相机，有相对少见的钛黑配色；尼康28Ti/35Ti，钛合金机身，35Ti为香槟色、28Ti为钛黑色，精工(SEIKO)制造的仪表盘很有艺术感，这两台尼康PS机的另一个特色是取景器的框线照明窗位于机身顶部，而不是一般PS机的正前方，夜拍时框线很容易被路灯照亮（但同时，照明窗也很容易被长帽檐或是左手食指遮挡）。
-- 理光GR1，以其独特的快拍理念，成为唯一一个从胶片时代一直延续到数码时代的PS机系列，最大的特色是结合了预对焦与超焦距的Snap模式。
-- 富士Natura，独特的24mm/f1.9大光圈镜头，搭配当年的Natura 1600胶卷，可以获得优秀的夜拍能力，在中文社区有“月光机”的别称；柯尼卡巧思AF的35mm F2.0也算是一台光圈比较大的P&S机，但机身并没有内置闪光灯，因而大光圈的意义更多在于景深，而不是夜拍。
-- 富士的GA645系列，唯一采用现代理念的自动化中画幅旁轴，体积对于中画幅来说相对“小巧”，勉强能塞进大衣口袋，适合随便拍拍又想要大底的玩家。不过这台相机采用的是类似135半格相机的竖向3:4画幅，如果平时拍照主要以横向构图为主，可能不容易习惯。
-- 以上所有变焦P&S机都不太推荐购买，因为上个世纪的计算机辅助设计不太发达，导致复杂镜头的画质同现代镜头差距较大。
-
-![](https://i0.wp.com/casualphotophile.com/wp-content/uploads/2022/06/nikon-28ti-review-29.jpg?resize=1080%2C721&ssl=1)
+<details>
+<summary><b>高端傻瓜机（P&S）典型型号特色点评</b></summary>
+<ul>
+  <li><b>美能达TC-1</b>：旗舰定位的精品高端袖珍机。做工与成像均达当时顶级，是当时世界上最小的自动对焦35mm相机。结构异常精密，但也有娇气易故障的通病。</li>
+  <li><b>Contax T3</b>：采用蔡司镜头、造型现代的旗舰口袋机，拥有相对少见的钛黑配色。</li>
+  <li><b>尼康28Ti / 35Ti</b>：钛合金机身（35Ti香槟色/28Ti钛黑色），精工(SEIKO)制造的机顶物理指针仪表盘极具艺术感。其框线照明窗位于机身顶部（优点是夜拍易被路灯照亮，缺点是易被长帽檐或手指遮挡）。<img src="https://i0.wp.com/casualphotophile.com/wp-content/uploads/2022/06/nikon-28ti-review-29.jpg?resize=1080%2C721&ssl=1"></li>
+  <li><b>理光GR1系列</b>：最长寿的系列，哪怕现今手机摄影如此发达，数码化的GR仍有自己的市场。其独特的快拍理念一直延续至今，核心优势在于结合了预对焦与超焦距的特有 Snap 快拍模式。</li>
+  <li><b>富士Natura</b>：搭载独特的 24mm f/1.9 超大光圈镜头，搭配当年 Natura 1600 胶卷具备极强夜拍能力，民间别称“月光机”。</li>
+  <li><b>柯尼卡巧思AF</b>：配置 35mm F2.0 大光圈镜头，由于机身未内置闪光灯，大光圈的实用意义更多在于营造景深而非单纯夜拍。</li>
+  <li><b>富士GA645系列</b>：罕见的现代理念全自动中画幅旁轴。体积相对小巧（可勉强塞进大衣口袋）。需注意该机机身默认取景为竖向 3:4 画幅，习惯横构图的玩家需要适应。</li>
+  <li>注：以上所有变焦P&S机都不太推荐购买，因为上个世纪的计算机辅助设计不太发达，导致复杂镜头的画质同现代镜头差距较大。</li>
+</ul>
+</details>
 
 ### 估焦 & 泛焦
 
@@ -319,7 +355,7 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 
 固定光圈的泛焦相机现在比较容易买到新机，比如常见的LOMO相机、拍立得。这类相机的结构非常简单，售价主要由品牌溢价组成，性价比不高，除非你特别追求LOMO的效果。
 
-还有一类泛焦是我们主动收缩光圈。最知名的估焦机有禄莱35系列与Minox 35系列。Minox 35后来推出了AF版本，[近来也有团队正在复刻禄莱35的AF版本](https://mint-camera.com/35mm-camera/)。理光GR系列的Snap Mode也可以当成一种估焦模式。当然，如果你更喜欢估焦的拍摄方式，更推荐入手理光现在的数码GR系列，因为常用的高感胶片通常也只有ISO 400左右，过分收缩光圈会导致这种模式非常吃光线，不理想的光照条件下成片往往要么过暗、要么过糊，可用性很低，除非你特别追求糊掉的风格。
+还有一类泛焦是我们主动收缩光圈。最知名的估焦机有禄莱35系列与Minox 35系列。Minox 35后来推出了AF版本，[近来也有团队正在复刻禄莱35的AF版本](https://rollei35af.com/)。理光GR系列的Snap Mode也可以当成一种估焦模式。如果你更喜欢估焦的拍摄方式，更推荐入手理光现在的数码GR系列，因为常用的高感胶片通常也只有ISO 400左右，过分收缩光圈会导致这种模式非常吃光线，不理想的光照条件下成片往往要么过暗、要么过糊，可用性很低，除非你特别追求糊掉的风格。
 
 ![](https://i0.wp.com/casualphotophile.com/wp-content/uploads/2017/03/rollei-35-se-review-6-e1489970951214.jpg?fit=2000%2C1125&ssl=1)
 
@@ -364,9 +400,12 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 
 提供光圈优先曝光模式的相机，其快门计时方式必然是电子式的。这类相机操作方便，快门精度高，但必须装电池才能拍照，且部分电池型号现在很难购买。机械计时快门的相机，其快门速度拨盘必然没有光圈优先。这类相机即使装配电池，也只是用于测光，拍照并不依赖电池。然而，机械计时快门更容易因结构老化导致曝光不准。
 
-有人认为机械计时快门的结构简单，因而故障率更低。但笔者亲身体验表明，实际并非如此。笔者曾拥有纯机械的雅西卡FX3和电子计时的康泰时139 Quartz，结果快门小毛病不断的反而是全机械的FX3——机器耐用与否，更主要是看当年出厂定位是否低端，以及出厂后这些年的使用和保养状况，与快门采用哪种计时原理的关系并不大。
+<details>
+<summary>机械计时 vs 电子计时快门，故障率真的更低吗？</summary>
+<p>有人认为机械计时快门的结构简单，因而故障率更低。但笔者亲身体验表明，实际并非如此。笔者曾拥有纯机械的雅西卡FX3和电子计时的康泰时139 Quartz，结果快门小毛病不断的反而是全机械的FX3——机器耐用与否，更主要是看当年出厂定位是否低端，以及出厂后这些年的使用和保养状况，与快门采用哪种计时原理的关系并不大。</p>
 
-不过有一点是可以确定的，电子计时快门虽然曝光更精准，但一旦发生故障，就意味着无法拍摄，且由于年代久远，可能无法找到相应型号的电子元件进行维修。而纯机械相机由于结构简单，故障通常只是曝光不准或者不均匀，不会出现快门完全失效的故障，即使出现故障也比较容易维修。当然，FX3这类低端机型的维修成本是否值得，就要另当别论了。
+<p>不过有一点是可以确定的，电子计时快门虽然曝光更精准，但一旦发生故障，就意味着无法拍摄，且由于年代久远，可能无法找到相应型号的电子元件进行维修。而纯机械相机由于结构简单，故障通常只是曝光不准或者不均匀，较少出现快门完全失效的故障，即使出现故障也比较容易维修。当然，FX3这类低端机型的维修成本是否值得，就要另当别论了。</p>
+</details>
 
 定位较高端的纯机械相机有尼康F/F2/FM/FM2、佳能F-1（不是new F-1）、奥林巴斯OM-1、宾得K1000/MX等。
 
@@ -386,7 +425,9 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 
 机械计时相机都只有手动曝光，自动曝光相机都是电子计时，反过来不一定成立，也有一部分采用电子计时的相机只支持手动曝光。如果不是特别追求纯机械相机的话，一般选择自动曝光的相机就好，当然，购买自动曝光相机前也要稍微做点功课，看看现在还买不买得到对应型号的电池。
 
-## 7. 资料网站
+## 7. 补充资料
+
+作为器材导购向的科普，本文对摄影基础知识的介绍基本都是一句带过。对于纯萌新，我也推荐看一看这个[2014年的演示文稿](https://1drv.ms/p/s!As8fb6-4t65KgplcXqBbwfYVwWf5uw)，里面用实例直观展示了各种参数对成像的影响，有助于对摄影的基础概念形成初步的认识。
 
 最后再推荐几个综合性的老相机资料网站：
 

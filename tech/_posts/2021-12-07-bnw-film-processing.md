@@ -11,6 +11,7 @@ toc: true
 redirect_from:
   - /tech/bnw-chem
 custom_head: <style>div.figures{display:flex;flex-wrap:wrap;gap:16px;justify-content:center}.figures figure{width:300px;height:200px;margin:0;display:grid;grid-template-rows:1fr auto}.figures .img-container{display:flex;gap:4px;min-width:0;overflow:hidden}.figures .img-container>a{flex:1;position:relative;overflow:hidden;min-width:0}.figures .img-container img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.figures figcaption{font-size:.85em;text-align:center}</style>
+description: 本文是专为新手写就的黑白胶卷冲洗实用教程。结合多年家庭手冲经验，从性价比出发，教你选购胶片相机显影罐与冲洗药水；同时提炼出从装片、显影、定影到水洗晾干的干货步骤解析。文末另附原理解析与常见失误案例，助你轻松完成第一次黑白胶片手冲。
 ---
 这篇面向新手入门的黑白胶卷冲洗教程，起源于一份化学原理的旧讲稿，并结合多年家庭手冲经验编写而成。文章分两部分：一是突出“性价比”的器材选购指南，教你按需搭配显影罐与冲洗药水；二是主打“干货”的实操步骤，精炼了装片、显影、定影到水洗晾干的核心环节。文末另附原理解析与常见失误案例，供拓展参考。
 

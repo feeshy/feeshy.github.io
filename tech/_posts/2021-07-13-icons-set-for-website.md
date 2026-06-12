@@ -9,6 +9,7 @@ tags:
 redirect_from:
   - https://meta.appinn.net/t/topic/24614
 toc: true
+description: 2026年适配99%网站的favicon只需3个文件。从SVG矢量图标的动态样式、深色模式适配，到Android可遮罩图标与iOS液态玻璃避坑，一次性讲清如何用极简的资源实现全平台完美显示。
 ---
 
 ## favicon

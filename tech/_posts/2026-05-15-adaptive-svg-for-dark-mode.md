@@ -7,7 +7,7 @@ tags:
   - 折腾记录
   - favicon
 toc: false
-description: 通过 <object> 标签引用的 SVG，其透明背景能否在深色模式下保留，关键在于它的 color-scheme 声明是否与父文档一致。声明不一致时，浏览器会在深色模式下强制填充白色或黑色背景。只需在 SVG 的根元素声明与父文档一致的 color-scheme，即可消除此项干预，使其按设计透明度正常渲染。
+description: 用 object 标签嵌入的 SVG 图标在深色模式下变成纯白方块，根本原因是 SVG 缺少与父页面一致的 color-scheme 声明，被浏览器强制垫底。在 SVG 根元素补一行声明即可修复。
 ---
 ## 问题背景
 

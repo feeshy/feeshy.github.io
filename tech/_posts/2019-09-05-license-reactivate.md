@@ -11,7 +11,7 @@ redirect_from:
   - https://post.smzdm.com/p/a839v9g0/#cl_1
   - /tech/license_reactivate.html
 toc: true
-description: 这篇指南记录了在重装系统、更换主板/硬盘，或设备出售、丢失等场景下，转移和恢复各类软件许可证的方法。覆盖 Windows 数字许可证、Office、iLok 等软件的授权处理流程，以及 Android、Apple 设备的账号注销流程。
+description: 记录了在重装系统、更换主板/硬盘，或设备出售、丢失等场景下，转移和恢复各类软件许可证的方法。覆盖 Windows 数字许可证、Office、iLok 等软件的授权处理流程，以及 Android、Apple 设备的账号注销流程。
 ---
 
 本文是对2019年[我在什么值得买社区发布的一篇文章](https://post.smzdm.com/p/a839v9g0/#cl_1)的更新，主要记录了我在重装系统、更换硬件，以及设备故障、出售、赠送和丢失前后，对电脑中软件许可证进行的处理。希望这些经验能够帮助大家更好地管理自己的软件授权，避免成为正版软件受害者。
