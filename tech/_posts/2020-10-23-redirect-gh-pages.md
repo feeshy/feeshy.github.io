@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GitHub Pages重定向的实现
+title: GitHub Pages 重定向的实现
 date: 2020-10-23
 last_modified_at: 2026-06-05
 tags:

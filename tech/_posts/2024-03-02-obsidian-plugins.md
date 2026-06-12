@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我的 Obsidian 插件
+title: 我的 Obsidian 插件记录
 date: 2024-03-02
 last_modified_at: 2026-04-12
 tags:
@@ -12,7 +12,9 @@ redirect_from:
 toc: true
 description: 个人在用的 Obsidian 插件记录，覆盖同步、编辑器增强、任务管理、文档库管理与主题五大类，包含幕布与 Workflowy 的替代插件、Zotero 联动方案。
 ---
-> Obsidian 是一款支持Markdown语法、本地存储的笔记软件，其特色在于其双向链接功能和灵活的插件系统，可以帮助用户以非线性的方式组织和管理知识。简而言之，Obsidian 可以看作是增强版的个人知识库，它可以让用户将知识碎片连接起来，形成一个庞大的知识网络，并通过插件扩展其功能，实现多种用途。
+<details><summary>关于Obsidian</summary>
+<p>Obsidian 是一款支持Markdown语法、本地存储的笔记软件，其特色在于其双向链接功能和灵活的插件系统，可以帮助用户以非线性的方式组织和管理知识。简而言之，Obsidian 可以看作是增强版的个人知识库，它可以让用户将知识碎片连接起来，形成一个庞大的知识网络，并通过插件扩展其功能，实现多种用途。</p>
+</details>
 
 从前我只是轻度的[Obsidian](https://obsidian.md)用户，2024年把[幕布](https://mubu.com/)上的笔记都迁移过来了，准备把Obsidian当成主力笔记。折腾了一番，目前的插件方案是这样的：
 

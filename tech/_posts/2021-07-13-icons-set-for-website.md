@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 创建可适配主流浏览器的favicon集合
+title: 创建可适配主流浏览器的 favicon 集合
 last_modified_at: 2026-05-17
 tags:
   - 折腾记录

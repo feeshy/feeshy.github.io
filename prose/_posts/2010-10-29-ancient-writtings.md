@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 史前纸笔集（2008~2011）
-date: 2010-10-29
+date: 2008-03-30
 last_modified_at: 2011-06-19
-tags: 
+tags:
 noindex: true
 ---
 

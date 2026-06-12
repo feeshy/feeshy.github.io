@@ -5,7 +5,7 @@ date: 2012-02-04
 last_modified_at: 2012-02-04
 tags:
   - 诗
-custom_head: "<style>article p {text-align: left;}</style>"
+custom_head: "<style>article p {text-align: left !important;}</style>"
 ---
 神探终于叼起烟斗：“凶手就是——”<br>
 　　“精彩稍后继续”

@@ -2,7 +2,7 @@
 layout: poetry
 title: 意象偷取
 date: 2012-03-15
-last_modified_at: 2019-01-02
+last_modified_at: 2012-03-15
 tags:
   - 诗
   - 音乐

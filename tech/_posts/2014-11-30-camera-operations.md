@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 摄影基础知识和相机操作（PPT）
+title: 摄影基础知识和相机操作 PPT
 date: 2014-11-30
 last_modified_at: 2015-10-24
 tags:
@@ -8,6 +8,7 @@ tags:
   - 科普
 description: 这份摄影入门演示文稿以“能调整哪些参数、调整之后是什么效果”为主线，通过大量实例直观展示快门速度、ISO、焦距、拍摄距离、光圈等核心参数如何影响画面明暗、景深、动态凝固与空间透视。内容覆盖摄影基础概念与相机基础操作，帮助新手快速建立对曝光三要素、景深控制和相机操作的初步认知，是一份适合零基础用户的实用视觉化学习资料。
 custom_head: <script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"摄影基础知识和相机操作 PPT 课件","description":"一份面向新手的摄影基础知识与相机操作课件 PPT，快门速度、ISO、光圈等参数，对照能调整哪些配置以及对应的效果。","learningResourceType":"Presentation","educationalLevel":"Beginner","hasPart":{"@type":"DigitalDocument","name":"摄影基础知识和相机操作简报","fileFormat":"application/vnd.openxmlformats-officedocument.presentationml.presentation","url":"https://1drv.ms/p/s!As8fb6-4t65Kic8WZc8v4CxfS_KGAg"}}</script>
+toc: true
 ---
 这个演示文稿是我在2014年NKPA迎新活动上使用的，以「能调整哪些参数、调整之后是什么效果」为主线，通过大量实例直观展示了各种参数对成像效果的影响，有助于小白对摄影的基础概念形成初步的认识。
 
@@ -19,9 +20,8 @@ custom_head: <script type="application/ld+json">{"@context":"https://schema.org"
   </iframe>
 </div>
 
-> [下载ppt](https://1drv.ms/p/s!As8fb6-4t65Kic8WZc8v4CxfS_KGAg)
-
-> [相机模拟器](https://www.camerasim.com/original-camerasim)
+> [⏬ 下载ppt](https://1drv.ms/p/s!As8fb6-4t65Kic8WZc8v4CxfS_KGAg)
+> [📷 相机模拟器](https://www.camerasim.com/original-camerasim)
 
 ---
 

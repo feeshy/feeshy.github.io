@@ -10,6 +10,7 @@ tags:
   - 胶片
 redirect_from:
   - https://www.zhihu.com/question/34623286/answer/59453813
+  - /tech/res-of-films
 ---
 > 知乎提问：胶卷的像素是无限的吗？
 > 
