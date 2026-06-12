@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 2 # 获取上一次提交以对比文件差异
           lfs: true
@@ -35,7 +35,7 @@ jobs:
           cache-version: 0
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
         
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
@@ -47,7 +47,7 @@ jobs:
         run: echo "${{ secrets.BING_INDEXNOW_KEY }}" > _site/${{ secrets.BING_INDEXNOW_KEY }}.txt
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
 
   # Deployment job
   deploy:
@@ -58,7 +58,7 @@ jobs:
     needs: build
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 2 # 同样需要历史记录来识别修改的文件
           lfs: true
