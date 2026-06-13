@@ -58,16 +58,8 @@ jobs:
           done
           URL_JSON="${URL_JSON%,}"
 
-          # 构造 payload
-          PAYLOAD=$(cat <<EOF
-{
-  "host": "feeshy.top",
-  "key": "${KEY}",
-  "keyLocation": "${KEY_URL}",
-  "urlList": [${URL_JSON}]
-}
-EOF
-          )
+          # 构造 payload（用 printf 不用 heredoc，避免 GitHub Actions yaml + bash 双重解析 EOF 缩进的坑）
+          PAYLOAD=$(printf '{\n  "host": "feeshy.top",\n  "key": "%s",\n  "keyLocation": "%s",\n  "urlList": [%s]\n}\n' "$KEY" "$KEY_URL" "$URL_JSON")
 
           echo "📤 准备提交 ${#URL_LIST[@]} 个 URL："
           for url in "${URL_LIST[@]}"; do
