@@ -1,5 +1,3 @@
 User-agent: *
 Disallow: /assets/
-Disallow: /tag/
-
 Sitemap: https://feeshy.top/sitemap.xml
