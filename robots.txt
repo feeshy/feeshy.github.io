@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /assets/
 Disallow: /tag/
 
-Sitemap: /sitemap.xml
+Sitemap: https://feeshy.top/sitemap.xml
