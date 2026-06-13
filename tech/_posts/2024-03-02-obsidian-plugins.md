@@ -18,17 +18,23 @@ description: 个人在用的 Obsidian 插件记录，覆盖同步、编辑器增
 
 从前我只是轻度的[Obsidian](https://obsidian.md)用户，2024年把[幕布](https://mubu.com/)上的笔记都迁移过来了，准备把Obsidian当成主力笔记。折腾了一番，目前的插件方案是这样的：
 
-## 内置同步
+## 同步
 
-虽然直接把Obsidian本地库放在网盘中就能同步（纯桌面可以用任意网盘，iOS与桌面可以用iCloud），但Android平台的网盘客户端很难兼顾同步与续航。如果涉及Android，那么就只存在Obsidian软件内同步这项选择。
+### 笔记同步
 
-Obsidian官方的内置同步服务要每月花费8美金，这使得许多用户会选择以下两个第三方的内置同步方案：[remotely-save](https://obsidian.md/plugins?id=remotely-save) \| [remotely-sync](https://obsidian.md/plugins?id=remotely-secure)[^sync]，可将Obsidian接入Dropbox / OneDrive / WebDAV / Amazon S3。如果更看重版本管理，还可以使用git同步插件[obsidian-git](https://obsidian.md/plugins?id=obsidian-git)[^git]
+虽然直接把Obsidian本地库放在网盘中就能同步（纯桌面可以用任意网盘，iOS与桌面可以用iCloud），但网盘同步只做文件覆盖，缺乏文本级的冲突合并。在多端同时修改或离线编辑时，极易导致内容覆盖或产生冲突副本。因此，要保障数据一致性，Obsidian 软件内同步仍是首选。
 
-[^sync]: 两插件同源。remotely-save原作者fyears在2022年~2023年有一年半没更新，于是sboesen fork了一个新的分支remotely-sync进行维护，2024年初fyears归来，目前两个项目平行更新
+Obsidian官方的内置同步服务要每月花费8美金，这使得许多用户会选择以下的同步方案：
 
-[^git]: obsidian git插件的意义不仅仅是同步与版本管理。例如，我现在就是靠它打通了从Obsidian到GitHub的路由，从而实现了直接从Obsidian发布博客的工作流
+- [Remotely Save](https://obsidian.md/plugins?id=remotely-save) \| [Remotely Sync](https://obsidian.md/plugins?id=remotely-secure) - 支持 Dropbox / OneDrive / WebDAV / S3。两插件同源。remotely-save 原作者 fyears 在2022年~2023年有一年半没更新，于是 sboesen fork 了一个新的 remotely-sync 进行维护，2024年初 fyears 归来，目前两个项目平行更新
+- [Nutstore Sync](https://obsidian.md/plugins?id=nutstore-sync) - 坚果云 WebDAV 的请求数限制比较严格，使用前两个插件很容易突破限制导致封禁。这款 Nutstore Sync 插件是坚果云官方开发的，优化了同步逻辑，理论上可以大幅度减少请求数。
+- [Obsidian Git](https://obsidian.md/plugins?id=obsidian-git) - 更严谨的版本管理与多端同步。但它的价值远不止于此，例如，我现在就是靠它打通了[从Obsidian到GitHub](https://github.com/feeshy/feeshy.github.io?tab=readme-ov-file#readme)的路由，从而实现了直接用Obsidian发布博客的工作流。
+- [Self-hosted LiveSync](https://obsidian.md/plugins?id=obsidian-livesync) - 支持 CouchDB / 对象存储 / WebRTC。最好的同步体验依赖 CouchDB，可实现近乎实时的同步。但 Fly.io 取消了免费政策、有免费额度的 IMB Coudant 对个人用户风控非常严格（我使用国内发卡行的 VISA / AMEX 均没有注册成功）。目前国内用户如果想要获得最佳同步体验，通常需要通过 VPS 或 NAS 中的 Docker 自行部署数据库。
 
-- [Cubox](https://obsidian.md/plugins?id=cubox-sync) - Cubox 是一款网页剪藏服务。订阅会员可通过这个插件调用它的 API，将剪藏的网页正文或标注同步至 Obsidian。
+### 其他内容同步
+
+- [Cubox](https://obsidian.md/plugins?id=cubox-sync) - Cubox 是一款网页剪藏服务。==订阅会员==可通过这个插件调用它的 API，将剪藏的网页正文或标注同步至 Obsidian。
+- [Weread](https://obsidian.md/plugins?id=obsidian-weread-plugin) - 同步微信读书的书籍元信息、高亮划线、笔记、书评、热门划线。
 
 ## 编辑器
 
