@@ -142,22 +142,29 @@ jobs:
           echo "IndexNow HTTP $HTTP_CODE"
           cat indexnow_response.txt || true
 
-          # IndexNow 成功响应是 200/202；其他都算失败，不更新 SHA
+          # IndexNow 成功响应是 200/202；其他都算失败。
+          # 注意：这里只警告、不 exit 1。网站本身已经成功部署（actions/deploy-pages 是上一步），
+          # IndexNow 只是附加功能，失败不应该让整个 deploy 标记为 failed。
+          # 但也不更新 last_indexnow_sha，下次会重试。
+          INDEXNOW_FAILED=0
           if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "202" ]; then
-            echo "IndexNow submission failed; not updating last_indexnow_sha."
-            exit 1
+            echo "::warning::IndexNow submission failed (HTTP $HTTP_CODE); site deployed but search engines were not notified. Will retry on next deploy."
+            INDEXNOW_FAILED=1
           fi
 
-      # 4. 把这次成功跑完的 commit SHA 存为 artifact，供下一次 workflow run 拉取做 diff 起点
-      - name: Upload last successful SHA
-        if: success()
-        run: git rev-parse HEAD > last_indexnow_sha
+          # 5. 把这次成功提交过 IndexNow 的 commit SHA 存为 artifact，供下一次 workflow run 拉取做 diff 起点
+          # IndexNow 失败时跳过这个 step，保留旧 SHA，下一次重试
+          if [ "$INDEXNOW_FAILED" = "0" ]; then
+            git rev-parse HEAD > last_indexnow_sha
+          fi
         shell: bash
+
       - name: Persist SHA artifact
         if: success()
         uses: actions/upload-artifact@v7
         with:
           name: last_indexnow_sha
           path: last_indexnow_sha
-          if-no-files-found: error
+          # IndexNow 失败时 SHA 文件可能不存在；用 warn 不要 error，避免连带 deploy 挂红
+          if-no-files-found: warn
           retention-days: 90
