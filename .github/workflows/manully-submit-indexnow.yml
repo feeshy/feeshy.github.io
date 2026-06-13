@@ -1,0 +1,97 @@
+name: Manually submit URLs to IndexNow
+
+# 手动触发的全站 / 批量提交 workflow。
+# 怎么用：GitHub → Actions → "Manually submit URLs to IndexNow" → Run workflow → 点绿色按钮。
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit URLs to IndexNow
+        env:
+          INDEXNOW_KEY: ${{ secrets.BING_INDEXNOW_KEY }}
+        run: |
+          set -euo pipefail
+
+          KEY="$INDEXNOW_KEY"
+          if [ -z "$KEY" ]; then
+            echo "❌ Secret BING_INDEXNOW_KEY 未设置，请先在 repo Settings → Secrets 里配好"
+            exit 1
+          fi
+
+          # 手动指定要提交的 URL
+          URL_LIST=(
+            "https://feeshy.top/tech/adaptive-svg-for-dark-mode"
+            "https://feeshy.top/lists/DAWs"
+            "https://feeshy.top/lists/source-han-fonts"
+            "https://feeshy.top/poetry/blood/kongming"
+            "https://feeshy.top/tech/bnw-film-processing"
+            "https://feeshy.top/tech/redirect-gh-pages"
+            "https://feeshy.top/lists/monospace-fonts-width"
+            "https://feeshy.top/music/headroom-in-arrangement-and-mix"
+            "https://feeshy.top/lists/free-audio-plugins"
+            "https://feeshy.top/prose/sleepless-night"
+            "https://feeshy.top/tech/obsidian-plugins"
+          )
+
+          # 先验证 key 文件在线上能访问（不然后续提交 Bing 也会拒绝）
+          KEY_URL="https://feeshy.top/${KEY}.txt"
+          echo "🔍 验证 key 文件: $KEY_URL"
+          KEY_HTTP=$(curl -sS -o /dev/null -w "%{http_code}" "$KEY_URL")
+          if [ "$KEY_HTTP" != "200" ]; then
+            echo "❌ key 文件访问失败（HTTP $KEY_HTTP），请先确认 key 正确、且 CI 已部署过 _site/<key>.txt"
+            exit 1
+          fi
+          echo "✅ key 文件验证通过"
+          echo ""
+
+          # 构造 urlList JSON 片段
+          URL_JSON=""
+          for url in "${URL_LIST[@]}"; do
+            URL_JSON="${URL_JSON}\"${url}\","
+          done
+          URL_JSON="${URL_JSON%,}"
+
+          # 构造 payload
+          PAYLOAD=$(cat <<EOF
+{
+  "host": "feeshy.top",
+  "key": "${KEY}",
+  "keyLocation": "${KEY_URL}",
+  "urlList": [${URL_JSON}]
+}
+EOF
+          )
+
+          echo "📤 准备提交 ${#URL_LIST[@]} 个 URL："
+          for url in "${URL_LIST[@]}"; do
+            echo "   - $url"
+          done
+          echo ""
+
+          # 提交
+          echo "🚀 提交中..."
+          HTTP_CODE=$(curl -sS -o indexnow_response.txt -w "%{http_code}" \
+            -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "$PAYLOAD")
+
+          echo ""
+          echo "📊 IndexNow HTTP $HTTP_CODE"
+          echo "响应内容："
+          cat indexnow_response.txt 2>/dev/null || echo "（无响应体）"
+          echo ""
+
+          if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "202" ]; then
+            echo "✅ 提交成功！Bing 会在几小时内处理。"
+            exit 0
+          else
+            echo "❌ 提交失败（HTTP $HTTP_CODE）"
+            exit 1
+          fi
