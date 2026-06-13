@@ -96,7 +96,9 @@ jobs:
 
           # 1. 提取变更文件的文件名（不含路径和扩展名），例如 2026-06-12-hello.md -> hello
           #    用 # 做 sed 分隔符，避免 .md / .markdown / .html 里的 | 干扰解析
-          CHANGED_NAMES=$(git diff --name-only "$LAST_SHA" HEAD | grep -E '\.(md|markdown|html)$' | sed -E 's#.*/##' | sed -E 's#^[0-9]{4}-[0-9]{2}-[0-9]{2}-##' | sed -E 's#\.(md|markdown|html)$##' || true)
+          #    --diff-filter=ACMRT 表示只取 Added / Copied / Modified / Renamed / Type-changed，排除 Deleted
+          #    （删掉的页面再提交 URL 给 IndexNow 没意义，Bing 抓也抓不到）
+          CHANGED_NAMES=$(git diff --name-only --diff-filter=ACMRT "$LAST_SHA" HEAD | grep -E '\.(md|markdown|html)$' | sed -E 's#.*/##' | sed -E 's#^[0-9]{4}-[0-9]{2}-[0-9]{2}-##' | sed -E 's#\.(md|markdown|html)$##' || true)
           
           # 【核心逻辑】如果没有检测到具体的文章或页面变更，直接优雅退出，跳过提交
           if [ -z "$CHANGED_NAMES" ]; then
