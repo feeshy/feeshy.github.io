@@ -14,7 +14,7 @@ redirect_from:
 
 三星的投屏方式还挺多的，这里总结一下区别
 
-# 投屏到显示器/电视
+## 投屏到显示器/电视
 
 | |视频软件中的TV投屏|Smart View|屏幕共享|[DeX](https://www.samsung.com/cn/apps/samsung-dex/)电视/显示器版|
 | --- | --- | --- | --- | --- |
@@ -32,7 +32,7 @@ redirect_from:
 
 注3：有线屏幕共享支持键鼠。至于是否支持触摸，楼主暂时无法验证。欢迎有条件验证的来编辑
 
-# 投屏到电脑
+## 投屏到电脑
 
 | |[Samsung Flow](https://www.samsung.com/global/galaxy/apps/samsung-flow/)|[Your Phone](https://support.microsoft.com/zh-cn/your-phone-app)|[DeX](https://www.samsung.com/cn/apps/samsung-dex/)电脑版|
 | --- | --- | --- | --- |

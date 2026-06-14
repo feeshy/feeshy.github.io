@@ -61,7 +61,7 @@ SVG是一种基于XML的矢量图形格式。目前 SVG favicon 已经可以被2
 </svg>
 ```
 
-[^object]: [Object 嵌入 SVG 深色模式踩坑记](](./adaptive-svg-for-dark-mode))
+[^object]: [Object 嵌入 SVG 深色模式踩坑记](./adaptive-svg-for-dark-mode)
 
 ## 桌面图标
 
