@@ -28,7 +28,7 @@ title: 友情链接
 
 ```
 https://feeshy.top
-https://feeshy.top/atom.xml
+https://feeshy.top/feed.xml
 https://feeshy.top/favicon.svg
 ```
 
