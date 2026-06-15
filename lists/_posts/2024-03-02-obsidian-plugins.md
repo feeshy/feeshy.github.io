@@ -9,6 +9,7 @@ tags:
   - 折腾记录
 redirect_from:
   - https://meta.appinn.net/t/topic/53296
+  - /tech/obsidian
 toc: true
 description: 个人在用的 Obsidian 插件记录，覆盖同步、编辑器增强、任务管理与主题等内容，包含幕布与 Workflowy 的替代插件、Zotero 联动方案。
 ---
