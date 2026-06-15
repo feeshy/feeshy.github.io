@@ -12,7 +12,7 @@ entries:
       limit: 3
       category: lists
       show_more: false
-  - title: 胡思乱想
+  - title: 胡想
     url: prose
     post_list:
       limit: 3
