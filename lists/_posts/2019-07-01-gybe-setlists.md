@@ -17,6 +17,7 @@ redirect_from:
   - /douban/gybe_setlists.html
 toc: true
 description: A side-by-side song title comparison for Godspeed You! Black Emperor. Easily track GYBE live setlists, bootlegs, and unreleased songs to their official streaming album titles.
+image: https://images.theskinny.co.uk/assets/production/000/149/284/149284_widescreen.1.jpg
 ---
 
 <details><summary>About GYBE</summary>

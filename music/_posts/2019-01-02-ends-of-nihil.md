@@ -7,6 +7,7 @@ tags:
   - 音乐
 redirect_from:
   - /sounds/ends_of_nihil.html
+image: https://f4.bcbits.com/img/a2649281859_2.jpg
 ---
 
 欢迎来到虚芜角

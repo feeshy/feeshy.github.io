@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FFmpeg中的硬件加速编码器
+title: FFmpeg 中的硬件加速编码器
 date: 2020-08-14
 last_modified_at: 2022-01-28
 tags:

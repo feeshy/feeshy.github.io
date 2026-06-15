@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 三星OneUI投屏方式总结
+title: 三星 OneUI 投屏方式总结
 date: 2021-06-28
 last_modified_at: 2021-06-28
 tags:

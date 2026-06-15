@@ -1,6 +1,6 @@
 ---
 layout: redirect
-title: Adobe桌面软件的替代品
+title: Adobe 桌面软件的替代品
 date: 2020-06-30
 tags:
   - appinn

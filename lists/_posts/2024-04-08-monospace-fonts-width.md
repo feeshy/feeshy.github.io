@@ -1,11 +1,13 @@
 ---
 layout: post
 title: 能与中文对齐的西文等宽字体
+date: 2024-04-08
 last_modified_at: 2026-05-30
 tags:
   - 字体
 custom_head: "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r<link href=\"https://fonts.googleapis.com/css2?family=Cascadia+Code&family=Cascadia+Mono&family=Fira+Code&family=Google+Sans+Code&family=Inconsolata&family=JetBrains+Mono&family=Noto+Sans+Mono&family=PT+Mono&family=Roboto+Mono&family=Source+Code+Pro&family=Ubuntu+Mono&family=Ubuntu+Sans+Mono&display=swap\" rel=\"stylesheet\">"
 description: 中英文等宽编程字体挑选指南。盘点更纱黑体、Maple等定制字体及纯西文等宽字体与中文的1:2对齐方案。内置相似字符区分、编程连字技术对比，完美解决VSCode和终端混排难题。同时支持30余款主流与极客字体在线代码动态预览
+image: https://github.com/dnydlk/maple-font/raw/variable/resources/2-1.png
 ---
 汉字字体普遍采用等宽设计，而西文字体则有比例和等宽两种选择。
 

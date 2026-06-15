@@ -6,6 +6,7 @@ last_modified_at: 2026-05-23
 tags:
   - appinn
 redirect_from: https://meta.appinn.net/t/73036
+image: https://cdn.mos.cms.futurecdn.net/cN5vw3EMJoPGRw5YRnUGr-650-80.jpg.webp
 ---
 微软便笺的数据存储在微软邮箱的「备注」文件夹中，可被所有支持 Exchange ActiveSync 同步协议的客户端兼容（但墨迹、图片等高级格式仅限微软自家客户端支持），这个表格汇总了各系统可同步微软便笺的客户端：
 

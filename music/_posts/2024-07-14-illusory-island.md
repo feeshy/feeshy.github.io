@@ -5,6 +5,7 @@ date: 2024-07-14
 last_modified_at: 2026-01-24
 tags:
   - 音乐
+image: https://f4.bcbits.com/img/a1911345321_2.jpg
 ---
 <span lang="zh">这张专辑的大部分旋律在 2016 至 2020 年间便已写下草稿，时间上大抵可算作「<a href="/music/ends-of-nihil">虚芜角</a>」的姊妹篇。后期制作因疏懒而延宕，却也因此见证了亲人的意外变故、新冠疫情以及加沙的人道主义危机。</span><span lang="en">A collection of melodic songs with most drafts created in 2016~2020.  Chronologically a sister album to <em><a href="/music/ends-of-nihil">Ends of Nihil</a></em>, its post-production was delayed due to procrastination—yet this allowed it to witness unexpected family tragedies, the COVID-19 pandemic, and the humanitarian crisis in Gaza.  </span>
   

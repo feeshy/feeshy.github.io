@@ -7,6 +7,7 @@ tags:
   - 音乐
 redirect_from:
   - /sounds/wet_as_hell.html
+image: https://f4.bcbits.com/img/a3719863211_2.jpg
 ---
 
 songs with hopeless guitars and muddy reverbs. 

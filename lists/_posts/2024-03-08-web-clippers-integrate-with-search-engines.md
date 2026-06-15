@@ -10,6 +10,7 @@ tags:
 redirect_from:
   - https://meta.appinn.net/t/topic/53644
   - /lists/web-clipper-search-intergrations
+image: https://user-images.githubusercontent.com/1576687/104394411-88407580-5581-11eb-8b9a-c4bbce154515.png
 ---
 这篇文章将对比类似印象笔记·剪藏的浏览器插件，收录的标准是，能在Google、百度等搜索引擎的搜索结果页面旁边的空白区域，显示同一关键词的剪藏查询结果。
 

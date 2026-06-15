@@ -9,6 +9,7 @@ tags:
 toc: true
 redirect_from:
   - /tech/headroom-in-arrangement-and-mix
+image: https://images.unsplash.com/photo-1509310202330-aec5af561c6b?fm=jpg&q=80&w=640&auto=format
 ---
 > 记录近两年关于编曲、混音阶段保留动态余量的看法，相比[2021年](/tech/my-master-workflow)有了更进一步理解。
 

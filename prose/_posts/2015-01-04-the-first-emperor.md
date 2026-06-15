@@ -8,6 +8,7 @@ tags:
   - 豆瓣
 redirect_from:
   - https://movie.douban.com/review/7594169/
+image:
 ---
   
 本片的剧情在史书记录上有所发挥，将刺杀的“阴谋”变成“阳谋”。秦王和赵姬成为电影的两条线索，二者有着共同的特质——理想主义。  

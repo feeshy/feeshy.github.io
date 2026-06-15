@@ -1,16 +1,16 @@
 entries:
 
+  - title: 笔记
+    url: lists
+    post_list:
+      limit: 4
+      category: lists
+      show_more: false
   - title: 折腾
     url: tech
     post_list:
       limit: 3
       category: tech
-      show_more: false
-  - title: 笔记
-    url: lists
-    post_list:
-      limit: 3
-      category: lists
       show_more: false
   - title: 胡想
     url: prose
@@ -42,6 +42,7 @@ entries:
   - title: 最近
     url: recent
   - title: 订阅
+    url: recent
     entries:
     - title: RSS
       url: feed.xml

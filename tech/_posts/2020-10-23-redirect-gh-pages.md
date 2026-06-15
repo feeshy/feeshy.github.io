@@ -9,6 +9,7 @@ tags:
   - 折腾记录
 toc: true
 description: GitHub Pages 等静态托管服务无法使用服务端 301/302 重定向，本文介绍可在此类平台上使用的多种客户端重定向替代方案：HTML meta 标签、JavaScript 跳转、404 页面路由重构，以及 Service Worker 拦截。
+image: https://backlinkmanager.io/wp-content/uploads/2024/06/client-side-redirects-source-usergrowth-io-1.png
 ---
 GitHub Pages没有开放可配置的服务器端301、302重定向，只能用其他替代方式实现页面重定向。我们可以采用以下几种跳转策略（这些方法同样适用于其他缺乏路由控制的静态托管服务）：
 

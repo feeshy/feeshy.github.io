@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iPad与Surface的生产力生态
+title: iPad 与 Surface 的生产力生态
 date: 2021-11-10
 last_modified_at: 2023-06-30
 tags:
@@ -11,6 +11,7 @@ tags:
 redirect_from:
   - https://meta.appinn.net/t/27415
 toc: true
+image: https://platform.theverge.com/wp-content/uploads/sites/2/chorus/hermano/verge/product/image/9694/bfarsace_211004_4777_0043_sq.jpg
 ---
 今年秋季入手了一台iPad，跟之前的一台[联想的类Surface产品](/smzdm/yoga-duet-iml)互补使用。Surface Pro与iPad Pro的生产力之争持续了很多年，我用Surface形态的产品有几年了，iPad也用了几个月，现在算是有发言权了，来逐步分享一些实际使用中两个系统硬件和生态的差异。
 

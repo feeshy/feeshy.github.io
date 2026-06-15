@@ -8,6 +8,7 @@ tags:
   - 豆瓣
 redirect_from:
   - https://music.douban.com/review/17541737/
+image: https://k.sinaimg.cn/n/sinakd20260318s/345/w2048h1497/20260318/ae14-3aa1aa70f413bd1deaefa744dc8912db.jpg/w700d1q75cms.jpg
 ---
 《太阳之子》是一张合格的流水线音乐产品，但也仅此而已。相比于“周杰伦”这个名字带给大众的预期，本作实际呈现的艺术水准是有落差的。其原因或许可以归纳以下几个层面：
 

@@ -11,6 +11,7 @@ tags:
 redirect_from:
   - https://www.zhihu.com/question/48749285/answer/112433648
   - /tech/audio-cd-vs-data-cd
+image: https://upload.wikimedia.org/wikipedia/commons/a/ae/Disk-structure2.svg
 ---
 
 > [知乎提问](https://www.zhihu.com/question/48749285/answer/112433648)：一张CD的容量只有700MB，但80分钟的16bit 44.1khz规格的PCM音频的占用空间在807.5MB左右，请问是如何塞进去的？

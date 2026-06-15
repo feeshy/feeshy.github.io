@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《钢琴家》剧情梳理
+title: 《钢琴家》剧情时间线梳理
 date: 2015-09-08
 last_modified_at: 2015-09-08
 tags:
@@ -8,6 +8,7 @@ tags:
 redirect_from:
   - https://movie.douban.com/review/7594497/
 toc: true
+image: https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg
 ---
 
 影片的时间在主角的视角下可以分成几个阶段，我在这里简要介绍一下每个阶段的历史背景以及出现的角色。

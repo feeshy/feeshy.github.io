@@ -14,6 +14,7 @@ redirect_from:
 toc: true
 custom_head: <style>img{max-width:320px;max-height:240px;border-radius:5px;padding:2.5px;filter:drop-shadow(-2.5px 2.5px 5px rgba(0,0,0,.5))}</style>
 description: 收录百余款 VST/AU/AAX 格式混音与母带工具（含均衡、压缩、延迟、混响、限制器、失真等）。大部分插件经过人工筛选并附带干货点评，着重突出其特色功能与适用场景。2020年起持续更新至今。
+image: https://analogobsession.com/wp-content/uploads/2023/04/HOME-1536x734.png
 ---
 
 <details>

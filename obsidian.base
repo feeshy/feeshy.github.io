@@ -4,31 +4,43 @@ filters:
     - or:
         - layout == "post"
         - layout == "poetry"
+formulas:
+  updated on: if(last_modified_at.isEmpty(),date, last_modified_at).relative()
+  年份: date.year
+properties:
+  formula.updated on:
+    displayName: edited on
+  formula.年份:
+    displayName: published on
 views:
   - type: cards
     name: 卡片
-    groupBy:
-      property: file.folder
-      direction: DESC
     order:
       - title
+      - formula.updated on
     sort:
-      - property: last_modified_at
+      - property: formula.updated on
         direction: DESC
-      - property: file.mtime
-        direction: DESC
-    cardSize: 210
+    markers: bullet
+    indentProperties: false
+    cardSize: 200
     imageAspectRatio: 0.5
+    image: note.image
   - type: table
     name: 表格
     order:
       - title
       - file.folder
       - file.name
-      - last_modified_at
+      - formula.updated on
+      - date
       - file.tags
     sort:
-      - property: last_modified_at
+      - property: date
         direction: DESC
+      - property: formula.updated on
+        direction: DESC
+      - property: last_modified_at
+        direction: ASC
       - property: file.mtime
         direction: DESC

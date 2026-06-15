@@ -7,6 +7,7 @@ tags:
   - 音乐
 redirect_from:
   - /sounds/illusory_beats.html
+image: https://f4.bcbits.com/img/a1146329932_2.jpg
 ---
 近年做的Downtempo与Trip Hop歌曲合集，主要制作于2019~2021、2023~2024两个时间段，记录了从合成器小白到合成器新手的成长。使用Soundcamp、GarageBand、Reason、Ableton Live编曲和混音。
 

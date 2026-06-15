@@ -8,6 +8,7 @@ tags:
   - 音乐
 redirect_from:
   - /legends/taichicat.html
+image: /assets/img/taichicat.webp
 ---
 
 <iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=520012298/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=3489358287/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/ends-of-nihil">ends of nihil by feeshy</a></iframe>

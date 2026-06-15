@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zendure X5 PD移动电源+USB Hub晒单
+title: Zendure X5 PD 移动电源 + USB Hub 晒单
 date: 2020-07-05
 last_modified_at: 2020-07-05
 tags:
@@ -9,6 +9,7 @@ tags:
   - 移动电源
 redirect_from:
   - https://post.smzdm.com/p/a4wmg6lw/
+image: /assets/img/zendure-2.avif
 ---
 买这个移动电源，并不是因为之前的移动电源坏了，也不是因为需要更大的容量。单纯只是最近一两年总是看到USB PD这个词，渐渐被种草，想添一个可以给笔记本应急供电的USB PD移动电源，以备不时之需。
 

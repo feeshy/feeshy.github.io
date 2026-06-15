@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 新手选购胶片相机指南
+title: 胶片相机新手选购指南
 date: 2024-03-31
 last_modified_at: 2024-04-05
 tags:
@@ -15,6 +15,7 @@ redirect_from:
   - /lists/film-cameras
 toc: true
 description: 新手玩家选购首台胶卷相机的一站式科普。本文从画幅、镜头、取景、对焦、快门及曝光六个硬件维度，分类梳理并盘点经典的单反、旁轴、双反及傻瓜胶片机代表机型，提供纯硬件视角的二手胶片相机选购参考。
+image: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2147492160/images/dyS7ME9MTiWvYxlPkaiR_VM19XXW04205-01-MC.jpg
 ---
 
 > 当下年代玩胶片机的意义，更多在于综合体验复古的外观、操作与复古的成像风格。相机既是拍摄的工具，也是被拍的道具。如果只是想体验胶片的色彩风格，现在有许多数码相机拥有效果出色的胶片模拟，甚至要求不高的情况下，手机+滤镜App也能将知名胶片的色彩还原到五六不离十的程度。

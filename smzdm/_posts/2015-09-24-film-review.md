@@ -2,8 +2,11 @@
 layout: post
 title: 简评用过的135和120胶卷
 last_modified_at: 2024-04-14
-tags: [摄影, 胶片]
+tags:
+  - 摄影
+  - 胶片
 toc: true
+date: 2015-09-24
 ---
 简单点评一下用过的胶卷（如果未明确指明画幅，默认点评的是135）
 
