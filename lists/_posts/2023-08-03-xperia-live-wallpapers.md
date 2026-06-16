@@ -18,12 +18,14 @@ description: Quick navigation links to download Sony Xperia stock live wallpaper
 image: https://wallpaperaccess.com/full/1568689.jpg
 ---
 
-A clean navigation directory for Sony Xperia live wallpaper APKs. This page provides direct links to the Xperia stock wallpaper packages shared on ApkMirror, organized by device models and launch years.
+A clean navigation directory for Sony Xperia live wallpaper APKs. This page provides direct links to the Xperia stock wallpaper packages shared on ApkMirror & XDA, organized by device models and launch years.
 
-[⚡ **Mirrors:** For convenience, some packages are also backed up in my personal OneDrive folder](https://1drv.ms/f/s!As8fb6-4t65Kip0fs5v1yT_LuMN1tw?e=Ldwwl3).
+🎨 **Note on Colors:** Packages launched in the same year share identical designs, differing only in model-exclusive color schemes. For instance, in the 2020 Mark II lineup, *Blue* is exclusive to the Xperia 5 II, while *Green* is tailored for the Xperia 1 II.
 
 | Model                | Package Name                                                                                                         | Launch Year |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------- |
+| Xperia 1 VIII        | [com.sonymobile.wallpaper.ge](https://xdaforums.com/t/xperia-1-viii-live-wallpaper-is-here.4789569/)                 | 2026        |
+| Xperia 1 VII         | [com.sonymobile.wallpaper.fs](https://xdaforums.com/t/xperia-1-vii-live-wallpaper.4742368/)                          | 2025        |
 | Xperia 1 VI          | [com.sonymobile.wallpaper.ec](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-20)          | 2024        |
 | Xperia 5 V           | [com.sonymobile.wallpaper.de](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-19)          | 2023        |
 | Xperia 1 V           | [com.sonymobile.wallpaper.dq](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-wallpaper-16)          | 2023        |
@@ -47,4 +49,8 @@ A clean navigation directory for Sony Xperia live wallpaper APKs. This page prov
 | Xperia X / XZ / XZ1  | com.sonymobile.xperiaxlivewallpaper                                                                                  | 2016~2017   |
 | Xperia Z3 / Z3+ / Z5 | [com.sonymobile.experienceflow2](https://www.apkmirror.com/apk/sony-mobile-communications/xperia-live-wallpaper)     | 2014~2015   |
 
-🎨 **Note on Colors:** Packages launched in the same year share identical designs, differing only in model-exclusive color schemes. For instance, in the 2020 Mark II lineup, *Blue* is exclusive to the Xperia 5 II, while *Green* is tailored for the Xperia 1 II.
+---
+
+⚡ **Mirrors:** A [OneDrive folder](https://1drv.ms/f/s!As8fb6-4t65Kip0fs5v1yT_LuMN1tw?e=Ldwwl3) of backed-up packages (mirrored on <time>2024-06-18</time>).
+
+🖼️ **Static wallpapers:** A [Google Photos album](https://photos.google.com/share/AF1QipMK5VyPO3ymn9wutweLjC1e3nO7zj7FkGbAwLjeLzbs1AeOD7oKPVP_gt1PvBwYQg?key=RGdKX3owTlVsOFIxcDVJTTZna1BVMmFiWUE5NEN3) of stock Xperia wallpapers collected by [u/Vodoinstalater](https://www.reddit.com/user/Vodoinstalater/).

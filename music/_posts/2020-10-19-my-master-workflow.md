@@ -13,19 +13,11 @@ redirect_from:
 toc: true
 ---
 
-> [知乎提问](https://www.zhihu.com/question/417045936/answer/1532203357)：把歌曲全部混音完成后，总觉得整体的音量偏低，总轨的推子在初始位置没有动过，于是我在总轨的插件槽上加了一个Gain，拉到我想要的响度后，突然发现歌曲爆音了，于是在加完Gain的基础上又加了一个Limter，发现依旧会有爆音的频段，并且歌曲整体的音色听起来变得非常紧实不自然，所以如何才能科学地在混音完成后提升响度
+> 这套master[^1]处理思路，是在制作 _Sleepwalker, Wanderer_ 这首歌时慢慢摸索出的：提响度不等于简单地提gain。只有先削弱对于成品价值不大的声音，才能获得更多提gain的headroom——这种想法应该既存在于混音的过程中，也存在于混音完成后的master阶段。
 
-___
+[^1]:在混音工程的总线做master仅仅适用于不找外人做master的情况，否则请将整体响度问题交给母带师来解决，别重复master两遍
 
-非业内人士，谈一下自己粗浅的想法
-
-提响度不等于简单地提gain——只有先削弱对于成品价值不大的声音，才能获得更多提gain的headroom——这种想法应该既存在于混音的过程中，也存在于混音完成后的master阶段
-
-> 注意：在混音工程的总线做master仅仅适用于不找外人做master的情况，否则请将整体响度问题交给母带师来解决，别重复master两遍
-
-<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4028171195/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1545109972/transparent=true/" seamless><a href="https://feeshy.bandcamp.com/album/illusory-beats">Illusory Beats by feeshy</a></iframe>
-
-接下来以这首歌的总线信号流为例，分享一点具体的总线处理思路来抛砖引玉
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" height="48" src="https://music.163.com/outchain/player?type=2&id=2061038847&auto=0&height=32"></iframe>
 
 ## Mid/Side EQ
 
@@ -74,10 +66,6 @@ ___
 ## Loudness Meter
 
 峰值电平常常与我们所感知的响度有很大的差别。广播行业会用[一套心理声学的方法](https://zhuanlan.zhihu.com/p/51224355)来评估一段音频的响度。混音和master也可以借用这个标准。
-
-不知道题主是怎么定义响度偏低或者正常的。我的混音完成时，整体响度一般在-25LUFS~-15LUFS，master的目标响度在-17~-13LUFS，经过这一套master流程还是非常容易达成预期目标的。
-
-如果把目标提高到-11LUFS左右，动态就会损失到听起来一股流行味儿的程度，再提高到-9LUFS，就会出现在我看来无法接受的失真了。
 
 ## 演示中用到的插件
 

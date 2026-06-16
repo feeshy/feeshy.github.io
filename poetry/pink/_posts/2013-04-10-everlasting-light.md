@@ -10,7 +10,7 @@ image: /assets/img/spirited-away-1.avif
 
 <img src="/assets/img/spirited-away-2.avif" style="z-index: -1; position: absolute; inset: 0; width: 100%; height: 100%; max-height: 100%; object-fit: cover; opacity: 0.25; mask: linear-gradient(to bottom, black 66.6%, transparent)">
 
-> [▷ Everlasting Light - MONO](https://music.163.com/song?id=776677)
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" height="48" src="https://music.163.com/outchain/player?type=2&id=776677&auto=0&height=32"></iframe>
 
 在湿漉漉的月光下你们重逢<br>
 你们亲吻对方的眼眸和脖颈
