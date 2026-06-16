@@ -15,7 +15,7 @@ toc: true
 
 > 这套master[^1]处理思路，是在制作 _Sleepwalker, Wanderer_ 这首歌时慢慢摸索出的：提响度不等于简单地提gain。只有先削弱对于成品价值不大的声音，才能获得更多提gain的headroom——这种想法应该既存在于混音的过程中，也存在于混音完成后的master阶段。
 
-[^1]:在混音工程的总线做master仅仅适用于不找外人做master的情况，否则请将整体响度问题交给母带师来解决，别重复master两遍
+[^1]: 在混音工程的总线做master仅仅适用于不找外人做master的情况，否则请将整体响度问题交给母带师来解决，别重复master两遍
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" height="48" src="https://music.163.com/outchain/player?type=2&id=2061038847&auto=0&height=32"></iframe>
 
