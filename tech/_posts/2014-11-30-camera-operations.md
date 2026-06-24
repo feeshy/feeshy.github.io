@@ -20,8 +20,7 @@ toc: true
   </iframe>
 </div>
 
-> [⏬ 下载ppt](https://1drv.ms/p/s!As8fb6-4t65Kic8WZc8v4CxfS_KGAg)
-> [📷 相机模拟器](https://www.camerasim.com/original-camerasim)
+> [⏬ 下载ppt](https://1drv.ms/p/s!As8fb6-4t65Kic8WZc8v4CxfS_KGAg) | [📷 相机模拟器](https://www.camerasim.com/original-camerasim)
 
 ---
 

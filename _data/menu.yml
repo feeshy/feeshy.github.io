@@ -12,11 +12,11 @@ entries:
       limit: 3
       category: tech
       show_more: false
-  - title: 胡想
-    url: prose
+  - title: 种草
+    url: smzdm
     post_list:
-      limit: 3
-      category: prose
+      limit: 2
+      category: smzdm
       show_more: false
   - title: 音乐
     url: music
@@ -24,18 +24,19 @@ entries:
       limit: 2
       category: music
       show_more: false
+  - title: 胡想
+    url: prose
+    post_list:
+      limit: 2
+      category: prose
+      show_more: false
   - title: 诗歌
     url: poetry
     post_list:
       limit: 2
       category: poetry
       show_more: false
-  - title: 种草
-    url: smzdm
-    post_list:
-      limit: 2
-      category: smzdm
-      show_more: false
+
 
   - title: 标签
     url: tags

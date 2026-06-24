@@ -59,7 +59,7 @@ nav:
   back_home: "home" # customize text for homepage link
   go_to_top: "🔝" # customize text for go to top button
 date_format: "%Y-%m-%d" # customize how date is formatted at https://strftime.net/
-copyright: "by-nc-nd" # available values: "all-rights-reserved", "by-nc-nd", "by-nd", "by-nc-sa", "by-nc", "by-sa", "by", "public-domain". choose here https://chooser-beta.creativecommons.org/
+copyright: "by-nc" # available values: "all-rights-reserved", "by-nc-nd", "by-nd", "by-nc-sa", "by-nc", "by-sa", "by", "public-domain". choose here https://chooser-beta.creativecommons.org/
 # goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
 
 # defaults
@@ -98,19 +98,21 @@ defaults:
       path: music
       type: posts
     values:
-      fonts: serif
+      copyright: "by-nc-nd"
   -
     scope:
       path: poetry
       type: posts
     values:
       layout: poetry
+      copyright: "by-nc-nd"
       fonts: serif
   -
     scope:
       path: prose
       type: posts
     values:
+      copyright: "by-nc-nd"
       fonts: serif
       dropcap: true
 
@@ -118,7 +120,7 @@ defaults:
 
 markdown: redcarpet
 redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "highlight", "footnotes", "with_toc_data"]
+  extensions: ["tables", "autolink", "strikethrough", "highlight", "footnotes"]
 toc:
   min_level: 2 # value: 1-6
   max_level: 3 # value: 1-6

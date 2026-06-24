@@ -428,13 +428,16 @@ XPAN I = TX1, XPAN II = TX2, 四款机身均由富士生产，哈苏与富士的
 
 ## 7. 补充资料
 
-作为器材导购向的科普，本文对摄影基础知识的介绍基本都是一句带过。对于纯萌新，我也推荐看一看这个[2014年的演示文稿](https://1drv.ms/p/s!As8fb6-4t65KgplcXqBbwfYVwWf5uw)，里面用实例直观展示了各种参数对成像的影响，有助于对摄影的基础概念形成初步的认识。
-
-最后再推荐几个综合性的老相机资料网站：
-
-- [Camera-wiki.org](http://camera-wiki.org/)——相机百科
-- [LENS-DB.COM](https://lens-db.com/)——镜头资料大全
-- [毒镜头](https://www.dujingtou.com/)——中文资料站
-- [Antique and Classic Cameras](https://www.antiquecameras.net/home.html)——以旁轴相机与镜头资料为主
-- [Aperturepedia](https://aperturepedia.com/)——以单反镜头资料为主
-- [TLR Cemaras Website](http://www.tlr-cameras.com/index.htm)——双反资料
+- 几个综合性的老相机资料网站
+	- [Camera-wiki.org](http://camera-wiki.org/)——相机百科
+	- [LENS-DB.COM](https://lens-db.com/)——镜头资料大全
+	- [毒镜头](https://www.dujingtou.com/)——中文资料站
+	- [Antique and Classic Cameras](https://www.antiquecameras.net/home.html)——以旁轴相机与镜头资料为主
+	- [Aperturepedia](https://aperturepedia.com/)——以单反镜头资料为主
+	- [TLR Cemaras Website](http://www.tlr-cameras.com/index.htm)——双反资料
+- 老相机说明书备份
+	- [魔机心得——海鸥4系列双镜头反光相机 使用与维修](https://feeshy.lanzout.com/isMnE3sslq2j)——张镇
+	- [Nikon 35Ti 使用手册](https://feeshy.lanzout.com/iwEjA3sslplc)
+	- [理光R1中文说明书](https://feeshy.lanzout.com/ity2z3sslq4b)
+- PPT
+	- [摄影基础知识和相机操作](https://1drv.ms/p/s!As8fb6-4t65KgplcXqBbwfYVwWf5uw)——用实例直观展示了各种参数对成像的影响，有助于对摄影的基础概念形成初步的认识

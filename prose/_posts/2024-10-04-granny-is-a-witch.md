@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我家猫去世了，聊聊我外婆跟外公的往事
+title: 我家猫去世了，聊聊外婆跟外公的往事
 date: 2024-10-04
 last_modified_at: 2026-03-06
 tags:
