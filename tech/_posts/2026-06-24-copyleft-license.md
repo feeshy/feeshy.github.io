@@ -15,7 +15,7 @@ image: https://static.wikia.nocookie.net/kane-pixels-backrooms/images/1/1b/Backr
 ---
 > 本文为笔者对 CC 协议的个人理解，并非权威法律意见。各条款的标准文本请参考 [Creative Commons 官方许可页面](https://creativecommons.org/licenses/)。
 
-最近看到一段关于互联网怪谈 IP 影视化的视频，对比了「后室」（Backrooms）这一元叙事在「Kane Pixels 个人宇宙」与「SCP 基金会」两个分支下的截然不同命运。这引发了我对以 CC-SA 以及 GPL 为代表的传染性开放授权的重新思考。
+最近看到一段关于互联网怪谈 IP 影视化的视频，对比了「后室」（Backrooms）这一元叙事在「Kane Pixels 个人宇宙」与「SCP 基金会」两个分支下的截然不同命运。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n8y626Uc_nU?si=OCkec_PIf5_oxoK5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

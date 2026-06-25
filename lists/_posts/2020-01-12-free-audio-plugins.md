@@ -7,6 +7,7 @@ tags:
   - VST
   - AUv3
   - 混音
+  - 音效插件
 redirect_from:
   - https://meta.appinn.net/t/topic/13311
   - /sounds/free_audio_plugins.html
