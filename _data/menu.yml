@@ -1,5 +1,8 @@
 entries:
 
+  - title: 标签
+    url: tags
+
   - title: 笔记
     url: lists
     post_list:
@@ -11,12 +14,6 @@ entries:
     post_list:
       limit: 3
       category: tech
-      show_more: false
-  - title: 种草
-    url: smzdm
-    post_list:
-      limit: 2
-      category: smzdm
       show_more: false
   - title: 音乐
     url: music
@@ -36,13 +33,14 @@ entries:
       limit: 2
       category: poetry
       show_more: false
+  - title: 种草
+    url: smzdm
+    post_list:
+      limit: 2
+      category: smzdm
+      show_more: false
 
-
-  - title: 标签
-    url: tags
   - title: 最近
-    url: recent
-  - title: 订阅
     url: recent
     entries:
     - title: RSS
