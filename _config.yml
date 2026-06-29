@@ -13,6 +13,8 @@ url: https://feeshy.top # the base hostname & protocol for your site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 webmaster_verifications:
   google: 13TdFZIpyncmP_FVn1REpOcCIgM5Tu9PwO6qTAcEFZo
+  baidu: codeva-ZFs7XAaAo8
+  
 
 # favicon & app icon
 
@@ -146,7 +148,6 @@ plugins:
   - jekyll-toc
   - jekyll-target-blank
   - jekyll-archives
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-pwa-workbox
   - jekyll-redirect-from

@@ -1,0 +1,15 @@
+# Sitemaps Configurations
+# Note: 'lastmod' is optional and can be omitted.
+
+# Put absolute URLs for your subdomains' sitemaps here.
+
+sub_sitemaps:
+  - loc: https://kana.feeshy.top/sitemap.xml
+  - loc: https://ppi.feeshy.top/sitemap.xml
+  - loc: https://stitcher.feeshy.top/sitemap.xml
+
+# Put absolute URLs for your custom pages here.
+
+custom_pages:
+  - loc: https://phones.feeshy.top/
+  - loc: https://ingress.feeshy.top/
