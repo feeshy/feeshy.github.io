@@ -144,6 +144,20 @@ jobs:
           echo "IndexNow HTTP $HTTP_CODE"
           cat indexnow_response.txt || true
 
+          # 4. 百度推送：使用相同的 URL 列表推送到百度
+          BAIDU_FAILED=0
+          echo "Pushing URLs to Baidu: [$URL_LIST_JSON]"
+          BAIDU_HTTP_CODE=$(curl -sS -o baidu_response.txt -w "%{http_code}" \
+            -X POST "http://data.zz.baidu.com/urls?site=https://feeshy.top&token=${{ secrets.BAIDU_TOKEN }}" \
+            -H "Content-Type: text/plain" \
+            -d "{\"urls\":[$URL_LIST_JSON]}")
+          echo "Baidu push HTTP $BAIDU_HTTP_CODE"
+          cat baidu_response.txt || true
+          if [ "$BAIDU_HTTP_CODE" != "200" ]; then
+            echo "::warning::Baidu push failed (HTTP $BAIDU_HTTP_CODE); site deployed but Baidu was not notified."
+            BAIDU_FAILED=1
+          fi
+
           # IndexNow 成功响应是 200/202；其他都算失败。
           # 注意：这里只警告、不 exit 1。网站本身已经成功部署（actions/deploy-pages 是上一步），
           # IndexNow 只是附加功能，失败不应该让整个 deploy 标记为 failed。
@@ -154,11 +168,14 @@ jobs:
             INDEXNOW_FAILED=1
           fi
 
-          # 5. 把这次成功提交过 IndexNow 的 commit SHA 存为 artifact，供下一次 workflow run 拉取做 diff 起点
-          # IndexNow 失败时跳过这个 step，保留旧 SHA，下一次重试
-          if [ "$INDEXNOW_FAILED" = "0" ]; then
+          # 5. 把这次成功提交过 IndexNow 和百度的 commit SHA 存为 artifact，供下一次 workflow run 拉取做 diff 起点
+          # IndexNow 或百度任一个失败时跳过，保留旧 SHA，下一次重试
+          if [ "$INDEXNOW_FAILED" = "0" ] && [ "$BAIDU_FAILED" = "0" ]; then
             git rev-parse HEAD > last_indexnow_sha
           fi
+
+
+
         shell: bash
 
       - name: Persist SHA artifact
@@ -170,3 +187,4 @@ jobs:
           # IndexNow 失败时 SHA 文件可能不存在；用 warn 不要 error，避免连带 deploy 挂红
           if-no-files-found: warn
           retention-days: 90
+
