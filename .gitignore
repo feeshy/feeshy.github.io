@@ -2,3 +2,7 @@ _site/
 .obsidian
 .opencode
 .DS_Store
+.sass-cache/
+.jekyll-cache/
+Gemfile.lock
+
