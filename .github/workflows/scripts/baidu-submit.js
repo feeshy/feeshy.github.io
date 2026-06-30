@@ -49,21 +49,18 @@ async function run() {
     }
   }
 
-  // Step 1: Try to submit 10 URLs
-  const firstBatchSize = Math.min(urls.length, 10);
-  const firstBatch = urls.slice(0, firstBatchSize);
-  
+  // 默认尝试提交全部 URL
+  const firstBatch = [...urls];
   let { status, data } = await submitBatch(firstBatch);
 
   if (status === 200) {
-    console.log('✅ First batch of 10 succeeded.');
-    // Remove submitted URLs
-    urls = urls.slice(firstBatchSize);
-    fs.writeFileSync('baidu_queue.txt', urls.join('\n') + (urls.length ? '\n' : ''));
+    console.log('✅ All URLs submitted successfully.');
+    // 清空队列
+    fs.writeFileSync('baidu_queue.txt', '');
     return;
   }
 
-  // If failed with over quota
+  // 如果因为超限失败 (over quota)
   const isOverQuota = data && (
     data.message === 'over quota' || 
     (data.message && typeof data.message === 'string' && data.message.includes('quota')) ||
@@ -71,15 +68,15 @@ async function run() {
   );
 
   if (isOverQuota) {
-    console.log('⚠️ 10 URLs failed due to over quota. Retrying with 1 URL to probe quota...');
+    console.log('⚠️ Over quota. Retrying with 1 URL to probe remaining quota...');
     
-    // Step 2: Try submitting exactly 1 URL
+    // 尝试提交 1 个 URL 来获取剩余额度
     const probeBatch = urls.slice(0, 1);
     const probeResult = await submitBatch(probeBatch);
     
     if (probeResult.status === 200) {
       console.log('✅ Probe URL succeeded.');
-      urls = urls.slice(1); // Remove the 1 successful URL
+      urls = urls.slice(1); // 移除这 1 个成功的 URL
       
       const remain = probeResult.data.remain;
       console.log(`Remaining quota reported: ${remain}`);
@@ -98,7 +95,7 @@ async function run() {
         }
       }
       
-      // Update queue
+      // 更新队列文件
       fs.writeFileSync('baidu_queue.txt', urls.join('\n') + (urls.length ? '\n' : ''));
     } else {
       console.log('❌ Probe URL also failed. No quota remaining for today.');
