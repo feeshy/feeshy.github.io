@@ -1,0 +1,99 @@
+name: Auto-submit URLs to Baidu
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Submit URLs to Baidu
+        env:
+          BAIDU_TOKEN: ${{ secrets.BAIDU_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$BAIDU_TOKEN" ]; then
+            echo "❌ Secret BAIDU_TOKEN 未设置"
+            exit 1
+          fi
+
+          # 检查远程是否存在 baidu-submit 分支
+          if ! git show-ref --verify --quiet refs/remotes/origin/baidu-submit; then
+            echo "🎉 baidu-submit 分支不存在，所有 URL 已经提交完成并且分支已被删除！"
+            exit 0
+          fi
+
+          # 切换到 baidu-submit 分支
+          git checkout baidu-submit
+
+          # 检查 baidu_urls.txt 是否存在且不为空
+          if [ ! -f baidu_urls.txt ] || [ ! -s baidu_urls.txt ]; then
+            echo "🎉 所有 URL 均已提交完成！准备删除 baidu-submit 分支..."
+            git push origin --delete baidu-submit || true
+            exit 0
+          fi
+
+          # 提取前 10 个 URL 并保存到临时文件
+          head -n 10 baidu_urls.txt > urls_to_submit.txt
+
+          # 统计本次提交的 URL 数量
+          URL_COUNT=$(wc -l < urls_to_submit.txt)
+          echo "📤 准备向百度提交 $URL_COUNT 个 URL："
+          cat urls_to_submit.txt
+          echo ""
+
+          echo "🚀 提交中..."
+          HTTP_CODE=$(curl -sS -o baidu_response.txt -w "%{http_code}" \
+            -H 'Content-Type:text/plain' \
+            --data-binary @urls_to_submit.txt \
+            "http://data.zz.baidu.com/urls?site=https://feeshy.top&token=${BAIDU_TOKEN}")
+
+          echo ""
+          echo "📊 Baidu HTTP $HTTP_CODE"
+          echo "响应内容："
+          cat baidu_response.txt 2>/dev/null || echo "（无响应体）"
+          echo ""
+
+          if [ "$HTTP_CODE" = "200" ]; then
+            echo "✅ 提交成功！"
+            
+            # 从 baidu_urls.txt 中移除已提交的 10 个 URL
+            tail -n +11 baidu_urls.txt > baidu_urls_new.txt
+            mv baidu_urls_new.txt baidu_urls.txt
+
+            # 提交修改并推送到仓库
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add baidu_urls.txt
+            
+            # 判断是否有剩余 URL
+            if [ -s baidu_urls.txt ]; then
+              REMAINING=$(wc -l < baidu_urls.txt)
+              git commit -m "Auto-submit 10 URLs to Baidu [skip ci] ($REMAINING left)"
+              git push origin HEAD:baidu-submit
+            else
+              echo "🎉 所有 URL 提交完成，删除 baidu-submit 分支..."
+              git commit -m "Auto-submit last URLs to Baidu and completed [skip ci]" || true
+              git push origin HEAD:baidu-submit || true
+              git push origin --delete baidu-submit || true
+            fi
+            
+            rm -f urls_to_submit.txt
+            exit 0
+          else
+            echo "❌ 提交失败（HTTP $HTTP_CODE）"
+            rm -f urls_to_submit.txt
+            exit 1
+          fi
