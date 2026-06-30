@@ -3,9 +3,10 @@ name: Auto-submit URLs to Search Engines
 on:
   schedule:
     - cron: '0 0 * * *'
-  push:
-    branches:
-      - url-submission
+  workflow_run:
+    workflows: ["Deploy Jekyll site to Pages"]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
@@ -14,6 +15,7 @@ permissions:
 jobs:
   submit:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name != 'workflow_run' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
