@@ -45,6 +45,12 @@ jobs:
       - name: Generate IndexNow Key File
         run: echo "${{ secrets.BING_INDEXNOW_KEY }}" > _site/${{ secrets.BING_INDEXNOW_KEY }}.txt
 
+      - name: Upload built sitemap
+        uses: actions/upload-artifact@v4
+        with:
+          name: built_sitemap
+          path: _site/sitemap-content.xml
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
 
@@ -61,6 +67,12 @@ jobs:
         with:
           # 拉全量历史，确保「上次成功提交的 SHA」一定能在本地 history 里找到
           fetch-depth: 0
+
+      - name: Download built sitemap
+        uses: actions/download-artifact@v4
+        with:
+          name: built_sitemap
+          path: built_sitemap_dir
 
       # 下载上一次 workflow run 成功存下来的「已提交 SHA」，作为本次 diff 起点
       # 第一次跑 / artifact 已被 GC 时不会让 workflow 失败
@@ -109,9 +121,9 @@ jobs:
           # 保存当前的 commit SHA 供下一步持久化
           PROCESSED_SHA=$(git rev-parse HEAD)
 
-          # 2. 如果有文章变动，获取刚才部署好的线上最新的 sitemap.xml 进行反查
-          echo "Fetching sitemap to resolve custom permalinks..."
-          curl -s https://feeshy.top/sitemap.xml > remote_sitemap.xml
+          # 2. 使用本地构建的 sitemap-content.xml 反查真实 URL
+          echo "Resolving custom permalinks using built sitemap..."
+          cp built_sitemap_dir/sitemap-content.xml remote_sitemap.xml
 
           MATCHED_URLS=()
           for name in $CHANGED_NAMES; do
@@ -122,10 +134,10 @@ jobs:
             fi
           done
 
-          # 如果改了文章，但由于某些原因在 sitemap 里反查失败，才用 sitemap 链接进行安全兜底
+          # 如果改了文章但在 sitemap 中反查不到，则直接退出，不 fallback 到 sitemap.xml
           if [ ${#MATCHED_URLS[@]} -eq 0 ]; then
-            echo "Articles changed but URLs not found in sitemap. Fallback to sitemap link."
-            MATCHED_URLS+=("https://feeshy.top/sitemap.xml")
+            echo "No matched URLs found in sitemap. Skipping queue updates safely."
+            exit 0
           fi
 
           # 输出为单行列表
@@ -167,7 +179,7 @@ jobs:
 
       - name: Persist SHA artifact
         if: success()
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v4
         with:
           name: last_indexnow_sha
           path: last_indexnow_sha
