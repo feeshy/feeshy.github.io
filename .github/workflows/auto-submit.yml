@@ -2,7 +2,7 @@ name: Auto-submit URLs to Search Engines
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '28 18 * * *'
   workflow_run:
     workflows: ["Deploy Jekyll site to Pages"]
     types:
@@ -24,14 +24,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 24
-
-      - name: Install Google API client
-        run: npm install googleapis
-
       - name: Run submissions
         env:
           BAIDU_TOKEN: ${{ secrets.BAIDU_TOKEN }}
@@ -39,6 +31,15 @@ jobs:
           GOOGLE_INDEXING_CREDENTIALS: ${{ secrets.GOOGLE_INDEXING_CREDENTIALS }}
         run: |
           set -e
+          
+          # 检测所有队列文件是否均不存在或为空，若均为空则直接退出
+          if [ ! -s bing_queue.txt ] && [ ! -s google_queue.txt ] && [ ! -s baidu_queue.txt ]; then
+            echo "All queues are empty or missing. Skipping submission and exiting successfully."
+            exit 0
+          fi
+          
+          echo "Active queues found. Installing googleapis dependency..."
+          npm install googleapis
           
           # 1. 提交 Bing IndexNow
           if [ -f bing_queue.txt ] && [ -s bing_queue.txt ]; then
