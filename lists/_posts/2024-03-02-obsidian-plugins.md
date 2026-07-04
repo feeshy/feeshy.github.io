@@ -9,7 +9,7 @@ tags:
   - 折腾记录
 redirect_from:
   - https://meta.appinn.net/t/topic/53296
-  - /tech/obsidian
+  - /tech/obsidian-plugins
 toc: true
 description: 个人在用的 Obsidian 插件记录，覆盖同步、编辑器增强、任务管理与主题等内容，包含 Zotero 联动方案、幕布 / Workflowy / Trello 的替代插件等。
 image: https://obsidian.md/images/banner.png
