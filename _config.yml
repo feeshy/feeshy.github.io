@@ -53,13 +53,16 @@ remote_theme: feeshy/less-style-please@full # if you use it as a remote theme on
 show_logo: true # show the svg favicon in home page
 show_description: false # show blog description in home page
 bilingual: true # auto hide lang="zh" elements for non-chinese visitors
-chinese_webfonts: true # by disabling this, page loading speed will be increased significantly
 # background_image: # path to background images for light and dark mode
 #   light: ""
 #   dark: ""
+search_engine: bing # available values: google, bing, duckduckgo, baidu
 nav:
   back_home: "home" # customize text for homepage link
+  tags: "tags" # customize text for tags page link
   go_to_top: "🔝" # customize text for go to top button
+  toc: "📖" # customize text for go to top button
+  search: "search" # customize text for search page link
 date_format: "%Y-%m-%d" # customize how date is formatted at https://strftime.net/
 copyright: "by-nc" # available values: "all-rights-reserved", "by-nc-nd", "by-nd", "by-nc-sa", "by-nc", "by-sa", "by", "public-domain". choose here https://chooser-beta.creativecommons.org/
 # goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
