@@ -70,7 +70,7 @@ UAD免费套装，包括LUNA DAW、七款音频效果（压缩、通道条、染
 作者Chris Johnson是音乐制作行业很有名的开发者，发布过近400款开源的音频效果插件。
 
 - [Airwindows Consolidated](https://github.com/baconpaul/airwin2rack) - Chris将其开发的全部效果汇集在一个插件中。支持三大桌面系统的[VCV Rack](https://github.com/baconpaul/airwin2rack/releases/tag/Nightly)与[CLAP/VST3/AU/LV2](https://github.com/baconpaul/airwin2rack/releases/tag/DAWPlugin)格式
-- [Air-G Audio Plugins Bundle](https://ko-fi.com/s/d723770417) - Air-G Audio 基于 Airwindows 源代码二次开发的免费插件，为插件添加了更加美观的GUI。支持三大桌面系统的VST/AU格式
+- [Air-G Audio Plugins Bundle](https://ko-fi.com/s/d723770417) - Air-G Audio 基于 Airwindows 部分热门DSP源代码二次开发的免费插件，为插件添加了更加美观的GUI，以及电平表、tempo-sync、侧链滤波等实用功能。支持三大桌面系统的VST/AU格式
 
 ![](https://storage.ko-fi.com/cdn/useruploads/display/20bc6185-982e-44af-bb98-15cee5f26edc_todos.png)
 
