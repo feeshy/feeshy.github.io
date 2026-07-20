@@ -56,7 +56,7 @@ bilingual: true # auto hide lang="zh" elements for non-chinese visitors
 # background_image: # path to background images for light and dark mode
 #   light: ""
 #   dark: ""
-search_engine: bing # available values: google, bing, duckduckgo, baidu
+search_engine: duckduckgo # available values: google, bing, duckduckgo, baidu
 nav:
   back_home: "home" # customize text for homepage link
   tags: "tags" # customize text for tags page link
