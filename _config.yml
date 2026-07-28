@@ -133,7 +133,7 @@ sass:
   sass_dir: _sass
   style: compressed
 feed:
-  posts_limit: 100 # max number of posts on feed
+  posts_limit: 30 # max number of posts on feed
   excerpt_only: true
 exclude:
   - vendor

@@ -2,16 +2,16 @@
 layout: post
 title: GitHub Pages 重定向的实现
 date: 2020-10-23
-last_modified_at: 2026-06-05
+last_modified_at: 2026-07-28
 tags:
   - github-pages
   - 重定向
   - 折腾记录
 toc: true
-description: GitHub Pages 等静态托管服务无法使用服务端 301/302 重定向，本文介绍可在此类平台上使用的多种客户端重定向替代方案：HTML meta 标签、JavaScript 跳转、404 页面路由重构，以及 Service Worker 拦截。
+description: GitHub Pages 等静态托管服务无法使用服务器端 301/302 重定向，本文介绍可在此类平台上使用的多种客户端重定向替代方案：HTML meta 标签、JavaScript 跳转、404 页面路由重构，以及 Service Worker 拦截。
 image: https://backlinkmanager.io/wp-content/uploads/2024/06/client-side-redirects-source-usergrowth-io-1.png
 ---
-GitHub Pages没有开放可配置的服务器端301、302重定向，只能用其他替代方式实现页面重定向。我们可以采用以下几种跳转策略（这些方法同样适用于其他缺乏路由控制的静态托管服务）：
+GitHub Pages没有开放可配置的服务器端301、302重定向，只能用其他替代方式实现页面重定向。Cloudflare免费版的重定向规则也受10条的上限限制。我们可以采用以下几种跳转策略（这些方法同样适用于其他缺乏路由控制的静态托管服务）：
 
 ## 场景一：从本页跳转到任意URL
 
@@ -19,7 +19,12 @@ GitHub Pages没有开放可配置的服务器端301、302重定向，只能用�
 
 ### HTML文件通用方法
 
-- **meta刷新标签**：在 HTML 页面的 `<head>` 部分添加 `<meta>` 元素，设置 `http-equiv="refresh"`，并在 `content` 属性中设定跳转时间和新 URL。
+由于 GitHub Pages 等静态托管平台无法像传统服务器那样返回 301/302 HTTP 状态码，这些中间跳转页在服务器端依然属于 `200 OK` 的普通网页。因此，在编写 HTML 源码时，建议组合使用以下技术：
+
+- **meta noindex 标签（SEO 核心配置）**：在 `<head>` 部分加入 `<meta name="robots" content="noindex, nofollow">`。由于页面会产生真实的抓取，必须显式阻止搜索引擎收录这个“空壳跳转页”，否则容易被算法判定为低质量重复内容，导致网站被降权。
+- `<link rel="canonical">`
+
+- **meta 刷新标签**：在 `<head>` 部分添加 `<meta>` 元素，设置 `http-equiv="refresh"`，并在 `content` 属性中设定跳转时间（通常设为 `0` 秒）和新 URL。这能作为不支持 JavaScript 环境下的自动跳转兜底。
     
 - **js跳转**：
     
@@ -28,8 +33,8 @@ GitHub Pages没有开放可配置的服务器端301、302重定向，只能用�
     - `location.replace()`: 与 `window.location.href` 类似，但它会替换当前页面的历史记录，访客无法通过后退按钮返回重定向页。
         
 - **正文a标签**：在正文渲染一个指向目标URL的超链接，供访客手动点击。作为前两种方式失效时的备选方案。
-    
-> 对搜索引擎的爬虫来说，js 跳转的效果可能不是那么稳定[^1]，因此一般不建议单独使用，建议至少结合 HTML 标签以确保兼容性。
+
+> 对搜索引擎的爬虫来说，js 跳转的效果可能不是那么稳定[^1]，因此一般不建议单独使用，建议至少结合 HTML 标签以确保兼容性。同时，这类静态跳转无法像 301 重定向那样自动传递权重，因此**必须搭配 noindex 标签来规范爬虫的行为**，确保搜索引擎只收录原始文章。
 
 [^1]: [研究Technical SEO的正确姿势实例 - JS跳转试验 - 极诣数字营销](https://maxket.com/technical-seo-js-redirect/)
 
@@ -53,7 +58,7 @@ redirect_to: /newdir/newpage
 3. 在正文前渲染一个指向所设定URL的超链接。即使前两种方式都失效，用户依旧可以手动点击
     
 
-> 具体实现上，meta刷新通过修改 `/_includes/head.html` 实现，js跳转与添加a标签通过修改 `/_layouts/head.html` 实现。
+> 具体实现上，meta刷新与nofollow标签通过修改 `/_includes/head.html` 实现，js跳转与添加a标签通过修改 `/_layouts/redirect.html` 实现。
 
 ## 场景二：从站内旧URL跳转到新页
 
