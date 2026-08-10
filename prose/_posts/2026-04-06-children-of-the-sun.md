@@ -2,7 +2,7 @@
 layout: post
 title: 《太阳之子》乐评
 date: 2026-04-06
-last_modified_at: 2026-04-12
+last_modified_at:
 tags:
   - 乐评
   - 豆瓣
