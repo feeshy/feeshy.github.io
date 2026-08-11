@@ -17,7 +17,7 @@ toc: true
 
 [^1]: 在混音工程的总线做master仅仅适用于不找外人做master的情况，否则请将整体响度问题交给母带师来解决，别重复master两遍
 
-<audio controls src="https://music.163.com/song/media/outer/url?id=2061038847.mp3" style="width:240px;"></audio>
+<audio controls src="https://music.163.com/song/media/outer/url?id=2061038847.mp3" style="max-width:320px;"></audio>
 
 ## Mid/Side EQ
 

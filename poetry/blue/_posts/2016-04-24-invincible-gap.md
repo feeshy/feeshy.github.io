@@ -7,7 +7,7 @@ tags:
   - 诗
 ---
 
-<audio controls src="https://music.163.com/song/media/outer/url?id=409941366.mp3" style="width:240px;"></audio>
+<audio controls src="https://music.163.com/song/media/outer/url?id=409941366.mp3" style="max-width:320px;"></audio>
 
 昨天早上油条吃了三根还是两根
 去年今日月缺还是月圆

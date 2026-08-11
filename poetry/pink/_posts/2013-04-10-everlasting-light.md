@@ -10,7 +10,7 @@ image: /assets/img/spirited-away-1.avif
 
 <img src="/assets/img/spirited-away-2.avif" style="z-index: -1; position: absolute; inset: 0; width: 100%; height: 100%; max-height: 100%; object-fit: cover; opacity: 0.25; mask: linear-gradient(to bottom, black 66.6%, transparent)">
 
-<audio controls src="https://music.163.com/song/media/outer/url?id=776677.mp3" style="width:240px;"></audio>
+<audio controls src="https://music.163.com/song/media/outer/url?id=776677.mp3" style="max-width:320px;"></audio>
 
 在湿漉漉的月光下你们重逢
 你们亲吻对方的眼眸和脖颈
