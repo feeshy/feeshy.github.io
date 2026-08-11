@@ -84,10 +84,8 @@ BudsFeel Mk2 会在每次耳机被放回盒子时自动重置为「风噪」模�
 
 在安静室内，两款 ANC 耳机均关闭降噪。由于时间差，BudsFeel Mk2 没机会与 TWS Air3 Pro 进行AB 对比，但两款耳机的调音风格都是统一以 AirPods 2 和 BunnyDSP 作为参考对象得出的。
 
-{% raw %}
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="https://music.163.com/outchain/player?type=2&id=1329734090&auto=0&height=32"></iframe>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="https://music.163.com/outchain/player?type=2&id=2607984368&auto=0&height=32"></iframe>
-{% endraw %}
 
 测试曲目选择沼泽乐队的《争鸣》，这首40多分钟的歌曲有着丰富的乐器编排与动态范围，非常适合用来对比不同耳机的声音风格；另一首参考曲目是我自己的《至乐》，这首歌的 Bass 主要由由正弦波合成，音域 39～78hz 且谐波非常少，下潜不足的平头塞很难听到，很适合用来考验耳机的低频响应能力。
 
