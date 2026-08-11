@@ -9,13 +9,13 @@ tags:
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" height="48" src="https://music.163.com/outchain/player?type=2&id=409941366&auto=0&height=32"></iframe>
 
-昨天早上油条吃了三根还是两根<br>
-去年今日月缺还是月圆<br>
+昨天早上油条吃了三根还是两根
+去年今日月缺还是月圆
 产房初啼是天生 还是挨了巴掌
 
-交叉的路口高速旋转<br>
-健忘之于生命<br>
-河流之于冰川<br>
+交叉的路口高速旋转
+健忘之于生命
+河流之于冰川
 风之于四月芳菲
 
 岁月发条 每一格转动都是巨大的伏笔

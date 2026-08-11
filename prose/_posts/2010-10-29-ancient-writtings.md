@@ -33,8 +33,6 @@ noindex: true
  
  猜猜我是谁？
 
-<br>
-
 ——我是你上个月买的多功能手机。
 
 08/3/30
@@ -92,17 +90,17 @@ XX国际大明星
 
 ## 年轻就要对胃
 
-最爱红烧牛肉的经典，<br>
-那是回忆，是我唾液腺旺盛工作的童年。<br>
-最爱那馨香的鲜虾鱼板，<br>
-那是习惯，是我一顿又一顿肚子吸溜的孤单。<br>
-最爱小鸡炖蘑菇的温暖，<br>
-最爱西红柿打卤的酸甜，<br>
-最爱酸菜排骨的浓郁，<br>
-最爱辣旋风的绵延，<br>
-最爱荷包蛋的繁华，<br>
-最爱老陈醋的喷泉……<br>
-年轻就要对胃，舌尖更应舞蹈；<br>
+最爱红烧牛肉的经典，
+那是回忆，是我唾液腺旺盛工作的童年。
+最爱那馨香的鲜虾鱼板，
+那是习惯，是我一顿又一顿肚子吸溜的孤单。
+最爱小鸡炖蘑菇的温暖，
+最爱西红柿打卤的酸甜，
+最爱酸菜排骨的浓郁，
+最爱辣旋风的绵延，
+最爱荷包蛋的繁华，
+最爱老陈醋的喷泉……
+年轻就要对胃，舌尖更应舞蹈；
 再见康师傅，再见方便面。
 
 ~2009
@@ -111,18 +109,18 @@ XX国际大明星
 
 ## A Poem of 14 Lines
 
-The quick brown fox jumps over the lazy dog,<br>
-While the fat cat saw and ate the big rat.<br>
-The elephant took an leek out of his trunk,<br>
-　　Then there was a pig still.<br>
-The giraffe took off her scarf<br>
-To eat the ground-green grass.<br>
-A queue of dinosaurs passed by,<br>
-Leaving immense footprints<br>
-And shit behind—with bees drowned in it.<br>
-A monkey walked up to shake hand with cleaner's naughty boy.<br>
-He asked why a crow looked like writting desk.<br>
-Cocks laughed loudly at all happening<br>
+The quick brown fox jumps over the lazy dog,
+While the fat cat saw and ate the big rat.
+The elephant took an leek out of his trunk,
+　　Then there was a pig still.
+The giraffe took off her scarf
+To eat the ground-green grass.
+A queue of dinosaurs passed by,
+Leaving immense footprints
+And shit behind—with bees drowned in it.
+A monkey walked up to shake hand with cleaner's naughty boy.
+He asked why a crow looked like writting desk.
+Cocks laughed loudly at all happening
 Zookeeper unlocked the cage he lived and cried:
 
 S T O P !
@@ -133,13 +131,13 @@ S T O P !
 
 ## 错误（仿郑愁予）
 
-灯红酒绿 午夜的天空不黑<br>
-我的心如东四道街上的车流<br>
-又若胡同墙壁上斑驳的拆字<br>
-跫音未响 十月的秋风不扫叶<br>
-你的心如素纱帐搬撩开<br>
-我那鸟悄的脚步是不可原谅的错误<br>
-我并非过客<br>
+灯红酒绿 午夜的天空不黑
+我的心如东四道街上的车流
+又若胡同墙壁上斑驳的拆字
+跫音未响 十月的秋风不扫叶
+你的心如素纱帐搬撩开
+我那鸟悄的脚步是不可原谅的错误
+我并非过客
 是你的死鬼
 
 10/10/29
@@ -190,76 +188,76 @@ S T O P !
 
 我：
 
-我们是肩并肩的小树<br>
-我们吮吸着汗珠<br>
-　　为生长而做功<br>
-　　为梦想而思索<br>
-我们是青年<br>
-　　和着音乐<br>
-　　高唱着“相信未来”[^食指]<br>
-不！我不相信[^北岛]<br>
-天怎么会只能是蓝的<br>
-夜怎么会只能是黑的<br>
-题怎么会有答案<br>
-作文怎么会分一二三等<br>
-可不可以<br>
-，该死的标准，<br>
-（我愿做一颗鸡蛋）<br>
-让你这壁破墙轰然倒塌<br>
-在我破碎之前，最后地<br>
+我们是肩并肩的小树
+我们吮吸着汗珠
+　　为生长而做功
+　　为梦想而思索
+我们是青年
+　　和着音乐
+　　高唱着“相信未来”[^食指]
+不！我不相信[^北岛]
+天怎么会只能是蓝的
+夜怎么会只能是黑的
+题怎么会有答案
+作文怎么会分一二三等
+可不可以
+，该死的标准，
+（我愿做一颗鸡蛋）
+让你这壁破墙轰然倒塌
+在我破碎之前，最后地
 看一眼这模糊的世界
 
 同桌：
 
-当一壁墙撞破后<br>
-总会有另一壁竖起<br>
-当一副锁链挣脱时<br>
-总会有另一副缚紧<br>
-当一段梦湮灭后<br>
-总会有另一段充盈<br>
-当一封信邮丢后<br>
-总会有另一封到来<br>
-我不相信标准<br>
-但我相信未来<br>
-当你在破碎前凝视时<br>
-你会看到<br>
+当一壁墙撞破后
+总会有另一壁竖起
+当一副锁链挣脱时
+总会有另一副缚紧
+当一段梦湮灭后
+总会有另一段充盈
+当一封信邮丢后
+总会有另一封到来
+我不相信标准
+但我相信未来
+当你在破碎前凝视时
+你会看到
 这仍是一个破墙的世界
 
 我：
 
-每一壁墙都有它围困的对象<br>
-每一副铁链都有它紧锁的翅膀<br>
-梦再充盈，也复制不了昨天的豪言壮语<br>
-信再重来，也续接不了遗失的内容<br>
-　　　　　未来没有标准     （言之成理即可）<br>
-　　　如果不撞开这面墙     （应符合马克思主义哲学原理）<br>
-我怎么看得见自己的未来     （表达了作者怀古伤今的情感）<br>
-　　也许血流头破地张望     （诗句使用了象征的手法）<br>
-　　　后面是更多的破墙     （情景交融、寓情于景、借景抒情、以景显情）<br>
-　　　　　　　　但破墙又能怎样<br>
-在中学的课堂：“<br>
-　　　　　　　　有伟大梦想的人，即使是铜墙<br>
-铁壁也不能阻碍他们前进的脚步”<br>
-我怀念耶路撒冷的演讲[^村上春树]<br>
+每一壁墙都有它围困的对象
+每一副铁链都有它紧锁的翅膀
+梦再充盈，也复制不了昨天的豪言壮语
+信再重来，也续接不了遗失的内容
+　　　　　未来没有标准     （言之成理即可）
+　　　如果不撞开这面墙     （应符合马克思主义哲学原理）
+我怎么看得见自己的未来     （表达了作者怀古伤今的情感）
+　　也许血流头破地张望     （诗句使用了象征的手法）
+　　　后面是更多的破墙     （情景交融、寓情于景、借景抒情、以景显情）
+　　　　　　　　但破墙又能怎样
+在中学的课堂：“
+　　　　　　　　有伟大梦想的人，即使是铜墙
+铁壁也不能阻碍他们前进的脚步”
+我怀念耶路撒冷的演讲[^村上春树]
 反对 也许是不错的信仰
 
 同桌：
 
-我没有信仰<br>
-但不反对信仰<br>
-信仰只是无言的声讨<br>
-我没有梦想<br>
-但曾有梦想<br>
-梦想不过是墙上的花样<br>
-当春风吹过<br>
-她含苞待放<br>
-当秋雨播撒<br>
-她退去芬芳<br>
-无尽的四季<br>
-更迭的梦想<br>
-也许我们生伴飞雪<br>
-但雪先生说过[^雪莱]，<br>
-“冬天来了，<br>
+我没有信仰
+但不反对信仰
+信仰只是无言的声讨
+我没有梦想
+但曾有梦想
+梦想不过是墙上的花样
+当春风吹过
+她含苞待放
+当秋雨播撒
+她退去芬芳
+无尽的四季
+更迭的梦想
+也许我们生伴飞雪
+但雪先生说过[^雪莱]，
+“冬天来了，
 春天还会远吗？”
 
 11/6/18,19
