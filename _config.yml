@@ -123,9 +123,11 @@ defaults:
 
 # build settings
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "highlight", "footnotes"]
+markdown: CommonMark
+commonmark:
+  options: ["UNSAFE"] # allowing raw HTML (iframe)
+  extensions: ["table", "autolink", "strikethrough", "footnotes"]
+
 toc:
   min_level: 2 # value: 1-6
   max_level: 3 # value: 1-6
