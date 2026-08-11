@@ -123,10 +123,11 @@ defaults:
 
 # build settings
 
-markdown: CommonMark
-commonmark:
-  options: ["UNSAFE"] # allowing raw HTML (iframe)
-  extensions: ["table", "autolink", "strikethrough", "footnotes"]
+markdown: kramdown
+kramdown:
+  input: GFM
+  entity_output: :as_char
+  hard_wrap: true
 
 toc:
   min_level: 2 # value: 1-6
