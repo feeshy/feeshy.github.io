@@ -123,12 +123,9 @@ defaults:
 
 # build settings
 
-markdown: kramdown
-kramdown:
-  input: GFM
-  entity_output: :as_char
-  hard_wrap: true
-
+markdown: redcarpet
+redcarpet:
+  extensions: ["hard_wrap", "tables", "autolink", "strikethrough", "highlight", "footnotes"]
 toc:
   min_level: 2 # value: 1-6
   max_level: 3 # value: 1-6
