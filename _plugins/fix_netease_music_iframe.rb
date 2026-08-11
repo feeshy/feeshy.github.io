@@ -1,10 +1,12 @@
 $total_amp_count = 0
 
-[:posts, :pages, :documents].each do |owner|
+[:documents, :pages].each do |owner|
   Jekyll::Hooks.register owner, :post_render do |doc|
     next unless doc.output_ext == ".html" && doc.output
 
-    doc.output.gsub!(/<iframe[\s\S]*?music\.163\.com[\s\S]*?>/i) do |iframe|
+    next unless doc.output.include?('music.163.com/outchain/player')
+
+    doc.output.gsub!(/<iframe[^>]*?music\.163\.com\/outchain\/player[^>]*?>/i) do |iframe|
       iframe.gsub('&amp;') { $total_amp_count += 1; '&' }
     end
   end
