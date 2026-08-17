@@ -25,7 +25,7 @@ description: 本文详解 DJI Mic 手机版接收器在课堂/会议现场扩声
 
 ## 有线监听方案
 
-> DJI Mic Mini 发射器支持通过蓝牙或者接收器与手机连接。由于麦克风蓝牙连接的[音质](https://www.bilibili.com/video/BV1EEzrYnET2)与[软件兼容性](https://dl.djicdn.com/downloads/DJI_Mic_Mini/20241120/compatibilitylist/Third-party_App_Compatibility_List-CHS.pdf)较差、耳机蓝牙连接的延迟较高，这里我们只讨论接收器与耳机均通过 USB-C 接口连接到手机/电脑的情况。
+> DJI Mic Mini 发射器支持通过蓝牙或者接收器与手机连接。由于麦克风蓝牙连接的[音质](https://www.bilibili.com/video/BV1EEzrYnET2)与[软件兼容性](https://dl.djicdn.com/downloads/MIC_MINI_2/20260421/compatibility/DJI_Mic_Series_ThirdParty_App_Compatibility_List_CHS.pdf)较差、耳机蓝牙连接的延迟较高，这里我们只讨论接收器与耳机均通过 USB-C 接口连接到手机/电脑的情况。
 
 有线耳机存在**硬件监听**与**软件监听**两种监听方式，主要区别如下：
 
